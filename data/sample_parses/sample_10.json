@@ -1,0 +1,1911 @@
+[
+  {
+    "recipe_id": "f821e0ba64",
+    "title": "Smoked Fish Potato Salad Recipe",
+    "source_ingredients": [
+      "sauce, fish, ready-to-serve",
+      "potatoes, raw, skin",
+      "celery, raw",
+      "pickles, cucumber, sour",
+      "olives, ripe, canned (small-extra large)",
+      "carrots, raw",
+      "onions, raw",
+      "parsley, fresh",
+      "salad dressing, mayonnaise, regular",
+      "mustard, prepared, yellow",
+      "lemon juice, raw",
+      "vinegar, distilled",
+      "salt, table",
+      "celery, raw",
+      "spices, pepper, black"
+    ],
+    "source_instructions": [
+      "Remove skin and bones from fish.",
+      "Flake the fish.",
+      "Combine mayonnaise, mustard, lemon juice, vinegar, and seasonings; blend well.",
+      "Add in mayonnaise mix to fish mix; toss lightly.",
+      "Chill.",
+      "Serve on salad greens.",
+      "Garnish with tomato wedges.",
+      "Serves 6.",
+      "TO SMOKE FISH: Take fish fillets and salt lightly both sides.",
+      "Cut in thin strips.",
+      "Marinate in liquid smoke for 30 min.",
+      "Put on broiler pan rack (be sure juice can drip down off fish).",
+      "Broil till very dry.",
+      "Turn.",
+      "Broil other side till very dry.",
+      "Fish is very good served warm or possibly cool."
+    ],
+    "category": "salad",
+    "parse_success": true,
+    "out_of_scope": false,
+    "failure_reason": null,
+    "dag": {
+      "dish_name": "Smoked Fish Potato Salad",
+      "category": "salad",
+      "nodes": [
+        {
+          "node_id": "n0",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "smoked fish",
+            "category": "protein",
+            "is_protein": true,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n1",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "chop",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n2",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "potatoes",
+            "category": "vegetable",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n3",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "celery",
+            "category": "vegetable",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n4",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "onions",
+            "category": "allium",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n5",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "mayonnaise",
+            "category": "dairy",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n6",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "lemon juice",
+            "category": "liquid",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n7",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "vinegar",
+            "category": "liquid",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n8",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "salt",
+            "category": "seasoning",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n9",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "black pepper",
+            "category": "seasoning",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n10",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "mix",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n11",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "mix",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n12",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "plate",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n13",
+          "node_type": "dish_output"
+        }
+      ],
+      "edges": [
+        [
+          "n0",
+          "n1"
+        ],
+        [
+          "n1",
+          "n11"
+        ],
+        [
+          "n2",
+          "n11"
+        ],
+        [
+          "n3",
+          "n11"
+        ],
+        [
+          "n4",
+          "n11"
+        ],
+        [
+          "n5",
+          "n10"
+        ],
+        [
+          "n6",
+          "n10"
+        ],
+        [
+          "n7",
+          "n10"
+        ],
+        [
+          "n8",
+          "n10"
+        ],
+        [
+          "n9",
+          "n10"
+        ],
+        [
+          "n10",
+          "n11"
+        ],
+        [
+          "n11",
+          "n12"
+        ],
+        [
+          "n12",
+          "n13"
+        ]
+      ]
+    },
+    "compiled_text": "A dish of Smoked Fish Potato Salad. Ingredients: smoked fish, potatoes, celery, onions, mayonnaise, lemon juice, vinegar, salt, black pepper. Preparation: chop smoked fish; mix mayonnaise and lemon juice and vinegar and salt and black pepper; mix chop and potatoes and celery and onions and mix; plate mix.",
+    "violations": [
+      {
+        "rule": "raw_protein_before_plate",
+        "message": "[FDA] Protein 'smoked fish' reaches the dish without passing through any heat operation"
+      }
+    ],
+    "is_valid": false
+  },
+  {
+    "recipe_id": "2b0b19ca94",
+    "title": "Artichoke Heart Soup Recipe",
+    "source_ingredients": [
+      "artichokes, (globe or french), raw",
+      "soup, chicken broth or bouillon, dry",
+      "lemon juice, raw",
+      "cream, fluid, heavy whipping",
+      "nuts, walnuts, english",
+      "butter, without salt"
+    ],
+    "source_instructions": [
+      "Combine artichoke hearts, broth and lemon juice.",
+      "Bring to a boil, and simmer for 15 min.",
+      "Puree and strain through fine sieve back into pan.",
+      "Stir in the cream, the white pepper, and salt to taste and simmer the soup for 5 min.",
+      "In a small skillet cook the walnuts in the butter over moderate heat, stirring, till they are golden brown.",
+      "Serve soup and sprinkle walnuts on top.",
+      "Serves 2."
+    ],
+    "category": "soup",
+    "parse_success": true,
+    "out_of_scope": false,
+    "failure_reason": null,
+    "dag": {
+      "dish_name": "Artichoke Heart Soup Recipe",
+      "category": "soup",
+      "nodes": [
+        {
+          "node_id": "n0",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "artichoke hearts",
+            "category": "vegetable",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n1",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "chicken broth",
+            "category": "liquid",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n2",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "lemon juice",
+            "category": "liquid",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n3",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "heavy cream",
+            "category": "dairy",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n4",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "butter",
+            "category": "dairy",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n5",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "combine",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n6",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "boil",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n7",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "simmer",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n8",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "combine",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n9",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "simmer",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n10",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "saute",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n11",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "garnish",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n12",
+          "node_type": "dish_output"
+        }
+      ],
+      "edges": [
+        [
+          "n0",
+          "n5"
+        ],
+        [
+          "n1",
+          "n5"
+        ],
+        [
+          "n2",
+          "n5"
+        ],
+        [
+          "n5",
+          "n6"
+        ],
+        [
+          "n6",
+          "n7"
+        ],
+        [
+          "n7",
+          "n8"
+        ],
+        [
+          "n3",
+          "n8"
+        ],
+        [
+          "n8",
+          "n9"
+        ],
+        [
+          "n4",
+          "n10"
+        ],
+        [
+          "n9",
+          "n11"
+        ],
+        [
+          "n10",
+          "n11"
+        ],
+        [
+          "n11",
+          "n12"
+        ]
+      ]
+    },
+    "compiled_text": "A dish of Artichoke Heart Soup Recipe. Ingredients: artichoke hearts, chicken broth, lemon juice, heavy cream, butter. Preparation: combine artichoke hearts and chicken broth and lemon juice; saute butter; boil combine; simmer boil; combine simmer and heavy cream; simmer combine; garnish simmer and saute.",
+    "violations": [],
+    "is_valid": true
+  },
+  {
+    "recipe_id": "0876e0e2e5",
+    "title": "Marinated Broccoli-Tomato Salad",
+    "source_ingredients": [
+      "broccoli, raw",
+      "cherries, sweet, raw",
+      "cheese, parmesan, hard",
+      "fresh red onions, upc: 888670013229",
+      "seeds, sunflower seed kernels, dried",
+      "raspberries, raw",
+      "mustard, prepared, yellow",
+      "sugars, granulated"
+    ],
+    "source_instructions": [
+      "1.",
+      "Combine first six ingredients in a large bowl.",
+      "2.",
+      "Mix remaining ingredients in a small bowl until combined; add to broccoli mixture and toss to coat.",
+      "3.",
+      "Refrigerate for 4 hours before serving."
+    ],
+    "category": "salad",
+    "parse_success": true,
+    "out_of_scope": false,
+    "failure_reason": null,
+    "dag": {
+      "dish_name": "Marinated Broccoli-Tomato Salad",
+      "category": "salad",
+      "nodes": [
+        {
+          "node_id": "n0",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "broccoli",
+            "category": "vegetable",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n1",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "cherry tomatoes",
+            "category": "fruit",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n2",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "parmesan cheese",
+            "category": "dairy",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n3",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "red onion",
+            "category": "allium",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n4",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "sunflower seeds",
+            "category": "seasoning",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n5",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "raspberry vinaigrette",
+            "category": "liquid",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n6",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "mustard",
+            "category": "seasoning",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n7",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "sugar",
+            "category": "seasoning",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n8",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "mix",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n9",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "mix",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n10",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "toss",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n11",
+          "node_type": "dish_output"
+        }
+      ],
+      "edges": [
+        [
+          "n0",
+          "n8"
+        ],
+        [
+          "n1",
+          "n8"
+        ],
+        [
+          "n2",
+          "n8"
+        ],
+        [
+          "n3",
+          "n8"
+        ],
+        [
+          "n4",
+          "n8"
+        ],
+        [
+          "n5",
+          "n9"
+        ],
+        [
+          "n6",
+          "n9"
+        ],
+        [
+          "n7",
+          "n9"
+        ],
+        [
+          "n8",
+          "n10"
+        ],
+        [
+          "n9",
+          "n10"
+        ],
+        [
+          "n10",
+          "n11"
+        ]
+      ]
+    },
+    "compiled_text": "A dish of Marinated Broccoli-Tomato Salad. Ingredients: broccoli, cherry tomatoes, parmesan cheese, red onion, sunflower seeds, raspberry vinaigrette, mustard, sugar. Preparation: mix broccoli and cherry tomatoes and parmesan cheese and red onion and sunflower seeds; mix raspberry vinaigrette and mustard and sugar; toss mix and mix.",
+    "violations": [],
+    "is_valid": true
+  },
+  {
+    "recipe_id": "6ed2932885",
+    "title": "Poppy Seed Fruit Salad Recipe",
+    "source_ingredients": [
+      "strawberries, raw",
+      "pineapple, raw, all varieties",
+      "blueberries, raw",
+      "watermelon, raw",
+      "honey",
+      "limeade, frozen concentrate, prepared with water",
+      "spices, poppy seed",
+      "nuts, almonds"
+    ],
+    "source_instructions": [
+      "Cut fresh fruit into small bite size pieces.",
+      "Mix limeade, honey and poppy seeds.",
+      "Drizzle limeade mixture over fruit and toss.",
+      "Sprinkle almonds on top before serving."
+    ],
+    "category": "salad",
+    "parse_success": true,
+    "out_of_scope": false,
+    "failure_reason": null,
+    "dag": {
+      "dish_name": "Poppy Seed Fruit Salad",
+      "category": "salad",
+      "nodes": [
+        {
+          "node_id": "n0",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "strawberries",
+            "category": "fruit",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n1",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "pineapple",
+            "category": "fruit",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n2",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "blueberries",
+            "category": "fruit",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n3",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "watermelon",
+            "category": "fruit",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n4",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "limeade concentrate",
+            "category": "liquid",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n5",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "honey",
+            "category": "liquid",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n6",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "chop",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n7",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "mix",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n8",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "almonds",
+            "category": "vegetable",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n9",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "mix",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n10",
+          "node_type": "dish_output"
+        }
+      ],
+      "edges": [
+        [
+          "n0",
+          "n6"
+        ],
+        [
+          "n1",
+          "n6"
+        ],
+        [
+          "n2",
+          "n6"
+        ],
+        [
+          "n3",
+          "n6"
+        ],
+        [
+          "n6",
+          "n9"
+        ],
+        [
+          "n4",
+          "n7"
+        ],
+        [
+          "n5",
+          "n7"
+        ],
+        [
+          "n7",
+          "n9"
+        ],
+        [
+          "n8",
+          "n9"
+        ],
+        [
+          "n9",
+          "n10"
+        ]
+      ]
+    },
+    "compiled_text": "A dish of Poppy Seed Fruit Salad. Ingredients: strawberries, pineapple, blueberries, watermelon, limeade concentrate, honey, almonds. Preparation: chop strawberries and pineapple and blueberries and watermelon; mix limeade concentrate and honey; mix chop and mix and almonds.",
+    "violations": [],
+    "is_valid": true
+  },
+  {
+    "recipe_id": "61795758de",
+    "title": "Salad Or Cole Slaw Dressing Recipe",
+    "source_ingredients": [
+      "sugars, granulated",
+      "vinegar, distilled",
+      "salt, table"
+    ],
+    "source_instructions": [
+      "Place all ingredients in saucepan and boil hard for 30 seconds, turn down heat and let simmer 3 to 4 min.",
+      "Excellent basic dressing can be stored in refrigerator.",
+      "Can add in chili sauce or possibly catsup.",
+      "Makes a good French dressing."
+    ],
+    "category": "salad",
+    "parse_success": true,
+    "out_of_scope": false,
+    "failure_reason": null,
+    "dag": {
+      "dish_name": "Salad or Cole Slaw Dressing",
+      "category": "salad",
+      "nodes": [
+        {
+          "node_id": "n0",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "sugar",
+            "category": "seasoning",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n1",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "vinegar",
+            "category": "liquid",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n2",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "salt",
+            "category": "seasoning",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n3",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "combine",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n4",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "boil",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n5",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "simmer",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n6",
+          "node_type": "dish_output"
+        }
+      ],
+      "edges": [
+        [
+          "n0",
+          "n3"
+        ],
+        [
+          "n1",
+          "n3"
+        ],
+        [
+          "n2",
+          "n3"
+        ],
+        [
+          "n3",
+          "n4"
+        ],
+        [
+          "n4",
+          "n5"
+        ],
+        [
+          "n5",
+          "n6"
+        ]
+      ]
+    },
+    "compiled_text": "A dish of Salad or Cole Slaw Dressing. Ingredients: sugar, vinegar, salt. Preparation: combine sugar and vinegar and salt; boil combine; simmer boil.",
+    "violations": [],
+    "is_valid": true
+  },
+  {
+    "recipe_id": "587b8abf91",
+    "title": "Chicken Fiesta Salad Recipe",
+    "source_ingredients": [
+      "chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+      "sauce, salsa, ready-to-serve",
+      "oil, olive, salad or cooking"
+    ],
+    "source_instructions": [
+      "Drain 3 ounce.",
+      "chunk chicken.",
+      "Mix salsa and salad oil.",
+      "Spoon over shredded lettuce.",
+      "Garnish with tortilla chips for South of the Border flavor."
+    ],
+    "category": "salad",
+    "parse_success": true,
+    "out_of_scope": false,
+    "failure_reason": null,
+    "dag": {
+      "dish_name": "Chicken Fiesta Salad",
+      "category": "salad",
+      "nodes": [
+        {
+          "node_id": "n0",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "chicken breast",
+            "category": "protein",
+            "is_protein": true,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n1",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "salsa",
+            "category": "liquid",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n2",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "olive oil",
+            "category": "fat",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n3",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "shredded lettuce",
+            "category": "vegetable",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n4",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "mix",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n5",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "mix",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n6",
+          "node_type": "dish_output"
+        }
+      ],
+      "edges": [
+        [
+          "n0",
+          "n4"
+        ],
+        [
+          "n1",
+          "n4"
+        ],
+        [
+          "n2",
+          "n4"
+        ],
+        [
+          "n3",
+          "n5"
+        ],
+        [
+          "n4",
+          "n5"
+        ],
+        [
+          "n5",
+          "n6"
+        ]
+      ]
+    },
+    "compiled_text": "A dish of Chicken Fiesta Salad. Ingredients: chicken breast, salsa, olive oil, shredded lettuce. Preparation: mix chicken breast and salsa and olive oil; mix shredded lettuce and mix.",
+    "violations": [
+      {
+        "rule": "raw_protein_before_plate",
+        "message": "[FDA] Protein 'chicken breast' reaches the dish without passing through any heat operation"
+      }
+    ],
+    "is_valid": false
+  },
+  {
+    "recipe_id": "35d55ab44d",
+    "title": "Easy Hungarian Mushroom Soup",
+    "source_ingredients": [
+      "butter, without salt",
+      "onions, raw",
+      "spices, paprika",
+      "dill weed, fresh",
+      "spices, pepper, black",
+      "wheat flour, white, all-purpose, unenriched",
+      "milk, fluid, 1% fat, without added vitamin a and vitamin d",
+      "water, bottled, generic",
+      "mushrooms, white, raw",
+      "soy sauce made from soy (tamari)",
+      "lemon juice, raw",
+      "cream, sour, cultured",
+      "parsley, fresh"
+    ],
+    "source_instructions": [
+      "In large sauce pan melt butter and saute the onion until translucent.",
+      "Add paprika, dill, salt and pepper.",
+      "Whisk in flour.",
+      "Add milk, water, and mushrooms and bring to a near boil.",
+      "Reduce heat and simmer (stirring occasionally) for 30 minutes.",
+      "Remove from heat and stir in soy sauce, lemon juice, sour cream and parsley.",
+      "Serve warm."
+    ],
+    "category": "soup",
+    "parse_success": true,
+    "out_of_scope": false,
+    "failure_reason": null,
+    "dag": {
+      "dish_name": "Easy Hungarian Mushroom Soup",
+      "category": "soup",
+      "nodes": [
+        {
+          "node_id": "n0",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "butter",
+            "category": "dairy",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n1",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "onion",
+            "category": "allium",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n2",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "paprika",
+            "category": "seasoning",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n3",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "dill weed",
+            "category": "seasoning",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n4",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "black pepper",
+            "category": "seasoning",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n5",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "flour",
+            "category": "grain",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n6",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "milk",
+            "category": "dairy",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n7",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "water",
+            "category": "liquid",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n8",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "mushroom",
+            "category": "vegetable",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n9",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "soy sauce",
+            "category": "seasoning",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n10",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "lemon juice",
+            "category": "liquid",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n11",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "sour cream",
+            "category": "dairy",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n12",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "parsley",
+            "category": "seasoning",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n13",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "saute",
+            "params": {
+              "ingredients": [
+                "butter",
+                "onion"
+              ]
+            }
+          }
+        },
+        {
+          "node_id": "n14",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "combine",
+            "params": {
+              "ingredients": [
+                "paprika",
+                "dill",
+                "black pepper"
+              ]
+            }
+          }
+        },
+        {
+          "node_id": "n15",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "combine",
+            "params": {
+              "ingredients": [
+                "flour"
+              ]
+            }
+          }
+        },
+        {
+          "node_id": "n16",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "combine",
+            "params": {
+              "ingredients": [
+                "milk",
+                "water",
+                "mushroom"
+              ]
+            }
+          }
+        },
+        {
+          "node_id": "n17",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "boil",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n18",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "simmer",
+            "params": {
+              "duration_minutes": 30
+            }
+          }
+        },
+        {
+          "node_id": "n19",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "combine",
+            "params": {
+              "ingredients": [
+                "soy sauce",
+                "lemon juice",
+                "sour cream",
+                "parsley"
+              ]
+            }
+          }
+        },
+        {
+          "node_id": "n20",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "plate",
+            "params": {
+              "action": "plate"
+            }
+          }
+        },
+        {
+          "node_id": "n21",
+          "node_type": "dish_output"
+        }
+      ],
+      "edges": [
+        [
+          "n0",
+          "n13"
+        ],
+        [
+          "n1",
+          "n13"
+        ],
+        [
+          "n13",
+          "n14"
+        ],
+        [
+          "n2",
+          "n14"
+        ],
+        [
+          "n3",
+          "n14"
+        ],
+        [
+          "n4",
+          "n14"
+        ],
+        [
+          "n14",
+          "n15"
+        ],
+        [
+          "n5",
+          "n15"
+        ],
+        [
+          "n15",
+          "n16"
+        ],
+        [
+          "n6",
+          "n16"
+        ],
+        [
+          "n7",
+          "n16"
+        ],
+        [
+          "n8",
+          "n16"
+        ],
+        [
+          "n16",
+          "n17"
+        ],
+        [
+          "n17",
+          "n18"
+        ],
+        [
+          "n18",
+          "n19"
+        ],
+        [
+          "n9",
+          "n19"
+        ],
+        [
+          "n10",
+          "n19"
+        ],
+        [
+          "n11",
+          "n19"
+        ],
+        [
+          "n12",
+          "n19"
+        ],
+        [
+          "n19",
+          "n20"
+        ],
+        [
+          "n20",
+          "n21"
+        ]
+      ]
+    },
+    "compiled_text": "A dish of Easy Hungarian Mushroom Soup. Ingredients: butter, onion, paprika, dill weed, black pepper, flour, milk, water, mushroom, soy sauce, lemon juice, sour cream, parsley. Preparation: saute butter and onion; combine saute and paprika and dill weed and black pepper; combine combine and flour; combine combine and milk and water and mushroom; boil combine; simmer boil; combine simmer and soy sauce and lemon juice and sour cream and parsley; plate combine.",
+    "violations": [],
+    "is_valid": true
+  },
+  {
+    "recipe_id": "27d62859f3",
+    "title": "Basil Lime Pineapple Fruit Salad",
+    "source_ingredients": [
+      "pineapple, raw, all varieties",
+      "strawberries, raw",
+      "sugars, granulated",
+      "spices, basil, dried",
+      "lime juice, raw",
+      "blueberries, raw"
+    ],
+    "source_instructions": [
+      "Cube pineapple and quarter strawberries.",
+      "Combine sugar with 1/2 cup water in a saucepan; bring to a boil.",
+      "Cook 1 minute.",
+      "Remove from heat and stir in basil and lime zest.",
+      "Cool to room temperature then strain through a fine strainer into a bowl; discard solids.",
+      "Combine pineapple, strawberries and blueberries in a large bowl.",
+      "Drizzle with sugar mixture and toss to coat.",
+      "Chill until ready to serve."
+    ],
+    "category": "salad",
+    "parse_success": true,
+    "out_of_scope": false,
+    "failure_reason": null,
+    "dag": {
+      "dish_name": "Basil Lime Pineapple Fruit Salad",
+      "category": "salad",
+      "nodes": [
+        {
+          "node_id": "n0",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "pineapple",
+            "category": "fruit",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n1",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "strawberries",
+            "category": "fruit",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n2",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "sugar",
+            "category": "seasoning",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n3",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "water",
+            "category": "liquid",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n4",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "basil",
+            "category": "seasoning",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n5",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "lime zest",
+            "category": "fruit",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n6",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "blueberries",
+            "category": "fruit",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n7",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "chop",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n8",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "mix",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n9",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "simmer",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n10",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "mix",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n11",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "plate",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n12",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "mix",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n13",
+          "node_type": "dish_output"
+        }
+      ],
+      "edges": [
+        [
+          "n0",
+          "n7"
+        ],
+        [
+          "n1",
+          "n7"
+        ],
+        [
+          "n7",
+          "n12"
+        ],
+        [
+          "n2",
+          "n8"
+        ],
+        [
+          "n3",
+          "n8"
+        ],
+        [
+          "n8",
+          "n9"
+        ],
+        [
+          "n9",
+          "n10"
+        ],
+        [
+          "n4",
+          "n10"
+        ],
+        [
+          "n5",
+          "n10"
+        ],
+        [
+          "n10",
+          "n11"
+        ],
+        [
+          "n11",
+          "n12"
+        ],
+        [
+          "n6",
+          "n12"
+        ],
+        [
+          "n12",
+          "n13"
+        ]
+      ]
+    },
+    "compiled_text": "A dish of Basil Lime Pineapple Fruit Salad. Ingredients: pineapple, strawberries, sugar, water, basil, lime zest, blueberries. Preparation: chop pineapple and strawberries; mix sugar and water; simmer mix; mix simmer and basil and lime zest; plate mix; mix chop and plate and blueberries.",
+    "violations": [],
+    "is_valid": true
+  },
+  {
+    "recipe_id": "d565f8a1a8",
+    "title": "Green Pea and Radish Salad",
+    "source_ingredients": [
+      "spices, tarragon, dried",
+      "salt, table",
+      "oil, olive, salad or cooking",
+      "vinegar, distilled",
+      "peas, green, frozen, unprepared",
+      "radishes, raw",
+      "onions, spring or scallions (includes tops and bulb), raw"
+    ],
+    "source_instructions": [
+      "In small bowl, whisk together tarragon, salt, oil and vinegar.",
+      "Pour over peas and radishes.",
+      "Toss gently to coat."
+    ],
+    "category": "salad",
+    "parse_success": true,
+    "out_of_scope": false,
+    "failure_reason": null,
+    "dag": {
+      "dish_name": "Green Pea and Radish Salad",
+      "category": "salad",
+      "nodes": [
+        {
+          "node_id": "n0",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "tarragon",
+            "category": "seasoning",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n1",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "salt",
+            "category": "seasoning",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n2",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "olive oil",
+            "category": "fat",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n3",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "vinegar",
+            "category": "liquid",
+            "is_protein": false,
+            "is_liquid": true
+          }
+        },
+        {
+          "node_id": "n4",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "peas",
+            "category": "vegetable",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n5",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "radishes",
+            "category": "vegetable",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n6",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "scallion",
+            "category": "allium",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n7",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "whisk",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n8",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "combine",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n9",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "toss",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n10",
+          "node_type": "dish_output"
+        }
+      ],
+      "edges": [
+        [
+          "n0",
+          "n7"
+        ],
+        [
+          "n1",
+          "n7"
+        ],
+        [
+          "n2",
+          "n7"
+        ],
+        [
+          "n3",
+          "n7"
+        ],
+        [
+          "n7",
+          "n8"
+        ],
+        [
+          "n4",
+          "n8"
+        ],
+        [
+          "n5",
+          "n8"
+        ],
+        [
+          "n6",
+          "n8"
+        ],
+        [
+          "n8",
+          "n9"
+        ],
+        [
+          "n9",
+          "n10"
+        ]
+      ]
+    },
+    "compiled_text": "A dish of Green Pea and Radish Salad. Ingredients: tarragon, salt, olive oil, vinegar, peas, radishes, scallion. Preparation: whisk tarragon and salt and olive oil and vinegar; combine whisk and peas and radishes and scallion; toss combine.",
+    "violations": [
+      {
+        "rule": "combine_needs_multiple_inputs",
+        "message": "[MILK/combine] 'toss' has 1 input(s); requires \u22652"
+      }
+    ],
+    "is_valid": false
+  },
+  {
+    "recipe_id": "2118bf2f63",
+    "title": "Mother's Cranberry Christmas Salad Recipe",
+    "source_ingredients": [
+      "cranberries, dried, sweetened",
+      "sugars, granulated",
+      "pineapple, raw, all varieties",
+      "candies, marshmallows",
+      "cream, whipped, cream topping, pressurized"
+    ],
+    "source_instructions": [
+      "Wash and grind cranberries.",
+      "Mix with sugar.",
+      "Add in liquid removed pineapple and marshmallows.",
+      "Mix in whipped cream and chill."
+    ],
+    "category": "salad",
+    "parse_success": true,
+    "out_of_scope": false,
+    "failure_reason": null,
+    "dag": {
+      "dish_name": "Mother's Cranberry Christmas Salad",
+      "category": "salad",
+      "nodes": [
+        {
+          "node_id": "n0",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "dried cranberries",
+            "category": "fruit",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n1",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "sugar",
+            "category": "seasoning",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n2",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "pineapple",
+            "category": "fruit",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n3",
+          "node_type": "ingredient",
+          "ingredient": {
+            "name": "whipped cream",
+            "category": "dairy",
+            "is_protein": false,
+            "is_liquid": false
+          }
+        },
+        {
+          "node_id": "n4",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "mince",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n5",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "combine",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n6",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "fold",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n7",
+          "node_type": "operation",
+          "operation": {
+            "op_type": "rest",
+            "params": {}
+          }
+        },
+        {
+          "node_id": "n8",
+          "node_type": "dish_output"
+        }
+      ],
+      "edges": [
+        [
+          "n0",
+          "n4"
+        ],
+        [
+          "n4",
+          "n5"
+        ],
+        [
+          "n1",
+          "n5"
+        ],
+        [
+          "n2",
+          "n5"
+        ],
+        [
+          "n5",
+          "n6"
+        ],
+        [
+          "n3",
+          "n6"
+        ],
+        [
+          "n6",
+          "n7"
+        ],
+        [
+          "n7",
+          "n8"
+        ]
+      ]
+    },
+    "compiled_text": "A dish of Mother's Cranberry Christmas Salad. Ingredients: dried cranberries, sugar, pineapple, whipped cream. Preparation: mince dried cranberries; combine mince and sugar and pineapple; fold combine and whipped cream; rest fold.",
+    "violations": [],
+    "is_valid": true
+  }
+]
