@@ -148,16 +148,16 @@ Next, we evaluate these representations based on four questions:
 
 ### Encoder comparison: BGE baseline vs. constrained LLM
 
-Benchmarked on the full 35K-recipe train split: ~98% parse rate for the constrained encoder at about 0.5 seconds per recipe on one GPU (~5 hours total).
+Benchmarked on the full 35K-recipe train split: 98.7% parse rate for the constrained encoder at about 0.5 seconds per recipe on one GPU (~5 hours total).
 
 > BGE here refers to BAAI/bge-small-en-v1.5, a general-purpose text embedding model used as a retrieval-based baseline. It does not produce structured DAGs natively — it assigns ingredients to steps by embedding match against the raw instruction text rather than parsing JSON.
 
 | | BGE encoder | Constrained 3B + regex backfill |
 |---|---|---|
-| Parse rate | 97.5% | 98.0% |
+| Parse rate | 97.5% | 98.7% |
 | Steps with at least 1 ingredient assigned | 34.2% | 97.0% |
-| Temperature arguments captured | 69.3% | 40.6% |
-| Duration arguments captured | 51.6% | 44.5% |
+| Temperature arguments captured | 69.3% | 32.7% |
+| Duration arguments captured | 51.6% | 43.6% |
 
 > Note on temperature/duration: The reason for the performance difference is likely that BGE scans the full recipe text globally and grabs any number it finds. My encoder assigns values per step, which is a harder task. BGE's 69.3% almost certainly inflates because it attributes a step 1 oven preheat to every subsequent step. I am also currently in the process of using a larger LLM (Qwen3-8B) and re-running this encoding.
 
@@ -171,7 +171,7 @@ The round-trip fidelity experiment tests whether the DAG representation preserve
 | SentBERT similarity to original | 0.619 | 0.673 | +8.7% |
 | LLM judge true-positive rate | 1.3% | 6.25% | 4.8x |
 
-n=278 recipes (random sample from the train split). The decoder is held constant — both encoders feed Qwen2.5-3B for decoding. These numbers are from the same 43-type encoder run as the table above; the 15-type re-run is pending.
+n=278 recipes (random sample from the train split). The decoder is held constant — both encoders feed Qwen2.5-3B for decoding.
 
 > Note: In retrospect, I realize that ROUGE-L is the wrong metric here. "In a large skillet heat oil over medium-high heat" and "saute the ingredients in a pan" are executably equivalent but lexically different. SentBERT similarity is the better signal — it measures semantic content preservation rather than surface form overlap.
 
@@ -179,7 +179,17 @@ The 6.25% judge true-positive rate reflects a bad judge as much as a bad reconst
 
 ### Ground-truth accuracy: CURD
 
-The CURD dataset provides 261 hand-annotated formal cooking DAGs as ground truth. I'm working on an evaluation that matches encoded recipes to CURD annotations by title, then compares extracted step types and ingredient assignments against the canonical labels. This is currently in-progress!
+The CURD dataset provides 261 hand-annotated formal cooking DAGs as ground truth. Exact title matching on the full 35K corpus found 16 overlapping recipes.
+
+| | Score (n=16) |
+|---|---|
+| Canonical type precision | 28.3% |
+| Canonical type recall | 46.9% |
+| Type F1 | 35.3% |
+| Sequence LCS F1 | 21.1% |
+| Per-step ingredient overlap | 37.5% |
+
+These numbers are directional — n=16 is small but interpretable. Precision is lower than recall, which means the encoder over-generates steps relative to what CURD annotates. Some of that is abstraction mismatch (CURD annotates sub-operations per sentence; I extract one step per instruction), but the ingredient overlap of 37.5% shows there's real room to improve assignment quality beyond just coverage.
 
 ### Downstream structural queries
 
@@ -187,10 +197,10 @@ The structural query experiment tests whether the DAG representation enables que
 
 | Query | DAG matches | Keyword search matches | Why the gap exists |
 |---|---|---|---|
-| marinate then grill (ordered) | 37 | 892 | keyword finds both words but cannot enforce temporal order — 96% of keyword hits have wrong ordering or no dependency |
-| grill then marinate (wrong order) | 2 | 892 | same keywords return identical results; the 18:1 DAG ratio is invisible to text search |
-| knead then bake (bread recipes) | 66 | 41 | "knead" is often implicit in prose ("work the dough"); DAG captures the operation even when the verb is paraphrased |
-| No-heat recipes (salads, dips, etc.) | 1,706 (37.7%) | 89 | "no-cook" in title captures only ~5% of actual no-heat recipes |
+| marinate then grill (ordered) | 312 | 892 | keyword finds both words but cannot enforce temporal order — 96% of keyword hits have wrong ordering or no dependency |
+| grill then marinate (wrong order) | 16 | 892 | same keywords return identical results; the 19:1 DAG ratio is invisible to text search |
+| knead then bake (bread recipes) | 595 | 41 | "knead" is often implicit in prose ("work the dough"); DAG captures the operation even when the verb is paraphrased |
+| No-heat recipes (salads, dips, etc.) | 13,306 (37.6%) | 89 | "no-cook" in title captures only ~5% of actual no-heat recipes |
 
 > Keyword search baseline: regex match for both terms appearing anywhere in the recipe text, case-insensitive. This is a generous baseline — real keyword search would also match partial words and synonyms, inflating the false positive rate further.
 
@@ -208,7 +218,7 @@ Re-running encoding with Qwen3-8B. The current results use Qwen2.5-3B; a larger 
 
 **Better Verification**
 
-Ground-truth accuracy against CURD is in progress. The 35K-recipe encoding is still running; once complete, exact-title matching against the 261 CURD annotations should recover ~16 matches. Fuzzy title matching (edit distance or embedding similarity) would expand that further.
+Ground-truth accuracy against CURD: n=16 matches on the full 35K corpus gives F1 35.3% and ingredient overlap 37.5%. Fuzzy title matching (edit distance or embedding similarity) would expand coverage beyond exact-title matches.
 
 Building a transition-based verifier trained on the train split, evaluated on the test split. The transition matrix is currently computed but not used during encoding — it only validates that training DAGs are internally self-consistent (98.2% pass rate). The next step is to use it as an actual verifier: train P(next|current) on the train partition, then score held-out test DAGs and flag low-probability sequences for re-sampling or fallback.
 

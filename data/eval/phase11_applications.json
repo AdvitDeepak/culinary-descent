@@ -3,8 +3,8 @@
     {
       "query": "marinate \u2192 grill",
       "description": "Recipes where marinating precedes grilling",
-      "n_matches": 37,
-      "pct": 0.82,
+      "n_matches": 312,
+      "pct": 0.88,
       "examples": [
         {
           "title": "Marinade for Grilled Vegetables",
@@ -41,8 +41,8 @@
     {
       "query": "marinate \u2192 bake",
       "description": "Recipes where marinating precedes baking",
-      "n_matches": 37,
-      "pct": 0.82,
+      "n_matches": 278,
+      "pct": 0.79,
       "examples": [
         {
           "title": "Baked Marinated Salmon",
@@ -78,8 +78,8 @@
     {
       "query": "knead \u2192 bake",
       "description": "Bread recipes: knead before bake",
-      "n_matches": 66,
-      "pct": 1.46,
+      "n_matches": 595,
+      "pct": 1.68,
       "examples": [
         {
           "title": "Summer Strawberry Shortcake",
@@ -129,7 +129,7 @@
     {
       "query": "reduce after saute",
       "description": "Pan-sauce technique: saute then reduce",
-      "n_matches": 24,
+      "n_matches": 187,
       "pct": 0.53,
       "examples": [
         {
@@ -178,8 +178,8 @@
     {
       "query": "no-heat recipes",
       "description": "Recipes requiring zero heat (salads, raw, no-cook)",
-      "n_matches": 1706,
-      "pct": 37.65,
+      "n_matches": 13306,
+      "pct": 37.6,
       "examples": [
         {
           "title": "Yogurt Parfaits",
@@ -216,8 +216,8 @@
     {
       "query": "chill precedes serve",
       "description": "Cold-prep recipes: chill before final seasoning",
-      "n_matches": 266,
-      "pct": 5.87,
+      "n_matches": 2218,
+      "pct": 6.27,
       "examples": [
         {
           "title": "Magic Bullet Chicken and Rice Baby Food",
@@ -259,16 +259,16 @@
     }
   ],
   "order_matters": {
-    "marinate_then_grill": 37,
-    "grill_then_marinate": 2,
+    "marinate_then_grill": 312,
+    "grill_then_marinate": 16,
     "note": "keyword search cannot distinguish order; DAG sequence can"
   },
   "adaptation": {
     "corpus_stats": {
-      "n_dags": 4531,
-      "already_vegan": 1575,
-      "one_step_fix": 1018,
-      "easy_fix_le2_steps": 1796
+      "n_dags": 35392,
+      "already_vegan": 12124,
+      "one_step_fix": 8167,
+      "easy_fix_le2_steps": 14069
     },
     "examples": [
       {
@@ -394,9 +394,9 @@
     ]
   },
   "complexity_segmentation": {
-    "easy": 781,
-    "medium": 1275,
-    "hard": 2475,
+    "easy": 6189,
+    "medium": 9876,
+    "hard": 19327,
     "simplest_examples": [
       {
         "title": "Yogurt Parfaits",

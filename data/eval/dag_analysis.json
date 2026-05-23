@@ -1,21 +1,29 @@
 {
-  "n_dags": 1221,
-  "n_unique_sequences": 952,
+  "n_dags": 35392,
+  "n_unique_sequences": 18787,
   "top_templates": [
     {
       "seq": [
         "mix"
       ],
-      "count": 63,
-      "pct": 0.051597051597051594
+      "count": 2371,
+      "pct": 0.06699254068716094
     },
     {
       "seq": [
         "mix",
         "chill"
       ],
-      "count": 21,
-      "pct": 0.0171990171990172
+      "count": 708,
+      "pct": 0.020004520795660036
+    },
+    {
+      "seq": [
+        "mix",
+        "mix"
+      ],
+      "count": 370,
+      "pct": 0.010454339963833634
     },
     {
       "seq": [
@@ -23,441 +31,437 @@
         "mix",
         "chill"
       ],
-      "count": 13,
-      "pct": 0.010647010647010647
-    },
-    {
-      "seq": [
-        "mix",
-        "mix"
-      ],
-      "count": 12,
-      "pct": 0.009828009828009828
-    },
-    {
-      "seq": [
-        "mix",
-        "mix",
-        "mix"
-      ],
-      "count": 12,
-      "pct": 0.009828009828009828
-    },
-    {
-      "seq": [
-        "bake"
-      ],
-      "count": 11,
-      "pct": 0.009009009009009009
+      "count": 281,
+      "pct": 0.007939647377938517
     },
     {
       "seq": [
         "mix",
         "bake"
       ],
-      "count": 10,
-      "pct": 0.00819000819000819
+      "count": 263,
+      "pct": 0.007431057866184448
+    },
+    {
+      "seq": [
+        "bake"
+      ],
+      "count": 255,
+      "pct": 0.00720501808318264
+    },
+    {
+      "seq": [
+        "mix",
+        "mix",
+        "mix"
+      ],
+      "count": 252,
+      "pct": 0.007120253164556962
     },
     {
       "seq": [
         "blend"
       ],
-      "count": 9,
-      "pct": 0.007371007371007371
-    },
-    {
-      "seq": [
-        "mix",
-        "chill",
-        "season"
-      ],
-      "count": 5,
-      "pct": 0.004095004095004095
-    },
-    {
-      "seq": [
-        "mix",
-        "boil",
-        "mix"
-      ],
-      "count": 5,
-      "pct": 0.004095004095004095
-    },
-    {
-      "seq": [
-        "whisk",
-        "chill"
-      ],
-      "count": 5,
-      "pct": 0.004095004095004095
+      "count": 188,
+      "pct": 0.0053119349005424955
     },
     {
       "seq": [
         "mix",
         "season"
       ],
-      "count": 5,
-      "pct": 0.004095004095004095
-    },
-    {
-      "seq": [
-        "mix",
-        "mix",
-        "mix",
-        "chill"
-      ],
-      "count": 5,
-      "pct": 0.004095004095004095
+      "count": 159,
+      "pct": 0.004492540687160941
     },
     {
       "seq": [
         "mix",
         "whisk"
       ],
-      "count": 4,
-      "pct": 0.003276003276003276
+      "count": 150,
+      "pct": 0.004238245931283906
+    },
+    {
+      "seq": [
+        "whisk"
+      ],
+      "count": 145,
+      "pct": 0.004096971066907776
     },
     {
       "seq": [
         "mix",
-        "bake",
-        "bake"
+        "chill",
+        "chill"
       ],
-      "count": 4,
-      "pct": 0.003276003276003276
+      "count": 130,
+      "pct": 0.003673146473779385
+    },
+    {
+      "seq": [
+        "mix",
+        "whisk",
+        "chill"
+      ],
+      "count": 130,
+      "pct": 0.003673146473779385
+    },
+    {
+      "seq": [
+        "mix",
+        "chill",
+        "season"
+      ],
+      "count": 127,
+      "pct": 0.003588381555153707
+    },
+    {
+      "seq": [
+        "mix",
+        "mix",
+        "mix",
+        "chill"
+      ],
+      "count": 122,
+      "pct": 0.0034471066907775768
     }
   ],
   "coverage": {
-    "50pct": 342,
-    "80pct": 708,
-    "90pct": 830,
-    "95pct": 891
+    "50pct": 1895,
+    "80pct": 11709,
+    "90pct": 15248,
+    "95pct": 17018
   },
   "complexity": {
     "proc_nodes": {
-      "mean": 6.064701064701064,
+      "mean": 5.93820637432188,
       "median": 5.0,
       "p90": 12.0
     },
     "unique_ingredients": {
-      "mean": 6.725634725634726,
+      "mean": 6.715415913200723,
       "median": 6.0,
       "p90": 11.0
     }
   },
   "retrieval_examples": [
     {
-      "query_title": "Lassi (Yogurt Drink)",
-      "query_seq": [
-        "mix",
-        "blend",
-        "chill"
-      ],
-      "matches": [
-        {
-          "title": "Strawgurt Smoothie",
-          "seq": [
-            "mix",
-            "blend",
-            "chill"
-          ],
-          "lcs": 1.0
-        },
-        {
-          "title": "Hard Sauce",
-          "seq": [
-            "mix",
-            "blend",
-            "whisk",
-            "chill"
-          ],
-          "lcs": 0.857
-        },
-        {
-          "title": "Peach Freeze",
-          "seq": [
-            "mix",
-            "blend",
-            "mix",
-            "chill"
-          ],
-          "lcs": 0.857
-        },
-        {
-          "title": "Shrimp and Caper Salad",
-          "seq": [
-            "mix",
-            "chill"
-          ],
-          "lcs": 0.8
-        },
-        {
-          "title": "Cilantro-Mustard Mayo (Dip or Sauce)",
-          "seq": [
-            "mix",
-            "chill"
-          ],
-          "lcs": 0.8
-        }
-      ]
-    },
-    {
-      "query_title": "Decadent Vegan Dark- Choco Brownies",
+      "query_title": "Winter Berry Crisp",
       "query_seq": [
         "mix",
         "mix",
-        "mix",
-        "season",
         "bake",
-        "grill"
+        "bake"
       ],
       "matches": [
         {
-          "title": "Citrus Quencher",
+          "title": "Do It Yourself Oven Fried Chicken Coating",
           "seq": [
             "mix",
             "mix",
-            "chill",
-            "mix",
-            "season",
-            "grill"
-          ],
-          "lcs": 0.833
-        },
-        {
-          "title": "No Bake Snack Mix",
-          "seq": [
-            "mix",
-            "mix",
-            "season",
-            "grill"
-          ],
-          "lcs": 0.8
-        },
-        {
-          "title": "Lemon-Pepper Potatoes",
-          "seq": [
-            "mix",
-            "mix",
-            "mix",
+            "bake",
             "bake"
-          ],
-          "lcs": 0.8
-        },
-        {
-          "title": "Blueberry Cherry Pie Recipe",
-          "seq": [
-            "mix",
-            "mix",
-            "mix",
-            "bake"
-          ],
-          "lcs": 0.8
-        },
-        {
-          "title": "Gluten Free Breakfast Bars",
-          "seq": [
-            "mix",
-            "mix",
-            "mix",
-            "mix",
-            "season",
-            "knead",
-            "bake"
-          ],
-          "lcs": 0.769
-        }
-      ]
-    },
-    {
-      "query_title": "Yummy Creamed Corn",
-      "query_seq": [
-        "saute",
-        "simmer",
-        "chill"
-      ],
-      "matches": [
-        {
-          "title": "Onion Tarka",
-          "seq": [
-            "saute",
-            "chill"
-          ],
-          "lcs": 0.8
-        },
-        {
-          "title": "Strawberry Preserves with Black Pepper and Balsamic Vinegar",
-          "seq": [
-            "boil",
-            "simmer",
-            "chill"
-          ],
-          "lcs": 0.667
-        },
-        {
-          "title": "Cranberry-Apricot Sauce",
-          "seq": [
-            "saute",
-            "chill",
-            "season"
-          ],
-          "lcs": 0.667
-        },
-        {
-          "title": "Honey Mustard Soup With Chicken",
-          "seq": [
-            "saute",
-            "simmer",
-            "season",
-            "mix",
-            "whisk",
-            "mix",
-            "chill"
-          ],
-          "lcs": 0.6
-        },
-        {
-          "title": "Cardamom Carrots",
-          "seq": [
-            "saute",
-            "mix",
-            "boil",
-            "simmer",
-            "chill",
-            "saute",
-            "mix"
-          ],
-          "lcs": 0.6
-        }
-      ]
-    },
-    {
-      "query_title": "Three Berry Smoothie",
-      "query_seq": [
-        "mix",
-        "chill",
-        "mix",
-        "chill",
-        "mix",
-        "chill"
-      ],
-      "matches": [
-        {
-          "title": "Orange Grove",
-          "seq": [
-            "mix",
-            "chill",
-            "mix",
-            "mix",
-            "chill"
-          ],
-          "lcs": 0.909
-        },
-        {
-          "title": "Homemade Yogurt",
-          "seq": [
-            "mix",
-            "chill",
-            "mix",
-            "mix",
-            "chill"
-          ],
-          "lcs": 0.909
-        },
-        {
-          "title": "Lime Ginger Honeydew",
-          "seq": [
-            "mix",
-            "whisk",
-            "chill",
-            "mix",
-            "mix",
-            "chill"
-          ],
-          "lcs": 0.833
-        },
-        {
-          "title": "Papaya Atsara (Achara)",
-          "seq": [
-            "mix",
-            "chill",
-            "mix",
-            "mix",
-            "season",
-            "chill"
-          ],
-          "lcs": 0.833
-        },
-        {
-          "title": "Chocolate Orange Truffles Recipe elanaspantry",
-          "seq": [
-            "mix",
-            "mix",
-            "chill",
-            "chop",
-            "mix",
-            "chill"
-          ],
-          "lcs": 0.833
-        }
-      ]
-    },
-    {
-      "query_title": "Low carb maple cream cheese frosting",
-      "query_seq": [
-        "mix",
-        "mix",
-        "season"
-      ],
-      "matches": [
-        {
-          "title": "Oklahoma Cooler",
-          "seq": [
-            "mix",
-            "mix",
-            "season"
           ],
           "lcs": 1.0
         },
         {
-          "title": "Cherry Tomato Corn Salad",
+          "title": "Best Bread Machine Pizza Dough",
           "seq": [
+            "mix",
+            "mix",
+            "bake",
+            "bake"
+          ],
+          "lcs": 1.0
+        },
+        {
+          "title": "Dangerously Good Oatmeal Maple Cookies",
+          "seq": [
+            "mix",
+            "mix",
+            "bake",
+            "bake"
+          ],
+          "lcs": 1.0
+        },
+        {
+          "title": "Sour Cream Raspberry Pie",
+          "seq": [
+            "mix",
+            "mix",
+            "bake",
+            "bake"
+          ],
+          "lcs": 1.0
+        },
+        {
+          "title": "Allergy-Safe Chomeur Pudding",
+          "seq": [
+            "mix",
+            "mix",
+            "bake",
+            "bake"
+          ],
+          "lcs": 1.0
+        }
+      ]
+    },
+    {
+      "query_title": "Frosty Mountain Punch",
+      "query_seq": [
+        "mix",
+        "chill",
+        "mix",
+        "mix",
+        "steam"
+      ],
+      "matches": [
+        {
+          "title": "Melty Cheese* Sauce (Vegan)",
+          "seq": [
+            "mix",
+            "chill",
+            "mix",
+            "mix",
+            "steam"
+          ],
+          "lcs": 1.0
+        },
+        {
+          "title": "Sweetheart Punch",
+          "seq": [
+            "mix",
+            "chill",
             "mix",
             "mix",
             "season",
             "steam"
           ],
-          "lcs": 0.857
+          "lcs": 0.909
         },
         {
-          "title": "Red Wine Vinaigrette",
+          "title": "Easy Sushi Rice For Hand Rolls",
           "seq": [
-            "mix",
-            "whisk",
-            "mix",
-            "season"
-          ],
-          "lcs": 0.857
-        },
-        {
-          "title": "Cinnamon Butter",
-          "seq": [
-            "mix",
             "mix",
             "chill",
-            "season"
+            "mix",
+            "mix"
           ],
-          "lcs": 0.857
+          "lcs": 0.889
         },
         {
-          "title": "No Bake Snack Mix",
+          "title": "Broccoli/Grape Salad",
           "seq": [
             "mix",
+            "chill",
+            "mix",
+            "mix"
+          ],
+          "lcs": 0.889
+        },
+        {
+          "title": "Kitchen Salt",
+          "seq": [
+            "mix",
+            "chill",
+            "mix",
+            "mix"
+          ],
+          "lcs": 0.889
+        }
+      ]
+    },
+    {
+      "query_title": "Cashew Brittle Candy",
+      "query_seq": [
+        "mix",
+        "boil",
+        "steam",
+        "steam",
+        "chill"
+      ],
+      "matches": [
+        {
+          "title": "Cashew Brittle Candy",
+          "seq": [
+            "mix",
+            "boil",
+            "steam",
+            "steam",
+            "chill"
+          ],
+          "lcs": 1.0
+        },
+        {
+          "title": "5-Minute Custard-like Cream",
+          "seq": [
+            "mix",
+            "boil",
+            "steam",
+            "steam",
+            "chill"
+          ],
+          "lcs": 1.0
+        },
+        {
+          "title": "Easy Rice Pudding",
+          "seq": [
+            "mix",
+            "boil",
+            "steam",
+            "steam",
+            "steam",
+            "chill"
+          ],
+          "lcs": 0.909
+        },
+        {
+          "title": "Refrigerator Pickles Recipe",
+          "seq": [
+            "mix",
+            "boil",
+            "steam",
+            "steam",
+            "chill",
+            "chill"
+          ],
+          "lcs": 0.909
+        },
+        {
+          "title": "Spiced Candied Cashews",
+          "seq": [
+            "mix",
+            "boil",
+            "mix",
+            "steam",
+            "steam",
+            "chill"
+          ],
+          "lcs": 0.909
+        }
+      ]
+    },
+    {
+      "query_title": "Low Fat Chicken Mango Chutney & Macadamias!",
+      "query_seq": [
+        "bake",
+        "steam",
+        "mix",
+        "bake",
+        "season",
+        "season"
+      ],
+      "matches": [
+        {
+          "title": "Roasted Salmon",
+          "seq": [
+            "bake",
+            "mix",
+            "bake",
+            "season",
+            "season"
+          ],
+          "lcs": 0.909
+        },
+        {
+          "title": "Roasted Parsnips with Parsley",
+          "seq": [
+            "bake",
+            "mix",
+            "bake",
+            "season",
+            "season"
+          ],
+          "lcs": 0.909
+        },
+        {
+          "title": "Baked Sweet Potato Wedges",
+          "seq": [
+            "bake",
+            "mix",
+            "bake",
+            "season",
+            "bake",
+            "season"
+          ],
+          "lcs": 0.833
+        },
+        {
+          "title": "Oatmeal Beer Bread",
+          "seq": [
+            "bake",
+            "mix",
+            "bake",
+            "season",
+            "bake",
+            "season"
+          ],
+          "lcs": 0.833
+        },
+        {
+          "title": "Herbed Pork Tenderloin",
+          "seq": [
+            "bake",
             "mix",
             "season",
-            "grill"
+            "season"
           ],
-          "lcs": 0.857
+          "lcs": 0.8
+        }
+      ]
+    },
+    {
+      "query_title": "Just the Best Barbecue Sauce Ever!",
+      "query_seq": [
+        "mix",
+        "steam",
+        "mix"
+      ],
+      "matches": [
+        {
+          "title": "Simple Flaky Pastry",
+          "seq": [
+            "mix",
+            "steam",
+            "mix"
+          ],
+          "lcs": 1.0
+        },
+        {
+          "title": "Grape Salad",
+          "seq": [
+            "mix",
+            "steam",
+            "mix"
+          ],
+          "lcs": 1.0
+        },
+        {
+          "title": "Kris' Barbeque Pit Sauce",
+          "seq": [
+            "mix",
+            "steam",
+            "mix"
+          ],
+          "lcs": 1.0
+        },
+        {
+          "title": "Chocolate Chip Peanut Butter Cookie Dough Dip",
+          "seq": [
+            "mix",
+            "steam",
+            "mix"
+          ],
+          "lcs": 1.0
+        },
+        {
+          "title": "Amazing Chocolate Dessert Sauce",
+          "seq": [
+            "mix",
+            "steam",
+            "mix"
+          ],
+          "lcs": 1.0
         }
       ]
     }
