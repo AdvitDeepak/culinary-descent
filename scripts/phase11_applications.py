@@ -102,8 +102,7 @@ def query_contains_all(dags, verbs):
 
 def query_no_heat(dags):
     """Find recipes that use ZERO heat application steps."""
-    heat = {"bake","roast","broil","grill","toast","saute","fry","sear","brown",
-            "boil","simmer","steam","poach","braise","blanch"}
+    heat = {"bake","grill","saute","boil","simmer","steam"}
     return [d for d in dags if not any(v in heat for v in sequence(d))]
 
 
@@ -296,10 +295,9 @@ def main():
     print("APPLICATION 3: COMPLEXITY-BASED RECIPE SEGMENTATION")
     print("=" * 65)
 
-    heat_verbs  = {"bake","roast","broil","grill","toast","saute","fry","sear",
-                   "brown","boil","simmer","steam","poach","braise","blanch"}
-    prep_verbs  = {"chop","dice","slice","mince","grate","peel","crush"}
-    finish_verbs= {"season","coat","brush","drizzle","reduce","dissolve","melt","drain"}
+    heat_verbs  = {"bake","grill","saute","boil","simmer","steam"}
+    prep_verbs  = {"chop"}
+    finish_verbs= {"season","reduce"}
 
     def complexity(dag):
         seq = sequence(dag)

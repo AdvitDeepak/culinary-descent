@@ -6,10 +6,12 @@ torch>=2.3.0
 # Embeddings / semantic evaluation
 sentence-transformers>=3.0.0
 
-# Data / parsing
+# Data / parsing / visualization
 numpy>=1.26.0
 tqdm>=4.66.0
 lxml>=5.0.0          # phase12: CURD XML ground-truth parsing
+scikit-learn>=1.4.0  # generate_elbow_figure.py: KMeans, silhouette_score
+matplotlib>=3.8.0    # all figure scripts
 
 # Dev
 pytest>=7.4.0

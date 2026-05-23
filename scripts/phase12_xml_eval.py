@@ -35,46 +35,51 @@ XML_DIR    = Path("/home/addeepak/AdvitResearch/cs348k/annotated_recipes")
 DAGS_FILE  = Path("/home/addeepak/AdvitResearch/cs348k/culinary-descent/data/dags/constrained_dags.jsonl")
 OUT        = Path("/home/addeepak/AdvitResearch/cs348k/culinary-descent/data/eval")
 
-CANONICAL_43 = [
-    "bake","roast","broil","grill","toast",
-    "saute","fry","sear","brown",
-    "boil","simmer","steam","poach","braise","blanch",
-    "chop","dice","slice","mince","grate","peel","crush",
-    "mix","stir","whisk","fold","blend","beat","knead","toss",
-    "season","coat","brush","drizzle",
-    "cool","chill","freeze",
-    "rest","marinate",
-    "reduce","dissolve","melt","drain",
+CANONICAL_15 = [
+    "bake", "grill", "saute", "boil", "simmer", "steam",
+    "mix", "whisk", "blend", "knead",
+    "chop", "marinate", "chill", "season", "reduce",
 ]
-CANONICAL_SET = set(CANONICAL_43)
+CANONICAL_SET = set(CANONICAL_15)
 
-# ── Mapping from XML action text → canonical type ─────────────────────────────
-# Extracted from XML action text strings (5th arg of cook(), or the op name)
+# ── Mapping from XML action text → canonical type (15-type vocabulary) ────────
 ACTION_TO_CANONICAL = {
-    # heat verbs
-    "bake": "bake", "roast": "roast", "broil": "broil", "grill": "grill",
-    "toast": "toast", "saute": "saute", "sauté": "saute", "fry": "fry",
-    "sear": "sear", "brown": "brown", "boil": "boil", "simmer": "simmer",
-    "steam": "steam", "poach": "poach", "braise": "braise", "blanch": "blanch",
-    # prep verbs
-    "chop": "chop", "dice": "dice", "slice": "slice", "mince": "mince",
-    "grate": "grate", "peel": "peel", "crush": "crush", "cut": "chop",
-    "shred": "grate", "julienne": "slice", "halve": "chop",
-    # combine / mix
-    "mix": "mix", "combine": "mix", "stir": "stir", "whisk": "whisk",
-    "fold": "fold", "blend": "blend", "beat": "beat", "knead": "knead",
-    "toss": "toss", "mix in": "mix", "stir in": "stir",
-    # finish
-    "season": "season", "coat": "coat", "brush": "brush", "drizzle": "drizzle",
-    # temperature change
-    "cool": "cool", "chill": "chill", "freeze": "freeze",
-    "refrigerate": "chill", "let cool": "cool",
-    # rest
-    "rest": "rest", "marinate": "marinate", "let rest": "rest",
-    "let stand": "rest", "stand": "rest",
-    # other
-    "reduce": "reduce", "dissolve": "dissolve", "melt": "melt",
-    "drain": "drain", "heat": "saute", "cook": "saute",
+    # dry/radiant heat → bake or grill
+    "bake": "bake", "roast": "bake", "toast": "bake",
+    "grill": "grill", "broil": "grill", "char": "grill",
+    # fat stovetop → saute
+    "saute": "saute", "sauté": "saute", "fry": "saute", "pan-fry": "saute",
+    "sear": "saute", "brown": "saute", "pan fry": "saute",
+    # moist heat → boil or simmer
+    "boil": "boil", "blanch": "boil", "parboil": "boil",
+    "simmer": "simmer", "braise": "simmer", "poach": "simmer",
+    "stew": "simmer", "slow cook": "simmer",
+    # steam
+    "steam": "steam",
+    # combine → mix or whisk or blend or knead
+    "mix": "mix", "combine": "mix", "stir": "mix", "toss": "mix",
+    "fold": "mix", "mix in": "mix", "stir in": "mix",
+    "whisk": "whisk", "beat": "whisk",
+    "blend": "blend", "puree": "blend", "process": "blend",
+    "knead": "knead",
+    # knife prep → chop
+    "chop": "chop", "dice": "chop", "slice": "chop", "mince": "chop",
+    "grate": "chop", "peel": "chop", "crush": "chop", "cut": "chop",
+    "shred": "chop", "julienne": "chop", "halve": "chop", "shave": "chop",
+    # passive liquid → marinate
+    "marinate": "marinate", "soak": "marinate", "brine": "marinate",
+    # cold / passive → chill
+    "cool": "chill", "chill": "chill", "freeze": "chill",
+    "refrigerate": "chill", "let cool": "chill", "rest": "chill",
+    "let rest": "chill", "let stand": "chill", "stand": "chill",
+    # finish / apply → season
+    "season": "season", "coat": "season", "brush": "season",
+    "drizzle": "season", "sprinkle": "season",
+    # liquid ops → reduce
+    "reduce": "reduce", "dissolve": "reduce", "melt": "reduce",
+    "drain": "reduce", "strain": "reduce",
+    # generic cooking → saute (CURD uses cook() for most heat ops)
+    "heat": "saute", "cook": "saute",
     "heat oil": "saute", "heat butter": "saute",
 }
 
@@ -82,14 +87,11 @@ ACTION_TO_CANONICAL = {
 def action_text_to_canonical(text: str):
     """Map an XML action text string to our canonical type."""
     t = text.lower().strip().rstrip(".")
-    # direct lookup
     if t in ACTION_TO_CANONICAL:
         return ACTION_TO_CANONICAL[t]
-    # check if any canonical verb appears in the text
-    for verb in CANONICAL_43:
+    for verb in CANONICAL_15:
         if re.search(r'\b' + verb + r'\b', t):
             return verb
-    # check action map keys
     for key, val in ACTION_TO_CANONICAL.items():
         if key in t:
             return val

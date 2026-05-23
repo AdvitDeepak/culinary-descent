@@ -3,8 +3,8 @@
     {
       "query": "marinate \u2192 grill",
       "description": "Recipes where marinating precedes grilling",
-      "n_matches": 168,
-      "pct": 0.48,
+      "n_matches": 37,
+      "pct": 0.82,
       "examples": [
         {
           "title": "Marinade for Grilled Vegetables",
@@ -15,20 +15,24 @@
           ]
         },
         {
+          "title": "Philippine Grilled Pork Tenderloin",
+          "seq": [
+            "chop",
+            "mix",
+            "marinate",
+            "grill",
+            "grill",
+            "boil",
+            "reduce",
+            "season"
+          ]
+        },
+        {
           "title": "Nif's Grilled Hawaiian Chicken Skewers",
           "seq": [
             "mix",
             "marinate",
-            "toss",
-            "grill"
-          ]
-        },
-        {
-          "title": "Shish Kabob Marinade",
-          "seq": [
-            "mix",
-            "mix",
-            "marinate",
+            "chop",
             "grill"
           ]
         }
@@ -37,14 +41,18 @@
     {
       "query": "marinate \u2192 bake",
       "description": "Recipes where marinating precedes baking",
-      "n_matches": 178,
-      "pct": 0.51,
+      "n_matches": 37,
+      "pct": 0.82,
       "examples": [
         {
           "title": "Baked Marinated Salmon",
           "seq": [
             "marinate",
-            "bake"
+            "saute",
+            "season",
+            "bake",
+            "bake",
+            "grill"
           ]
         },
         {
@@ -52,6 +60,7 @@
           "seq": [
             "mix",
             "marinate",
+            "season",
             "bake"
           ]
         },
@@ -69,51 +78,42 @@
     {
       "query": "knead \u2192 bake",
       "description": "Bread recipes: knead before bake",
-      "n_matches": 1462,
-      "pct": 4.16,
+      "n_matches": 66,
+      "pct": 1.46,
       "examples": [
         {
-          "title": "Focaccia Buns",
+          "title": "Summer Strawberry Shortcake",
           "seq": [
+            "bake",
             "mix",
+            "chop",
             "mix",
+            "chop",
             "mix",
             "knead",
+            "chop",
+            "chop",
             "bake",
-            "bake",
+            "chill",
+            "mix"
+          ]
+        },
+        {
+          "title": "Simple Potato Bread",
+          "seq": [
+            "mix",
+            "knead",
+            "chop",
             "bake"
           ]
         },
         {
-          "title": "Cinnamon Raisin Biscuits",
+          "title": "Naan Bread",
           "seq": [
-            "crush",
-            "mix",
-            "blend",
-            "stir",
-            "knead",
-            "dissolve",
-            "bake",
             "bake",
             "mix",
-            "dissolve",
-            "dissolve"
-          ]
-        },
-        {
-          "title": "Potato English Muffins",
-          "seq": [
-            "mix",
-            "mix",
-            "melt",
-            "melt",
-            "mix",
-            "mix",
-            "mix",
             "knead",
-            "knead",
-            "knead",
-            "knead",
+            "chill",
             "bake"
           ]
         }
@@ -122,65 +122,22 @@
     {
       "query": "boil \u2192 drain \u2192 season",
       "description": "Pasta-style: boil + drain + season",
-      "n_matches": 79,
-      "pct": 0.22,
-      "examples": [
-        {
-          "title": "Buttery, Crispy Egg Noodles",
-          "seq": [
-            "boil",
-            "season",
-            "boil",
-            "drain",
-            "saute",
-            "stir",
-            "bake",
-            "season"
-          ]
-        },
-        {
-          "title": "Hot Spinach and Artichoke Dip",
-          "seq": [
-            "boil",
-            "drain",
-            "melt",
-            "stir",
-            "season"
-          ]
-        },
-        {
-          "title": "Pearl Barley Tabbouleh",
-          "seq": [
-            "boil",
-            "season",
-            "stir",
-            "reduce",
-            "cool",
-            "drain",
-            "drain",
-            "mix",
-            "chill"
-          ]
-        }
-      ]
+      "n_matches": 0,
+      "pct": 0.0,
+      "examples": []
     },
     {
       "query": "reduce after saute",
       "description": "Pan-sauce technique: saute then reduce",
-      "n_matches": 172,
-      "pct": 0.49,
+      "n_matches": 24,
+      "pct": 0.53,
       "examples": [
         {
-          "title": "Always Right Rice",
+          "title": "Green Beans With Coconut",
           "seq": [
-            "boil",
-            "boil",
-            "reduce",
-            "drain",
-            "reduce",
-            "reduce",
-            "stir",
-            "toss",
+            "saute",
+            "saute",
+            "saute",
             "saute",
             "reduce"
           ]
@@ -188,25 +145,32 @@
         {
           "title": "Bootlegger's Beef",
           "seq": [
-            "crush",
+            "bake",
             "season",
             "saute",
-            "roast",
-            "rest",
+            "bake",
+            "saute",
+            "bake",
+            "chill",
+            "saute",
+            "boil",
             "reduce",
             "mix",
-            "stir"
+            "whisk"
           ]
         },
         {
-          "title": "Natural Fruit and Veggie Wash",
+          "title": "Warm Brownie Pudding Cake",
           "seq": [
+            "bake",
             "mix",
-            "beat",
-            "dissolve",
+            "mix",
             "saute",
+            "mix",
+            "season",
             "reduce",
-            "whisk"
+            "bake",
+            "chill"
           ]
         }
       ]
@@ -214,8 +178,8 @@
     {
       "query": "no-heat recipes",
       "description": "Recipes requiring zero heat (salads, raw, no-cook)",
-      "n_matches": 11820,
-      "pct": 33.62,
+      "n_matches": 1706,
+      "pct": 37.65,
       "examples": [
         {
           "title": "Yogurt Parfaits",
@@ -226,16 +190,25 @@
         {
           "title": "Shrimp and Caper Salad",
           "seq": [
-            "toss",
+            "mix",
             "chill"
           ]
         },
         {
-          "title": "Easy Cheese Sauce",
+          "title": "Natural Peanut Butter Chocolate Bon Bons",
           "seq": [
-            "stir",
-            "toss",
-            "stir"
+            "mix",
+            "mix",
+            "whisk",
+            "blend",
+            "mix",
+            "knead",
+            "chop",
+            "chop",
+            "chop",
+            "chop",
+            "chop",
+            "chop"
           ]
         }
       ]
@@ -243,37 +216,42 @@
     {
       "query": "chill precedes serve",
       "description": "Cold-prep recipes: chill before final seasoning",
-      "n_matches": 46,
-      "pct": 0.13,
+      "n_matches": 266,
+      "pct": 5.87,
       "examples": [
         {
-          "title": "My Dill Dip",
+          "title": "Magic Bullet Chicken and Rice Baby Food",
           "seq": [
             "mix",
+            "blend",
+            "chill",
+            "boil",
             "chill",
             "season",
-            "toss"
+            "chill",
+            "chill",
+            "chill",
+            "chill",
+            "chill",
+            "chill"
           ]
         },
         {
-          "title": "Haricots Verts with Almonds",
+          "title": "Sweet-and-Sour Dressing",
           "seq": [
-            "cool",
-            "drain",
-            "cool",
-            "drizzle",
+            "mix",
             "chill",
-            "saute",
-            "season",
-            "reduce"
+            "season"
           ]
         },
         {
-          "title": "Pineapple Coleslaw",
+          "title": "Pear 'N Cranberry Pie",
           "seq": [
+            "bake",
             "mix",
-            "toss",
+            "bake",
             "chill",
+            "mix",
             "season"
           ]
         }
@@ -281,23 +259,23 @@
     }
   ],
   "order_matters": {
-    "marinate_then_grill": 168,
-    "grill_then_marinate": 5,
+    "marinate_then_grill": 37,
+    "grill_then_marinate": 2,
     "note": "keyword search cannot distinguish order; DAG sequence can"
   },
   "adaptation": {
     "corpus_stats": {
-      "n_dags": 35162,
-      "already_vegan": 12172,
-      "one_step_fix": 8691,
-      "easy_fix_le2_steps": 14260
+      "n_dags": 4531,
+      "already_vegan": 1575,
+      "one_step_fix": 1018,
+      "easy_fix_le2_steps": 1796
     },
     "examples": [
       {
         "label": "Already vegan",
         "plan": {
           "title": "Cornmeal Mush",
-          "n_steps": 5,
+          "n_steps": 4,
           "affected_steps": 0,
           "already_compliant": true,
           "edits": []
@@ -305,9 +283,8 @@
         "sequence": [
           "mix",
           "mix",
-          "stir",
-          "reduce",
-          "stir"
+          "steam",
+          "steam"
         ]
       },
       {
@@ -345,7 +322,7 @@
           "edits": [
             {
               "step_index": 0,
-              "verb": "crush",
+              "verb": "bake",
               "substitutions": [
                 {
                   "remove": "chicken wings",
@@ -367,7 +344,7 @@
             },
             {
               "step_index": 3,
-              "verb": "broil",
+              "verb": "grill",
               "substitutions": [
                 {
                   "remove": "chicken wings",
@@ -378,7 +355,7 @@
             },
             {
               "step_index": 4,
-              "verb": "stir",
+              "verb": "mix",
               "substitutions": [
                 {
                   "remove": "butter",
@@ -406,20 +383,20 @@
           ]
         },
         "sequence": [
-          "crush",
+          "bake",
           "mix",
           "bake",
-          "broil",
-          "stir",
+          "grill",
+          "mix",
           "mix"
         ]
       }
     ]
   },
   "complexity_segmentation": {
-    "easy": 6154,
-    "medium": 9644,
-    "hard": 19364,
+    "easy": 781,
+    "medium": 1275,
+    "hard": 2475,
     "simplest_examples": [
       {
         "title": "Yogurt Parfaits",
@@ -430,7 +407,7 @@
       {
         "title": "Mango Lassi",
         "seq": [
-          "blend"
+          "mix"
         ]
       },
       {
@@ -446,63 +423,65 @@
         ]
       },
       {
-        "title": "Pineapple Ginger Smoothie",
+        "title": "Lemon Sauce",
         "seq": [
-          "blend"
+          "mix"
         ]
       }
     ],
     "hardest_examples": [
       {
-        "title": "Natural Peanut Butter Chocolate Bon Bons",
+        "title": "Homemade ricotta cheese",
         "seq": [
-          "melt",
           "mix",
-          "blend",
+          "simmer",
+          "season",
+          "season",
+          "steam",
+          "chill",
           "mix",
-          "melt",
-          "freeze",
-          "freeze",
+          "chill"
+        ]
+      },
+      {
+        "title": "\"Bread Machine Cookbook\" Semolina Bread Recipe",
+        "seq": [
+          "bake",
+          "bake",
+          "bake",
+          "bake",
+          "bake",
+          "bake",
+          "bake",
+          "bake",
+          "bake",
           "bake"
         ]
       },
       {
-        "title": "Crunchy Granola",
+        "title": "Shrimp Stir-Fry",
         "seq": [
-          "crush",
           "mix",
+          "saute",
+          "grill",
+          "saute",
+          "saute",
           "mix",
-          "bake",
-          "mix",
-          "cool",
-          "sear"
-        ]
-      },
-      {
-        "title": "Shortbread Cookies \"Hugs & Kisses\" Recipe",
-        "seq": [
-          "saute",
-          "blend",
           "saute",
           "saute",
-          "saute",
-          "saute",
-          "saute",
-          "bake",
           "saute"
         ]
       },
       {
-        "title": "Caramel Butter Sauce",
+        "title": "Bacon Pecorino Popcorn",
         "seq": [
+          "saute",
+          "chop",
+          "chop",
+          "saute",
           "mix",
-          "stir",
-          "boil",
-          "bake",
-          "bake",
-          "whisk",
-          "mix",
-          "whisk"
+          "season",
+          "chill"
         ]
       },
       {

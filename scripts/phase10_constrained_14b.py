@@ -31,16 +31,22 @@ RECIPE1M  = Path("/home/addeepak/AdvitResearch/cs348k/recipes.json")
 DAGS_DIR  = Path("/home/addeepak/AdvitResearch/cs348k/culinary-descent/data/dags")
 OUT       = Path("/home/addeepak/AdvitResearch/cs348k/culinary-descent/data/eval")
 
-CANONICAL_43 = [
-    "bake","roast","broil","grill","toast",
-    "saute","fry","sear","brown",
-    "boil","simmer","steam","poach","braise","blanch",
-    "chop","dice","slice","mince","grate","peel","crush",
-    "mix","stir","whisk","fold","blend","beat","knead","toss",
-    "season","coat","brush","drizzle",
-    "cool","chill","freeze",
-    "rest","marinate",
-    "reduce","dissolve","melt","drain",
+CANONICAL_15 = [
+    "bake",      # oven dry: bake, roast, toast
+    "grill",     # radiant/flame: grill, broil
+    "saute",     # fat stovetop: saute, fry, sear, brown
+    "boil",      # high moist: boil, blanch
+    "simmer",    # low moist: simmer, braise, poach
+    "steam",
+    "mix",       # bulk combine: mix, stir, toss, fold
+    "whisk",     # aerate: whisk, beat
+    "blend",     # mechanical puree: blend, puree
+    "knead",
+    "chop",      # knife prep: chop, dice, slice, mince, grate, peel, crush
+    "marinate",  # passive liquid: marinate, soak, brine
+    "chill",     # cold thermal: cool, chill, freeze, rest, refrigerate
+    "season",    # finish/apply: season, coat, brush, drizzle
+    "reduce",    # liquid ops: reduce, dissolve, drain, melt, strain
 ]
 
 DAG_SCHEMA = json.dumps({
@@ -51,7 +57,7 @@ DAG_SCHEMA = json.dumps({
             "items": {
                 "type": "object",
                 "properties": {
-                    "canonical":    {"type": "string", "enum": CANONICAL_43},
+                    "canonical":    {"type": "string", "enum": CANONICAL_15},
                     "ingredients":  {"type": "array", "items": {"type": "string"}, "maxItems": 6},
                     "temp_f":       {"anyOf": [{"type": "number"}, {"type": "null"}]},
                     "duration_min": {"anyOf": [{"type": "number"}, {"type": "null"}]},
@@ -68,6 +74,23 @@ DAG_SCHEMA = json.dumps({
 SYSTEM_PROMPT = """\
 You parse recipe instructions into structured JSON steps.
 Only use the cooking verbs from the enum in the schema.
+
+Type guide — collapse synonyms into the canonical form:
+- bake: bake, roast, toast (oven dry heat)
+- grill: grill, broil (direct flame or radiant heat)
+- saute: saute, fry, sear, brown, pan-fry (fat + stovetop)
+- boil: boil, blanch (high-temp moist)
+- simmer: simmer, braise, poach, stew (low-temp moist)
+- steam: steam
+- mix: mix, stir, toss, fold, combine (gentle bulk combine)
+- whisk: whisk, beat (aerate or emulsify)
+- blend: blend, puree (mechanical size reduction)
+- knead: knead
+- chop: chop, dice, slice, mince, grate, peel, shred, crush (knife prep)
+- marinate: marinate, soak, brine (passive liquid absorption)
+- chill: cool, chill, freeze, rest, refrigerate (passive cold)
+- season: season, coat, brush, drizzle, sprinkle (apply flavor or fat)
+- reduce: reduce, dissolve, drain, melt, strain (liquid transform or removal)
 
 Rules for temp_f and duration_min:
 - Explicit numbers: "bake at 350°F" → temp_f: 350, "simmer 20 min" → duration_min: 20
