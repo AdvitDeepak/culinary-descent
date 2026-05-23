@@ -1,0 +1,920 @@
+{
+  "n_unique_raw_strings": 357,
+  "n_train_recipes": 35867,
+  "freq_greedy_curve": [
+    [
+      1,
+      2.788078177712103e-05
+    ],
+    [
+      2,
+      0.00039033094487969444
+    ],
+    [
+      5,
+      0.00945158502244403
+    ],
+    [
+      10,
+      0.01868012379067109
+    ],
+    [
+      20,
+      0.04438620458917668
+    ],
+    [
+      50,
+      0.22890121839016367
+    ],
+    [
+      100,
+      0.48289514037973624
+    ],
+    [
+      200,
+      0.8432542448490256
+    ],
+    [
+      357,
+      1.0
+    ]
+  ],
+  "kmeans_distortion_curve": [
+    [
+      9,
+      0.5514210933396796
+    ],
+    [
+      20,
+      0.4943412973099396
+    ],
+    [
+      30,
+      0.4446815469351803
+    ],
+    [
+      50,
+      0.38929291198901433
+    ],
+    [
+      75,
+      0.33925271768863796
+    ],
+    [
+      100,
+      0.2935202248624059
+    ],
+    [
+      150,
+      0.2224156783074558
+    ],
+    [
+      200,
+      0.18149314474324887
+    ],
+    [
+      300,
+      0.10013036434056044
+    ]
+  ],
+  "kmeans_info_preserved_curve": [
+    [
+      9,
+      0.6899764245362077
+    ],
+    [
+      20,
+      0.7245111989602194
+    ],
+    [
+      30,
+      0.8727956770522742
+    ],
+    [
+      50,
+      0.8747750396447705
+    ],
+    [
+      75,
+      0.9134857894017975
+    ],
+    [
+      100,
+      0.929438089452474
+    ],
+    [
+      150,
+      0.9249696457328799
+    ],
+    [
+      200,
+      0.9441668650661634
+    ],
+    [
+      300,
+      0.9771324302724682
+    ]
+  ],
+  "top_ingredients_raw": [
+    [
+      "salt, table",
+      15325
+    ],
+    [
+      "sugars, granulated",
+      12271
+    ],
+    [
+      "butter, without salt",
+      10511
+    ],
+    [
+      "water, bottled, generic",
+      9720
+    ],
+    [
+      "wheat flour, white, all-purpose, unenriched",
+      9557
+    ],
+    [
+      "oil, olive, salad or cooking",
+      6028
+    ],
+    [
+      "milk, fluid, 1% fat, without added vitamin a and vitamin d",
+      5980
+    ],
+    [
+      "spices, pepper, black",
+      5288
+    ],
+    [
+      "sugars, brown",
+      4608
+    ],
+    [
+      "spices, garlic powder",
+      3757
+    ],
+    [
+      "vanilla extract",
+      3678
+    ],
+    [
+      "spices, cinnamon, ground",
+      3520
+    ],
+    [
+      "honey",
+      3489
+    ],
+    [
+      "lemon juice, raw",
+      3137
+    ],
+    [
+      "spartan, real semi-sweet chocolate baking chips, upc: 011213162966",
+      2542
+    ],
+    [
+      "leavening agents, baking powder, double-acting, sodium aluminum sulfate",
+      2511
+    ],
+    [
+      "mustard, prepared, yellow",
+      2376
+    ],
+    [
+      "oats",
+      2357
+    ],
+    [
+      "onions, raw",
+      2324
+    ],
+    [
+      "leavening agents, baking soda",
+      2309
+    ],
+    [
+      "spices, pepper, red or cayenne",
+      2243
+    ],
+    [
+      "cheese, parmesan, hard",
+      2235
+    ],
+    [
+      "leavening agents, yeast, baker's, active dry",
+      2226
+    ],
+    [
+      "orange juice, raw",
+      2029
+    ],
+    [
+      "nuts, almonds",
+      1892
+    ],
+    [
+      "salad dressing, mayonnaise, regular",
+      1657
+    ],
+    [
+      "spices, ginger, ground",
+      1607
+    ],
+    [
+      "wheat flours, bread, unenriched",
+      1505
+    ],
+    [
+      "peanut butter, smooth style, without salt",
+      1481
+    ],
+    [
+      "shortening confectionery, coconut (hydrogenated) and or palm kernel (hydrogenated)",
+      1473
+    ],
+    [
+      "yogurt, greek, plain, nonfat",
+      1440
+    ],
+    [
+      "syrup, maple, canadian",
+      1436
+    ],
+    [
+      "milk, buttermilk, fluid, cultured, lowfat",
+      1422
+    ],
+    [
+      "cream, fluid, heavy whipping",
+      1422
+    ],
+    [
+      "nuts, walnuts, english",
+      1404
+    ],
+    [
+      "sugars, powdered",
+      1368
+    ],
+    [
+      "nuts, pecans",
+      1343
+    ],
+    [
+      "soy sauce made from soy (tamari)",
+      1327
+    ],
+    [
+      "cocoa, dry powder, unsweetened",
+      1290
+    ],
+    [
+      "raisins, seeded",
+      1272
+    ],
+    [
+      "spices, paprika",
+      1267
+    ],
+    [
+      "rice, white, long-grain, regular, unenriched, cooked without salt",
+      1245
+    ],
+    [
+      "cream, whipped, cream topping, pressurized",
+      1198
+    ],
+    [
+      "cream, sour, cultured",
+      1187
+    ],
+    [
+      "cornstarch",
+      1148
+    ],
+    [
+      "spices, nutmeg, ground",
+      1145
+    ],
+    [
+      "vinegar, distilled",
+      1139
+    ],
+    [
+      "potatoes, raw, skin",
+      1119
+    ],
+    [
+      "syrups, corn, light",
+      1109
+    ],
+    [
+      "strawberries, raw",
+      1078
+    ],
+    [
+      "apples, raw, with skin",
+      996
+    ],
+    [
+      "chicken, broiler or fryers, breast, skinless, boneless, meat only, raw",
+      993
+    ],
+    [
+      "spices, cumin seed",
+      982
+    ],
+    [
+      "carrots, raw",
+      971
+    ],
+    [
+      "spices, onion powder",
+      936
+    ],
+    [
+      "lime juice, raw",
+      928
+    ],
+    [
+      "cheese, cheddar",
+      924
+    ],
+    [
+      "sauce, worcestershire",
+      915
+    ],
+    [
+      "oil, corn, peanut, and olive",
+      904
+    ],
+    [
+      "parsley, fresh",
+      888
+    ],
+    [
+      "spices, oregano, dried",
+      883
+    ],
+    [
+      "spices, basil, dried",
+      879
+    ],
+    [
+      "cranberries, dried, sweetened",
+      872
+    ],
+    [
+      "margarine, regular, 80% fat, composite, stick, without salt",
+      869
+    ],
+    [
+      "vinegar, cider",
+      852
+    ],
+    [
+      "celery, raw",
+      845
+    ],
+    [
+      "cereals, oats, regular and quick, unenriched, cooked with water (includes boiling and microwaving), without salt",
+      828
+    ],
+    [
+      "spices, thyme, dried",
+      825
+    ],
+    [
+      "spices, chili powder",
+      817
+    ],
+    [
+      "blueberries, raw",
+      806
+    ],
+    [
+      "soup, chicken broth or bouillon, dry",
+      802
+    ],
+    [
+      "catsup",
+      742
+    ],
+    [
+      "beans, snap, green, raw",
+      723
+    ],
+    [
+      "beef, grass-fed, ground, raw",
+      686
+    ],
+    [
+      "oil, canola",
+      679
+    ],
+    [
+      "spices, coriander seed",
+      670
+    ],
+    [
+      "onions, spring or scallions (includes tops and bulb), raw",
+      668
+    ],
+    [
+      "vinegar, red wine",
+      659
+    ],
+    [
+      "seeds, sesame seeds, whole, dried",
+      656
+    ],
+    [
+      "corn, sweet, white, raw",
+      649
+    ],
+    [
+      "cherries, sweet, raw",
+      606
+    ],
+    [
+      "tomatoes, red, ripe, raw, year round average",
+      604
+    ],
+    [
+      "molasses",
+      570
+    ],
+    [
+      "shortening, vegetable, household, composite",
+      568
+    ],
+    [
+      "dill weed, fresh",
+      549
+    ],
+    [
+      "spices, cloves, ground",
+      519
+    ],
+    [
+      "raspberries, raw",
+      507
+    ],
+    [
+      "vinegar, balsamic",
+      503
+    ],
+    [
+      "seeds, flaxseed",
+      485
+    ],
+    [
+      "pumpkin, raw",
+      482
+    ],
+    [
+      "candies, marshmallows",
+      479
+    ],
+    [
+      "bacon, meatless",
+      475
+    ],
+    [
+      "spices, rosemary, dried",
+      472
+    ],
+    [
+      "cornmeal, degermed, unenriched, yellow",
+      471
+    ],
+    [
+      "oil, sesame, salad or cooking",
+      456
+    ],
+    [
+      "alcoholic beverage, distilled, rum, 80 proof",
+      449
+    ],
+    [
+      "apricots, dried, sulfured, uncooked",
+      446
+    ],
+    [
+      "egg substitute, powder",
+      444
+    ],
+    [
+      "applesauce, canned, unsweetened, without added ascorbic acid (includes usda commodity)",
+      439
+    ],
+    [
+      "pork, fresh, loin, tenderloin, separable lean only, raw",
+      436
+    ],
+    [
+      "pineapple, raw, all varieties",
+      428
+    ],
+    [
+      "ice creams, vanilla",
+      413
+    ],
+    [
+      "pineapple juice, canned or bottled, unsweetened, without added ascorbic acid",
+      409
+    ],
+    [
+      "seeds, sunflower seed kernels, dried",
+      401
+    ],
+    [
+      "peppers, sweet, green, raw",
+      395
+    ],
+    [
+      "apple juice, canned or bottled, unsweetened, without added ascorbic acid",
+      389
+    ],
+    [
+      "alcoholic beverage, distilled, vodka, 80 proof",
+      378
+    ],
+    [
+      "horseradish, prepared",
+      368
+    ],
+    [
+      "peaches, yellow, raw",
+      365
+    ],
+    [
+      "spinach, raw",
+      364
+    ],
+    [
+      "chives, raw",
+      360
+    ],
+    [
+      "grapes, red or green (european type, such as thompson seedless), raw",
+      358
+    ],
+    [
+      "fresh red onions, upc: 888670013229",
+      357
+    ],
+    [
+      "snacks, popcorn, air-popped (unsalted)",
+      348
+    ],
+    [
+      "milk, canned, condensed, sweetened",
+      344
+    ],
+    [
+      "mushrooms, white, raw",
+      334
+    ],
+    [
+      "pascha, organic bitter-sweet dark chocolate chips, upc: 842638005022",
+      333
+    ],
+    [
+      "seeds, pumpkin and squash seeds, whole, roasted, without salt",
+      332
+    ],
+    [
+      "broccoli, raw",
+      332
+    ],
+    [
+      "dates, deglet noor",
+      329
+    ],
+    [
+      "sweetener, syrup, agave",
+      326
+    ],
+    [
+      "spices, curry powder",
+      323
+    ],
+    [
+      "mango nectar, canned",
+      321
+    ],
+    [
+      "nuts, cashew nuts, raw",
+      321
+    ],
+    [
+      "bananas, raw",
+      306
+    ],
+    [
+      "wheat germ, crude",
+      297
+    ],
+    [
+      "candies, semisweet chocolate",
+      284
+    ],
+    [
+      "sweet potato, raw, unprepared",
+      282
+    ],
+    [
+      "rice vinegar, upc: 4979435030332",
+      281
+    ],
+    [
+      "cabbage, raw",
+      279
+    ],
+    [
+      "sauce, barbecue",
+      263
+    ],
+    [
+      "wheat flour, white, cake, enriched",
+      262
+    ],
+    [
+      "blackberries, raw",
+      261
+    ],
+    [
+      "spices, parsley, dried",
+      255
+    ],
+    [
+      "asparagus, raw",
+      230
+    ],
+    [
+      "cheese, blue",
+      229
+    ],
+    [
+      "sauce, ready-to-serve, pepper, tabasco",
+      227
+    ],
+    [
+      "soymilk, original and vanilla, unfortified",
+      225
+    ],
+    [
+      "alcoholic beverage, beer, regular, all",
+      225
+    ],
+    [
+      "crustaceans, shrimp, raw (not previously frozen)",
+      222
+    ],
+    [
+      "pretzels, soft, unsalted",
+      222
+    ],
+    [
+      "jams and preserves, apricot",
+      222
+    ],
+    [
+      "spices, cardamom",
+      219
+    ],
+    [
+      "ground turkey, raw",
+      213
+    ],
+    [
+      "shallots, raw",
+      208
+    ],
+    [
+      "nuts, hazelnuts or filberts",
+      201
+    ],
+    [
+      "tofu, raw, regular, prepared with calcium sulfate",
+      200
+    ],
+    [
+      "salad dressing, italian dressing, commercial, regular",
+      198
+    ],
+    [
+      "cranberry juice, unsweetened",
+      197
+    ],
+    [
+      "cheese, cottage, creamed, large or small curd",
+      197
+    ],
+    [
+      "spices, poppy seed",
+      196
+    ],
+    [
+      "nuts, pistachio nuts, raw",
+      194
+    ],
+    [
+      "goji berries, dried",
+      193
+    ],
+    [
+      "pickles, cucumber, sour",
+      190
+    ],
+    [
+      "watermelon, raw",
+      188
+    ],
+    [
+      "beverages, almond milk, unsweetened, shelf stable",
+      186
+    ],
+    [
+      "delallo, italian seasoned breadcrumbs, upc: 072368104621",
+      183
+    ],
+    [
+      "sauce, salsa, ready-to-serve",
+      182
+    ],
+    [
+      "spices, tarragon, dried",
+      182
+    ],
+    [
+      "peas, green, frozen, unprepared",
+      177
+    ],
+    [
+      "fish, salmon, atlantic, wild, raw",
+      174
+    ],
+    [
+      "pickle relish, sweet",
+      170
+    ],
+    [
+      "pork, fresh, loin, country-style ribs, separable lean only, raw",
+      169
+    ],
+    [
+      "butter, salted",
+      168
+    ],
+    [
+      "spices, caraway seed",
+      167
+    ],
+    [
+      "tomato sauce, canned, no salt added",
+      151
+    ],
+    [
+      "egg, white, raw, fresh",
+      150
+    ],
+    [
+      "spices, fennel seed",
+      150
+    ],
+    [
+      "salad dressing, ranch dressing, regular",
+      149
+    ],
+    [
+      "chicken, broilers or fryers, wing, meat and skin, raw",
+      146
+    ],
+    [
+      "squash, summer, zucchini, includes skin, raw",
+      145
+    ],
+    [
+      "cheese, feta",
+      142
+    ],
+    [
+      "cheese, mozzarella, low sodium",
+      142
+    ],
+    [
+      "plums, raw",
+      142
+    ],
+    [
+      "rice flour, white, unenriched",
+      142
+    ],
+    [
+      "beverages, protein powder whey based",
+      141
+    ],
+    [
+      "nuts, pine nuts, dried",
+      138
+    ],
+    [
+      "marmalade, orange",
+      138
+    ],
+    [
+      "peppers, jalapeno, raw",
+      137
+    ],
+    [
+      "olives, ripe, canned (small-extra large)",
+      133
+    ],
+    [
+      "lard",
+      129
+    ],
+    [
+      "lemonade, frozen concentrate, white, prepared with water",
+      128
+    ],
+    [
+      "pork sausage, link/patty, unprepared",
+      127
+    ],
+    [
+      "brussels sprouts, raw",
+      127
+    ],
+    [
+      "beverages, carbonated, ginger ale",
+      122
+    ],
+    [
+      "roland, seasoned rice wine vinegar, upc: 041224705142",
+      121
+    ],
+    [
+      "sweetener, herbal extract powder from stevia leaf",
+      120
+    ],
+    [
+      "cauliflower, raw",
+      119
+    ],
+    [
+      "pears, raw",
+      117
+    ],
+    [
+      "sauce, fish, ready-to-serve",
+      116
+    ],
+    [
+      "soup, cream of chicken, canned, condensed",
+      114
+    ],
+    [
+      "sherbet, orange",
+      108
+    ],
+    [
+      "quinoa, uncooked",
+      107
+    ],
+    [
+      "alcoholic beverage, distilled, whiskey, 86 proof",
+      105
+    ],
+    [
+      "nuts, macadamia nuts, raw",
+      105
+    ],
+    [
+      "pomegranate juice, bottled",
+      105
+    ],
+    [
+      "bread crumbs, dry, grated, plain",
+      105
+    ],
+    [
+      "lettuce, cos or romaine, raw",
+      104
+    ],
+    [
+      "spices, turmeric, ground",
+      104
+    ],
+    [
+      "seeds, chia seeds, dried",
+      103
+    ]
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "structural_queries": [
+    {
+      "query": "marinate \u2192 grill",
+      "description": "Recipes where marinating precedes grilling",
+      "n_matches": 168,
+      "pct": 0.48,
+      "examples": [
+        {
+          "title": "Marinade for Grilled Vegetables",
+          "seq": [
+            "mix",
+            "marinate",
+            "grill"
+          ]
+        },
+        {
+          "title": "Nif's Grilled Hawaiian Chicken Skewers",
+          "seq": [
+            "mix",
+            "marinate",
+            "toss",
+            "grill"
+          ]
+        },
+        {
+          "title": "Shish Kabob Marinade",
+          "seq": [
+            "mix",
+            "mix",
+            "marinate",
+            "grill"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "marinate \u2192 bake",
+      "description": "Recipes where marinating precedes baking",
+      "n_matches": 178,
+      "pct": 0.51,
+      "examples": [
+        {
+          "title": "Baked Marinated Salmon",
+          "seq": [
+            "marinate",
+            "bake"
+          ]
+        },
+        {
+          "title": "Bread Dipping Oil",
+          "seq": [
+            "mix",
+            "marinate",
+            "bake"
+          ]
+        },
+        {
+          "title": "Lilla's\" to Die for \" Chicken Wings",
+          "seq": [
+            "mix",
+            "marinate",
+            "marinate",
+            "bake"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "knead \u2192 bake",
+      "description": "Bread recipes: knead before bake",
+      "n_matches": 1462,
+      "pct": 4.16,
+      "examples": [
+        {
+          "title": "Focaccia Buns",
+          "seq": [
+            "mix",
+            "mix",
+            "mix",
+            "knead",
+            "bake",
+            "bake",
+            "bake"
+          ]
+        },
+        {
+          "title": "Cinnamon Raisin Biscuits",
+          "seq": [
+            "crush",
+            "mix",
+            "blend",
+            "stir",
+            "knead",
+            "dissolve",
+            "bake",
+            "bake",
+            "mix",
+            "dissolve",
+            "dissolve"
+          ]
+        },
+        {
+          "title": "Potato English Muffins",
+          "seq": [
+            "mix",
+            "mix",
+            "melt",
+            "melt",
+            "mix",
+            "mix",
+            "mix",
+            "knead",
+            "knead",
+            "knead",
+            "knead",
+            "bake"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "boil \u2192 drain \u2192 season",
+      "description": "Pasta-style: boil + drain + season",
+      "n_matches": 79,
+      "pct": 0.22,
+      "examples": [
+        {
+          "title": "Buttery, Crispy Egg Noodles",
+          "seq": [
+            "boil",
+            "season",
+            "boil",
+            "drain",
+            "saute",
+            "stir",
+            "bake",
+            "season"
+          ]
+        },
+        {
+          "title": "Hot Spinach and Artichoke Dip",
+          "seq": [
+            "boil",
+            "drain",
+            "melt",
+            "stir",
+            "season"
+          ]
+        },
+        {
+          "title": "Pearl Barley Tabbouleh",
+          "seq": [
+            "boil",
+            "season",
+            "stir",
+            "reduce",
+            "cool",
+            "drain",
+            "drain",
+            "mix",
+            "chill"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "reduce after saute",
+      "description": "Pan-sauce technique: saute then reduce",
+      "n_matches": 172,
+      "pct": 0.49,
+      "examples": [
+        {
+          "title": "Always Right Rice",
+          "seq": [
+            "boil",
+            "boil",
+            "reduce",
+            "drain",
+            "reduce",
+            "reduce",
+            "stir",
+            "toss",
+            "saute",
+            "reduce"
+          ]
+        },
+        {
+          "title": "Bootlegger's Beef",
+          "seq": [
+            "crush",
+            "season",
+            "saute",
+            "roast",
+            "rest",
+            "reduce",
+            "mix",
+            "stir"
+          ]
+        },
+        {
+          "title": "Natural Fruit and Veggie Wash",
+          "seq": [
+            "mix",
+            "beat",
+            "dissolve",
+            "saute",
+            "reduce",
+            "whisk"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "no-heat recipes",
+      "description": "Recipes requiring zero heat (salads, raw, no-cook)",
+      "n_matches": 11820,
+      "pct": 33.62,
+      "examples": [
+        {
+          "title": "Yogurt Parfaits",
+          "seq": [
+            "mix"
+          ]
+        },
+        {
+          "title": "Shrimp and Caper Salad",
+          "seq": [
+            "toss",
+            "chill"
+          ]
+        },
+        {
+          "title": "Easy Cheese Sauce",
+          "seq": [
+            "stir",
+            "toss",
+            "stir"
+          ]
+        }
+      ]
+    },
+    {
+      "query": "chill precedes serve",
+      "description": "Cold-prep recipes: chill before final seasoning",
+      "n_matches": 46,
+      "pct": 0.13,
+      "examples": [
+        {
+          "title": "My Dill Dip",
+          "seq": [
+            "mix",
+            "chill",
+            "season",
+            "toss"
+          ]
+        },
+        {
+          "title": "Haricots Verts with Almonds",
+          "seq": [
+            "cool",
+            "drain",
+            "cool",
+            "drizzle",
+            "chill",
+            "saute",
+            "season",
+            "reduce"
+          ]
+        },
+        {
+          "title": "Pineapple Coleslaw",
+          "seq": [
+            "mix",
+            "toss",
+            "chill",
+            "season"
+          ]
+        }
+      ]
+    }
+  ],
+  "order_matters": {
+    "marinate_then_grill": 168,
+    "grill_then_marinate": 5,
+    "note": "keyword search cannot distinguish order; DAG sequence can"
+  },
+  "adaptation": {
+    "corpus_stats": {
+      "n_dags": 35162,
+      "already_vegan": 12172,
+      "one_step_fix": 8691,
+      "easy_fix_le2_steps": 14260
+    },
+    "examples": [
+      {
+        "label": "Already vegan",
+        "plan": {
+          "title": "Cornmeal Mush",
+          "n_steps": 5,
+          "affected_steps": 0,
+          "already_compliant": true,
+          "edits": []
+        },
+        "sequence": [
+          "mix",
+          "mix",
+          "stir",
+          "reduce",
+          "stir"
+        ]
+      },
+      {
+        "label": "1-step fix",
+        "plan": {
+          "title": "Yogurt Parfaits",
+          "n_steps": 1,
+          "affected_steps": 1,
+          "already_compliant": false,
+          "edits": [
+            {
+              "step_index": 0,
+              "verb": "mix",
+              "substitutions": [
+                {
+                  "remove": "yogurt",
+                  "add": "coconut yogurt",
+                  "reason": "'yogurt' is not vegan"
+                }
+              ]
+            }
+          ]
+        },
+        "sequence": [
+          "mix"
+        ]
+      },
+      {
+        "label": "Multi-step fix",
+        "plan": {
+          "title": "Honey Sriracha Chicken Wings",
+          "n_steps": 6,
+          "affected_steps": 5,
+          "already_compliant": false,
+          "edits": [
+            {
+              "step_index": 0,
+              "verb": "crush",
+              "substitutions": [
+                {
+                  "remove": "chicken wings",
+                  "add": "tofu or chickpeas",
+                  "reason": "'chicken' is not vegan"
+                }
+              ]
+            },
+            {
+              "step_index": 2,
+              "verb": "bake",
+              "substitutions": [
+                {
+                  "remove": "chicken wings",
+                  "add": "tofu or chickpeas",
+                  "reason": "'chicken' is not vegan"
+                }
+              ]
+            },
+            {
+              "step_index": 3,
+              "verb": "broil",
+              "substitutions": [
+                {
+                  "remove": "chicken wings",
+                  "add": "tofu or chickpeas",
+                  "reason": "'chicken' is not vegan"
+                }
+              ]
+            },
+            {
+              "step_index": 4,
+              "verb": "stir",
+              "substitutions": [
+                {
+                  "remove": "butter",
+                  "add": "vegan butter or coconut oil",
+                  "reason": "'butter' is not vegan"
+                },
+                {
+                  "remove": "honey",
+                  "add": "maple syrup or agave",
+                  "reason": "'honey' is not vegan"
+                }
+              ]
+            },
+            {
+              "step_index": 5,
+              "verb": "mix",
+              "substitutions": [
+                {
+                  "remove": "chicken wings",
+                  "add": "tofu or chickpeas",
+                  "reason": "'chicken' is not vegan"
+                }
+              ]
+            }
+          ]
+        },
+        "sequence": [
+          "crush",
+          "mix",
+          "bake",
+          "broil",
+          "stir",
+          "mix"
+        ]
+      }
+    ]
+  },
+  "complexity_segmentation": {
+    "easy": 6154,
+    "medium": 9644,
+    "hard": 19364,
+    "simplest_examples": [
+      {
+        "title": "Yogurt Parfaits",
+        "seq": [
+          "mix"
+        ]
+      },
+      {
+        "title": "Mango Lassi",
+        "seq": [
+          "blend"
+        ]
+      },
+      {
+        "title": "Creamy Country Dijon Sauce",
+        "seq": [
+          "mix"
+        ]
+      },
+      {
+        "title": "Creamy Curry Salad Dressing",
+        "seq": [
+          "blend"
+        ]
+      },
+      {
+        "title": "Pineapple Ginger Smoothie",
+        "seq": [
+          "blend"
+        ]
+      }
+    ],
+    "hardest_examples": [
+      {
+        "title": "Natural Peanut Butter Chocolate Bon Bons",
+        "seq": [
+          "melt",
+          "mix",
+          "blend",
+          "mix",
+          "melt",
+          "freeze",
+          "freeze",
+          "bake"
+        ]
+      },
+      {
+        "title": "Crunchy Granola",
+        "seq": [
+          "crush",
+          "mix",
+          "mix",
+          "bake",
+          "mix",
+          "cool",
+          "sear"
+        ]
+      },
+      {
+        "title": "Shortbread Cookies \"Hugs & Kisses\" Recipe",
+        "seq": [
+          "saute",
+          "blend",
+          "saute",
+          "saute",
+          "saute",
+          "saute",
+          "saute",
+          "bake",
+          "saute"
+        ]
+      },
+      {
+        "title": "Caramel Butter Sauce",
+        "seq": [
+          "mix",
+          "stir",
+          "boil",
+          "bake",
+          "bake",
+          "whisk",
+          "mix",
+          "whisk"
+        ]
+      },
+      {
+        "title": "Berry Syrup Recipe",
+        "seq": [
+          "mix",
+          "mix",
+          "mix",
+          "mix",
+          "mix",
+          "mix",
+          "mix",
+          "mix",
+          "mix",
+          "mix",
+          "mix",
+          "mix"
+        ]
+      }
+    ]
+  }
+}

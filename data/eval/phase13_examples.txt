@@ -1,0 +1,1085 @@
+======================================================================
+Recipe 1: Tahini Chocolate Chip Cookies (Vegan)
+======================================================================
+
+[ORIGINAL]
+Preheat oven to 350 degrees F (175 degrees C). Line a baking sheet with parchment paper. Mix chia seeds and water together in a bowl; let sit until "chia egg" is thickened, about 10 minutes. Stir spelt flour, amaranth flour, oat flour, baking soda, and salt together in a bowl. Blend "chia egg", almond milk, tahini, agave nectar, crystallized sugar cane juice, olive oil, and vanilla extract togethe
+
+[EDIT PLAN] (2 substitutions)
+  blend: 'chia egg' → 'flax egg'
+  blend: 'almond milk' → 'oat milk'
+
+[DAG-GUIDED OUTPUT]
+1.In a bowl, mix the chia seeds with water for 10 minutes at 350°F. Then blend the flax egg with oat milk, tahini, and agave nectar at 350°F. Stir the flour mixture, baking soda, and salt together. At 350°F, combine the blended mixture with the flour mixture. Fold in the chocolate chips into the dough. At 350°F, sauté the dough for a few minutes. Finally, bake the cookies at 350°F for 15 minutes.
+
+[DIRECT LLM OUTPUT]
+Preheat oven to 350 degrees F (175 degrees C). Line a baking sheet with parchment paper. Mix chia seeds and water together in a bowl; let sit until "chia egg" is thickened, about 10 minutes. Stir spelt flour, amaranth flour, oat flour, baking soda, and salt together in a bowl. Blend "chia egg", almond milk, tahini, maple syrup, agave nectar, and vanilla extract together in a blender until smooth; stir into flour mixture until dough is well mixed. Fold vegan chocolate chips into dough; spoon onto
+
+======================================================================
+Recipe 2: Creamy Corn Casserole
+======================================================================
+
+[ORIGINAL]
+In a large pot, combine the corn, cream, milk, salt, and sugar. Bring to a boil and simmer for 5 minutes. Note: When adding the frozen corn to the milk/cream, the corn should be either thawed or added slowly. When I dumped the corn into the mixture, my cream instantly froze. It still turned out fine, just made stirring difficult. Combine butter and flour in a small dish and stir into the corn mixt
+
+[EDIT PLAN] (6 substitutions)
+  mix: 'cream' → 'coconut cream'
+  mix: 'milk' → 'oat milk'
+  boil: 'cream' → 'coconut cream'
+  boil: 'milk' → 'oat milk'
+  mix: 'butter' → 'vegan butter'
+  stir: 'butter-flour mixture' → 'vegan butter'
+
+[DAG-GUIDED OUTPUT]
+1.Mix corn, coconut cream, oat milk, and salt together. Then, bring the mixture to a boil at 212°F for 5 minutes. After boiling, mix in vegan butter and wheat flour. Stir the mixture until it forms a smooth paste. Finally, add the corn mixture and stir well.
+
+[DIRECT LLM OUTPUT]
+In a large pot, combine the corn, coconut milk, almond milk, salt, and maple syrup. Bring to a boil and simmer for 5 minutes. Note: When adding the frozen corn to the milk, the corn should be either thawed or added slowly. When I dumped the corn into the mixture, my coconut milk instantly froze. It still turned out fine, just made stirring difficult. Combine vegan butter and flour in a small dish and stir into the corn mixture. Pour the corn into a buttered baking dish. Sprinkle a little nutriti
+
+======================================================================
+Recipe 3: Baked Chicken German Style
+======================================================================
+
+[ORIGINAL]
+Preheat oven to 350 degrees F. Melt butter in large saucepan over medium low heat. Whisk in flour and stir 3 minutes. Gradually whisk in broth and milk. Simmer until thick, about 10 minutes. Blend in lemon juice and seasonings. Combine cooked noodles and half the sauce, tossing gently to blend. Place in the bottom of a buttered 2-quart casserole. Top with chicken and remaining sauce. Combine Parme
+
+[EDIT PLAN] (6 substitutions)
+  melt: 'butter' → 'vegan butter'
+  stir: 'butter' → 'vegan butter'
+  whisk: 'butter' → 'vegan butter'
+  whisk: 'milk' → 'oat milk'
+  stir: 'butter' → 'vegan butter'
+  stir: 'milk' → 'oat milk'
+
+[DAG-GUIDED OUTPUT]
+1.Crush the wheat flour. Melt the vegan butter at 250°F. Stir the vegan butter and wheat flour at 250°F for 3 minutes. Whisk the vegan butter, wheat flour, soup, and oat milk at 250°F. Stir the mixture at 250°F for 10 minutes. Blend the sauce, lemon juice, and seasonings. Toss the cooked noodles with the sauce. Preheat the oven to 350°F. Place the casserole in the oven and bake for 30 minutes. Remove from the oven and bake for another 30 minutes. Finally, bake the casserole for the last 30 minut
+
+[DIRECT LLM OUTPUT]
+Preheat the oven to 350 degrees F. Melt vegan butter in a large saucepan over medium-low heat. Whisk in the flour and stir for about 3 minutes. Gradually whisk in the vegetable broth and almond milk. Simmer until the sauce thickens, about 10 minutes. Blend in the lemon juice and seasonings. Combine the cooked noodles and half of the sauce, tossing gently to blend. Place the noodles in the bottom of a buttered 2-quart casserole dish.
+
+Top with the chicken and the remaining sauce. In a small bowl,
+
+======================================================================
+Recipe 4: Light (Seedless) Rye Bread
+======================================================================
+
+[ORIGINAL]
+Combine lukewarm water, sugar and yeast and let proof for 10 minutes. In mixing bowl, combine buttermilk, melted margarine, brown sugar, salt and yeast mixture. Add rye flour and mix well. Add white flour until dough is stiff enough to be turned onto floured board. Knead for 10 minutes, place in greased bowl, cover and let rise until doubled (about 35-40 minutes). **Punch dough down. Form into 2 r
+
+[EDIT PLAN] (1 substitutions)
+  mix: 'buttermilk' → 'vegan butter'
+
+[DAG-GUIDED OUTPUT]
+1.In a mixing bowl, combine lukewarm water, sugar, and yeast. Mix for 10 minutes until well combined. Then add vegan butter, melted margarine, brown sugar, and salt. Mix until all ingredients are well combined. Next, add rye flour and white flour. Knead the dough for 10 minutes until it forms a smooth ball. Let the dough rest for 35 minutes. Then let it rest for another 45 minutes. Preheat your oven to 400°F. Shape the dough into a loaf and place it in a greased loaf pan. Bake for 25 minutes. Re
+
+[DIRECT LLM OUTPUT]
+Combine lukewarm water, maple syrup, and vegan yeast and let proof for 10 minutes. In a mixing bowl, combine plant-based buttermilk, vegan margarine, brown sugar, and salt. Add the yeast mixture and rye flour, and mix well. Gradually add white flour until the dough is stiff enough to be turned onto a floured board. Knead the dough for 10 minutes, place it in a greased bowl, cover, and let rise until doubled (about 35-40 minutes). Punch the dough down. Form into 2 round or oblong loaves on a baki
+
+======================================================================
+Recipe 5: Chocolate Mousse
+======================================================================
+
+[ORIGINAL]
+Combine 1/4 cup cream with chocolate chips in microwave 1 minute or until smooth when stirred with a spoon. Cool. Beat the rest of the cream until stiff peaks form. Fold chocolate mixture in the whipped cream. Chill and serve.
+
+[EDIT PLAN] (4 substitutions)
+  mix: '1/4 cup cream' → 'coconut cream'
+  beat: 'rest of cream' → 'coconut cream'
+  fold: 'whipped cream' → 'coconut cream'
+  chill: 'chocolate mixture with whipped cream' → 'coconut cream'
+
+[DAG-GUIDED OUTPUT]
+1.In a mixing bowl, combine the coconut cream and chocolate chips. Mix them together for about an hour. 2. After an hour, place the bowl in the refrigerator to cool the mixture. 3. In another bowl, beat the coconut cream until it becomes light and fluffy. 4. Once the coconut cream is beaten, fold it gently into the cooled chocolate mixture. Be careful not to overmix. 5. Pour the mixture into a serving dish and refrigerate for at least an hour to chill before serving.
+
+[DIRECT LLM OUTPUT]
+Combine 1/4 cup coconut cream with chocolate chips in the microwave for 1 minute or until smooth when stirred with a spoon. Let it cool. Beat the rest of the coconut cream until stiff peaks form. Fold the chocolate mixture into the whipped coconut cream. Chill and serve.
+
+======================================================================
+Recipe 6: Tortellini Salad
+======================================================================
+
+[ORIGINAL]
+Cook pasta until al dente. Rise and cool. Add the cooked broccoli, artichoke hearts, black olives, shrimp, tomatoes and the parmesan cheese. Add enough dressing to coat the pasta and vegetables. Chill for 2 hours. Just before serving, check seasonings and add more dressing if necessary.
+
+[EDIT PLAN] (2 substitutions)
+  mix: 'shrimp' → 'plant-based shrimp'
+  mix: 'parmesan cheese' → 'vegan cheese'
+
+[DAG-GUIDED OUTPUT]
+1.Cool the pasta and then chill it for 2 hours. After that, mix the cooked broccoli, artichoke hearts, black olives, and plant-based shrimp. Next, mix the chilled pasta with the dressing. Finally, chill the pasta with the dressing for another 2 hours before tossing everything together.
+
+[DIRECT LLM OUTPUT]
+Cook pasta until al dente. Rinse under cold water and then drain. Add the cooked broccoli, artichoke hearts, black olives, and cherry tomatoes. Add the sliced avocado and sun-dried tomatoes. Add enough dressing to coat the pasta and vegetables. Chill for 2 hours. Just before serving, check seasonings and add more dressing if necessary.
+
+======================================================================
+Recipe 7: Light As a Feather Pancakes
+======================================================================
+
+[ORIGINAL]
+Combine egg beaters, milk, and oil. Add dry ingredients gradually and beat until smooth.
+
+[EDIT PLAN] (2 substitutions)
+  mix: 'egg beaters' → 'flax egg'
+  mix: 'milk' → 'oat milk'
+
+[DAG-GUIDED OUTPUT]
+1.In a bowl, mix the flax egg with oat milk and oil until well combined. Then, add the wheat flour, salt, leavening agents, and sugars. Mix all the ingredients together until you have a smooth batter.
+
+[DIRECT LLM OUTPUT]
+Combine the egg replacer, plant milk, and oil. Gradually add the dry ingredients and beat until smooth.
+
+======================================================================
+Recipe 8: Almond Amaretto Freeze Recipe
+======================================================================
+
+[ORIGINAL]
+Ice // blended // frzn
+
+[EDIT PLAN] (2 substitutions)
+  blend: 'cream' → 'coconut cream'
+  freeze: 'ice creams' → 'coconut cream'
+
+[DAG-GUIDED OUTPUT]
+1.Blend the coconut cream and nuts together. Once blended, immediately freeze it for 0 minutes.
+
+[DIRECT LLM OUTPUT]
+Ice // blended // frozen
+
+To make this recipe fully vegan, you can use any plant-based alternatives for the original ingredients. Since the original recipe doesn't specify any ingredients, you can consider making a vegan smoothie or a frozen dessert. Here’s a simple vegan smoothie recipe you can use:
+
+- 1 cup frozen mixed berries
+- 1/2 cup unsweetened almond milk
+- 1/2 cup plain silken tofu
+- 1 tablespoon honey (or maple syrup for a vegan version)
+- A handful of spinach leaves (optional for a gr
+
+======================================================================
+Recipe 9: Stefanie's Gingerbread Cookies
+======================================================================
+
+[ORIGINAL]
+Mix flour, sugar, cinnamon, ginger, coves, salt, and baking soda in food processor. Add butter and mix until mixture makes a fine meal. Add molasses and milk. Divide dough and chill for at least 2 hours or over night. For soft cookies - roll dough 1/4" thick, place on parchement lined cookie sheet and bake at 350 for 8-11 min. For thin/crispy cookies - roll dough 1/8" thick, place on parchement li
+
+[EDIT PLAN] (2 substitutions)
+  mix: 'butter' → 'vegan butter'
+  mix: 'milk' → 'oat milk'
+
+[DAG-GUIDED OUTPUT]
+1.In a large bowl, mix together the wheat flour, sugars, cinnamon, and ginger. Then, in another bowl, soften the vegan butter. Mix the molasses and oat milk together in a third bowl. After chilling the dough for 24 hours, preheat your oven to 350°F. Start by baking the dough for 8 minutes, then switch to 350°F for 11 minutes, then to 325°F for 15 minutes, and finally to 325°F for 20 minutes.
+
+[DIRECT LLM OUTPUT]
+Mix flour, sugar, cinnamon, ginger, cloves, salt, and baking soda in a food processor. Add coconut oil and mix until the mixture forms a fine meal. Add molasses and almond milk. Divide the dough and chill for at least 2 hours or overnight.
+
+For soft cookies, roll the dough to about 1/4 inch thick, place on a parchment-lined cookie sheet, and bake at 350 degrees for 8-11 minutes.
+
+For thin and crispy cookies, roll the dough to about 1/8 inch thick, place on a parchment-lined cookie sheet, and bak
+
+======================================================================
+Recipe 10: Hunter's Chicken Roasting Rub
+======================================================================
+
+[ORIGINAL]
+Mix all ingredient thoroughly together and store in a jar with a tight fitting lid. To use rub vigorously over the skin of chicken or any poultry before roasting. Makes about 1 cup of rub.
+
+[EDIT PLAN] (1 substitutions)
+  grill: 'chicken' → 'tofu'
+
+[DAG-GUIDED OUTPUT]
+1.Mix together the spices, spices, spices, and chopped celery. Grill the tofu and poultry at 350°F for 40 minutes.
+
+[DIRECT LLM OUTPUT]
+Mix all ingredients thoroughly together and store in a jar with a tight fitting lid. To use, rub vigorously over the skin of chicken or any poultry before roasting. Makes about 1 cup of rub.
+
+For the ingredients:
+- 1/2 cup of sunflower seeds
+- 1/4 cup of pumpkin seeds
+- 1/4 cup of chopped walnuts
+- 1/4 cup of dried cranberries
+- 1/4 cup of chopped dried apricots
+- 1/4 cup of chopped dates
+- 1/4 cup of chopped almonds
+- 1/4 cup of chopped pecans
+- 1/4 cup of sesame seeds
+- 1/4 cup of nutritional 
+
+======================================================================
+Recipe 11: Tender Pork Roast
+======================================================================
+
+[ORIGINAL]
+Cut roast in half, place in a 5 quart slow cooker. Combine remaining ingredients; pour over roast. Cover and cook on Low for 8 to 9 hours or until a meat thermometer reads 160 to 170 degrees. Remove roast to a serving platter and keep warm. If desired, skim fat from pan juices and thicken for gravy. Yield 8 servings.
+
+[EDIT PLAN] (11 substitutions)
+  bake: 'pork' → 'tempeh'
+  slice: 'pork' → 'tempeh'
+  bake: 'pork' → 'tempeh'
+  slice: 'pork' → 'tempeh'
+  slice: 'pork' → 'tempeh'
+  slice: 'pork' → 'tempeh'
+  slice: 'pork' → 'tempeh'
+  slice: 'pork' → 'tempeh'
+  slice: 'pork' → 'tempeh'
+  slice: 'pork' → 'tempeh'
+  slice: 'pork' → 'tempeh'
+
+[DAG-GUIDED OUTPUT]
+1.In a mixing bowl, combine the tomato sauce, tamari, sugars, and mustard. Mix well until all ingredients are evenly distributed.  
+2. Preheat your oven to 325°F. Place the tempeh in a baking dish and pour the sauce mixture over it. Bake for 2 hours and 40 minutes.
+3. After baking, remove the tempeh from the oven and let it cool slightly. Slice the tempeh into thin pieces.
+4. Preheat the oven to 350°F. Place the sliced tempeh back in the baking dish and bake for another 2 hours and 50 minutes.
+5
+
+[DIRECT LLM OUTPUT]
+Cut the roast in half, place in a 5 quart slow cooker. Combine the remaining ingredients; pour over the roast. Cover and cook on Low for 8 to 9 hours or until a meat thermometer reads 160 to 170 degrees. Remove the roast to a serving platter and keep warm.
+
+If desired, skim the fat from the pan juices and thicken them for a vegan gravy. Yield 8 servings.
+
+======================================================================
+Recipe 12: Granola Bars
+======================================================================
+
+[ORIGINAL]
+Butter a 9 by 9-inch glass baking dish and set aside. Preheat the oven to 350 degrees F. Spread the oats, sunflower seeds, almonds, and wheat germ onto a half-sheet pan. Place in the oven and toast for 15 minutes, stirring occasionally. In the meantime, combine the honey, brown sugar, butter, extract and salt in a medium saucepan and place over medium heat. Cook until the brown sugar has completel
+
+[EDIT PLAN] (3 substitutions)
+  mix: 'honey' → 'maple syrup'
+  mix: 'butter' → 'vegan butter'
+  bake: 'honey-butter-sugar mixture' → 'vegan butter'
+
+[DAG-GUIDED OUTPUT]
+1.Preheat your oven to 350°F (175°C). In a large bowl, mix together oats, sunflower seeds, almonds, and wheat germ. Spread the mixture evenly on a baking sheet and bake for 15 minutes, stirring halfway through. Once done, remove from oven and let it cool slightly. Toast the mixture in the oven at 350°F (175°C) for another 15 minutes, stirring occasionally. Set aside to cool completely.
+
+[DIRECT LLM OUTPUT]
+Butter a 9 by 9-inch glass baking dish and set aside. Preheat the oven to 300 degrees F. Spread the oats, sunflower seeds, almonds, and wheat germ onto a half-sheet pan. Place in the oven and toast for 15 minutes, stirring occasionally. In the meantime, combine the maple syrup, agave nectar, vegan butter, vanilla extract, and salt in a medium saucepan and place over medium heat. Cook until the agave nectar has completely dissolved. Once the oat mixture is done, remove it from the oven and reduce
+
+======================================================================
+Recipe 13: Peach Melba Ice Cream Pie
+======================================================================
+
+[ORIGINAL]
+Heat oven to 325. Lightly butter a 9-inch pie pan. Put cookie crumbs, butter, sugar, cinnamon and nutmeg in medium bwl. Toss with fork to moisten. Press into pie pan. Bake just until crust is set and golden, about 10 minutes. Remove. Cool on wire rack. Strain peaches over bowl. Reserve juice.
+
+[EDIT PLAN] (6 substitutions)
+  crush: 'butter' → 'vegan butter'
+  bake: 'butter' → 'vegan butter'
+  mix: 'butter' → 'vegan butter'
+  mix: 'butter' → 'vegan butter'
+  mix: 'ice cream' → 'coconut cream'
+  bake: 'ice cream' → 'coconut cream'
+
+[DAG-GUIDED OUTPUT]
+1.Crush cookies, vegan butter, sugar, and cinnamon together at 325°F for 10 minutes. Then mix the cookie crumbs with vegan butter, sugar, and cinnamon. Bake the mixture at 325°F until golden brown, then cool the cookie crust.
+
+[DIRECT LLM OUTPUT]
+Heat the oven to 325 degrees. Lightly grease a 9-inch pie pan. In a medium bowl, mix the cookie crumbs, vegan butter, sugar, cinnamon, and nutmeg. Toss with a fork until the crumbs are moistened. Press the mixture into the pie pan. Bake for just until the crust is set and golden, about 10 minutes. Remove from the oven and let it cool on a wire rack.
+
+While the crust is cooling, strain peaches over a bowl. Reserve the peach juice.
+
+======================================================================
+Recipe 14: Toulouse Sausage
+======================================================================
+
+[ORIGINAL]
+Place the pork, salt pork, black pepper, white pepper, nutmeg, sugar, and salt in a large bowl and mix with your hands to distribute the seasonings evenly. Add the water and continue mixing with your hands until the ingredients are thoroughly blended. Cook and taste a small sample, then add more salt if needed. Leave in bulk and shape as directed in individual recipes or stuff into hog casing. Cov
+
+[EDIT PLAN] (12 substitutions)
+  mix: 'pork' → 'tempeh'
+  mix: 'salt pork' → 'tempeh'
+  toss: 'pork' → 'tempeh'
+  toss: 'salt pork' → 'tempeh'
+  reduce: 'pork' → 'tempeh'
+  reduce: 'salt pork' → 'tempeh'
+  rest: 'pork' → 'tempeh'
+  rest: 'salt pork' → 'tempeh'
+  coat: 'pork' → 'tempeh'
+  coat: 'salt pork' → 'tempeh'
+  coat: 'pork' → 'tempeh'
+  coat: 'salt pork' → 'tempeh'
+
+[DAG-GUIDED OUTPUT]
+1.Mix the tempeh, black pepper, and white pepper together. Add water to form a paste. Let it sit for 15 minutes. Then, toss the mixture for another 15 minutes to reduce. After that, let it rest for one hour. Once rested, coat the tempeh mixture with a little bit of the reduced mixture to coat it evenly.
+
+[DIRECT LLM OUTPUT]
+Place the seitan, vegetable stock, black pepper, white pepper, nutmeg, maple syrup, and tamari in a large bowl and mix with your hands to distribute the seasonings evenly. Add the water and continue mixing with your hands until the ingredients are thoroughly blended. Cook and taste a small sample, then add more tamari if needed. Leave in bulk and shape as directed in individual recipes or stuff into hog casing. Cover and refrigerate for 1 hour to firm. Saute or grill, or cook as directed in indi
+
+======================================================================
+Recipe 15: Yummy Family Popcorn
+======================================================================
+
+[ORIGINAL]
+Heat oil in big pot with lid or popcorn maker and wait until 1 kernel of popcorn pops to show you it is ready to cook the rest of popcorn. add the rest of the kernels and cover pot or popcorn maker. start cooking butter in smaller pot to melt it. shake kernels while they pop while watching butter. when the popcorn is done, put in bug bowl and pour butter over. add salt to taste, amount may varry. 
+
+[EDIT PLAN] (3 substitutions)
+  crush: 'butter' → 'vegan butter'
+  crush: 'butter' → 'vegan butter'
+  crush: 'butter' → 'vegan butter'
+
+[DAG-GUIDED OUTPUT]
+1.Crush the oil, snacks, vegan butter, and salt. Heat the oil to 350°F. Place the crushed oil and snacks in a large bowl and cook for 15 minutes at 350°F. Remove from heat and let cool slightly. Then, add the crushed snacks, vegan butter, and salt. Cook for another 5 minutes at 350°F. Stir occasionally. Once done, let the popcorn cool before serving.
+
+[DIRECT LLM OUTPUT]
+Sure, here's the vegan version of the recipe:
+
+Heat some oil in a big pot with a lid or use a popcorn maker. Wait until one kernel of popcorn pops to show you it's ready to cook the rest of the popcorn. Add the rest of the kernels and cover the pot or popcorn maker. In a smaller pot, melt some vegan butter. Shake the pot while the kernels pop, keeping an eye on the butter. When the popcorn is done, transfer it to a bowl and pour the melted vegan butter over it. Add salt to taste, as the amount m
+
+======================================================================
+Recipe 16: Chicken Fajita Salad
+======================================================================
+
+[ORIGINAL]
+Preheat a cast iron skillet over high heat, add vegetable oil and chicken breasts. Season with salt, cumin, chili powder, and garlic. Stir to sear both sides of chicken breasts. Lower heat to medium and cook for 6-8 minutes or until chicken is cooked through. In another cast iron skillet, add butter over medium heat. Add peppers and onions, stirring occasionally until onions and peppers have softe
+
+[EDIT PLAN] (8 substitutions)
+  crush: 'chicken breasts' → 'tofu'
+  season: 'chicken breasts' → 'tofu'
+  stir: 'chicken breasts' → 'tofu'
+  cool: 'chicken breasts' → 'tofu'
+  stir: 'butter' → 'vegan butter'
+  slice: 'cheese' → 'vegan cheese'
+  slice: 'cheese' → 'vegan cheese'
+  slice: 'chicken' → 'tofu'
+
+[DAG-GUIDED OUTPUT]
+1.Crush tofu and vegetable oil at 400°F. Season the crushed mixture with salt, cumin, and chili powder. Stir well and let it cool for 6 minutes. Meanwhile, stir the vegan butter with peppers and onions at 325°F. Once cooled, stir in the orange juice. Mix the ranch dressing with salsa. Slice the lettuce and vegan cheese. Slice the tofu, peppers, and onions. Finally, mix the dressing mixture with the lettuce, vegan cheese, tofu, peppers, and onions.
+
+[DIRECT LLM OUTPUT]
+Preheat a cast iron skillet over high heat, add vegetable oil and marinated tofu. Season with salt, cumin, chili powder, and garlic. Stir to sear both sides of the tofu. Lower heat to medium and cook for 6-8 minutes or until the tofu is cooked through. In another cast iron skillet, add vegan butter over medium heat. Add peppers and onions, stirring occasionally until the onions and peppers have softened and start to brown. When the tofu is cooked through, add orange juice and continue to cook, s
+
+======================================================================
+Recipe 17: Red Berry Sundae Sauce
+======================================================================
+
+[ORIGINAL]
+Put the sugar and 1/4 cup water into a small saucepan and bring to a boil over medium heat. Cook, swirling the pan, until the sugar is completely dissolved. Put the raspberries and strawberries into a blender jar and pour the hot sugar syrup over them. Puree the berries just until liquefied. Pour the mixture through a fine mesh strainer set over a bowl to strain out the seeds. Transfer the sauce t
+
+[EDIT PLAN] (1 substitutions)
+  mix: 'ice cream or sliced pound cake' → 'coconut cream'
+
+[DAG-GUIDED OUTPUT]
+1.Mix sugar and water at 325°F. Boil the mixture at 212°F for 5 minutes. Blend the raspberries and strawberries. Blend the raspberry and strawberry puree with sugar syrup for 10 minutes. Sauté the blended mixture for 5 minutes. Mix the sautéed mixture with coconut cream. Sear the mixture for 15 minutes, sear it for another 15 minutes, sear it for 15 minutes, sear it for 15 minutes, and sear it for 15 minutes.
+
+[DIRECT LLM OUTPUT]
+Put the sugar and 1/4 cup water into a small saucepan and bring to a boil over medium heat. Cook, swirling the pan, until the sugar is completely dissolved. Put the raspberries and strawberries into a blender jar and pour the hot sugar syrup over them. Puree the berries just until liquefied. Pour the mixture through a fine mesh strainer set over a bowl to strain out the seeds. Transfer the sauce to a pitcher and pour over ice cream or sliced pound cake. Store the leftover sauce in an airtight co
+
+======================================================================
+Recipe 18: Baked Boston Brown Bread
+======================================================================
+
+[ORIGINAL]
+Beat all ingredients in large mixing bowl for 2 minutes on medium speed. Pour into greased angel food pan. (I use a Bundt pan.) Bake in 325F oven for 1 hour.
+
+[EDIT PLAN] (1 substitutions)
+  beat: 'milk' → 'oat milk'
+
+[DAG-GUIDED OUTPUT]
+1.In a mixing bowl, combine oat milk, wheat flour, cornmeal, and molasses. Place the bowl in a preheated oven at 325°F and bake for 1 hour.
+
+[DIRECT LLM OUTPUT]
+Beat all ingredients in a large mixing bowl for 2 minutes on medium speed. Pour the mixture into a greased angel food pan or a Bundt pan. Bake in a 325F oven for 1 hour.
+
+======================================================================
+Recipe 19: Chocolate Truffles
+======================================================================
+
+[ORIGINAL]
+Place the chocolate in a medium heatproof bowl. Bring the heavy cream to a boil in a small saucepan, and pour it over the chocolate. Let sit for 5 minutes, and stir until thoroughly combined. Place the mixture in the freezer until set, about 45 minutes, stirring every 15 minutes. Divide the mixture into 6 equal parts, and roll each into a ball. Cover the truffles with plastic wrap; freeze until re
+
+[EDIT PLAN] (2 substitutions)
+  boil: 'heavy cream' → 'coconut cream'
+  stir: 'melted chocolate and cream' → 'coconut cream'
+
+[DAG-GUIDED OUTPUT]
+1.Melt the chocolate at 212°F. Then, boil the coconut cream for 5 minutes. Stir the coconut cream occasionally. Let the mixture freeze for 45 minutes. After that, stir the mixture for another 15 minutes. Then, melt the mixture again at 212°F. Finally, freeze the mixture one last time.
+
+[DIRECT LLM OUTPUT]
+Place the vegan chocolate in a medium heatproof bowl. Bring the plant-based heavy cream to a boil in a small saucepan, and pour it over the chocolate. Let sit for 5 minutes, and stir until thoroughly combined. Place the mixture in the freezer until set, about 45 minutes, stirring every 15 minutes. Divide the mixture into 6 equal parts, and roll each into a ball. Cover the truffles with plastic wrap; freeze until ready to use.
+
+======================================================================
+Recipe 20: Rasgulla
+======================================================================
+
+[ORIGINAL]
+1. Bring milk to boil in a saucepan. Make sure to stir occasionally and make sure not to burn the milk. Mix lemon juice with 4 tablespoons of water and add it gradually to the boiling milk. Then the milk solid starts separating from the water. Continue to boil it for a minute or two. Then turn off the heat and drain it through a cheesecloth or a thin cotton cloth. The milk solid that is left is ca
+
+[EDIT PLAN] (3 substitutions)
+  boil: 'milk' → 'oat milk'
+  stir: 'milk' → 'oat milk'
+  boil: 'milk' → 'oat milk'
+
+[DAG-GUIDED OUTPUT]
+1.Boil oat milk at 212°F for 5 minutes. Stir oat milk at 212°F. Mix in lemon juice and water. Boil oat milk, lemon juice, and water at 212°F for 2 minutes. Drain the paneer. Whisk the paneer. Knead the paneer. Boil water and sugar at 212°F for 30 minutes. Stir the paneer balls at 212°F.
+
+[DIRECT LLM OUTPUT]
+Sure, here's the vegan version of the recipe:
+
+1. Bring plant-based milk to a boil in a saucepan. Make sure to stir occasionally and ensure it doesn't burn. Mix lemon juice with 4 tablespoons of water and add it gradually to the boiling milk. Continue to stir until the milk solid starts separating from the water. Boil it for a minute or two more. Then turn off the heat and strain it through a cheesecloth or a thin cotton cloth. The milk solid that remains is called paneer. Run some cold water ov
+
+======================================================================
+Recipe 21: Carrot Burfi
+======================================================================
+
+[ORIGINAL]
+In a large skillet, cook the grated carrots and sugar, covered, for about 20 minutes. Add the dry milk; cook, stirring occasionally to avoid sticking at bottom, until no moisture is left (about 1 hour). Stir in the butter. Cook on medium heat until the mixture is of desired consistency that can be spread on a tray and cut into pieces. Add more dry milk as needed. Mix in the cardamoms and spread on
+
+[EDIT PLAN] (17 substitutions)
+  stir: 'milk' → 'oat milk'
+  stir: 'milk' → 'oat milk'
+  stir: 'butter' → 'vegan butter'
+  stir: 'milk' → 'oat milk'
+  stir: 'butter' → 'vegan butter'
+  stir: 'milk' → 'oat milk'
+  stir: 'butter' → 'vegan butter'
+  stir: 'dry milk' → 'oat milk'
+  stir: 'milk' → 'oat milk'
+  stir: 'butter' → 'vegan butter'
+  stir: 'dry milk' → 'oat milk'
+  coat: 'milk' → 'oat milk'
+  coat: 'butter' → 'vegan butter'
+  coat: 'dry milk' → 'oat milk'
+  coat: 'milk' → 'oat milk'
+  coat: 'butter' → 'vegan butter'
+  coat: 'dry milk' → 'oat milk'
+
+[DAG-GUIDED OUTPUT]
+1.Coat carrots and sugar in a thin layer of sugar for about 20 minutes. This helps to caramelize the sugar and give the burfi a golden color. Stir occasionally to ensure even caramelization. After 20 minutes, remove from heat and set aside.
+
+2. In a saucepan, combine the coated carrots and sugar with oat milk. Stir well to mix. Let it sit for an hour to allow the flavors to meld.
+
+3. In the same saucepan, add vegan butter and stir the mixture until the butter is fully melted. Then, stir in the c
+
+[DIRECT LLM OUTPUT]
+In a large skillet, cook the grated carrots and sugar, covered, for about 20 minutes. Add the plant-based milk; cook, stirring occasionally to avoid sticking at the bottom, until no moisture is left (about 1 hour). Stir in the vegan butter. Cook on medium heat until the mixture is of desired consistency that can be spread on a tray and cut into pieces. Add more plant-based milk as needed. Mix in the cardamom and spread on a 9 by 13 inches greased cookie sheet. Garnish with nuts. Cut into squares
+
+======================================================================
+Recipe 22: Oniony Party Dip Mix
+======================================================================
+
+[ORIGINAL]
+Combine all dry ingredients and stir well to mix. Place in 3" x 4" zip lock bag and seal. Attach gift tag with the directions on how to prepare the dip. Gift tag should read:. Combine the oniony Party Dip Mix with 2 cups sour cream. Stir until well blended. Cover and refrigerate for at least 1 hour before serving. Serve with chips, crackers or fresh vegetables.
+
+[EDIT PLAN] (10 substitutions)
+  mix: 'beef' → 'lentils'
+  sear: 'beef' → 'lentils'
+  stir: 'sour cream' → 'coconut cream'
+  chill: 'sour cream' → 'coconut cream'
+  chill: 'sour cream' → 'coconut cream'
+  chill: 'sour cream' → 'coconut cream'
+  chill: 'sour cream' → 'coconut cream'
+  chill: 'sour cream' → 'coconut cream'
+  chill: 'sour cream' → 'coconut cream'
+  chill: 'sour cream' → 'coconut cream'
+
+[DAG-GUIDED OUTPUT]
+1.Mix lentils, onions, spices, and chives together in a large bowl. Sear the lentils in a pan at 325°F for about 15 minutes, stirring occasionally until they're golden brown. Stir in the Party Dip Mix and coconut cream. Chill the mixture in the refrigerator for 8 hours before serving.
+
+[DIRECT LLM OUTPUT]
+Combine all dry ingredients and stir well to mix. Place in a 3" x 4" zip lock bag and seal. Attach a gift tag with the directions on how to prepare the dip. Gift tag should read: Combine the oniony Party Dip Mix with 2 cups of vegan sour cream. Stir until well blended. Cover and refrigerate for at least 1 hour before serving. Serve with chips, crackers or fresh vegetables.
+
+======================================================================
+Recipe 23: Fresh Vegetable Cheese Ball
+======================================================================
+
+[ORIGINAL]
+Combine cheese, broccoli, carrot, green onions, and dill weed in mixer bowl; mix well. Chill covered for several hours and shape into a large ball. Roll in the ground pepper. Serve with crackers.
+
+[EDIT PLAN] (1 substitutions)
+  mix: 'cheese' → 'vegan cheese'
+
+[DAG-GUIDED OUTPUT]
+1.In a mixing bowl, combine the vegan cheese, broccoli, carrots, and onions. Mix well until all ingredients are evenly distributed. Chill the mixing bowl contents for 12 minutes. Then, chill it for another 24 minutes. Continue chilling for 48 minutes, then for 1 hour and 12 minutes, then for 1 hour and 36 minutes, then for 2 hours, then for 2 hours and 24 minutes, then for 2 hours and 48 minutes, then for 3 hours and 12 minutes, then for 3 hours and 36 minutes, and finally for 4 hours.
+
+[DIRECT LLM OUTPUT]
+Combine vegan cheese, broccoli, carrot, green onions, and dill weed in a mixing bowl; mix well. Chill covered for several hours and shape into a large ball. Roll in ground pepper. Serve with crackers.
+
+======================================================================
+Recipe 24: Candied Sweet Sausage & Rice
+======================================================================
+
+[ORIGINAL]
+Cut the sausage into thin slices. In a pan combine the sugar, ketchup and horseradish. Add the sausage, mixing the ingredients and coating the sausage. Cook on high until it reaches a boil. Reduce heat to low, simmering uncovered for around 25 minutes or until the sauce thickens. Serve with rice.
+
+[EDIT PLAN] (4 substitutions)
+  slice: 'pork sausage' → 'plant-based sausage'
+  coat: 'sausage' → 'plant-based sausage'
+  boil: 'sausage mixture' → 'plant-based sausage'
+  simmer: 'sausage mixture' → 'plant-based sausage'
+
+[DAG-GUIDED OUTPUT]
+1.Mix sugar, ketchup, and horseradish together.
+2. Slice the plant-based sausage.
+3. Coat the sliced sausage with the sugar, ketchup, and horseradish mixture.
+4. Boil the coated sausage at 212°F for about 10 minutes.
+5. Simmer the coated sausage at 212°F for 25 minutes.
+
+[DIRECT LLM OUTPUT]
+Cut the sausage into thin slices. In a pan, combine the maple syrup, tomato sauce, and horseradish. Add the sausage, mixing the ingredients and coating the sausage. Cook on high until it reaches a boil. Reduce heat to low, simmering uncovered for around 25 minutes or until the sauce thickens. Serve with brown rice.
+
+======================================================================
+Recipe 25: Apple Country Ribs
+======================================================================
+
+[ORIGINAL]
+In small bowl combine the first 10 ingredients. Pour 1 1/2 Cups marinade into a large resealable plastic bag and add the ribs. Seal bag to coat and refrigerate for at least 5 hours or overnight, turning once. Cover and refrigerate remaining marinade for basting. Prepare grill for indirect heat. Drain & discard marinade. Grill ribs, covered, over indirect medium heat for 10 minutes on each side. Ba
+
+[EDIT PLAN] (3 substitutions)
+  marinate: 'pork ribs' → 'plant-based ribs'
+  sear: 'pork ribs' → 'plant-based ribs'
+  grill: 'pork ribs' → 'plant-based ribs'
+
+[DAG-GUIDED OUTPUT]
+1.Mix apple juice, alcoholic beverage, oil, and sauce together. Marinate the plant-based ribs for 5 minutes. Sear the ribs at 325°F for 10 minutes. Bake the reserved marinade for 20 minutes. Grill the ribs at 325°F for 25 minutes.
+
+[DIRECT LLM OUTPUT]
+In a small bowl, combine the first 10 ingredients. In a large resealable plastic bag, pour 1 1/2 cups of the marinade and add the ribs. Seal the bag to coat the ribs evenly and refrigerate for at least 5 hours or overnight, turning them once. Set aside the remaining marinade for basting. Prepare your grill for indirect heat.
+
+Preheat the grill to medium heat. Drain and discard the marinade. Place the ribs on the grill, covered, over indirect heat for 10 minutes on each side. Baste the ribs with 
+
+======================================================================
+Recipe 26: Lighter Banana-Coconut Ice Cream
+======================================================================
+
+[ORIGINAL]
+Combine first 3 ingredients in a med bowl, stirring until sugar is dissolved. Stir in banana; cover and chill. Pour mixture into the freezer container of your ice cream maker and freeze according to manufacturer's directions. Transfer to freezer safe container, cover and freeze til firm.
+
+[EDIT PLAN] (1 substitutions)
+  stir: 'milk' → 'oat milk'
+
+[DAG-GUIDED OUTPUT]
+1.Stir together the oat milk, shortening confectionery, and sugars. Then stir in the mixture from the previous step and the bananas. Freeze the mixture at 212°F (100°C) for about 8 hours.
+
+[DIRECT LLM OUTPUT]
+Combine first 3 ingredients in a medium bowl, stirring until the sugar is dissolved. Stir in mashed banana; cover and chill. Pour the mixture into the freezer container of your ice cream maker and freeze according to the manufacturer's directions. Transfer to a freezer-safe container, cover, and freeze until firm.
+
+======================================================================
+Recipe 27: Pork Tenderloin With Cumin And Orange Recipe
+======================================================================
+
+[ORIGINAL]
+Serves 6.
+
+[EDIT PLAN] (6 substitutions)
+  brown: 'pork' → 'tempeh'
+  bake: 'pork' → 'tempeh'
+  bake: 'pork' → 'tempeh'
+  bake: 'pork' → 'tempeh'
+  bake: 'pork' → 'tempeh'
+  bake: 'pork' → 'tempeh'
+
+[DAG-GUIDED OUTPUT]
+1.Preheat your oven to 350°F. Brown the tempeh at this temperature for about 15 minutes, flipping it halfway through. Then, place the tempeh in a baking dish and bake for 30 minutes. Repeat this process of browning and baking the tempeh for a total of four times, ensuring it's evenly browned and cooked through. After the fourth bake, reduce the orange juice in a saucepan at 212°F (which is the same as 100°C) for 10 minutes. In a mixing bowl, combine the reduced orange juice with spices. Finally,
+
+[DIRECT LLM OUTPUT]
+Sure, here's a vegan version of the recipe that maintains the same cooking method and structure as the original. I'll replace all animal products with plant-based alternatives.
+
+### Vegan Vegetable Stir-Fry
+
+**Serves 6**
+
+**Ingredients:**
+
+- 2 tablespoons olive oil
+- 1 large onion, thinly sliced
+- 2 cloves garlic, minced
+- 1 red bell pepper, sliced
+- 1 green bell pepper, sliced
+- 1 cup broccoli florets
+- 1 cup snow peas
+- 1 cup sliced mushrooms
+- 1 teaspoon ground cumin
+- 1 teaspoon smoked papri
+
+======================================================================
+Recipe 28: Toffee Bits
+======================================================================
+
+[ORIGINAL]
+Line a rimmed baking sheet with parchment. Combine the butter and sugar in a saucepan over medium heat. Cook until the mixture reaches 305F on an instant-read thermometer (hard-crack stage). Stir occasionally. Remove from the heat and pour onto the parchment, spreading thinly. Cool completely - about 4 hours - then break into bits. Store in an airtight container.
+
+[EDIT PLAN] (7 substitutions)
+  bake: 'butter' → 'vegan butter'
+  stir: 'butter' → 'vegan butter'
+  stir: 'butter' → 'vegan butter'
+  stir: 'butter' → 'vegan butter'
+  stir: 'butter' → 'vegan butter'
+  cool: 'butter' → 'vegan butter'
+  stir: 'butter' → 'vegan butter'
+
+[DAG-GUIDED OUTPUT]
+1.Preheat your oven to 305°F. In a small saucepan, combine vegan butter and sugar. Place the saucepan in the oven and bake for about 1 hour, stirring occasionally to ensure even cooking. After 1 hour, remove from the oven and let it cool for 240 hours. Once cooled, stir the mixture until it's smooth and well combined.
+
+[DIRECT LLM OUTPUT]
+Line a rimmed baking sheet with parchment. Combine the vegan butter and sugar in a saucepan over medium heat. Cook until the mixture reaches 305F on an instant-read thermometer (hard-crack stage). Stir occasionally. Remove from the heat and pour onto the parchment, spreading thinly. Cool completely - about 4 hours - then break into bits. Store in an airtight container.
+
+======================================================================
+Recipe 29: Fresh Fruit Yogurt Parfait
+======================================================================
+
+[ORIGINAL]
+Slightly soften the honey in the microwave so that it is easier to stir. Cool. In a bowl, combine the softened honey with the plain yogurt and vanilla extract. Using parfait glasses, layer the honey mixture alternately with the fruit and granola, ending with granola on top. Refrigerate until ready to serve.
+
+[EDIT PLAN] (13 substitutions)
+  slice: 'honey' → 'maple syrup'
+  cool: 'honey' → 'maple syrup'
+  mix: 'softened honey' → 'maple syrup'
+  mix: 'plain yogurt' → 'coconut yogurt'
+  melt: 'honey mixture' → 'maple syrup'
+  stir: 'honey mixture' → 'maple syrup'
+  stir: 'honey mixture' → 'maple syrup'
+  stir: 'honey mixture' → 'maple syrup'
+  stir: 'honey mixture' → 'maple syrup'
+  stir: 'honey mixture' → 'maple syrup'
+  stir: 'honey mixture' → 'maple syrup'
+  stir: 'honey mixture' → 'maple syrup'
+  stir: 'honey mixture' → 'maple syrup'
+
+[DAG-GUIDED OUTPUT]
+1.Slice the maple syrup. Let it cool slightly.
+2. Mix the cooled maple syrup with the coconut yogurt and vanilla extract.
+3. Melt the maple syrup, cherries, and cereals ready-to-eat together.
+4. Stir the melted mixture until it's smooth and well combined.
+5. Continue stirring the mixture for another 30 seconds to a minute.
+6. Stir the mixture for another 30 seconds to a minute.
+7. Stir the mixture for another 30 seconds to a minute.
+8. Stir the mixture for another 30 seconds to a minute.
+9. Stir
+
+[DIRECT LLM OUTPUT]
+To make this recipe fully vegan, we'll replace the honey with a plant-based sweetener and the yogurt with a vegan alternative. Here's how you can do it:
+
+First, soften the maple syrup in the microwave until it's easy to stir. Then, let it cool down.
+
+In a bowl, mix the cooled maple syrup with the plain almond yogurt and vanilla extract. Using parfait glasses, layer the honey mixture alternately with the fruit and granola, ending with granola on top. Refrigerate until ready to serve.
+
+======================================================================
+Recipe 30: Loaded Ranch Potato Salad
+======================================================================
+
+[ORIGINAL]
+Mix ranch dressing, sour cream, garlic powder, salt, and pepper together. Mix in chives and bacon. Pour over potatoes and fold. Add cheese and fold. Chill for at least 4 hours. Serve!
+
+[EDIT PLAN] (3 substitutions)
+  mix: 'sour cream' → 'coconut cream'
+  mix: 'bacon' → 'smoked tempeh'
+  fold: 'cheese' → 'vegan cheese'
+
+[DAG-GUIDED OUTPUT]
+1.Mix the ranch dressing, coconut cream, garlic powder, and salt together in a bowl. Then, mix the chives and smoked tempeh in another bowl. After that, fold the mixture of step 1 and the potatoes into the chive and tempeh mixture. Next, fold the vegan cheese into the potato and tempeh mixture. Let it chill in the refrigerator for 24 hours. Then, bake the potato and tempeh mixture at 350°F for 45 minutes. Finally, bake the vegan cheese mixture at 350°F for 45 minutes.
+
+[DIRECT LLM OUTPUT]
+Mix vegan ranch dressing, vegan sour cream, garlic powder, salt, and pepper together. Mix in chives and crispy vegan bacon. Pour over potatoes and fold. Add vegan cheese and fold. Chill for at least 4 hours. Serve!
+
+======================================================================
+Recipe 31: Spicy Brown Rice Salad
+======================================================================
+
+[ORIGINAL]
+Cook rice. While still hot mix with olive oil, vinegars, salt, pepper, and tarragon. Let stand to cool for at least an hour. Add remaining ingredients. To increase protein in this dish, garnish with crumbled hard boiled egg.
+
+[EDIT PLAN] (1 substitutions)
+  grill: 'crumbled hard boiled egg' → 'flax egg'
+
+[DAG-GUIDED OUTPUT]
+1.Cool the rice. Once the rice is cooked, let it cool to room temperature.
+2. Mix the cooled rice with olive oil, vinegars, salt, and a few sprigs of tarragon.
+3. Let the rice mixture sit for an hour to allow the flavors to meld.
+4. After an hour, mix in chopped peppers, parsley, and chives.
+5. Grill the flax egg until it's set and slightly golden.
+
+[DIRECT LLM OUTPUT]
+Cook rice. While still hot, mix it with olive oil, vinegars, salt, pepper, and tarragon. Let it stand to cool for at least an hour. Add the remaining ingredients. To increase the protein in this dish, garnish with crumbled vegan bacon or tofu instead of the hard boiled egg.
+
+======================================================================
+Recipe 32: Pork Hamonado
+======================================================================
+
+[ORIGINAL]
+Mix the pineapple juice, sugar, and soy sauce in a large bowl. Cut the pork into fairly large cubes, about 2", and marinate pork with the pineapple juice, sugar, and soy sauce mixture for about 1 to 3 hours. Remove the pork from the marinade and set the remaining mixture aside. Heat the oil in a pan and fry the marinated pork until the meat turns light brown (approximately 3 to 5 minutes). Pour in
+
+[EDIT PLAN] (3 substitutions)
+  marinate: 'pork' → 'tempeh'
+  fry: 'pork' → 'tempeh'
+  simmer: 'pork' → 'tempeh'
+
+[DAG-GUIDED OUTPUT]
+1.Mix pineapple juice, sugar, and soy sauce in a bowl. Marinate the tempeh and pineapple in the mixture for 3 hours. Fry the tempeh in oil at 350°F for 30 minutes. Simmer the tempeh, pineapple, and remaining marinade mixture at 212°F for 15 minutes.
+
+[DIRECT LLM OUTPUT]
+Mix the pineapple juice, maple syrup, and tamari in a large bowl. Cut the pork into fairly large cubes, about 2", and marinate the pork with the pineapple juice, maple syrup, and tamari mixture for about 1 to 3 hours. Remove the pork from the marinade and set the remaining mixture aside. Heat the oil in a pan and fry the marinated pork until the meat turns light brown (approximately 3 to 5 minutes). Pour in the remaining marinade mixture together with the pineapple chunks and simmer for 10 to 15
+
+======================================================================
+Recipe 33: Truffled Taleggio and Mushroom Pizza
+======================================================================
+
+[ORIGINAL]
+Put a large heavy baking sheet (17 by 14 inches) on lowest rack of oven, then preheat oven to 500F. Stretch out dough on a lightly floured surface, pulling on corners to form a roughly 16- by 13-inch rectangle. Transfer to a tray lined with parchment paper. Lightly prick dough all over with a fork. Slide dough (still on parchment) onto hot baking sheet. Bake until top is puffed and pale golden in 
+
+[EDIT PLAN] (1 substitutions)
+  bake: 'cheese' → 'vegan cheese'
+
+[DAG-GUIDED OUTPUT]
+1.Preheat your oven to 500°F. Start by baking the dough and mushrooms for 3 hours. Once done, remove from the oven and let it cool slightly. Then, bake the vegan cheese on a separate pan at 400°F for 12 minutes. Finally, bake the assembled pizza at 400°F for 3 hours.
+
+[DIRECT LLM OUTPUT]
+Put a large heavy baking sheet (17 by 14 inches) on the lowest rack of the oven, then preheat the oven to 500F. Stretch out the dough on a lightly floured surface, pulling on the corners to form a roughly 16- by 13-inch rectangle. Transfer the dough to a tray lined with parchment paper. Lightly prick the dough all over with a fork. Slide the dough (still on parchment) onto the hot baking sheet. Bake until the top is puffed and has pale golden patches, 6 to 10 minutes. Remove from the oven; prick
+
+======================================================================
+Recipe 34: Garlic knots
+======================================================================
+
+[ORIGINAL]
+cut each biscuit into thirds. roll each piece into a 3 inch rope and tie into a knot. place 2 inches apart on ungreased baking sheet bake at 400F for 8 to 10 minutes until golden golden brown in a large bowl combine the remaining ingredients brush oil mixture over knots
+
+[EDIT PLAN] (3 substitutions)
+  mix: 'cheese' → 'vegan cheese'
+  mix: 'milk' → 'oat milk'
+  mix: 'milk' → 'oat milk'
+
+[DAG-GUIDED OUTPUT]
+1.In a mixing bowl, combine the oil, spices, vegan cheese, and additional spices. Mix well until the cheese is fully incorporated and the mixture is smooth.
+2. Slice the biscuit into thin strips.
+3. Place the sliced biscuit strips on a baking sheet lined with parchment paper. Bake at 400°F for 8 minutes or until the edges start to turn golden brown.
+4. In another mixing bowl, whisk together the oil and oat milk until well combined.
+
+[DIRECT LLM OUTPUT]
+Cut each biscuit into thirds. Roll each piece into a 3 inch rope and tie into a knot. Place 2 inches apart on an ungreased baking sheet. Bake at 400F for 8 to 10 minutes until golden brown.
+
+In a large bowl, combine the remaining ingredients. Brush the oil mixture over the knots.
+
+======================================================================
+Recipe 35: Easy Homemade Condensed Milk
+======================================================================
+
+[ORIGINAL]
+Put the milk and sugar in a pot, and warm over medium heat until it begins to bubble. Bring the heat down to low as soon as the milk starts to boil, and reduce while mixing with a wooden spatula (approximately 15-20 minutes). Reduce it to half, and remove from the heat when you can see the bottom of the pot when you mix. It thickens when it cools, so it's okay if it's a little bit runny. Place the
+
+[EDIT PLAN] (2 substitutions)
+  mix: 'milk' → 'oat milk'
+  reduce: 'milk' → 'oat milk'
+
+[DAG-GUIDED OUTPUT]
+1.In a saucepan, mix oat milk and sugar. Place the saucepan over medium heat and bring the mixture to a boil. Once boiling, reduce the heat to medium-low and let it simmer for about 20 minutes, stirring occasionally. After 20 minutes, the mixture will start to thicken.
+
+[DIRECT LLM OUTPUT]
+Put the almond milk and maple syrup in a pot, and warm over medium heat until it begins to bubble. Bring the heat down to low as soon as the milk starts to boil, and reduce while mixing with a wooden spatula (approximately 15-20 minutes). Reduce it to half, and remove from the heat when you can see the bottom of the pot when you mix. It thickens when it cools, so it's okay if it's a little bit runny. Place the pot which has been removed from the heat into ice water, and cool the mixture as you m
+
+======================================================================
+Recipe 36: Mashed Potatoes with Chives
+======================================================================
+
+[ORIGINAL]
+Place potatoes in a large saucepan; cover with water. Bring to a boil over medium-high heat. Reduce heat, and simmer 15 minutes or until tender; drain.Combine whole milk and butter in a small saucepan, and cook over medium-high heat until butter melts. Remove milk mixture from heat.Return potatoes to pan; mash with a potato masher to desired consistency. Add milk mixture, salt, and pepper, stirrin
+
+[EDIT PLAN] (2 substitutions)
+  melt: 'butter' → 'vegan butter'
+  stir: 'milk mixture' → 'oat milk'
+
+[DAG-GUIDED OUTPUT]
+1.Boil potatoes in water at 212°F (boiling point) for about 20-25 minutes or until tender. Reduce heat to 325°F and let the water simmer for 15 minutes to concentrate the flavor. While the potatoes are boiling, melt vegan butter at 325°F.
+
+[DIRECT LLM OUTPUT]
+Place potatoes in a large saucepan; cover with water. Bring to a boil over medium-high heat. Reduce heat, and simmer 15 minutes or until tender; drain.Combine whole cashew milk and vegan butter in a small saucepan, and cook over medium-high heat until the butter melts. Remove milk mixture from heat.Return potatoes to pan; mash with a potato masher to desired consistency. Add the cashew milk mixture, salt, and pepper, stirring until well combined. Stir in chopped fresh chives.
+
+======================================================================
+Recipe 37: Bread Pudding
+======================================================================
+
+[ORIGINAL]
+Cube bread and place in a greased 13in x 9in x 2in baking dish. In a large bowl, whisk the eggs, milk,1-3/4 cup cream, 1 cup sugar, 3/4 cup melted butter, vanilla and cinnamon. Pour evenly over bread. Bake uncovered at 350* for 40-45 minutes or until knife inserted near the center comes out clean. Let stand for 5 minutes before cutting. Meanwhile, in a small saucepan, bring 1 cup sugar, water, and
+
+[EDIT PLAN] (6 substitutions)
+  mix: 'eggs' → 'flax eggs'
+  mix: 'milk' → 'oat milk'
+  mix: 'cream' → 'coconut cream'
+  mix: 'butter' → 'vegan butter'
+  stir: 'butter' → 'vegan butter'
+  stir: 'cream' → 'coconut cream'
+
+[DAG-GUIDED OUTPUT]
+1.Crush the bread into small pieces. In a separate bowl, mix the flax eggs with oat milk and coconut cream, then add sugar. Stir until the sugar is dissolved. Preheat your oven to 350°F. Pour the flax mixture into a baking dish with the bread pieces. Bake for 45 minutes. After baking, let the bread pudding rest for 5 minutes. In a small saucepan, combine sugar, water, and lemon juice. Bring to a boil, then stir in vegan butter until melted.
+
+[DIRECT LLM OUTPUT]
+Cube bread and place in a greased 13x9x2 inch baking dish. In a large bowl, whisk the eggs, milk, 1-3/4 cups plant-based cream, 1 cup sugar, 3/4 cup melted vegan butter, vanilla extract, and cinnamon. Pour evenly over bread. Bake uncovered at 350* for 40-45 minutes or until a knife inserted near the center comes out clean. Let stand for 5 minutes before cutting. Meanwhile, in a small saucepan, bring 1 cup sugar, water, and lemon juice to a boil. Reduce heat to medium; cook until the sugar is dis
+
+======================================================================
+Recipe 38: Chocolate-Peanut Butter Pie
+======================================================================
+
+[ORIGINAL]
+Make Crust. In a food processor, blend chocolate wafers and butter. Press into a 10-inch glass pie plate. Refrigerate at least 45 minutes. Make Chocolate Filling. In a medium saucepan over low heat, stir chocolate chips, marshmallows and milk until smooth. Transfer mixture to a bowl, stir in vanilla extract and let cool. Beat in heavy cream with an electric mixer until blended. Refrigerate 1 hour.
+
+[EDIT PLAN] (12 substitutions)
+  crush: 'butter' → 'vegan butter'
+  blend: 'butter' → 'vegan butter'
+  bake: 'butter' → 'vegan butter'
+  stir: 'milk' → 'oat milk'
+  stir: 'milk' → 'oat milk'
+  beat: 'heavy cream' → 'coconut cream'
+  fold: 'whipped cream' → 'coconut cream'
+  fold: 'peanut butter mixture' → 'vegan butter'
+  chill: 'peanut butter mixture' → 'vegan butter'
+  whisk: 'cream' → 'coconut cream'
+  chill: 'whipped cream' → 'coconut cream'
+  chill: 'peanut butter mixture' → 'vegan butter'
+
+[DAG-GUIDED OUTPUT]
+1.Crush the chocolate wafers and vegan butter together until they form a crumbly mixture. Place this mixture in a pie plate and bake it at 350°F for 45 minutes. Once baked, remove it from the oven and let it cool.
+
+[DIRECT LLM OUTPUT]
+Make Crust. In a food processor, blend crushed plant-based chocolate wafers and vegan butter. Press the mixture into a 10-inch glass pie plate. Refrigerate at least 45 minutes. Make Chocolate Filling. In a medium saucepan over low heat, stir together plant-based chocolate chips, marshmallows, and plant-based milk until smooth. Transfer the mixture to a bowl, stir in vanilla extract, and let it cool. Beat in heavy cream with an electric mixer until blended. Refrigerate for 1 hour. Make Peanut But
+
+======================================================================
+Recipe 39: Short Crust Pastry .
+======================================================================
+
+[ORIGINAL]
+sieve flour and salt into a mixing bowl . Rub in the butter with finger tips until mixture resembles breadcrumbs . Add sufficient water to make a soft dough ,mixing with a round bladed knife ,which leaves the sides of the bowl clean as the mixture is kneaded together . Knead until smooth ,wrap in securely in plastic and refrigerate until required .
+
+[EDIT PLAN] (3 substitutions)
+  saute: 'butter' → 'vegan butter'
+  blend: 'butter' → 'vegan butter'
+  knead: 'butter' → 'vegan butter'
+
+[DAG-GUIDED OUTPUT]
+1.Melt the vegan butter in a pan over medium heat until it's just starting to brown. Remove from heat and let it cool slightly. In a separate bowl, mix the wheat flour and salt together. Once the butter is cool enough to handle, add it to the flour mixture. Use a fork or your hands to blend the butter into the flour, creating a crumbly mixture. Gradually add water, mixing until the dough comes together in a ball. Knead the dough on a floured surface for a few minutes until it's smooth and pliabl
+
+[DIRECT LLM OUTPUT]
+Sieve the flour and salt into a mixing bowl. Rub in the vegan butter with your fingertips until the mixture resembles breadcrumbs. Add enough water to make a soft dough, mixing with a round bladed knife, which leaves the sides of the bowl clean as the mixture is kneaded together. Knead until smooth, wrap in securely in plastic, and refrigerate until required.
+
+======================================================================
+Recipe 40: Berry Oatmeal Breakfast Smoothie
+======================================================================
+
+[ORIGINAL]
+Place all ingredients in a blender and process until smooth. If using fresh fruit, add about 1/4 cup of ice.
+
+[EDIT PLAN] (4 substitutions)
+  blend: 'yogurt' → 'coconut yogurt'
+  blend: 'milk' → 'oat milk'
+  blend: 'yogurt' → 'coconut yogurt'
+  blend: 'milk' → 'oat milk'
+
+[DAG-GUIDED OUTPUT]
+1.Add strawberries, blueberries, oats, and coconut yogurt to a blender. Blend until smooth, adding a little oat milk if needed to reach your desired consistency. Finish blending until everything is well combined and smooth.
+
+[DIRECT LLM OUTPUT]
+Sure, here's the vegan version of the recipe:
+
+Place all ingredients in a blender and process until smooth. If using fresh fruit, add about 1/4 cup of ice.
+
+======================================================================
+Recipe 41: Vickys Cinnamon Pumpkin Scones (Halloween)
+======================================================================
+
+[ORIGINAL]
+Preheat the oven to gas 6 / 200C / 400F and line a baking sheet with parchment paper Mix the dry ingredients together in a bowl Cut in the butter with a fork or pastry cutter Add the pumpkin puree, cinnamon chips, buttermilk and vanilla, kneading until you form a soft dough. Don't overwork it Pat out the dough on a floured surface until 3/4 inch thick if using novelty shape cutters or 1" thick for
+
+[EDIT PLAN] (4 substitutions)
+  mix: 'butter' → 'vegan butter'
+  mix: 'butter' → 'vegan butter'
+  mix: 'buttermilk' → 'vegan butter'
+  bake: 'butter' → 'vegan butter'
+
+[DAG-GUIDED OUTPUT]
+1.In a large bowl, mix together the wheat flour, sugars, spices, and xanthan gum. Then, add the pumpkin puree, cinnamon chips, vegan butter, and vanilla. Mix until a dough forms. Rest the dough for 15 minutes. Preheat your oven to 400°F (200°C) and line a baking sheet with parchment paper. Shape the dough into 6-7 scones and place them on the baking sheet. Bake for 15 minutes or until golden brown.
+
+[DIRECT LLM OUTPUT]
+Preheat the oven to gas 6 / 200C / 400F and line a baking sheet with parchment paper. Mix the dry ingredients together in a bowl. Cut in the vegan butter with a fork or pastry cutter. Add the pumpkin puree, cinnamon chips, buttermilk, and vanilla, kneading until you form a soft dough. Don't overwork it.
+
+Pat out the dough on a floured surface until 3/4 inch thick if using novelty shape cutters or 1" thick for fluted round 2cm cutters. If using gluten-free flour, let the dough rest for 15 minutes
+
+======================================================================
+Recipe 42: Snowballs
+======================================================================
+
+[ORIGINAL]
+In a large bowl, cream butter and 3/4 cup confectioners sugar until light and fluffy. Blend in orange peel and extracts. Combine flour and salt; gradually add to creamed mixture and mix well. Stir in nuts. Shape into 3/4-inch balls. Place 1-inch apart on ungreased baking sheets. Bake at 350F for 10-12 minutes or until bottoms are lightly browned. Remove to wire racks to cool completely. Place rema
+
+[EDIT PLAN] (3 substitutions)
+  mix: 'butter' → 'vegan butter'
+  blend: 'butter' → 'vegan butter'
+  mix: 'cream mixture' → 'coconut cream'
+
+[DAG-GUIDED OUTPUT]
+1.In a mixing bowl, combine the vegan butter, confectioners sugar, orange peel, and vanilla extract. Mix until well combined and creamy. Then, blend the mixture until it's smooth and fluffy. Next, mix in the flour and salt, followed by the coconut cream. Stir until the dough comes together. Finally, stir in the nuts.
+
+[DIRECT LLM OUTPUT]
+In a large bowl, cream vegan butter and 3/4 cup vegan confectioners sugar until light and fluffy. Blend in orange peel and extracts. Combine flour and salt; gradually add to creamed mixture and mix well. Stir in nuts. Shape into 3/4-inch balls. Place 1-inch apart on ungreased baking sheets. Bake at 350F for 10-12 minutes or until bottoms are lightly browned. Remove to wire racks to cool completely. Place remaining vegan confectioners sugar in a large resealable plastic bag. Add cookies a few at 
+
+======================================================================
+Recipe 43: Bella's Eggnog Frosting
+======================================================================
+
+[ORIGINAL]
+Combine butter and eggnog together in a saucepan over medium-low heat until heated through, about 1 minute. Pour butter mixture into a bowl and add confectioners' sugar. Beat mixture with an electric mixer until frosting is smooth, 3 to 5 minutes. Add milk if frosting is too thick, beating until desired consistency is reached.
+
+[EDIT PLAN] (6 substitutions)
+  mix: 'butter' → 'vegan butter'
+  mix: 'eggnog' → 'flax egg'
+  mix: 'butter mixture' → 'vegan butter'
+  beat: 'butter mixture' → 'vegan butter'
+  mix: 'butter mixture' → 'vegan butter'
+  mix: 'milk' → 'oat milk'
+
+[DAG-GUIDED OUTPUT]
+1.Mix the vegan butter and flax egg for 1 hour. Then, mix the vegan butter and confectioners' sugar. Next, beat the vegan butter and confectioners' sugar for 5 hours. Finally, mix the vegan butter and oat milk.
+
+[DIRECT LLM OUTPUT]
+Combine vegan butter and eggnog together in a saucepan over medium-low heat until heated through, about 1 minute. Pour the mixture into a bowl and add confectioners' sugar. Beat the mixture with an electric mixer until the frosting is smooth, 3 to 3 minutes. If the frosting is too thick, add a little more eggnog and beat until the desired consistency is reached.
+
+======================================================================
+Recipe 44: Candy Corn Popcorn Recipe
+======================================================================
+
+[ORIGINAL]
+Mix popcorn, nuts, marshmallows and spice drops in a large mixing bowl. Heat butter in a small heavy saucepan and add in sugar and corn syrup. Bring to a boil, stirring and simmer 3 min. Add in vanilla and blend well. Pour over popcorn mix, mixing well. Let stand 2 min to cold. With hands dampened in cold water, shape into candy cane or possibly wreath or possibly tree or possibly whatever. Arrang
+
+[EDIT PLAN] (2 substitutions)
+  bake: 'butter' → 'vegan butter'
+  mix: 'butter mixture' → 'vegan butter'
+
+[DAG-GUIDED OUTPUT]
+1.In a mixing bowl, combine the popcorn, nuts, marshmallows, and spice drops. Mix well until all ingredients are evenly distributed.  
+2. Preheat your oven to 325°F. Spread the mixture onto a baking sheet and bake for 3 minutes.  
+3. In a saucepan, combine the sugar and corn syrup. Heat over medium heat until the mixture reaches 212°F. Boil for 3 minutes, stirring occasionally.  
+4. In a small bowl, blend the vanilla until smooth.  
+5. In a separate bowl, mix the popcorn mix with vegan butter un
+
+[DIRECT LLM OUTPUT]
+Mix popcorn, nuts, and plant-based marshmallows in a large mixing bowl. Heat vegan butter in a small heavy saucepan and add in sugar and corn syrup. Bring to a boil, stirring and simmer for 3 minutes. Add in vanilla extract and blend well. Pour the mixture over the popcorn mix, mixing well. Let it stand for 2 minutes to cool down. With hands dampened in cold water, shape into candy canes or possibly wreaths or possibly trees or whatever you like. Arrange on a baking sheet to set. Wrap with plast
+
+======================================================================
+Recipe 45: Parmesan Rice
+======================================================================
+
+[ORIGINAL]
+Melt margarine in saucepan. Saute onion and raw rice about 5 minutes, until rice is golden brown. Add bouillon powder, water and mushrooms. Bring to boil, then cover and remove from heat. Let stand about 5 minutes, until rice is tender and liquid is absorbed. Add parmesan and serve.
+
+[EDIT PLAN] (1 substitutions)
+  mix: 'parmesan' → 'nutritional yeast'
+
+[DAG-GUIDED OUTPUT]
+1.Melt margarine in a saucepan. Add sliced onion and sauté for 5 minutes until the onion is translucent. Add the rice and mix well. Cook for another 5 minutes, stirring occasionally, until the rice is lightly toasted and golden brown. While the rice is cooking, mix bouillon powder and water in a small bowl. Chop mushrooms and set aside.
+
+[DIRECT LLM OUTPUT]
+Melt margarine in a saucepan. Sauté chopped onion and raw rice for about 5 minutes, until the rice is golden brown. Add bouillon powder, water, and sliced mushrooms. Bring to a boil, then cover and remove from heat. Let stand for about 5 minutes, until the rice is tender and the liquid is absorbed. Add nutritional yeast and serve.
+
+======================================================================
+Recipe 46: Penuche Frosting
+======================================================================
+
+[ORIGINAL]
+Blend butter and brown sugar in saucepan. Bring to a boil. Boil 2 minutes, stirring constantly. Add milk. Bring to a boil, stirring constantly; cool to lukewarm. Add powdered sugar gradually, beating constantly until of spreading consistency.
+
+[EDIT PLAN] (8 substitutions)
+  blend: 'butter' → 'vegan butter'
+  boil: 'butter and brown sugar mixture' → 'vegan butter'
+  boil: 'butter and brown sugar mixture' → 'vegan butter'
+  mix: 'butter and brown sugar mixture' → 'vegan butter'
+  mix: 'milk' → 'oat milk'
+  boil: 'butter and brown sugar mixture and milk' → 'vegan butter'
+  mix: 'butter and brown sugar mixture and milk' → 'vegan butter'
+  mix: 'butter and brown sugar mixture and milk and powdered sugar' → 'vegan butter'
+
+[DAG-GUIDED OUTPUT]
+1.Blend vegan butter and brown sugar together until smooth.
+2. Heat the vegan butter in a saucepan over medium heat until it melts and then bring it to a boil at 212°F.
+3. Boil the vegan butter for 2 minutes.
+4. Stir in the oat milk and continue to boil the mixture at 212°F for another 2 minutes.
+5. Remove from heat and mix in the powdered sugar until the frosting is smooth and creamy.
+6. Once the frosting is cool, mix in the vegan butter until well combined.
+7. Store the frosting in an airtight
+
+[DIRECT LLM OUTPUT]
+Blend vegan butter and brown sugar in a saucepan. Bring to a boil. Boil for 2 minutes, stirring constantly. Add plant-based milk. Bring to a boil, stirring constantly; cool to lukewarm. Add powdered sugar gradually, beating constantly until of spreading consistency.
+
+======================================================================
+Recipe 47: Best Ever Beef Stroganoff
+======================================================================
+
+[ORIGINAL]
+Brown meat in oil in large frying pan. Add 3 tbsp flour, garlic salt and pepper and add to meat. Continue cooking and stirring until flour begins to brown in pan. Add water and stir into mixture. Make paste of remaining 3 tbsp flour and i cup of the milk, adding milk gradually to the flour in order to prevent lumps. Add paste to the meat mixture as it cooks. Use spatula to scrape pan clean, gather
+
+[EDIT PLAN] (5 substitutions)
+  mix: 'milk' → 'oat milk'
+  stir: 'milk' → 'oat milk'
+  stir: 'beef bouillon' → 'lentils'
+  stir: 'sour cream' → 'coconut cream'
+  stir: 'sour cream' → 'coconut cream'
+
+[DAG-GUIDED OUTPUT]
+1.Brown the meat in oil over medium heat. Add a pinch of garlic salt and pepper to season. Stir occasionally until the meat is browned and cooked through. Set aside.
+
+2. In a separate pan, mix the flour, garlic salt, and pepper. Add the browned meat and stir to coat evenly. 
+
+3. Gradually stir in the flour mixture with a bit of water to create a smooth sauce. 
+
+4. Stir in the meat mixture and water until everything is well combined. 
+
+5. In a bowl, mix the flour with oat milk until smooth. 
+
+6. 
+
+[DIRECT LLM OUTPUT]
+Brown mushrooms in oil in a large frying pan. Add 3 tablespoons of flour, garlic salt, and pepper, and mix with the mushrooms. Continue cooking and stirring until the flour begins to brown in the pan. Add water and stir into the mixture. Make a paste of the remaining 3 tablespoons of flour and 1 cup of the milk, adding the milk gradually to the flour to prevent lumps. Add the paste to the mushroom mixture as it cooks. Use a spatula to scrape the pan clean, gathering all of the browned bits into 
+
+======================================================================
+Recipe 48: Berry Yogurt Shake
+======================================================================
+
+[ORIGINAL]
+Puree berries in blender. Add remaining ingredients and blend til smooth. Seeds can be removed by forcing berries through a seive if desired.
+
+[EDIT PLAN] (6 substitutions)
+  blend: 'honey' → 'maple syrup'
+  blend: 'milk' → 'oat milk'
+  blend: 'yogurt' → 'coconut yogurt'
+  blend: 'honey' → 'maple syrup'
+  blend: 'milk' → 'oat milk'
+  blend: 'yogurt' → 'coconut yogurt'
+
+[DAG-GUIDED OUTPUT]
+1.Start by blending the goji berries, maple syrup, oat milk, and coconut yogurt in a blender until smooth. Then, blend the pureed berries, maple syrup, oat milk, and coconut yogurt together until they are also smooth and well combined.
+
+[DIRECT LLM OUTPUT]
+Puree berries in a blender. Add the remaining ingredients and blend until smooth. If you prefer, you can remove the seeds by forcing the berries through a sieve.
+
+======================================================================
+Recipe 49: Publix Chunky Chicken Salad
+======================================================================
+
+[ORIGINAL]
+Cook chicken however desired (I often poach in my steamer or bake). Cool and cut into large (about 1") cubes. Set aside. In a large bowl, combine salt, basil, dill, lemon juice, white pepper, garlic and parsley with mayonnaise. Mix throughly. Stir celery, carrots, onion and chicken into mayonnaise mixture. Mix well. Cover and chill overnight or at least several hours before serving.
+
+[EDIT PLAN] (5 substitutions)
+  poach: 'chicken' → 'tofu'
+  cool: 'chicken' → 'tofu'
+  chop: 'chicken' → 'tofu'
+  mix: 'chicken' → 'tofu'
+  mix: 'chicken' → 'tofu'
+
+[DAG-GUIDED OUTPUT]
+1.Poach the tofu until it's cooked through, then let it cool. Once cooled, chop the tofu into small pieces.
+
+[DIRECT LLM OUTPUT]
+Cook plant-based chicken however desired (I often poach in my steamer or bake). Cool and cut into large (about 1") cubes. Set aside. In a large bowl, combine salt, basil, dill, lemon juice, white pepper, garlic and parsley with vegan mayonnaise. Mix thoroughly. Stir in celery, carrots, onion and plant-based chicken into the mayonnaise mixture. Mix well. Cover and chill overnight or at least several hours before serving.
+
+======================================================================
+Recipe 50: Injera
+======================================================================
+
+[ORIGINAL]
+Dissolve yeast and honey in 1/4 cup of the water. Allow to proof and add the remainder of the water and the millet flour. Stir until smooth and then cover. Allow to stand at room temperature for 24 hours. Stir the batter well and mix in the baking soda. Heat a large non-stick skillet over medium heat. Pour about 1/3 cup of the batter into the pan in a spiral pattern to cover the bottom of the pan 
+
+[EDIT PLAN] (1 substitutions)
+  dissolve: 'honey' → 'maple syrup'
+
+[DAG-GUIDED OUTPUT]
+1.In a small bowl, mix the yeast and maple syrup with a little water to dissolve the yeast. Let it sit for about 5 minutes until it foams. Then, add more water if needed to make a smooth batter. Pour this into a large mixing bowl. 
+
+2. Gradually add the water to the yeast mixture, stirring constantly, until you have a smooth batter. 
+
+3. Pour the batter onto a baking sheet lined with parchment paper. Bake at 325°F for 1 hour, then turn the heat to 425°F and bake for another hour.
+
+[DIRECT LLM OUTPUT]
+Dissolve yeast and maple syrup in 1/4 cup of the water. Allow to proof and then add the remainder of the water and the millet flour. Stir until smooth and then cover. Allow to stand at room temperature for 24 hours. Stir the batter well and mix in the baking soda. Heat a large non-stick skillet over medium heat. Pour about 1/3 cup of the batter into the pan in a spiral pattern to cover the bottom of the pan evenly. Tilt the pan to quickly even out the batter. Cover the pan and allow to cook for 
+

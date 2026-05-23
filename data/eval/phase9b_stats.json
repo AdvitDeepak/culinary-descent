@@ -1,0 +1,22 @@
+{
+  "n_dags": 35162,
+  "total_steps": 204773,
+  "temp_capture": {
+    "before": 0.27169597554365077,
+    "after": 0.40640123453775645,
+    "backfilled": 27584
+  },
+  "dur_capture": {
+    "before": 0.28944733924882676,
+    "after": 0.4454640016017737,
+    "backfilled": 31948
+  },
+  "baselines": {
+    "bge_temp": 0.693,
+    "bge_dur": 0.516,
+    "phase8_temp": 0.13,
+    "phase8_dur": 0.235,
+    "phase9_temp": 0.263,
+    "phase9_dur": 0.293
+  }
+}

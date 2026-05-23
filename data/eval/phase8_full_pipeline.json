@@ -1,0 +1,29 @@
+{
+  "encoder": "constrained-LLM (Qwen2.5-3B guided JSON)",
+  "decoder": "Qwen2.5-3B-Instruct",
+  "n_eval": 278,
+  "encode_parse_rate": 0.9266666666666666,
+  "rouge_l": {
+    "mean": 0.2162058707107089,
+    "median": 0.19467557445085534
+  },
+  "sbert": {
+    "mean": 0.6730369925498962,
+    "null_mean": 0.3826136291027069,
+    "gap": 0.29042336344718933
+  },
+  "process_lcs_vs_bge": 0.42604640493043916,
+  "judge": {
+    "true_pos_yes": 0.0625,
+    "easy_neg_no": 1.0,
+    "shuffled_neg_no": 1.0
+  },
+  "bge_llm_baseline": {
+    "encode_parse_rate": 0.975,
+    "rouge_l": 0.189,
+    "sbert": 0.619,
+    "sbert_null": 0.398,
+    "sbert_gap": 0.222,
+    "judge_tp_yes": 0.013
+  }
+}

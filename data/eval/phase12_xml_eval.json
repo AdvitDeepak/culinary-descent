@@ -1,0 +1,1074 @@
+{
+  "n_matched": 16,
+  "type_precision": 0.3077,
+  "type_recall": 0.4848,
+  "type_f1": 0.3765,
+  "avg_seq_lcs_f1": 0.236,
+  "avg_ing_overlap": 0.3728,
+  "recipes": [
+    {
+      "title": "Almond Buttercrunch",
+      "id": "e08bdaa86e",
+      "gt_seq": [
+        "mix",
+        "saute",
+        "stir",
+        "saute",
+        "chop"
+      ],
+      "pred_seq": [
+        "mix",
+        "stir",
+        "boil",
+        "cool",
+        "stir",
+        "coat",
+        "mix"
+      ],
+      "seq_sim": {
+        "lcs": 2,
+        "precision": 0.2857142857142857,
+        "recall": 0.4,
+        "f1": 0.3333333333333333,
+        "gt_len": 5,
+        "pred_len": 7
+      },
+      "ing_overlap": 0.6666666666666666,
+      "type_tp": 2,
+      "type_fp": 3,
+      "type_fn": 2,
+      "steps": [
+        {
+          "gt_canonical": "mix",
+          "gt_action_text": "mix",
+          "gt_original": "In a saucepan over low heat, combine the butter, sugar and 1 cup chopped almonds.",
+          "gt_ingredients": [
+            "ing5",
+            "ing6"
+          ],
+          "pred_canonical": "mix",
+          "pred_ingredients": [
+            "butter",
+            "sugar",
+            "chopped almonds"
+          ],
+          "type_match": true
+        },
+        {
+          "gt_canonical": "saute",
+          "gt_action_text": "low heat",
+          "gt_original": "In a saucepan over low heat, combine the butter, sugar and 1 cup chopped almonds.",
+          "gt_ingredients": [
+            "ing6",
+            "ing7"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        },
+        {
+          "gt_canonical": "stir",
+          "gt_action_text": "stir until mixture boils",
+          "gt_original": "Stir constantly until mixture boils, then do not stir or shake.",
+          "gt_ingredients": [
+            "ing7",
+            "ing8"
+          ],
+          "pred_canonical": "stir",
+          "pred_ingredients": [
+            "mixture"
+          ],
+          "type_match": true
+        },
+        {
+          "gt_canonical": "saute",
+          "gt_action_text": "heat to 300 to 310 degrees",
+          "gt_original": "Heat to 300 to 310 degrees F (149 to 154 degrees C), or until a small amount of syrup dropped into c",
+          "gt_ingredients": [
+            "ing8",
+            "ing9"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        },
+        {
+          "gt_canonical": "chop",
+          "gt_action_text": "broken pieces",
+          "gt_original": "Sprinkle finely chopped almonds over the top; cool, and break into uneven pieces.",
+          "gt_ingredients": [
+            "ing11",
+            "ing12"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        }
+      ]
+    },
+    {
+      "title": "Anzac Biscuits I",
+      "id": "003b3fef2e",
+      "gt_seq": [
+        "melt",
+        "mix",
+        "bake"
+      ],
+      "pred_seq": [
+        "mix",
+        "melt",
+        "mix",
+        "mix",
+        "bake"
+      ],
+      "seq_sim": {
+        "lcs": 3,
+        "precision": 0.6,
+        "recall": 1.0,
+        "f1": 0.7499999999999999,
+        "gt_len": 3,
+        "pred_len": 5
+      },
+      "ing_overlap": 0.625,
+      "type_tp": 3,
+      "type_fp": 0,
+      "type_fn": 0,
+      "steps": [
+        {
+          "gt_canonical": "melt",
+          "gt_action_text": "melt together",
+          "gt_original": "In a small saucepan over low heat, melt the syrup and butter together.",
+          "gt_ingredients": [
+            "ing9",
+            "ing10"
+          ],
+          "pred_canonical": "melt",
+          "pred_ingredients": [
+            "syrup",
+            "butter"
+          ],
+          "type_match": true
+        },
+        {
+          "gt_canonical": "mix",
+          "gt_action_text": "teaspoons of mixture",
+          "gt_original": "Drop by teaspoons on greased cookie sheets (or baking paper).",
+          "gt_ingredients": [
+            "ing13",
+            "ing14"
+          ],
+          "pred_canonical": "mix",
+          "pred_ingredients": [
+            "oats",
+            "wheat flour",
+            "sugar",
+            "coconut"
+          ],
+          "type_match": true
+        },
+        {
+          "gt_canonical": "bake",
+          "gt_action_text": "Bake at 350 degrees F (175 degrees C) for 18 to 20 minutes",
+          "gt_original": "Bake at 350 degrees F (175 degrees C) for 18 to 20 minutes.",
+          "gt_ingredients": [
+            "ing14",
+            "ing15"
+          ],
+          "pred_canonical": "bake",
+          "pred_ingredients": [
+            "cookie sheets (or baking paper)"
+          ],
+          "type_match": true
+        }
+      ]
+    },
+    {
+      "title": "Asian Turkey Burgers",
+      "id": "cec3615234",
+      "gt_seq": [
+        "chop",
+        "chop",
+        "saute"
+      ],
+      "pred_seq": [
+        "mix",
+        "melt",
+        "grill"
+      ],
+      "seq_sim": {
+        "lcs": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0,
+        "gt_len": 3,
+        "pred_len": 3
+      },
+      "ing_overlap": 0.13333333333333333,
+      "type_tp": 0,
+      "type_fp": 3,
+      "type_fn": 2,
+      "steps": [
+        {
+          "gt_canonical": "chop",
+          "gt_action_text": "crumbled turkey",
+          "gt_original": "Crumble turkey over mixture and mix just until combined.",
+          "gt_ingredients": [
+            "ground turkey",
+            "ing71"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        },
+        {
+          "gt_canonical": "chop",
+          "gt_action_text": "turkey patties",
+          "gt_original": "Shape into four patties.",
+          "gt_ingredients": [
+            "ing73",
+            "ing74"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        },
+        {
+          "gt_canonical": "saute",
+          "gt_action_text": "",
+          "gt_original": "Cook in a nonstick skillet coated with nonstick cooking spray until no longer pink.",
+          "gt_ingredients": [
+            "ing74",
+            "ing75"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        }
+      ]
+    },
+    {
+      "title": "Bacon Wrapped Smokies",
+      "id": "845bebd819",
+      "gt_seq": [
+        "bake"
+      ],
+      "pred_seq": [
+        "bake",
+        "bake"
+      ],
+      "seq_sim": {
+        "lcs": 1,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666,
+        "gt_len": 1,
+        "pred_len": 2
+      },
+      "ing_overlap": 0.0,
+      "type_tp": 1,
+      "type_fp": 0,
+      "type_fn": 0,
+      "steps": [
+        {
+          "gt_canonical": "bake",
+          "gt_action_text": "40 minutes",
+          "gt_original": "Bake for 40 minutes in the preheated oven, until the sugar is bubbly.",
+          "gt_ingredients": [
+            "ing8",
+            "ing9"
+          ],
+          "pred_canonical": "bake",
+          "pred_ingredients": [
+            "bacon",
+            "pork sausage"
+          ],
+          "type_match": true
+        }
+      ]
+    },
+    {
+      "title": "Basic Chicken Stock",
+      "id": "5c1a814042",
+      "gt_seq": [
+        "chop",
+        "chop",
+        "boil",
+        "simmer",
+        "boil"
+      ],
+      "pred_seq": [
+        "toast",
+        "toast",
+        "toast",
+        "toast",
+        "toast",
+        "toast",
+        "toast",
+        "toast",
+        "toast",
+        "toast",
+        "toast",
+        "toast"
+      ],
+      "seq_sim": {
+        "lcs": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0,
+        "gt_len": 5,
+        "pred_len": 12
+      },
+      "ing_overlap": 0.06666666666666667,
+      "type_tp": 0,
+      "type_fp": 1,
+      "type_fn": 3,
+      "steps": [
+        {
+          "gt_canonical": "chop",
+          "gt_action_text": "quartered onion",
+          "gt_original": "Quarter onion.",
+          "gt_ingredients": [
+            "large onion",
+            "ing9"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        },
+        {
+          "gt_canonical": "chop",
+          "gt_action_text": "celery chunks",
+          "gt_original": "Chop scrubbed celery and carrot into 1 inch chunks.",
+          "gt_ingredients": [
+            "celery, including some leaves",
+            "ing10"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        },
+        {
+          "gt_canonical": "boil",
+          "gt_action_text": "bring to a boil",
+          "gt_original": "Bring to a boil.",
+          "gt_ingredients": [
+            "ing13",
+            "ing14"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        },
+        {
+          "gt_canonical": "simmer",
+          "gt_action_text": "reduce heat, cover, and simmer for 1 hour",
+          "gt_original": "Reduce heat, cover, and simmer for 1 hour.",
+          "gt_ingredients": [
+            "ing14",
+            "ing15"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        },
+        {
+          "gt_canonical": "boil",
+          "gt_action_text": "bring to a boil",
+          "gt_original": "Add to strained stock, and bring to a boil.",
+          "gt_ingredients": [
+            "ing21",
+            "ing22"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        }
+      ]
+    },
+    {
+      "title": "Biga",
+      "id": "744c8b0446",
+      "gt_seq": [
+        "mix"
+      ],
+      "pred_seq": [
+        "mix",
+        "mix",
+        "mix",
+        "mix",
+        "mix",
+        "coat",
+        "rest",
+        "rest",
+        "rest",
+        "rest",
+        "rest",
+        "rest"
+      ],
+      "seq_sim": {
+        "lcs": 1,
+        "precision": 0.08333333333333333,
+        "recall": 1.0,
+        "f1": 0.15384615384615385,
+        "gt_len": 1,
+        "pred_len": 12
+      },
+      "ing_overlap": 0.4444444444444444,
+      "type_tp": 1,
+      "type_fp": 2,
+      "type_fn": 0,
+      "steps": [
+        {
+          "gt_canonical": "mix",
+          "gt_action_text": "mix",
+          "gt_original": "Use a sturdy spoon to mix it together until sticky and difficult to stir, but nevertheless thoroughl",
+          "gt_ingredients": [
+            "ing5",
+            "ing6"
+          ],
+          "pred_canonical": "mix",
+          "pred_ingredients": [
+            "yeast",
+            "1/4 cup warm water"
+          ],
+          "type_match": true
+        }
+      ]
+    },
+    {
+      "title": "Brownie Mix in a Jar III",
+      "id": "3dc1661c86",
+      "gt_seq": [
+        "brown",
+        "brown"
+      ],
+      "pred_seq": [
+        "mix",
+        "mix",
+        "mix",
+        "bake",
+        "cool",
+        "slice",
+        "cool"
+      ],
+      "seq_sim": {
+        "lcs": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0,
+        "gt_len": 2,
+        "pred_len": 7
+      },
+      "ing_overlap": 0.6,
+      "type_tp": 0,
+      "type_fp": 4,
+      "type_fn": 1,
+      "steps": [
+        {
+          "gt_canonical": "brown",
+          "gt_action_text": "375 degrees F for 25 minutes",
+          "gt_original": "5. Bake at 375 degrees F (190 degrees C) for 25 minutes.",
+          "gt_ingredients": [
+            "ing11",
+            "ing12"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        },
+        {
+          "gt_canonical": "brown",
+          "gt_action_text": "brownie squares",
+          "gt_original": "Cut brownies into 1 1/2 inch squares.",
+          "gt_ingredients": [
+            "ing12",
+            "ing13"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        }
+      ]
+    },
+    {
+      "title": "Buttermilk Shake",
+      "id": "0960fc068a",
+      "gt_seq": [
+        "mix"
+      ],
+      "pred_seq": [
+        "blend"
+      ],
+      "seq_sim": {
+        "lcs": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0,
+        "gt_len": 1,
+        "pred_len": 1
+      },
+      "ing_overlap": 0.25,
+      "type_tp": 0,
+      "type_fp": 1,
+      "type_fn": 1,
+      "steps": [
+        {
+          "gt_canonical": "mix",
+          "gt_action_text": "mix",
+          "gt_original": "Cover and process on high until smooth.",
+          "gt_ingredients": [
+            "ing5",
+            "ing6"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        }
+      ]
+    },
+    {
+      "title": "Butterscotch Brownies in a Jar",
+      "id": "9b98d1a783",
+      "gt_seq": [
+        "brown",
+        "brown"
+      ],
+      "pred_seq": [
+        "mix",
+        "stir",
+        "stir",
+        "stir",
+        "bake",
+        "cool"
+      ],
+      "seq_sim": {
+        "lcs": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0,
+        "gt_len": 2,
+        "pred_len": 6
+      },
+      "ing_overlap": 0.6666666666666666,
+      "type_tp": 0,
+      "type_fp": 4,
+      "type_fn": 1,
+      "steps": [
+        {
+          "gt_canonical": "brown",
+          "gt_action_text": "for 25 minutes",
+          "gt_original": "3.  Bake for 25 minutes.",
+          "gt_ingredients": [
+            "ing10",
+            "ing11"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        },
+        {
+          "gt_canonical": "brown",
+          "gt_action_text": "brownie squares",
+          "gt_original": "Allow to cool in the pan some before cutting into squares.",
+          "gt_ingredients": [
+            "ing11",
+            "ing12"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        }
+      ]
+    },
+    {
+      "title": "Caramel Shortbread Squares",
+      "id": "a094d5e1b8",
+      "gt_seq": [
+        "mix",
+        "bake",
+        "boil",
+        "boil",
+        "mix",
+        "melt",
+        "mix",
+        "chop"
+      ],
+      "pred_seq": [
+        "crush",
+        "mix",
+        "bake",
+        "boil",
+        "beat",
+        "cool",
+        "melt",
+        "stir",
+        "chill",
+        "slice"
+      ],
+      "seq_sim": {
+        "lcs": 4,
+        "precision": 0.4,
+        "recall": 0.5,
+        "f1": 0.4444444444444445,
+        "gt_len": 8,
+        "pred_len": 10
+      },
+      "ing_overlap": 0.6470588235294118,
+      "type_tp": 4,
+      "type_fp": 6,
+      "type_fn": 1,
+      "steps": [
+        {
+          "gt_canonical": "mix",
+          "gt_action_text": "mix",
+          "gt_original": "In a medium bowl, mix together 2/3 cup butter, 1/4 cup white sugar, and 1 1/4 cup flour until evenly",
+          "gt_ingredients": [
+            "ing8",
+            "ing9"
+          ],
+          "pred_canonical": "mix",
+          "pred_ingredients": [
+            "butter",
+            "white sugar",
+            "wheat flour"
+          ],
+          "type_match": true
+        },
+        {
+          "gt_canonical": "bake",
+          "gt_action_text": "bake for 20 minutes",
+          "gt_original": "Bake for 20 minutes.",
+          "gt_ingredients": [
+            "ing9",
+            "ing10"
+          ],
+          "pred_canonical": "bake",
+          "pred_ingredients": [
+            "baked crust"
+          ],
+          "type_match": true
+        },
+        {
+          "gt_canonical": "boil",
+          "gt_action_text": "bring to a boil",
+          "gt_original": "Bring to a boil.",
+          "gt_ingredients": [
+            "ing11",
+            "ing12"
+          ],
+          "pred_canonical": "boil",
+          "pred_ingredients": [
+            "butter",
+            "brown sugar",
+            "corn syrup",
+            "sweetened condensed milk"
+          ],
+          "type_match": true
+        },
+        {
+          "gt_canonical": "boil",
+          "gt_action_text": "continue to boil for 5 minutes",
+          "gt_original": "Continue to boil for 5 minutes.",
+          "gt_ingredients": [
+            "ing12",
+            "ing13"
+          ],
+          "pred_canonical": "boil",
+          "pred_ingredients": [
+            "butter",
+            "brown sugar",
+            "corn syrup",
+            "sweetened condensed milk"
+          ],
+          "type_match": true
+        },
+        {
+          "gt_canonical": "mix",
+          "gt_action_text": "mix",
+          "gt_original": "Remove from heat and beat vigorously with a wooden spoon for about 3 minutes.",
+          "gt_ingredients": [
+            "ing13",
+            "ing14"
+          ],
+          "pred_canonical": "mix",
+          "pred_ingredients": [
+            "butter",
+            "white sugar",
+            "wheat flour"
+          ],
+          "type_match": true
+        },
+        {
+          "gt_canonical": "melt",
+          "gt_action_text": "melt",
+          "gt_original": "Melt chocolate and pour over caramel layer.",
+          "gt_ingredients": [
+            "milk chocolate chips",
+            "ing16"
+          ],
+          "pred_canonical": "melt",
+          "pred_ingredients": [
+            "chocolate"
+          ],
+          "type_match": true
+        },
+        {
+          "gt_canonical": "mix",
+          "gt_action_text": "mix",
+          "gt_original": "Cover the layer completely.",
+          "gt_ingredients": [
+            "ing17",
+            "ing18"
+          ],
+          "pred_canonical": "mix",
+          "pred_ingredients": [
+            "butter",
+            "white sugar",
+            "wheat flour"
+          ],
+          "type_match": true
+        },
+        {
+          "gt_canonical": "chop",
+          "gt_action_text": "caramel squares",
+          "gt_original": "Cut into squares (about 48 - small because it is rich).",
+          "gt_ingredients": [
+            "ing18",
+            "ing19"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        }
+      ]
+    },
+    {
+      "title": "Chipotle Mayo Relish",
+      "id": "11b9d6714d",
+      "gt_seq": [
+        "mix"
+      ],
+      "pred_seq": [
+        "mix",
+        "mix",
+        "mix",
+        "chill"
+      ],
+      "seq_sim": {
+        "lcs": 1,
+        "precision": 0.25,
+        "recall": 1.0,
+        "f1": 0.4,
+        "gt_len": 1,
+        "pred_len": 4
+      },
+      "ing_overlap": 0.5333333333333333,
+      "type_tp": 1,
+      "type_fp": 1,
+      "type_fn": 0,
+      "steps": [
+        {
+          "gt_canonical": "mix",
+          "gt_action_text": "mix",
+          "gt_original": "Place the mayonnaise and chipotle peppers into a food processor, and process until well blended.",
+          "gt_ingredients": [
+            "ing6",
+            "ing7"
+          ],
+          "pred_canonical": "mix",
+          "pred_ingredients": [
+            "mayonnaise",
+            "chipotle peppers"
+          ],
+          "type_match": true
+        }
+      ]
+    },
+    {
+      "title": "Chocolate Crisps",
+      "id": "64e82ba28a",
+      "gt_seq": [
+        "melt",
+        "bake"
+      ],
+      "pred_seq": [
+        "melt",
+        "boil",
+        "stir",
+        "stir",
+        "stir",
+        "chill"
+      ],
+      "seq_sim": {
+        "lcs": 1,
+        "precision": 0.16666666666666666,
+        "recall": 0.5,
+        "f1": 0.25,
+        "gt_len": 2,
+        "pred_len": 6
+      },
+      "ing_overlap": 0.0,
+      "type_tp": 1,
+      "type_fp": 3,
+      "type_fn": 1,
+      "steps": [
+        {
+          "gt_canonical": "melt",
+          "gt_action_text": "melt butter over medium heat till lightly browned",
+          "gt_original": "In a small saucepan over medium heat, melt butter till lightly browned.",
+          "gt_ingredients": [
+            "butter, softened",
+            "ing9"
+          ],
+          "pred_canonical": "melt",
+          "pred_ingredients": [
+            "honey",
+            "peanut butter"
+          ],
+          "type_match": true
+        },
+        {
+          "gt_canonical": "bake",
+          "gt_action_text": "bake for 12 to 15 minutes",
+          "gt_original": "Bake for 12 to 15 minutes.",
+          "gt_ingredients": [
+            "ing13",
+            "ing14"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        }
+      ]
+    },
+    {
+      "title": "Churros",
+      "id": "89b1290a27",
+      "gt_seq": [
+        "saute",
+        "boil",
+        "saute",
+        "fry"
+      ],
+      "pred_seq": [
+        "mix",
+        "boil",
+        "cool",
+        "mix",
+        "fry"
+      ],
+      "seq_sim": {
+        "lcs": 2,
+        "precision": 0.4,
+        "recall": 0.5,
+        "f1": 0.4444444444444445,
+        "gt_len": 4,
+        "pred_len": 5
+      },
+      "ing_overlap": 0.3333333333333333,
+      "type_tp": 2,
+      "type_fp": 2,
+      "type_fn": 1,
+      "steps": [
+        {
+          "gt_canonical": "saute",
+          "gt_action_text": "medium heat",
+          "gt_original": "In a small saucepan over medium heat, combine water, 2 1/2 tablespoons sugar, salt and 2 tablespoons",
+          "gt_ingredients": [
+            "ing19",
+            "ing20"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        },
+        {
+          "gt_canonical": "boil",
+          "gt_action_text": "boil",
+          "gt_original": "Bring to a boil and remove from heat.",
+          "gt_ingredients": [
+            "ing20",
+            "ing21"
+          ],
+          "pred_canonical": "boil",
+          "pred_ingredients": [
+            "water"
+          ],
+          "type_match": true
+        },
+        {
+          "gt_canonical": "saute",
+          "gt_action_text": "heat to 375 degrees",
+          "gt_original": "Heat oil for frying in deep-fryer or deep skillet to 375 degrees F (190 degrees C).",
+          "gt_ingredients": [
+            "oil for frying",
+            "ing24"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        },
+        {
+          "gt_canonical": "fry",
+          "gt_action_text": "fry",
+          "gt_original": "Fry until golden; drain on paper towels.",
+          "gt_ingredients": [
+            "ing26",
+            "ing27"
+          ],
+          "pred_canonical": "fry",
+          "pred_ingredients": [
+            "dough strips"
+          ],
+          "type_match": true
+        }
+      ]
+    },
+    {
+      "title": "Corned Beef Hash",
+      "id": "38db5b37a0",
+      "gt_seq": [
+        "saute",
+        "simmer",
+        "mix"
+      ],
+      "pred_seq": [
+        "crush",
+        "mix",
+        "bake"
+      ],
+      "seq_sim": {
+        "lcs": 1,
+        "precision": 0.3333333333333333,
+        "recall": 0.3333333333333333,
+        "f1": 0.3333333333333333,
+        "gt_len": 3,
+        "pred_len": 3
+      },
+      "ing_overlap": 0.13333333333333333,
+      "type_tp": 1,
+      "type_fp": 2,
+      "type_fn": 2,
+      "steps": [
+        {
+          "gt_canonical": "saute",
+          "gt_action_text": "over medium heat",
+          "gt_original": "In a large deep skillet, over medium heat, combine the potatoes, corned beef, onion, and beef broth.",
+          "gt_ingredients": [
+            "ing4",
+            "ing5"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        },
+        {
+          "gt_canonical": "simmer",
+          "gt_action_text": "cover and simmer until potatoes are of mashing consistency and the liquid is almost gone",
+          "gt_original": "Cover and simmer until potatoes are of mashing consistency, and the liquid is almost gone.",
+          "gt_ingredients": [
+            "ing5",
+            "ing6"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        },
+        {
+          "gt_canonical": "mix",
+          "gt_action_text": "mix",
+          "gt_original": "Mix well, and serve.",
+          "gt_ingredients": [
+            "ing6",
+            "ing7"
+          ],
+          "pred_canonical": "mix",
+          "pred_ingredients": [
+            "potatoes",
+            "meat",
+            "onion",
+            "salt",
+            "pepper"
+          ],
+          "type_match": true
+        }
+      ]
+    },
+    {
+      "title": "Crab Cake Sauce",
+      "id": "bc04ad56fb",
+      "gt_seq": [
+        "mix"
+      ],
+      "pred_seq": [
+        "blend"
+      ],
+      "seq_sim": {
+        "lcs": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0,
+        "gt_len": 1,
+        "pred_len": 1
+      },
+      "ing_overlap": 0.7692307692307693,
+      "type_tp": 0,
+      "type_fp": 1,
+      "type_fn": 1,
+      "steps": [
+        {
+          "gt_canonical": "mix",
+          "gt_action_text": "mix",
+          "gt_original": "Combine the sour cream, mayonnaise, cottage cheese, salsa, cayenne pepper, lemon juice and yogurt in",
+          "gt_ingredients": [
+            "ing7",
+            "ing8"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        }
+      ]
+    },
+    {
+      "title": "Garden Potato Salad",
+      "id": "b265ef62f9",
+      "gt_seq": [
+        "stir"
+      ],
+      "pred_seq": [
+        "mix",
+        "blend",
+        "chill",
+        "mix",
+        "chill"
+      ],
+      "seq_sim": {
+        "lcs": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0,
+        "gt_len": 1,
+        "pred_len": 5
+      },
+      "ing_overlap": 0.09523809523809523,
+      "type_tp": 0,
+      "type_fp": 3,
+      "type_fn": 1,
+      "steps": [
+        {
+          "gt_canonical": "stir",
+          "gt_action_text": "stir until thickened",
+          "gt_original": "Cook and stir over medium heat until thickened.",
+          "gt_ingredients": [
+            "ing134",
+            "ing135"
+          ],
+          "pred_canonical": "MISSING",
+          "pred_ingredients": [],
+          "type_match": false
+        }
+      ]
+    }
+  ]
+}

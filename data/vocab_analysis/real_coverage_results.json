@@ -1,0 +1,1000 @@
+{
+  "n_recipes": 1029720,
+  "n_unique_ingredients": 18252,
+  "freq_curve": [
+    [
+      1,
+      0.001017752398710329
+    ],
+    [
+      2,
+      0.0011080682127180205
+    ],
+    [
+      5,
+      0.0014654469176086703
+    ],
+    [
+      10,
+      0.0022345880433515906
+    ],
+    [
+      20,
+      0.003743736161286563
+    ],
+    [
+      30,
+      0.004913957192246436
+    ],
+    [
+      50,
+      0.007338888241463699
+    ],
+    [
+      75,
+      0.012122712970516257
+    ],
+    [
+      100,
+      0.016246164005749134
+    ],
+    [
+      150,
+      0.029119566484092762
+    ],
+    [
+      200,
+      0.044066348133473175
+    ],
+    [
+      300,
+      0.07657324321174688
+    ],
+    [
+      400,
+      0.10869071203822399
+    ],
+    [
+      500,
+      0.14379734296702015
+    ],
+    [
+      750,
+      0.2299460047391524
+    ],
+    [
+      1000,
+      0.30783028396068834
+    ],
+    [
+      1500,
+      0.4413529891621023
+    ],
+    [
+      2000,
+      0.5475303966126714
+    ],
+    [
+      3000,
+      0.7010847609058773
+    ],
+    [
+      5000,
+      0.8618265159460824
+    ],
+    [
+      7500,
+      0.943992541661811
+    ],
+    [
+      10000,
+      0.976308122596434
+    ],
+    [
+      18252,
+      1.0
+    ]
+  ],
+  "emb_distortion_curve": [
+    [
+      9,
+      0.681393359375
+    ],
+    [
+      20,
+      0.625623193359375
+    ],
+    [
+      30,
+      0.594638427734375
+    ],
+    [
+      50,
+      0.550552001953125
+    ],
+    [
+      75,
+      0.51063974609375
+    ],
+    [
+      100,
+      0.48044765625
+    ],
+    [
+      150,
+      0.436366943359375
+    ],
+    [
+      200,
+      0.4042564208984375
+    ],
+    [
+      300,
+      0.358207568359375
+    ],
+    [
+      500,
+      0.300104296875
+    ],
+    [
+      750,
+      0.25360078125
+    ],
+    [
+      1000,
+      0.21851513671875
+    ]
+  ],
+  "emb_info_curve": [
+    [
+      9,
+      0.5973369114550371
+    ],
+    [
+      20,
+      0.75614404834239
+    ],
+    [
+      30,
+      0.7797573759239602
+    ],
+    [
+      50,
+      0.8710242952784621
+    ],
+    [
+      75,
+      0.9085764153256151
+    ],
+    [
+      100,
+      0.9271958267787433
+    ],
+    [
+      150,
+      0.9499341426456008
+    ],
+    [
+      200,
+      0.9585519299716958
+    ],
+    [
+      300,
+      0.9709469051745215
+    ],
+    [
+      500,
+      0.9793261999300361
+    ],
+    [
+      750,
+      0.9872498037004183
+    ],
+    [
+      1000,
+      0.9869744012842439
+    ]
+  ],
+  "top_200_ingredients": [
+    [
+      "salt",
+      362348
+    ],
+    [
+      "butter",
+      237604
+    ],
+    [
+      "sugar",
+      217878
+    ],
+    [
+      "olive oil",
+      169619
+    ],
+    [
+      "water",
+      158509
+    ],
+    [
+      "eggs",
+      151156
+    ],
+    [
+      "garlic cloves",
+      133413
+    ],
+    [
+      "milk",
+      105037
+    ],
+    [
+      "flour",
+      102239
+    ],
+    [
+      "onion",
+      101551
+    ],
+    [
+      "all - purpose flour",
+      97904
+    ],
+    [
+      "onions",
+      90140
+    ],
+    [
+      "egg",
+      77887
+    ],
+    [
+      "brown sugar",
+      73057
+    ],
+    [
+      "baking powder",
+      72700
+    ],
+    [
+      "unsalted butter",
+      71769
+    ],
+    [
+      "pepper",
+      68984
+    ],
+    [
+      "vegetable oil",
+      68031
+    ],
+    [
+      "vanilla extract",
+      61073
+    ],
+    [
+      "salt and pepper",
+      59932
+    ],
+    [
+      "baking soda",
+      58931
+    ],
+    [
+      "parmesan cheese",
+      55987
+    ],
+    [
+      "lemon juice",
+      53620
+    ],
+    [
+      "vanilla",
+      51756
+    ],
+    [
+      "garlic clove",
+      51753
+    ],
+    [
+      "black pepper",
+      51222
+    ],
+    [
+      "tomatoes",
+      48829
+    ],
+    [
+      "cinnamon",
+      46613
+    ],
+    [
+      "garlic",
+      46534
+    ],
+    [
+      "kosher salt",
+      46128
+    ],
+    [
+      "carrots",
+      46017
+    ],
+    [
+      "honey",
+      43170
+    ],
+    [
+      "sour cream",
+      42574
+    ],
+    [
+      "celery",
+      41214
+    ],
+    [
+      "cream cheese",
+      40655
+    ],
+    [
+      "soy sauce",
+      40518
+    ],
+    [
+      "garlic powder",
+      39944
+    ],
+    [
+      "green onions",
+      39921
+    ],
+    [
+      "fresh ground black pepper",
+      39654
+    ],
+    [
+      "mayonnaise",
+      36969
+    ],
+    [
+      "granulated sugar",
+      36886
+    ],
+    [
+      "oil",
+      36614
+    ],
+    [
+      "ground cinnamon",
+      36367
+    ],
+    [
+      "heavy cream",
+      35466
+    ],
+    [
+      "salt & freshly ground black pepper",
+      34714
+    ],
+    [
+      "extra virgin olive oil",
+      33848
+    ],
+    [
+      "cornstarch",
+      32064
+    ],
+    [
+      "fresh lemon juice",
+      31635
+    ],
+    [
+      "worcestershire sauce",
+      29239
+    ],
+    [
+      "chicken broth",
+      29205
+    ],
+    [
+      "paprika",
+      29032
+    ],
+    [
+      "bacon",
+      28688
+    ],
+    [
+      "parsley",
+      28075
+    ],
+    [
+      "fresh parsley",
+      27965
+    ],
+    [
+      "chili powder",
+      27262
+    ],
+    [
+      "powdered sugar",
+      26729
+    ],
+    [
+      "cayenne pepper",
+      26640
+    ],
+    [
+      "ground cumin",
+      25524
+    ],
+    [
+      "potatoes",
+      25508
+    ],
+    [
+      "nutmeg",
+      25383
+    ],
+    [
+      "white sugar",
+      25200
+    ],
+    [
+      "walnuts",
+      24342
+    ],
+    [
+      "pecans",
+      24241
+    ],
+    [
+      "dijon mustard",
+      24032
+    ],
+    [
+      "ground beef",
+      22289
+    ],
+    [
+      "canola oil",
+      22241
+    ],
+    [
+      "margarine",
+      21139
+    ],
+    [
+      "lemon",
+      20805
+    ],
+    [
+      "ground black pepper",
+      20714
+    ],
+    [
+      "cheddar cheese",
+      20294
+    ],
+    [
+      "chicken stock",
+      20280
+    ],
+    [
+      "scallions",
+      20156
+    ],
+    [
+      "zucchini",
+      19246
+    ],
+    [
+      "cilantro",
+      19069
+    ],
+    [
+      "shallots",
+      18960
+    ],
+    [
+      "mozzarella cheese",
+      18731
+    ],
+    [
+      "red onions",
+      18699
+    ],
+    [
+      "fresh cilantro",
+      18691
+    ],
+    [
+      "orange juice",
+      18542
+    ],
+    [
+      "dried oregano",
+      18450
+    ],
+    [
+      "confectioners' sugar",
+      18112
+    ],
+    [
+      "egg yolks",
+      18075
+    ],
+    [
+      "raisins",
+      18034
+    ],
+    [
+      "fresh ginger",
+      17776
+    ],
+    [
+      "buttermilk",
+      17671
+    ],
+    [
+      "tomato paste",
+      17645
+    ],
+    [
+      "sea salt",
+      17609
+    ],
+    [
+      "egg whites",
+      17165
+    ],
+    [
+      "mushrooms",
+      16955
+    ],
+    [
+      "ginger",
+      16937
+    ],
+    [
+      "balsamic vinegar",
+      16522
+    ],
+    [
+      "dry white wine",
+      16515
+    ],
+    [
+      "tomato sauce",
+      16333
+    ],
+    [
+      "red onion",
+      16304
+    ],
+    [
+      "red wine vinegar",
+      15955
+    ],
+    [
+      "cheese",
+      15675
+    ],
+    [
+      "light brown sugar",
+      15566
+    ],
+    [
+      "carrot",
+      15375
+    ],
+    [
+      "boneless skinless chicken breasts",
+      15351
+    ],
+    [
+      "lime juice",
+      15231
+    ],
+    [
+      "ground ginger",
+      15200
+    ],
+    [
+      "ketchup",
+      15095
+    ],
+    [
+      "bay leaf",
+      14696
+    ],
+    [
+      "fresh basil",
+      14683
+    ],
+    [
+      "fresh ground pepper",
+      14668
+    ],
+    [
+      "lemons",
+      14631
+    ],
+    [
+      "cumin",
+      14605
+    ],
+    [
+      "onion powder",
+      14596
+    ],
+    [
+      "oregano",
+      14543
+    ],
+    [
+      "sesame oil",
+      14187
+    ],
+    [
+      "vinegar",
+      14145
+    ],
+    [
+      "dried thyme",
+      13934
+    ],
+    [
+      "bananas",
+      13887
+    ],
+    [
+      "ground nutmeg",
+      13844
+    ],
+    [
+      "bay leaves",
+      13387
+    ],
+    [
+      "whole milk",
+      13303
+    ],
+    [
+      "boiling water",
+      12984
+    ],
+    [
+      "whipping cream",
+      12950
+    ],
+    [
+      "shredded cheddar cheese",
+      12932
+    ],
+    [
+      "chicken",
+      12911
+    ],
+    [
+      "crushed red pepper flakes",
+      12769
+    ],
+    [
+      "thyme",
+      12686
+    ],
+    [
+      "diced tomatoes",
+      12669
+    ],
+    [
+      "fresh thyme",
+      12632
+    ],
+    [
+      "fresh lime juice",
+      12563
+    ],
+    [
+      "red bell pepper",
+      12557
+    ],
+    [
+      "lemon zest",
+      12474
+    ],
+    [
+      "white wine",
+      12397
+    ],
+    [
+      "whole wheat flour",
+      12177
+    ],
+    [
+      "apples",
+      12117
+    ],
+    [
+      "chicken breasts",
+      11977
+    ],
+    [
+      "low - fat milk",
+      11787
+    ],
+    [
+      "shortening",
+      11739
+    ],
+    [
+      "red pepper flakes",
+      11601
+    ],
+    [
+      "basil",
+      11533
+    ],
+    [
+      "breadcrumbs",
+      11508
+    ],
+    [
+      "curry powder",
+      11463
+    ],
+    [
+      "white pepper",
+      11407
+    ],
+    [
+      "cold water",
+      11336
+    ],
+    [
+      "strawberries",
+      11320
+    ],
+    [
+      "red bell peppers",
+      10935
+    ],
+    [
+      "green peppers",
+      10860
+    ],
+    [
+      "semi - sweet chocolate chips",
+      10847
+    ],
+    [
+      "pure vanilla extract",
+      10437
+    ],
+    [
+      "dry mustard",
+      10304
+    ],
+    [
+      "ground cloves",
+      10153
+    ],
+    [
+      "dried basil",
+      10149
+    ],
+    [
+      "cooking spray",
+      10049
+    ],
+    [
+      "shrimp",
+      9949
+    ],
+    [
+      "salsa",
+      9788
+    ],
+    [
+      "warm water",
+      9783
+    ],
+    [
+      "cider vinegar",
+      9583
+    ],
+    [
+      "garlic salt",
+      9566
+    ],
+    [
+      "chives",
+      9540
+    ],
+    [
+      "black beans",
+      9469
+    ],
+    [
+      "cherry tomatoes",
+      9419
+    ],
+    [
+      "half - and - half",
+      9353
+    ],
+    [
+      "celery ribs",
+      9324
+    ],
+    [
+      "green bell pepper",
+      9307
+    ],
+    [
+      "peanut butter",
+      9296
+    ],
+    [
+      "maple syrup",
+      9227
+    ],
+    [
+      "chocolate chips",
+      9172
+    ],
+    [
+      "hot sauce",
+      9171
+    ],
+    [
+      "monterey jack cheese",
+      9163
+    ],
+    [
+      "feta cheese",
+      9163
+    ],
+    [
+      "sharp cheddar cheese",
+      9150
+    ],
+    [
+      "almond extract",
+      9109
+    ],
+    [
+      "lime",
+      9098
+    ],
+    [
+      "nuts",
+      9090
+    ],
+    [
+      "barbecue sauce",
+      8863
+    ],
+    [
+      "green pepper",
+      8831
+    ],
+    [
+      "dark brown sugar",
+      8656
+    ],
+    [
+      "bread",
+      8538
+    ],
+    [
+      "yellow onion",
+      8491
+    ],
+    [
+      "sesame seeds",
+      8467
+    ],
+    [
+      "cocoa powder",
+      8431
+    ],
+    [
+      "egg yolk",
+      8418
+    ],
+    [
+      "white vinegar",
+      8339
+    ],
+    [
+      "almonds",
+      8331
+    ],
+    [
+      "flat leaf parsley",
+      8301
+    ],
+    [
+      "cream",
+      8225
+    ],
+    [
+      "capers",
+      8220
+    ],
+    [
+      "fresh rosemary",
+      8160
+    ],
+    [
+      "orange zest",
+      8154
+    ],
+    [
+      "green bell peppers",
+      8115
+    ],
+    [
+      "cabbage",
+      8048
+    ],
+    [
+      "cucumbers",
+      8015
+    ],
+    [
+      "cake flour",
+      7966
+    ],
+    [
+      "white wine vinegar",
+      7943
+    ],
+    [
+      "ice",
+      7915
+    ],
+    [
+      "heavy whipping cream",
+      7812
+    ],
+    [
+      "pine nuts",
+      7803
+    ],
+    [
+      "molasses",
+      7781
+    ],
+    [
+      "hot water",
+      7754
+    ],
+    [
+      "evaporated milk",
+      7721
+    ],
+    [
+      "corn",
+      7714
+    ],
+    [
+      "fresh parsley leaves",
+      7711
+    ],
+    [
+      "ground coriander",
+      7675
+    ],
+    [
+      "fresh basil leaves",
+      7612
+    ],
+    [
+      "lean ground beef",
+      7545
+    ]
+  ]
+}

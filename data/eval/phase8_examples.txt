@@ -1,0 +1,405 @@
+======================================================================
+Example 1: Hot Coconut-Brown Sugar Topping
+ROUGE-L=0.182  SentBERT=0.403
+
+ORIGINAL:
+Combine ingredients into a saucepan. Heat over low until butter is melted. Spread over cake and consider placing cake under oven broiler until topping is bubbling and lightly browned.
+
+ENCODED STEPS:
+  mix           [butter, sugars, milk]  temp=—  dur=—
+  melt          [butter]  temp=204°F  dur=—
+  bake          [cake]  temp=350°F  dur=—
+
+DECODED:
+1. 1. In a mixing bowl, combine the butter and sugars until well blended. Gradually add the milk and mix until a smooth consistency is achieved.
+
+======================================================================
+Example 2: Peanut-Butter Syrup
+ROUGE-L=0.571  SentBERT=0.782
+
+ORIGINAL:
+Combine peanut butter with milk and honey and blend, adding water until creamy.
+
+ENCODED STEPS:
+  blend         [peanut butter, milk, honey]  temp=—  dur=—
+
+DECODED:
+1. 1. Add peanut butter, milk, and honey to a blender and blend until smooth.
+
+======================================================================
+Example 3: Lemon Frosting
+ROUGE-L=0.333  SentBERT=0.885
+
+ORIGINAL:
+In large bowl beat confectioners sugar, butter, and lemon juice until smooth. Add milk as needed, combine until ingredients are fully incorporated and light and fluffy. Note: you can also add 1 teaspoon lemon zest!
+
+ENCODED STEPS:
+  beat          [confectioners sugar, butter, lemon juice]  temp=—  dur=—
+  mix           [milk]  temp=—  dur=—
+
+DECODED:
+1. 1. In a mixing bowl, beat the confectioners sugar and butter until creamy. Add lemon juice and beat until well combined.  
+2. Gradually mix in the milk, stirring until the mixture is smooth and well combined.
+
+======================================================================
+Example 4: Peanut Butter Dog Biscuits
+ROUGE-L=0.101  SentBERT=0.482
+
+ORIGINAL:
+Preheat oven to 350 degrees F (175 degrees C). Combine wheat flour, spelt flour, oats, and flax seeds in large bowl. Stir in water and peanut butter. Knead dough on a lightly floured surface, mixing in more flour as needed until dough is smooth and no longer sticky. Roll out dough to 1/4 inch thick. Cut with small cookie cutters into desired shapes, and place 3/4 inch apart on greased cookie sheets. Bake 40 minutes. Turn oven off; leave biscuits in oven until completely cool.
+
+ENCODED STEPS:
+  poach         [wheat flour, wheat flour, oats]  temp=350°F  dur=—
+  mix           [wheat flour, wheat flour, oats]  temp=—  dur=—
+  knead         [dough]  temp=—  dur=—
+  mix           [dough, flour]  temp=—  dur=—
+  dissolve      [dough]  temp=—  dur=—
+  bake          [biscuits]  temp=350°F  dur=40min
+  cool          [biscuits]  temp=—  dur=—
+
+DECODED:
+1. 1. Poach wheat flour, wheat flour, oats, seeds at 350°F.
+
+======================================================================
+Example 5: No Knead Challah
+ROUGE-L=0.144  SentBERT=0.534
+
+ORIGINAL:
+Put all ingredients in a large bowl in the order given. The yeast and water should be the last items added. Be sure that you pour the hot water over the yeast. Mix dough with your hands until all flour is mixed in (3-5 minutes). Dough will feel very sticky. DO NOT add more flour! Refrigerate covered with a tea towel overnight (or for several hours). Make bracha, take challah. Add enough flour to make it workable. Braid, brush with egg, add poppy seeds or sesame seeds if desired. Bake at 350 25-3
+
+ENCODED STEPS:
+  mix           [wheat flour, sugars, oil]  temp=—  dur=—
+  mix           [yeast, water]  temp=—  dur=—
+  mix           [hot water, yeast]  temp=180°F  dur=—
+  mix           [all ingredients]  temp=—  dur=3min
+  mix           [dough]  temp=—  dur=5min
+  mix           [dough]  temp=—  dur=—
+  rest          [dough]  temp=—  dur=12min
+  bake          [bread]  temp=350°F  dur=30min
+  bake          [bread]  temp=350°F  dur=30min
+
+DECODED:
+1. 1. In a large mixing bowl, combine the wheat flour, sugars, oil, and leavening agents. Mix well until all ingredients are evenly distributed.
+
+======================================================================
+Example 6: Puffy and Chewy Pita Bread with All-Purpose Flour
+ROUGE-L=0.256  SentBERT=0.799
+
+ORIGINAL:
+Add dry yeast and honey to boiling water cooled to the touch, then let sit for 10 minutes. Combine the all-purpose flour, baking powder and salt in a bowl. Add the yeast mixture and knead with your hands. When well incorporated, add olive oil. Knead until smooth, wrap in plastic wrap, put in a double boiler and allow it to rise (until it rises 1.5 times higher). Lightly knead, then cut into thirds with a knife. Cover with a damp kitchen towel, then let sit for 10 minutes. With a rolling pin, rol
+
+ENCODED STEPS:
+  mix           [dry yeast, honey, boiling water]  temp=—  dur=10min
+  mix           [all-purpose flour, baking powder, salt]  temp=—  dur=—
+  mix           [yeast mixture, flour]  temp=—  dur=—
+  mix           [oil]  temp=—  dur=—
+  knead         [yeast mixture, flour, baking powder]  temp=—  dur=—
+  knead         [yeast mixture, flour, baking powder]  temp=—  dur=—
+  rest          [kneaded dough]  temp=—  dur=10min
+  rest          [kneaded dough]  temp=—  dur=10min
+  dissolve      [yeast mixture, flour]  temp=—  dur=—
+  bake          [dough]  temp=230°F  dur=3min
+  rest          [baked dough]  temp=—  dur=—
+  rest          [baked dough]  temp=—  dur=—
+
+DECODED:
+1. 1. Mix the dry yeast, honey, and boiling water for 10 minutes. Let it cool down with the water.
+2. Mix the all-purpose flour, baking powder, and salt.
+3. Mix the yeast mixture with the flour.
+4. Mix the oil.
+5. Knead the yeast mixture, flour, baking powder, and salt.
+6. Knead the dough again.
+7. Rest the kneaded dough for 10 minutes.
+8. Rest the kneaded dough for another 10 minutes.
+9. Dissolve the yeast mixture in the dough.
+10. Bake the dough at 230°F for 3 minutes.
+11. Rest the baked dough
+
+======================================================================
+Example 7: Mega Easy, Monster Delicious Roasted Red Potatoes
+ROUGE-L=0.195  SentBERT=0.794
+
+ORIGINAL:
+Pre heat oven to 425 F. Wash Potatoes. Have a large bowl with cold water near your cutting board. Leaving skins on, cut potato in half, then cut each half into 8 wedges. Easiest way is to cut the half in a cross pattern, then cut another cross pattern. Place cut potatoes into cold water bath. Drain potatoes into colander. Shake off all excess water. Wipe out large bowl until dry. Put drained potatoes back into bowl. Add all other ingredients. Using a large spoon, mix until all potatoes are compl
+
+ENCODED STEPS:
+  whisk         [spices, spices, spices]  temp=—  dur=—
+  slice         [potatoes]  temp=—  dur=—
+  dissolve      [salt]  temp=—  dur=—
+  boil          [potatoes]  temp=212°F  dur=—
+  mix           [potatoes, all other ingredients]  temp=—  dur=—
+  bake          [potatoes]  temp=425°F  dur=40min
+  season        [potatoes]  temp=—  dur=—
+  reduce        [potatoes]  temp=—  dur=—
+
+DECODED:
+1. 1. Whisk together the spices until well combined.  
+2. Slice the potatoes into rounds or cubes as desired.
+3. Dissolve the salt in a small amount of water.
+4. Place the sliced potatoes in a pot and cover with water.
+5. Bring the water to a boil and cook the potatoes until they are tender, about 15-20 minutes.
+6. Drain the potatoes and mix them with the spiced water and dissolved salt.
+7. Preheat the oven to 425°F. Place the seasoned potatoes on a baking sheet.
+8. Bake the potatoes for 40 minu
+
+======================================================================
+Example 8: Irish Potatoes
+ROUGE-L=0.189  SentBERT=0.478
+
+ORIGINAL:
+Sprinkle the sugar on the coconut. Add the cream and mix gently. Take approximately 1/2 tablespoon of dough and roll into balls. Place cinnamon in a plastic bag and shake cookies a few at a time until coated.
+
+ENCODED STEPS:
+  dissolve      [sugar]  temp=—  dur=—
+  mix           [cream]  temp=—  dur=—
+  melt          [shortening confectionery]  temp=—  dur=—
+  knead         [dough]  temp=—  dur=—
+  coat          [cookies, cinnamon]  temp=—  dur=—
+
+DECODED:
+1. 1. In a bowl, slowly dissolve the sugar into the cream until smooth.
+
+======================================================================
+Example 9: New York Times Summer Bean Chilled Salad
+ROUGE-L=0.299  SentBERT=0.625
+
+ORIGINAL:
+Combine cooked beans and corm with diced onion, red pepper, oilves. Add olive oil, balsamic vinegar and lemon juice. Add fresh basil. Chill as a summer dish. This keeps well in the frig. [can used canned white beans, rinsed and drained].
+
+ENCODED STEPS:
+  mix           [cooked beans, corn, diced onion]  temp=—  dur=—
+  mix           [olive oil, balsamic vinegar, lemon juice]  temp=—  dur=—
+  mix           [fresh basil]  temp=—  dur=—
+  chill         [—]  temp=—  dur=—
+  stir          [—]  temp=—  dur=—
+  stir          [—]  temp=—  dur=—
+
+DECODED:
+1. 1. In a mixing bowl, combine the cooked beans, corn, and diced fresh red onions. Drizzle with a bit of olive oil and mix well.
+
+======================================================================
+Example 10: Tunisian Carrot Salad
+ROUGE-L=0.140  SentBERT=0.841
+
+ORIGINAL:
+Cook carrots in medium saucepan of boiling, salted water until crisp-tender, about 8 minutes; drain well. Stir oil, cumin and cayenne in heavy large skillet over medium heat until aromatic, about 30 seconds. Add carrots, then 1/2 cup water and vinegar. Simmer over medium heat until liquid is absorbed, stirring often, about 5 minutes. Season with salt and pepper. Remove from heat; cool. Mix in cilantro. (Can be made 1 day ahead. Cover and chill. Bring to room temperature before serving).
+
+ENCODED STEPS:
+  boil          [carrots, water]  temp=—  dur=100min
+  stir          [oil, cumin, cayenne]  temp=—  dur=30min
+  stir          [carrots, water, vinegar]  temp=—  dur=5min
+  simmer        [carrots, water, vinegar]  temp=—  dur=5min
+  season        [salt, pepper]  temp=—  dur=—
+  cool          [carrots]  temp=—  dur=—
+  mix           [cilantro]  temp=—  dur=—
+
+DECODED:
+1. 1. Peel and cut carrots into bite-sized pieces. Bring a large pot of water to a boil, add carrots, and cook for 1 hour and 40 minutes. Stir occasionally.
+
+======================================================================
+Example 11: Scalloped Potatoes With Root Vegetables
+ROUGE-L=0.206  SentBERT=0.723
+
+ORIGINAL:
+Line slow cooker with foil collar and spray with vegetable oil spray. Using food processor fitted with 1/4-inch slicing disk, slice potatoes, carrots, and parsnips. Microwave sliced vegetables and 2 T cream in covered bowl, stirring occasionally, until vegetables are almost tender, 6-8 minutes. In large bowl, microwave remaining cream, broth, cornstarch, butter, garlic, salt, pepper, and thyme, stirring occasionally, until thickened, about 1 minute. Slowly whisk in 3/4 c cheddar until evenly mel
+
+ENCODED STEPS:
+  coat          [vegetable oil spray]  temp=—  dur=—
+  slice         [potatoes, carrots, parsnips]  temp=—  dur=—
+  steam         [sliced vegetables, cream]  temp=—  dur=6min
+  mix           [cream, broth, cornstarch]  temp=—  dur=60min
+  mix           [cheese]  temp=—  dur=—
+  bake          [sauce]  temp=—  dur=—
+  bake          [vegetable mixer]  temp=—  dur=—
+  bake          [sauce]  temp=—  dur=—
+  bake          [vegetables]  temp=—  dur=5min
+  bake          [vegetables]  temp=—  dur=4min
+  coat          [cheese]  temp=—  dur=—
+  bake          [casserole]  temp=—  dur=—
+
+DECODED:
+1. 1. Coat the baking dish with vegetable oil spray.  
+2. Slice the potatoes, carrots, and parsnips into uniform pieces.  
+3. Steam the sliced vegetables and cream together for 6 minutes until tender.  
+4. In a saucepan, mix the cream, soup, cornstarch, and butter, stirring for 1 hour until thickened.  
+5. Mix the cheese until it is smooth.  
+6. Preheat the oven to 375°F (190°C).  
+7. Pour the sauce into the baking dish with the steamed vegetables.  
+8. Bake the casserole for 20 minutes at 375°F
+
+======================================================================
+Example 12: Creamy Iced Applesauce Bars
+ROUGE-L=0.344  SentBERT=0.914
+
+ORIGINAL:
+Blend applesauce, milk, warm water, orange juice, poppy seeds, cinnamon, and nutmeg together in a blender until smooth. Pour into a loaf pan, cover with plastic wrap, and freeze until very cold, at least 1 to 2 hours. Cut into squares or bars and top with a dollop of dulce de leche.
+
+ENCODED STEPS:
+  blend         [applesauce, milk, warm water]  temp=150°F  dur=10min
+  freeze        [loaf pan contents]  temp=—  dur=120min
+  slice         [loaf pan contents]  temp=—  dur=—
+  dissolve      [dulce de leche]  temp=—  dur=—
+
+DECODED:
+1. 1. Blend applesauce, milk, warm water, and orange juice at 150°F for 10 minutes.  
+2. Freeze the blended mixture in a loaf pan for 2 hours.
+3. Once frozen, slice the loaf pan contents.
+4. Dissolve dulce de leche.
+
+======================================================================
+Example 13: Creamy Cilantro Dressing
+ROUGE-L=0.207  SentBERT=0.609
+
+ORIGINAL:
+Whisk all ingredients together in a bowl. Chill. Makes 1 1/4 Cups.
+
+ENCODED STEPS:
+  whisk         [salad dressing, milk, spices]  temp=—  dur=—
+  chill         [salad dressing, milk, spices]  temp=—  dur=—
+
+DECODED:
+1. 1. Whisk together the salad dressing, milk, spices, and lime juice.
+2. Chill the mixture.
+
+======================================================================
+Example 14: Brown Rice, Pressure Cooker Recipe
+ROUGE-L=0.250  SentBERT=0.749
+
+ORIGINAL:
+To cook reduced quantities: reduce all ingredients proportionately but notbelow one-fourth. 1. Pour water into cooker. Bring to boil on high heat. Add in rice and salt. Stir. 2. Close cooker. Bring to full pressure on high heat. Reduce heat and cook for 18 min. 3. Remove cooker from heat. Allow to cold naturally for 5 min. Press finger-tip control lightly to release pressure. 4. Open cooker. Yield: 6 c.
+
+ENCODED STEPS:
+  boil          [water]  temp=212°F  dur=—
+  stir          [rice, salt]  temp=—  dur=—
+  cool          [cooker]  temp=—  dur=5min
+  reduce        [cooker]  temp=—  dur=18min
+
+DECODED:
+1. 1. Bring water to a boil at 212°F for 0 minutes. Stir in rice and salt. Then cool the cooker for 5 minutes. Reduce heat to simmer for 18 minutes.
+
+======================================================================
+Example 15: Did You Know? (3 Little-Known Homemade Remedies)
+ROUGE-L=0.234  SentBERT=0.525
+
+ORIGINAL:
+For Aching Muscles From a Bout of Flu. Combine horseradish & olive oil. Let the mixture sit for 30 minutes & then apply as a massage oil for instant relief for aching muscles. For Sore throat. Combine vinegar & honey. Take 1 tbsp 6 times a dy (The vinegar kills the bacteria! ). For Fast Pain Relief. Quaker Oats are not just for breakfast any more! -- Combine Quaker Oats & water in a bowl & warm in the microwave for 1 minute. Cool slightly & apply mixture to your hands for soothing relief of arth
+
+ENCODED STEPS:
+  mix           [horseradish, olive oil]  temp=—  dur=—
+  rest          [mixture]  temp=—  dur=30min
+  mix           [vinegar, honey]  temp=—  dur=—
+  dissolve      [honey]  temp=—  dur=—
+  mix           [water, Quaker Oats]  temp=—  dur=—
+  reduce        [mixture]  temp=—  dur=60min
+  cool          [mixture]  temp=—  dur=—
+
+DECODED:
+1. 1. mix horseradish and olive oil for 0 minutes
+2. let the mixture rest for 30 minutes
+3. mix vinegar and honey
+4. dissolve the honey in the vinegar
+5. mix water and Quaker Oats
+6. reduce the mixture for one hour
+7. cool the mixture
+
+======================================================================
+Example 16: Basic Sugar Syrup
+ROUGE-L=0.267  SentBERT=0.815
+
+ORIGINAL:
+Combine sugar and water in a large saucepan, and stir well. Bring sugar mixture to a boil, and cook 1 minute or until the sugar dissolves, stirring constantly.
+
+ENCODED STEPS:
+  stir          [sugar, water]  temp=—  dur=—
+  boil          [sugar, water]  temp=212°F  dur=1min
+
+DECODED:
+1. 1. stir sugar and water together
+2. boil the mixture at 212°F for 1 minute
+
+======================================================================
+Example 17: Couscous with Fennel and Pinenuts
+ROUGE-L=0.425  SentBERT=0.935
+
+ORIGINAL:
+Melt butter in large saucepan over medium heat. Add fennel cubes and fennel seeds; sprinkle with salt and pepper. Saute until fennel cubes are almost tender, about 5 minutes. Add broth and 1 cup water; bring to boil. Stir in couscous. Remove from heat; cover and let stand until liquid is absorbed, about 10 minutes. Fluff with fork; stir in nuts and chives. Season with salt and pepper.
+
+ENCODED STEPS:
+  melt          [butter]  temp=—  dur=—
+  saute         [fennel cubes, fennel seeds, salt]  temp=—  dur=5min
+  stir          [couscous]  temp=—  dur=—
+  boil          [broth, water]  temp=—  dur=—
+  stir          [couscous]  temp=—  dur=—
+  stir          [nuts, chives]  temp=—  dur=—
+  season        [salt, pepper]  temp=—  dur=—
+
+DECODED:
+1. 1. Melt the butter in a pan.  
+2. Sauté the fennel cubes, fennel seeds, salt, and pepper for 5 minutes.
+3. Stir the couscous in the pan.
+4. Boil a mixture of broth and water.
+5. Stir the couscous in the boiling water.
+6. Stir in the nuts and chives.
+7. Season with salt and pepper to taste.
+
+======================================================================
+Example 18: Chocolate Paste (for Cake Decorations)
+ROUGE-L=0.115  SentBERT=0.635
+
+ORIGINAL:
+Melt the chocolate in a double boiler or microwave, stirring until melted and smooth and cool slightly. Stir in the corn syrup (chocolate will stiffen almost immediately) until completely combined. Transfer chocolate to a plastic freezer bag and refrigerate until firm (about two hours). When the paste is firm, remove from the refrigerator, and knead it until it is soft enough to work with. Tip: If it is too hard, cut off small pieces, and knead until pliable and grease the counter where you are 
+
+ENCODED STEPS:
+  melt          [chocolate, corn syrup]  temp=—  dur=—
+  stir          [chocolate, corn syrup]  temp=—  dur=—
+  cool          [chocolate]  temp=—  dur=—
+  stir          [chocolate, corn syrup]  temp=—  dur=—
+  reduce        [chocolate]  temp=—  dur=—
+  knead         [chocolate]  temp=—  dur=—
+  knead         [chocolate]  temp=—  dur=—
+  knead         [chocolate]  temp=—  dur=—
+  knead         [chocolate]  temp=—  dur=—
+  knead         [chocolate]  temp=—  dur=—
+  knead         [chocolate]  temp=—  dur=—
+  knead         [chocolate]  temp=—  dur=—
+
+DECODED:
+1. 1. Melt chocolate and corn syrup.
+2. Stir melted chocolate and corn syrup.
+3. Cool the melted mixture.
+4. Stir cooled chocolate and corn syrup again.
+5. Reduce the mixture to desired consistency.
+6. Begin kneading the reduced mixture.
+7. Continue kneading the mixture.
+8. Knead the mixture further.
+9. Knead the mixture again.
+10. Knead the mixture once more.
+11. Knead the mixture yet again.
+12. Knead the mixture until it reaches the desired texture.
+
+======================================================================
+Example 19: North Vietnamese Dipping Sauce
+ROUGE-L=0.000  SentBERT=0.405
+
+ORIGINAL:
+Combine all ingredients together.
+
+ENCODED STEPS:
+  mix           [spices, spices, sugars]  temp=—  dur=—
+
+DECODED:
+1. 1. mix spices, spices, sugars, sauce
+
+======================================================================
+Example 20: Sweet 'n' Sour Salad Dressing
+ROUGE-L=0.270  SentBERT=0.572
+
+ORIGINAL:
+In a jar with a tight-fitting lid, combine the first seven ingredients; shake well. Serve over salad greens.
+
+ENCODED STEPS:
+  mix           [oil, sugars, vinegar]  temp=—  dur=—
+
+DECODED:
+1. 1. In a mixing bowl, combine the oil, sugars, vinegar, and lemon juice. Stir well to blend.
+

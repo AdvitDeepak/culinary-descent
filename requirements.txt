@@ -1,18 +1,15 @@
-# Core
-torch>=2.0.0
-transformers>=4.35.0   # CLIP via HuggingFace
-Pillow>=10.0.0
-numpy>=1.24.0
+# Core inference (GPU required for phases 9–13)
+vllm>=0.6.0
+transformers>=4.45.0
+torch>=2.3.0
 
-# LLM parser (Perplexity Sonar via OpenAI-compatible API)
-openai>=1.0.0
+# Embeddings / semantic evaluation
+sentence-transformers>=3.0.0
 
-# Data
-datasets>=2.14.0       # RecipeNLG via HuggingFace
+# Data / parsing
+numpy>=1.26.0
+tqdm>=4.66.0
+lxml>=5.0.0          # phase12: CURD XML ground-truth parsing
 
-# Testing
+# Dev
 pytest>=7.4.0
-
-# Optional: recipe1m data loading
-# lmdb>=1.4.0
-# msgpack>=1.0.0

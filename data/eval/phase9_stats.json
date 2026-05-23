@@ -1,0 +1,21 @@
+{
+  "n_total": 16987,
+  "n_ok": 16647,
+  "n_fail": 340,
+  "parse_rate": 0.9799846941779008,
+  "ing_assignment_rate": 0.9973918292849633,
+  "temp_capture_rate": 0.2651776563877844,
+  "dur_capture_rate": 0.2974969316607449,
+  "bge_baselines": {
+    "parse_rate": 0.975,
+    "ing_assignment": 0.342,
+    "temp_capture": 0.693,
+    "dur_capture": 0.516
+  },
+  "phase8_constrained_sample": {
+    "parse_rate": 0.927,
+    "ing_assignment": 0.97,
+    "temp_capture": 0.13,
+    "dur_capture": 0.235
+  }
+}

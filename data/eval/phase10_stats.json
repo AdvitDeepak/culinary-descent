@@ -1,0 +1,25 @@
+{
+  "parse_rate": 0.45,
+  "n_repaired": 0,
+  "ing_assignment": 0.9946666666666667,
+  "temp_capture": 0.13748356581689913,
+  "dur_capture": 0.13425589225589227,
+  "model": "Qwen/Qwen3-8B",
+  "n_recipes": 500,
+  "elapsed_s": 1956.2582714557648,
+  "recipes_per_hour": 920.1239050406755,
+  "baselines": {
+    "bge": {
+      "parse_rate": 0.975,
+      "ing_assignment": 0.342,
+      "temp": 0.693,
+      "dur": 0.516
+    },
+    "phase9": {
+      "parse_rate": 0.983,
+      "ing_assignment": 0.998,
+      "temp": 0.263,
+      "dur": 0.293
+    }
+  }
+}

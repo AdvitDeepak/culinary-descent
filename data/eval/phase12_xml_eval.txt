@@ -1,0 +1,115 @@
+GROUND-TRUTH EVALUATION: Constrained Encoder vs CURD Annotations
+========================================================================
+Matched recipes: 16
+Type precision:   30.8%
+Type recall:      48.5%
+Type F1:          37.6%
+Avg sequence F1:  23.6%
+Avg ing overlap:  37.3%
+
+
+RECIPE: Almond Buttercrunch
+  GT   sequence: mix → saute → stir → saute → chop
+  Pred sequence: mix → stir → boil → cool → stir → coat → mix
+  Seq F1: 0.33  (P=0.29 R=0.40)  Ing overlap: 0.67
+  MISSING from pred: ['chop', 'saute']
+  EXTRA in pred:     ['cool', 'coat', 'boil']
+
+RECIPE: Anzac Biscuits I
+  GT   sequence: melt → mix → bake
+  Pred sequence: mix → melt → mix → mix → bake
+  Seq F1: 0.75  (P=0.60 R=1.00)  Ing overlap: 0.62
+
+RECIPE: Asian Turkey Burgers
+  GT   sequence: chop → chop → saute
+  Pred sequence: mix → melt → grill
+  Seq F1: 0.00  (P=0.00 R=0.00)  Ing overlap: 0.13
+  MISSING from pred: ['chop', 'saute']
+  EXTRA in pred:     ['grill', 'melt', 'mix']
+
+RECIPE: Bacon Wrapped Smokies
+  GT   sequence: bake
+  Pred sequence: bake → bake
+  Seq F1: 0.67  (P=0.50 R=1.00)  Ing overlap: 0.00
+
+RECIPE: Basic Chicken Stock
+  GT   sequence: chop → chop → boil → simmer → boil
+  Pred sequence: toast → toast → toast → toast → toast → toast → toast → toast → toast → toast → toast → toast
+  Seq F1: 0.00  (P=0.00 R=0.00)  Ing overlap: 0.07
+  MISSING from pred: ['chop', 'simmer', 'boil']
+  EXTRA in pred:     ['toast']
+
+RECIPE: Biga
+  GT   sequence: mix
+  Pred sequence: mix → mix → mix → mix → mix → coat → rest → rest → rest → rest → rest → rest
+  Seq F1: 0.15  (P=0.08 R=1.00)  Ing overlap: 0.44
+  EXTRA in pred:     ['rest', 'coat']
+
+RECIPE: Brownie Mix in a Jar III
+  GT   sequence: brown → brown
+  Pred sequence: mix → mix → mix → bake → cool → slice → cool
+  Seq F1: 0.00  (P=0.00 R=0.00)  Ing overlap: 0.60
+  MISSING from pred: ['brown']
+  EXTRA in pred:     ['slice', 'bake', 'cool', 'mix']
+
+RECIPE: Buttermilk Shake
+  GT   sequence: mix
+  Pred sequence: blend
+  Seq F1: 0.00  (P=0.00 R=0.00)  Ing overlap: 0.25
+  MISSING from pred: ['mix']
+  EXTRA in pred:     ['blend']
+
+RECIPE: Butterscotch Brownies in a Jar
+  GT   sequence: brown → brown
+  Pred sequence: mix → stir → stir → stir → bake → cool
+  Seq F1: 0.00  (P=0.00 R=0.00)  Ing overlap: 0.67
+  MISSING from pred: ['brown']
+  EXTRA in pred:     ['bake', 'cool', 'mix', 'stir']
+
+RECIPE: Caramel Shortbread Squares
+  GT   sequence: mix → bake → boil → boil → mix → melt → mix → chop
+  Pred sequence: crush → mix → bake → boil → beat → cool → melt → stir → chill → slice
+  Seq F1: 0.44  (P=0.40 R=0.50)  Ing overlap: 0.65
+  MISSING from pred: ['chop']
+  EXTRA in pred:     ['crush', 'slice', 'cool', 'beat', 'stir', 'chill']
+
+RECIPE: Chipotle Mayo Relish
+  GT   sequence: mix
+  Pred sequence: mix → mix → mix → chill
+  Seq F1: 0.40  (P=0.25 R=1.00)  Ing overlap: 0.53
+  EXTRA in pred:     ['chill']
+
+RECIPE: Chocolate Crisps
+  GT   sequence: melt → bake
+  Pred sequence: melt → boil → stir → stir → stir → chill
+  Seq F1: 0.25  (P=0.17 R=0.50)  Ing overlap: 0.00
+  MISSING from pred: ['bake']
+  EXTRA in pred:     ['boil', 'chill', 'stir']
+
+RECIPE: Churros
+  GT   sequence: saute → boil → saute → fry
+  Pred sequence: mix → boil → cool → mix → fry
+  Seq F1: 0.44  (P=0.40 R=0.50)  Ing overlap: 0.33
+  MISSING from pred: ['saute']
+  EXTRA in pred:     ['cool', 'mix']
+
+RECIPE: Corned Beef Hash
+  GT   sequence: saute → simmer → mix
+  Pred sequence: crush → mix → bake
+  Seq F1: 0.33  (P=0.33 R=0.33)  Ing overlap: 0.13
+  MISSING from pred: ['saute', 'simmer']
+  EXTRA in pred:     ['crush', 'bake']
+
+RECIPE: Crab Cake Sauce
+  GT   sequence: mix
+  Pred sequence: blend
+  Seq F1: 0.00  (P=0.00 R=0.00)  Ing overlap: 0.77
+  MISSING from pred: ['mix']
+  EXTRA in pred:     ['blend']
+
+RECIPE: Garden Potato Salad
+  GT   sequence: stir
+  Pred sequence: mix → blend → chill → mix → chill
+  Seq F1: 0.00  (P=0.00 R=0.00)  Ing overlap: 0.10
+  MISSING from pred: ['stir']
+  EXTRA in pred:     ['blend', 'chill', 'mix']

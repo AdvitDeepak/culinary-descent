@@ -1,0 +1,2371 @@
+{
+  "taxonomy": [
+    {
+      "name": "bake",
+      "group": "dry_heat",
+      "required_args": [
+        "temp_c",
+        "duration_min"
+      ],
+      "optional_args": [],
+      "note": "oven, enclosed dry heat"
+    },
+    {
+      "name": "roast",
+      "group": "dry_heat",
+      "required_args": [
+        "temp_c",
+        "duration_min"
+      ],
+      "optional_args": [],
+      "note": "oven, high temp, uncovered"
+    },
+    {
+      "name": "broil",
+      "group": "dry_heat",
+      "required_args": [
+        "duration_min"
+      ],
+      "optional_args": [],
+      "note": "direct overhead heat"
+    },
+    {
+      "name": "grill",
+      "group": "dry_heat",
+      "required_args": [
+        "duration_min"
+      ],
+      "optional_args": [],
+      "note": "direct flame/coals from below"
+    },
+    {
+      "name": "toast",
+      "group": "dry_heat",
+      "required_args": [
+        "duration_min"
+      ],
+      "optional_args": [],
+      "note": "dry heat, bread/nuts/spices"
+    },
+    {
+      "name": "saute",
+      "group": "fat_heat",
+      "required_args": [
+        "duration_min"
+      ],
+      "optional_args": [],
+      "note": "pan + fat, medium-high heat"
+    },
+    {
+      "name": "fry",
+      "group": "fat_heat",
+      "required_args": [
+        "duration_min"
+      ],
+      "optional_args": [
+        "temp_c"
+      ],
+      "note": "shallow or deep fat"
+    },
+    {
+      "name": "sear",
+      "group": "fat_heat",
+      "required_args": [
+        "duration_min"
+      ],
+      "optional_args": [],
+      "note": "very high heat, short time, crust"
+    },
+    {
+      "name": "brown",
+      "group": "fat_heat",
+      "required_args": [
+        "duration_min"
+      ],
+      "optional_args": [],
+      "note": "Maillard reaction, stovetop"
+    },
+    {
+      "name": "boil",
+      "group": "moist_heat",
+      "required_args": [
+        "duration_min"
+      ],
+      "optional_args": [],
+      "note": "100\u00b0C, rolling boil"
+    },
+    {
+      "name": "simmer",
+      "group": "moist_heat",
+      "required_args": [
+        "duration_min"
+      ],
+      "optional_args": [],
+      "note": "below boil, gentle bubbles"
+    },
+    {
+      "name": "steam",
+      "group": "moist_heat",
+      "required_args": [
+        "duration_min"
+      ],
+      "optional_args": [],
+      "note": "steam vapor as medium"
+    },
+    {
+      "name": "poach",
+      "group": "moist_heat",
+      "required_args": [
+        "duration_min"
+      ],
+      "optional_args": [
+        "temp_c"
+      ],
+      "note": "gentle submersion in liquid"
+    },
+    {
+      "name": "braise",
+      "group": "moist_heat",
+      "required_args": [
+        "duration_min"
+      ],
+      "optional_args": [],
+      "note": "partial liquid, long low heat"
+    },
+    {
+      "name": "blanch",
+      "group": "moist_heat",
+      "required_args": [
+        "duration_min"
+      ],
+      "optional_args": [],
+      "note": "brief boil + ice bath"
+    },
+    {
+      "name": "chop",
+      "group": "prep",
+      "required_args": [],
+      "optional_args": [],
+      "note": "rough cut, no size spec"
+    },
+    {
+      "name": "dice",
+      "group": "prep",
+      "required_args": [],
+      "optional_args": [
+        "size_mm"
+      ],
+      "note": "uniform cubes"
+    },
+    {
+      "name": "slice",
+      "group": "prep",
+      "required_args": [],
+      "optional_args": [
+        "thickness_mm"
+      ],
+      "note": "flat cuts"
+    },
+    {
+      "name": "mince",
+      "group": "prep",
+      "required_args": [],
+      "optional_args": [],
+      "note": "very fine cut"
+    },
+    {
+      "name": "grate",
+      "group": "prep",
+      "required_args": [],
+      "optional_args": [],
+      "note": "shred against grater"
+    },
+    {
+      "name": "peel",
+      "group": "prep",
+      "required_args": [],
+      "optional_args": [],
+      "note": "remove outer skin/rind"
+    },
+    {
+      "name": "crush",
+      "group": "prep",
+      "required_args": [],
+      "optional_args": [],
+      "note": "smash (garlic, peppercorns)"
+    },
+    {
+      "name": "mix",
+      "group": "combine",
+      "required_args": [],
+      "optional_args": [
+        "duration_min"
+      ],
+      "note": "general mixing"
+    },
+    {
+      "name": "stir",
+      "group": "combine",
+      "required_args": [],
+      "optional_args": [
+        "duration_min"
+      ],
+      "note": "mixing during cooking"
+    },
+    {
+      "name": "whisk",
+      "group": "combine",
+      "required_args": [],
+      "optional_args": [
+        "duration_min"
+      ],
+      "note": "incorporate air, smooth"
+    },
+    {
+      "name": "fold",
+      "group": "combine",
+      "required_args": [],
+      "optional_args": [],
+      "note": "gentle incorporation, no deflate"
+    },
+    {
+      "name": "blend",
+      "group": "combine",
+      "required_args": [],
+      "optional_args": [
+        "duration_sec"
+      ],
+      "note": "machine blending, smooth"
+    },
+    {
+      "name": "beat",
+      "group": "combine",
+      "required_args": [],
+      "optional_args": [
+        "duration_min"
+      ],
+      "note": "eggs, cream \u2014 vigorous"
+    },
+    {
+      "name": "knead",
+      "group": "combine",
+      "required_args": [
+        "duration_min"
+      ],
+      "optional_args": [],
+      "note": "bread dough \u2014 gluten develop"
+    },
+    {
+      "name": "toss",
+      "group": "combine",
+      "required_args": [],
+      "optional_args": [],
+      "note": "coat lightly, salad/pasta"
+    },
+    {
+      "name": "season",
+      "group": "apply",
+      "required_args": [],
+      "optional_args": [],
+      "note": "add salt/pepper/spices"
+    },
+    {
+      "name": "coat",
+      "group": "apply",
+      "required_args": [],
+      "optional_args": [],
+      "note": "cover surface evenly"
+    },
+    {
+      "name": "brush",
+      "group": "apply",
+      "required_args": [],
+      "optional_args": [],
+      "note": "apply liquid with brush"
+    },
+    {
+      "name": "drizzle",
+      "group": "apply",
+      "required_args": [],
+      "optional_args": [],
+      "note": "pour in thin stream"
+    },
+    {
+      "name": "cool",
+      "group": "rest",
+      "required_args": [],
+      "optional_args": [
+        "duration_min"
+      ],
+      "note": "bring to room temp"
+    },
+    {
+      "name": "chill",
+      "group": "rest",
+      "required_args": [],
+      "optional_args": [
+        "duration_min"
+      ],
+      "note": "refrigerate until cold"
+    },
+    {
+      "name": "freeze",
+      "group": "rest",
+      "required_args": [],
+      "optional_args": [
+        "duration_min"
+      ],
+      "note": "bring below 0\u00b0C"
+    },
+    {
+      "name": "rest",
+      "group": "rest",
+      "required_args": [],
+      "optional_args": [
+        "duration_min"
+      ],
+      "note": "hold off heat (meat, dough)"
+    },
+    {
+      "name": "marinate",
+      "group": "rest",
+      "required_args": [
+        "duration_min"
+      ],
+      "optional_args": [],
+      "note": "soak in flavored liquid"
+    },
+    {
+      "name": "reduce",
+      "group": "rest",
+      "required_args": [],
+      "optional_args": [
+        "pct"
+      ],
+      "note": "boil down liquid volume"
+    },
+    {
+      "name": "dissolve",
+      "group": "rest",
+      "required_args": [],
+      "optional_args": [],
+      "note": "solid \u2192 liquid (sugar, gelatin)"
+    },
+    {
+      "name": "melt",
+      "group": "rest",
+      "required_args": [],
+      "optional_args": [],
+      "note": "solid \u2192 liquid via heat"
+    },
+    {
+      "name": "drain",
+      "group": "rest",
+      "required_args": [],
+      "optional_args": [],
+      "note": "remove liquid from solid"
+    }
+  ],
+  "verb_to_canonical": {
+    "stir": {
+      "canonical": "stir",
+      "similarity": 0.9999997019767761
+    },
+    "mix": {
+      "canonical": "mix",
+      "similarity": 1.0000003576278687
+    },
+    "combine": {
+      "canonical": "mix",
+      "similarity": 0.8400874733924866
+    },
+    "bake": {
+      "canonical": "bake",
+      "similarity": 1.0000001192092896
+    },
+    "cook": {
+      "canonical": "saute",
+      "similarity": 0.8167203068733215
+    },
+    "cover": {
+      "canonical": "coat",
+      "similarity": 0.7689855098724365
+    },
+    "cut": {
+      "canonical": "slice",
+      "similarity": 0.7866275906562805
+    },
+    "cool": {
+      "canonical": "cool",
+      "similarity": 1.0000001192092896
+    },
+    "oven": {
+      "canonical": "bake",
+      "similarity": 0.8252214193344116
+    },
+    "melt": {
+      "canonical": "melt",
+      "similarity": 0.9999998211860657
+    },
+    "roll": {
+      "canonical": "dice",
+      "similarity": 0.7369123101234436
+    },
+    "sprinkle": {
+      "canonical": "drizzle",
+      "similarity": 0.7980087399482727
+    },
+    "refrigerate": {
+      "canonical": "freeze",
+      "similarity": 0.7506541013717651
+    },
+    "blend": {
+      "canonical": "blend",
+      "similarity": 1.0000005960464478
+    },
+    "spread": {
+      "canonical": "mix",
+      "similarity": 0.7448512315750122
+    },
+    "coat": {
+      "canonical": "coat",
+      "similarity": 0.9999995827674866
+    },
+    "boil": {
+      "canonical": "boil",
+      "similarity": 1.0
+    },
+    "heat": {
+      "canonical": "steam",
+      "similarity": 0.7258869409561157
+    },
+    "toss": {
+      "canonical": "toss",
+      "similarity": 1.0
+    },
+    "whisk": {
+      "canonical": "whisk",
+      "similarity": 1.0000003576278687
+    },
+    "beat": {
+      "canonical": "beat",
+      "similarity": 1.000000238418579
+    },
+    "form": {
+      "canonical": "fold",
+      "similarity": 0.7475932240486145
+    },
+    "reduce": {
+      "canonical": "reduce",
+      "similarity": 1.000000238418579
+    },
+    "preheat": {
+      "canonical": "bake",
+      "similarity": 0.752698540687561
+    },
+    "desire": {
+      "canonical": "crush",
+      "similarity": 0.7189455032348633
+    },
+    "rise": {
+      "canonical": "mix",
+      "similarity": 0.6943035125732422
+    },
+    "press": {
+      "canonical": "cool",
+      "similarity": 0.6309452652931213
+    },
+    "stand": {
+      "canonical": "fold",
+      "similarity": 0.739403486251831
+    },
+    "grease": {
+      "canonical": "saute",
+      "similarity": 0.720730185508728
+    },
+    "dissolve": {
+      "canonical": "dissolve",
+      "similarity": 0.9999997615814209
+    },
+    "brown": {
+      "canonical": "brown",
+      "similarity": 1.0000004768371582
+    },
+    "chop": {
+      "canonical": "chop",
+      "similarity": 0.9999995827674866
+    },
+    "simmer": {
+      "canonical": "simmer",
+      "similarity": 1.0000005960464478
+    },
+    "freeze": {
+      "canonical": "freeze",
+      "similarity": 0.9999997019767761
+    },
+    "fold": {
+      "canonical": "fold",
+      "similarity": 1.0000001192092896
+    },
+    "flour": {
+      "canonical": "bake",
+      "similarity": 0.7546895146369934
+    },
+    "drain": {
+      "canonical": "drain",
+      "similarity": 0.9999998211860657
+    },
+    "chill": {
+      "canonical": "chill",
+      "similarity": 1.000000238418579
+    },
+    "thicken": {
+      "canonical": "blanch",
+      "similarity": 0.7679276466369629
+    },
+    "divide": {
+      "canonical": "dissolve",
+      "similarity": 0.7479526996612549
+    },
+    "store": {
+      "canonical": "steam",
+      "similarity": 0.6840361952781677
+    },
+    "knead": {
+      "canonical": "knead",
+      "similarity": 1.0000003576278687
+    },
+    "dry": {
+      "canonical": "chill",
+      "similarity": 0.7285143136978149
+    },
+    "spoon": {
+      "canonical": "whisk",
+      "similarity": 0.8062811493873596
+    },
+    "shake": {
+      "canonical": "mix",
+      "similarity": 0.8002563714981079
+    },
+    "begin": {
+      "canonical": "mix",
+      "similarity": 0.722100555896759
+    },
+    "sit": {
+      "canonical": "rest",
+      "similarity": 0.785843014717102
+    },
+    "break": {
+      "canonical": "rest",
+      "similarity": 0.7725517749786377
+    },
+    "like": {
+      "canonical": "mix",
+      "similarity": 0.6593791842460632
+    },
+    "return": {
+      "canonical": "rest",
+      "similarity": 0.6942780613899231
+    },
+    "wrap": {
+      "canonical": "fold",
+      "similarity": 0.7682472467422485
+    },
+    "shape": {
+      "canonical": "blend",
+      "similarity": 0.6915972828865051
+    },
+    "drop": {
+      "canonical": "toss",
+      "similarity": 0.7615460157394409
+    },
+    "double": {
+      "canonical": "mix",
+      "similarity": 0.6869069337844849
+    },
+    "reach": {
+      "canonical": "fold",
+      "similarity": 0.6375945806503296
+    },
+    "drizzle": {
+      "canonical": "drizzle",
+      "similarity": 1.0000007152557373
+    },
+    "repeat": {
+      "canonical": "mix",
+      "similarity": 0.7245599031448364
+    },
+    "uncover": {
+      "canonical": "dissolve",
+      "similarity": 0.6906947493553162
+    },
+    "flatten": {
+      "canonical": "dissolve",
+      "similarity": 0.722011387348175
+    },
+    "whip": {
+      "canonical": "whisk",
+      "similarity": 0.7374087572097778
+    },
+    "seal": {
+      "canonical": "coat",
+      "similarity": 0.7214459180831909
+    },
+    "spray": {
+      "canonical": "drizzle",
+      "similarity": 0.764168381690979
+    },
+    "wax": {
+      "canonical": "brush",
+      "similarity": 0.7433760166168213
+    },
+    "sift": {
+      "canonical": "blend",
+      "similarity": 0.6312963962554932
+    },
+    "accord": {
+      "canonical": "blend",
+      "similarity": 0.7256626486778259
+    },
+    "hold": {
+      "canonical": "fold",
+      "similarity": 0.7268392443656921
+    },
+    "soften": {
+      "canonical": "reduce",
+      "similarity": 0.7428380846977234
+    },
+    "microwave": {
+      "canonical": "grill",
+      "similarity": 0.7385786175727844
+    },
+    "rest": {
+      "canonical": "rest",
+      "similarity": 1.0000001192092896
+    },
+    "depend": {
+      "canonical": "fold",
+      "similarity": 0.7036856412887573
+    },
+    "incorporate": {
+      "canonical": "dissolve",
+      "similarity": 0.6844300627708435
+    },
+    "slice": {
+      "canonical": "slice",
+      "similarity": 0.9999996423721313
+    },
+    "eat": {
+      "canonical": "roast",
+      "similarity": 0.7343371510505676
+    },
+    "resemble": {
+      "canonical": "blend",
+      "similarity": 0.6940439939498901
+    },
+    "run": {
+      "canonical": "beat",
+      "similarity": 0.7021729946136475
+    },
+    "stick": {
+      "canonical": "brush",
+      "similarity": 0.7350528240203857
+    },
+    "measure": {
+      "canonical": "beat",
+      "similarity": 0.6993948221206665
+    },
+    "burn": {
+      "canonical": "bake",
+      "similarity": 0.7562240362167358
+    },
+    "soak": {
+      "canonical": "marinate",
+      "similarity": 0.7382419109344482
+    },
+    "salt": {
+      "canonical": "toast",
+      "similarity": 0.7036684155464172
+    },
+    "fit": {
+      "canonical": "beat",
+      "similarity": 0.728167712688446
+    },
+    "strain": {
+      "canonical": "drain",
+      "similarity": 0.7085347175598145
+    },
+    "wash": {
+      "canonical": "toss",
+      "similarity": 0.7124540209770203
+    },
+    "pan": {
+      "canonical": "fry",
+      "similarity": 0.7348963022232056
+    },
+    "bubble": {
+      "canonical": "freeze",
+      "similarity": 0.7257134914398193
+    },
+    "rub": {
+      "canonical": "crush",
+      "similarity": 0.7308527231216431
+    },
+    "prevent": {
+      "canonical": "reduce",
+      "similarity": 0.7043513059616089
+    },
+    "pull": {
+      "canonical": "peel",
+      "similarity": 0.7209389805793762
+    },
+    "toast": {
+      "canonical": "toast",
+      "similarity": 1.000000238418579
+    },
+    "absorb": {
+      "canonical": "dissolve",
+      "similarity": 0.743662416934967
+    },
+    "pop": {
+      "canonical": "crush",
+      "similarity": 0.7415831685066223
+    },
+    "rinse": {
+      "canonical": "dissolve",
+      "similarity": 0.7673155665397644
+    },
+    "oil": {
+      "canonical": "brush",
+      "similarity": 0.7046659588813782
+    },
+    "room": {
+      "canonical": "toast",
+      "similarity": 0.6820768117904663
+    },
+    "cream": {
+      "canonical": "roast",
+      "similarity": 0.7392619252204895
+    },
+    "scrape": {
+      "canonical": "peel",
+      "similarity": 0.7559682726860046
+    },
+    "dress": {
+      "canonical": "coat",
+      "similarity": 0.7514620423316956
+    },
+    "peel": {
+      "canonical": "peel",
+      "similarity": 1.000000238418579
+    },
+    "crush": {
+      "canonical": "crush",
+      "similarity": 0.9999995231628418
+    },
+    "increase": {
+      "canonical": "mix",
+      "similarity": 0.6709939241409302
+    },
+    "finish": {
+      "canonical": "rest",
+      "similarity": 0.7255183458328247
+    },
+    "insert": {
+      "canonical": "fold",
+      "similarity": 0.7368040680885315
+    },
+    "fry": {
+      "canonical": "fry",
+      "similarity": 1.0
+    },
+    "dip": {
+      "canonical": "roast",
+      "similarity": 0.7521452307701111
+    },
+    "butter": {
+      "canonical": "toast",
+      "similarity": 0.7581577897071838
+    },
+    "lift": {
+      "canonical": "melt",
+      "similarity": 0.6972918510437012
+    },
+    "punch": {
+      "canonical": "crush",
+      "similarity": 0.7475993037223816
+    },
+    "moisten": {
+      "canonical": "mix",
+      "similarity": 0.7072110772132874
+    },
+    "reserve": {
+      "canonical": "chill",
+      "similarity": 0.7055789232254028
+    },
+    "scoop": {
+      "canonical": "roast",
+      "similarity": 0.7538699507713318
+    },
+    "grind": {
+      "canonical": "chill",
+      "similarity": 0.742432713508606
+    },
+    "stop": {
+      "canonical": "chill",
+      "similarity": 0.7310329675674438
+    },
+    "flip": {
+      "canonical": "toss",
+      "similarity": 0.7844160199165344
+    },
+    "roast": {
+      "canonical": "roast",
+      "similarity": 0.9999992847442627
+    },
+    "touch": {
+      "canonical": "crush",
+      "similarity": 0.7325255870819092
+    },
+    "process": {
+      "canonical": "mix",
+      "similarity": 0.6852766871452332
+    },
+    "help": {
+      "canonical": "cool",
+      "similarity": 0.6407075524330139
+    },
+    "brush": {
+      "canonical": "brush",
+      "similarity": 1.000000238418579
+    },
+    "harden": {
+      "canonical": "brown",
+      "similarity": 0.6635581254959106
+    },
+    "prefer": {
+      "canonical": "mix",
+      "similarity": 0.7317004799842834
+    },
+    "create": {
+      "canonical": "mix",
+      "similarity": 0.7553372383117676
+    },
+    "squeeze": {
+      "canonical": "crush",
+      "similarity": 0.7483375072479248
+    },
+    "handle": {
+      "canonical": "brush",
+      "similarity": 0.7540786266326904
+    },
+    "evaporate": {
+      "canonical": "melt",
+      "similarity": 0.7963727712631226
+    },
+    "separate": {
+      "canonical": "dissolve",
+      "similarity": 0.7665982842445374
+    },
+    "frost": {
+      "canonical": "freeze",
+      "similarity": 0.778046727180481
+    },
+    "recommend": {
+      "canonical": "cool",
+      "similarity": 0.721954882144928
+    },
+    "discard": {
+      "canonical": "toss",
+      "similarity": 0.7402767539024353
+    },
+    "pack": {
+      "canonical": "coat",
+      "similarity": 0.7309252619743347
+    },
+    "distribute": {
+      "canonical": "reduce",
+      "similarity": 0.7408009171485901
+    },
+    "rack": {
+      "canonical": "whisk",
+      "similarity": 0.6815590858459473
+    },
+    "ice": {
+      "canonical": "freeze",
+      "similarity": 0.8187628388404846
+    },
+    "trim": {
+      "canonical": "chop",
+      "similarity": 0.7706196308135986
+    },
+    "marinate": {
+      "canonical": "marinate",
+      "similarity": 1.0
+    },
+    "granulate": {
+      "canonical": "grate",
+      "similarity": 0.7158612608909607
+    },
+    "dust": {
+      "canonical": "toast",
+      "similarity": 0.7075521349906921
+    },
+    "extract": {
+      "canonical": "dissolve",
+      "similarity": 0.7597794532775879
+    },
+    "warm": {
+      "canonical": "cool",
+      "similarity": 0.7734134197235107
+    },
+    "stretch": {
+      "canonical": "fold",
+      "similarity": 0.76209557056427
+    },
+    "smooth": {
+      "canonical": "blend",
+      "similarity": 0.8065451383590698
+    },
+    "sterilize": {
+      "canonical": "dissolve",
+      "similarity": 0.7084534764289856
+    },
+    "end": {
+      "canonical": "rest",
+      "similarity": 0.7274104356765747
+    },
+    "mince": {
+      "canonical": "mince",
+      "similarity": 0.9999992251396179
+    },
+    "pinch": {
+      "canonical": "crush",
+      "similarity": 0.7435802817344666
+    },
+    "scrap": {
+      "canonical": "mince",
+      "similarity": 0.7274150252342224
+    },
+    "crumble": {
+      "canonical": "melt",
+      "similarity": 0.7967476844787598
+    },
+    "push": {
+      "canonical": "crush",
+      "similarity": 0.7421877980232239
+    },
+    "wait": {
+      "canonical": "chill",
+      "similarity": 0.7311748266220093
+    },
+    "skillet": {
+      "canonical": "broil",
+      "similarity": 0.7610992789268494
+    },
+    "prick": {
+      "canonical": "peel",
+      "similarity": 0.6816913485527039
+    },
+    "direct": {
+      "canonical": "mix",
+      "similarity": 0.6561932563781738
+    },
+    "rotate": {
+      "canonical": "melt",
+      "similarity": 0.7068960666656494
+    },
+    "mash": {
+      "canonical": "whisk",
+      "similarity": 0.6505047678947449
+    },
+    "list": {
+      "canonical": "brown",
+      "similarity": 0.6516236066818237
+    },
+    "gather": {
+      "canonical": "mix",
+      "similarity": 0.7948152422904968
+    },
+    "reheat": {
+      "canonical": "sear",
+      "similarity": 0.7562010884284973
+    },
+    "shred": {
+      "canonical": "melt",
+      "similarity": 0.7380757927894592
+    },
+    "steam": {
+      "canonical": "steam",
+      "similarity": 1.0000001192092896
+    },
+    "avoid": {
+      "canonical": "chill",
+      "similarity": 0.6830571293830872
+    },
+    "glaze": {
+      "canonical": "bake",
+      "similarity": 0.7103817462921143
+    },
+    "replace": {
+      "canonical": "mix",
+      "similarity": 0.6803744435310364
+    },
+    "dough": {
+      "canonical": "knead",
+      "similarity": 0.8109899759292603
+    },
+    "grill": {
+      "canonical": "grill",
+      "similarity": 0.9999998211860657
+    },
+    "pat": {
+      "canonical": "beat",
+      "similarity": 0.6919363141059875
+    },
+    "puff": {
+      "canonical": "toast",
+      "similarity": 0.7327353358268738
+    },
+    "release": {
+      "canonical": "freeze",
+      "similarity": 0.6813637018203735
+    },
+    "close": {
+      "canonical": "cool",
+      "similarity": 0.7073236703872681
+    },
+    "tap": {
+      "canonical": "beat",
+      "similarity": 0.6836536526679993
+    },
+    "open": {
+      "canonical": "cool",
+      "similarity": 0.7114313840866089
+    },
+    "grate": {
+      "canonical": "grate",
+      "similarity": 1.0000001192092896
+    },
+    "include": {
+      "canonical": "mix",
+      "similarity": 0.6845419406890869
+    },
+    "suggest": {
+      "canonical": "mix",
+      "similarity": 0.745124101638794
+    },
+    "select": {
+      "canonical": "mix",
+      "similarity": 0.7140247225761414
+    },
+    "adapt": {
+      "canonical": "mix",
+      "similarity": 0.7096118330955505
+    },
+    "appear": {
+      "canonical": "fold",
+      "similarity": 0.6930359601974487
+    },
+    "think": {
+      "canonical": "chill",
+      "similarity": 0.7188367247581482
+    },
+    "baste": {
+      "canonical": "braise",
+      "similarity": 0.7485638856887817
+    },
+    "know": {
+      "canonical": "beat",
+      "similarity": 0.672601044178009
+    },
+    "throw": {
+      "canonical": "toss",
+      "similarity": 0.9094449877738953
+    },
+    "flavor": {
+      "canonical": "blend",
+      "similarity": 0.7354472875595093
+    },
+    "save": {
+      "canonical": "freeze",
+      "similarity": 0.7080057859420776
+    },
+    "season": {
+      "canonical": "season",
+      "similarity": 0.9999998807907104
+    },
+    "caramelize": {
+      "canonical": "marinate",
+      "similarity": 0.7430756092071533
+    },
+    "clove": {
+      "canonical": "mince",
+      "similarity": 0.7126129865646362
+    },
+    "dump": {
+      "canonical": "toss",
+      "similarity": 0.7327404618263245
+    },
+    "swirl": {
+      "canonical": "drizzle",
+      "similarity": 0.7940384149551392
+    },
+    "substitute": {
+      "canonical": "mix",
+      "similarity": 0.719092607498169
+    },
+    "require": {
+      "canonical": "fold",
+      "similarity": 0.6495993733406067
+    },
+    "sound": {
+      "canonical": "beat",
+      "similarity": 0.7320323586463928
+    },
+    "condense": {
+      "canonical": "dissolve",
+      "similarity": 0.7978053689002991
+    },
+    "wish": {
+      "canonical": "fold",
+      "similarity": 0.6992080807685852
+    },
+    "puree": {
+      "canonical": "simmer",
+      "similarity": 0.7472440600395203
+    },
+    "dice": {
+      "canonical": "dice",
+      "similarity": 1.0
+    },
+    "carrot": {
+      "canonical": "roast",
+      "similarity": 0.7061480283737183
+    },
+    "can": {
+      "canonical": "brush",
+      "similarity": 0.659551203250885
+    },
+    "sweeten": {
+      "canonical": "melt",
+      "similarity": 0.766474187374115
+    },
+    "bowl": {
+      "canonical": "toss",
+      "similarity": 0.7500149607658386
+    },
+    "smoke": {
+      "canonical": "brush",
+      "similarity": 0.7439625263214111
+    },
+    "vary": {
+      "canonical": "mix",
+      "similarity": 0.7245258092880249
+    },
+    "round": {
+      "canonical": "beat",
+      "similarity": 0.7358767986297607
+    },
+    "choose": {
+      "canonical": "mix",
+      "similarity": 0.7182000279426575
+    },
+    "pick": {
+      "canonical": "brush",
+      "similarity": 0.7618190050125122
+    },
+    "pierce": {
+      "canonical": "sear",
+      "similarity": 0.6552354097366333
+    },
+    "slide": {
+      "canonical": "dice",
+      "similarity": 0.7226530909538269
+    },
+    "fall": {
+      "canonical": "season",
+      "similarity": 0.7448165416717529
+    },
+    "saute": {
+      "canonical": "saute",
+      "similarity": 1.0000007152557373
+    },
+    "wipe": {
+      "canonical": "peel",
+      "similarity": 0.7132304310798645
+    },
+    "stay": {
+      "canonical": "chill",
+      "similarity": 0.7186923623085022
+    },
+    "poke": {
+      "canonical": "fry",
+      "similarity": 0.7309873104095459
+    },
+    "buy": {
+      "canonical": "mix",
+      "similarity": 0.6958845257759094
+    },
+    "worry": {
+      "canonical": "chill",
+      "similarity": 0.7343087792396545
+    },
+    "pass": {
+      "canonical": "chill",
+      "similarity": 0.736748456954956
+    },
+    "lie": {
+      "canonical": "melt",
+      "similarity": 0.6771312355995178
+    },
+    "space": {
+      "canonical": "brown",
+      "similarity": 0.6579434871673584
+    },
+    "develop": {
+      "canonical": "mix",
+      "similarity": 0.700242817401886
+    },
+    "slot": {
+      "canonical": "dice",
+      "similarity": 0.6572139859199524
+    },
+    "powder": {
+      "canonical": "blend",
+      "similarity": 0.7338212728500366
+    },
+    "change": {
+      "canonical": "cool",
+      "similarity": 0.7057318091392517
+    },
+    "clean": {
+      "canonical": "chill",
+      "similarity": 0.7529730796813965
+    },
+    "popcorn": {
+      "canonical": "toast",
+      "similarity": 0.7390274405479431
+    },
+    "sauce": {
+      "canonical": "saute",
+      "similarity": 0.7311822175979614
+    },
+    "apply": {
+      "canonical": "mix",
+      "similarity": 0.6976679563522339
+    },
+    "loosen": {
+      "canonical": "dissolve",
+      "similarity": 0.7655590176582336
+    },
+    "garnish": {
+      "canonical": "toss",
+      "similarity": 0.7352753281593323
+    },
+    "decorate": {
+      "canonical": "mix",
+      "similarity": 0.7022603154182434
+    },
+    "register": {
+      "canonical": "cool",
+      "similarity": 0.6378313302993774
+    },
+    "drink": {
+      "canonical": "chill",
+      "similarity": 0.7496392726898193
+    },
+    "squash": {
+      "canonical": "roast",
+      "similarity": 0.6993280649185181
+    },
+    "ingredient": {
+      "canonical": "whisk",
+      "similarity": 0.702691376209259
+    },
+    "attach": {
+      "canonical": "fold",
+      "similarity": 0.6997708082199097
+    },
+    "fork": {
+      "canonical": "fry",
+      "similarity": 0.7863755226135254
+    },
+    "proceed": {
+      "canonical": "dissolve",
+      "similarity": 0.7162217497825623
+    },
+    "tie": {
+      "canonical": "mix",
+      "similarity": 0.6929848790168762
+    },
+    "firm": {
+      "canonical": "brown",
+      "similarity": 0.6508524417877197
+    },
+    "raise": {
+      "canonical": "stir",
+      "similarity": 0.7037983536720276
+    },
+    "twist": {
+      "canonical": "crush",
+      "similarity": 0.7399958372116089
+    },
+    "remember": {
+      "canonical": "chill",
+      "similarity": 0.6807357668876648
+    },
+    "score": {
+      "canonical": "beat",
+      "similarity": 0.7408891916275024
+    },
+    "achieve": {
+      "canonical": "mix",
+      "similarity": 0.678126335144043
+    },
+    "love": {
+      "canonical": "crush",
+      "similarity": 0.6958067417144775
+    },
+    "bottom": {
+      "canonical": "toss",
+      "similarity": 0.6818221211433411
+    },
+    "berry": {
+      "canonical": "fry",
+      "similarity": 0.7149910926818848
+    },
+    "low": {
+      "canonical": "reduce",
+      "similarity": 0.6813903450965881
+    },
+    "crack": {
+      "canonical": "beat",
+      "similarity": 0.7358797192573547
+    },
+    "syrup": {
+      "canonical": "mix",
+      "similarity": 0.7098639011383057
+    },
+    "split": {
+      "canonical": "slice",
+      "similarity": 0.7228941917419434
+    },
+    "heap": {
+      "canonical": "toss",
+      "similarity": 0.6696159243583679
+    },
+    "hang": {
+      "canonical": "fold",
+      "similarity": 0.7158218622207642
+    },
+    "deflate": {
+      "canonical": "chill",
+      "similarity": 0.7154902815818787
+    },
+    "lose": {
+      "canonical": "reduce",
+      "similarity": 0.7580763697624207
+    },
+    "smell": {
+      "canonical": "brush",
+      "similarity": 0.715766191482544
+    },
+    "overmix": {
+      "canonical": "mix",
+      "similarity": 0.8049313426017761
+    },
+    "color": {
+      "canonical": "brown",
+      "similarity": 0.7807877063751221
+    },
+    "overcook": {
+      "canonical": "saute",
+      "similarity": 0.7772027850151062
+    },
+    "maintain": {
+      "canonical": "mix",
+      "similarity": 0.6856444478034973
+    },
+    "base": {
+      "canonical": "grate",
+      "similarity": 0.6620522737503052
+    },
+    "preserve": {
+      "canonical": "blend",
+      "similarity": 0.6987574696540833
+    },
+    "stack": {
+      "canonical": "mix",
+      "similarity": 0.7074336409568787
+    },
+    "rim": {
+      "canonical": "fry",
+      "similarity": 0.6681892275810242
+    },
+    "scorch": {
+      "canonical": "sear",
+      "similarity": 0.7479082942008972
+    },
+    "omit": {
+      "canonical": "dissolve",
+      "similarity": 0.6642544865608215
+    },
+    "stem": {
+      "canonical": "steam",
+      "similarity": 0.6594398617744446
+    },
+    "drip": {
+      "canonical": "drain",
+      "similarity": 0.7475026249885559
+    },
+    "complete": {
+      "canonical": "cool",
+      "similarity": 0.682948648929596
+    },
+    "wilt": {
+      "canonical": "fry",
+      "similarity": 0.6329624056816101
+    },
+    "pip": {
+      "canonical": "chop",
+      "similarity": 0.6542965173721313
+    },
+    "overlap": {
+      "canonical": "blend",
+      "similarity": 0.695107638835907
+    },
+    "halve": {
+      "canonical": "reduce",
+      "similarity": 0.7367621064186096
+    },
+    "foam": {
+      "canonical": "toast",
+      "similarity": 0.7114865779876709
+    },
+    "sugar": {
+      "canonical": "bake",
+      "similarity": 0.708705723285675
+    },
+    "thaw": {
+      "canonical": "freeze",
+      "similarity": 0.828420102596283
+    },
+    "show": {
+      "canonical": "mix",
+      "similarity": 0.6779428124427795
+    },
+    "contain": {
+      "canonical": "dissolve",
+      "similarity": 0.7334427237510681
+    },
+    "float": {
+      "canonical": "freeze",
+      "similarity": 0.7219850420951843
+    },
+    "cause": {
+      "canonical": "steam",
+      "similarity": 0.6413710713386536
+    },
+    "tear": {
+      "canonical": "peel",
+      "similarity": 0.7042710185050964
+    },
+    "crimp": {
+      "canonical": "brush",
+      "similarity": 0.6824876666069031
+    },
+    "rib": {
+      "canonical": "grill",
+      "similarity": 0.7200897336006165
+    },
+    "darken": {
+      "canonical": "reduce",
+      "similarity": 0.7345284223556519
+    },
+    "tend": {
+      "canonical": "reduce",
+      "similarity": 0.713084876537323
+    },
+    "grab": {
+      "canonical": "crush",
+      "similarity": 0.7474835515022278
+    },
+    "happen": {
+      "canonical": "mix",
+      "similarity": 0.7144893407821655
+    },
+    "face": {
+      "canonical": "brush",
+      "similarity": 0.6910408735275269
+    },
+    "lower": {
+      "canonical": "reduce",
+      "similarity": 0.7113113403320312
+    },
+    "produce": {
+      "canonical": "saute",
+      "similarity": 0.7255163788795471
+    },
+    "feed": {
+      "canonical": "mix",
+      "similarity": 0.7403374910354614
+    },
+    "broil": {
+      "canonical": "broil",
+      "similarity": 0.9999997615814209
+    },
+    "thin": {
+      "canonical": "blend",
+      "similarity": 0.7074029445648193
+    },
+    "mark": {
+      "canonical": "beat",
+      "similarity": 0.6712521314620972
+    },
+    "serrate": {
+      "canonical": "sear",
+      "similarity": 0.7272771000862122
+    },
+    "settle": {
+      "canonical": "rest",
+      "similarity": 0.7193575501441956
+    },
+    "invert": {
+      "canonical": "reduce",
+      "similarity": 0.7379100322723389
+    },
+    "switch": {
+      "canonical": "grill",
+      "similarity": 0.7247979640960693
+    },
+    "say": {
+      "canonical": "mix",
+      "similarity": 0.6980805993080139
+    },
+    "snap": {
+      "canonical": "chop",
+      "similarity": 0.7091255784034729
+    },
+    "pulse": {
+      "canonical": "beat",
+      "similarity": 0.742849588394165
+    },
+    "lengthwise": {
+      "canonical": "slice",
+      "similarity": 0.6340327858924866
+    },
+    "date": {
+      "canonical": "season",
+      "similarity": 0.6938063502311707
+    },
+    "skim": {
+      "canonical": "blend",
+      "similarity": 0.6878077387809753
+    },
+    "wet": {
+      "canonical": "drizzle",
+      "similarity": 0.7429029941558838
+    },
+    "ladle": {
+      "canonical": "whisk",
+      "similarity": 0.8017648458480835
+    },
+    "fluff": {
+      "canonical": "brush",
+      "similarity": 0.7104918360710144
+    },
+    "weigh": {
+      "canonical": "toss",
+      "similarity": 0.6935070753097534
+    },
+    "sizzle": {
+      "canonical": "melt",
+      "similarity": 0.7739591002464294
+    },
+    "ferment": {
+      "canonical": "boil",
+      "similarity": 0.7310813665390015
+    },
+    "saucepan": {
+      "canonical": "whisk",
+      "similarity": 0.7509836554527283
+    },
+    "extend": {
+      "canonical": "cool",
+      "similarity": 0.7120026350021362
+    },
+    "draw": {
+      "canonical": "brush",
+      "similarity": 0.7597101926803589
+    },
+    "chicken": {
+      "canonical": "roast",
+      "similarity": 0.7430793642997742
+    },
+    "expand": {
+      "canonical": "fold",
+      "similarity": 0.7350194454193115
+    },
+    "assemble": {
+      "canonical": "fold",
+      "similarity": 0.7269803285598755
+    },
+    "emulsify": {
+      "canonical": "dissolve",
+      "similarity": 0.7578704357147217
+    },
+    "dredge": {
+      "canonical": "drain",
+      "similarity": 0.6714357137680054
+    },
+    "proof": {
+      "canonical": "cool",
+      "similarity": 0.6613308191299438
+    },
+    "slash": {
+      "canonical": "slice",
+      "similarity": 0.7527894973754883
+    },
+    "defrost": {
+      "canonical": "freeze",
+      "similarity": 0.8174755573272705
+    },
+    "strawberry": {
+      "canonical": "toast",
+      "similarity": 0.687321662902832
+    },
+    "decrease": {
+      "canonical": "reduce",
+      "similarity": 0.863097071647644
+    },
+    "shre": {
+      "canonical": "stir",
+      "similarity": 0.6427956223487854
+    },
+    "gluten": {
+      "canonical": "bake",
+      "similarity": 0.6947134137153625
+    },
+    "cub": {
+      "canonical": "brown",
+      "similarity": 0.6936668753623962
+    },
+    "skip": {
+      "canonical": "toss",
+      "similarity": 0.7168164253234863
+    },
+    "seed": {
+      "canonical": "steam",
+      "similarity": 0.7263675928115845
+    },
+    "temper": {
+      "canonical": "beat",
+      "similarity": 0.7076849937438965
+    },
+    "position": {
+      "canonical": "fold",
+      "similarity": 0.6875725984573364
+    },
+    "mean": {
+      "canonical": "reduce",
+      "similarity": 0.7181380987167358
+    },
+    "broccoli": {
+      "canonical": "broil",
+      "similarity": 0.7280365824699402
+    },
+    "escape": {
+      "canonical": "steam",
+      "similarity": 0.6948884725570679
+    },
+    "churn": {
+      "canonical": "drain",
+      "similarity": 0.661663830280304
+    },
+    "pumpkin": {
+      "canonical": "roast",
+      "similarity": 0.7294415235519409
+    },
+    "snip": {
+      "canonical": "chop",
+      "similarity": 0.7165124416351318
+    },
+    "sprout": {
+      "canonical": "roast",
+      "similarity": 0.7156494855880737
+    },
+    "medium": {
+      "canonical": "brush",
+      "similarity": 0.7044720649719238
+    },
+    "secure": {
+      "canonical": "chill",
+      "similarity": 0.6947588324546814
+    },
+    "flake": {
+      "canonical": "freeze",
+      "similarity": 0.7195364832878113
+    },
+    "forget": {
+      "canonical": "chill",
+      "similarity": 0.7421753406524658
+    },
+    "lay": {
+      "canonical": "bake",
+      "similarity": 0.6985705494880676
+    },
+    "cold": {
+      "canonical": "freeze",
+      "similarity": 0.8085810542106628
+    },
+    "curdle": {
+      "canonical": "stir",
+      "similarity": 0.7408295273780823
+    },
+    "lukewarm": {
+      "canonical": "chill",
+      "similarity": 0.6593170166015625
+    },
+    "cast": {
+      "canonical": "roast",
+      "similarity": 0.5575782060623169
+    },
+    "catch": {
+      "canonical": "toss",
+      "similarity": 0.7838422060012817
+    },
+    "tilt": {
+      "canonical": "beat",
+      "similarity": 0.7009156346321106
+    },
+    "pancake": {
+      "canonical": "fry",
+      "similarity": 0.7371594905853271
+    },
+    "mound": {
+      "canonical": "grate",
+      "similarity": 0.6451709270477295
+    },
+    "saturate": {
+      "canonical": "melt",
+      "similarity": 0.7110276818275452
+    },
+    "submerge": {
+      "canonical": "dissolve",
+      "similarity": 0.7193157076835632
+    },
+    "provide": {
+      "canonical": "mix",
+      "similarity": 0.7196468710899353
+    },
+    "meld": {
+      "canonical": "mix",
+      "similarity": 0.655677855014801
+    },
+    "plan": {
+      "canonical": "mix",
+      "similarity": 0.7137041091918945
+    },
+    "wring": {
+      "canonical": "toss",
+      "similarity": 0.7002004384994507
+    },
+    "indicate": {
+      "canonical": "fold",
+      "similarity": 0.6955587863922119
+    },
+    "candy": {
+      "canonical": "bake",
+      "similarity": 0.7078917622566223
+    },
+    "level": {
+      "canonical": "season",
+      "similarity": 0.6509730815887451
+    },
+    "pickle": {
+      "canonical": "boil",
+      "similarity": 0.7439743280410767
+    },
+    "biscuit": {
+      "canonical": "bake",
+      "similarity": 0.7776511311531067
+    },
+    "crisp": {
+      "canonical": "chop",
+      "similarity": 0.7832987904548645
+    },
+    "overwork": {
+      "canonical": "chill",
+      "similarity": 0.6335975527763367
+    },
+    "steak": {
+      "canonical": "roast",
+      "similarity": 0.7530773878097534
+    },
+    "fish": {
+      "canonical": "brush",
+      "similarity": 0.736208438873291
+    },
+    "clump": {
+      "canonical": "drizzle",
+      "similarity": 0.7412109971046448
+    },
+    "unsweetene": {
+      "canonical": "melt",
+      "similarity": 0.7052451372146606
+    },
+    "log": {
+      "canonical": "beat",
+      "similarity": 0.6760736107826233
+    },
+    "grow": {
+      "canonical": "mix",
+      "similarity": 0.6916839480400085
+    },
+    "griddle": {
+      "canonical": "grill",
+      "similarity": 0.8058584928512573
+    },
+    "retain": {
+      "canonical": "reduce",
+      "similarity": 0.6794183254241943
+    },
+    "tbsp": {
+      "canonical": "whisk",
+      "similarity": 0.7693871855735779
+    },
+    "hope": {
+      "canonical": "cool",
+      "similarity": 0.6960594654083252
+    },
+    "stuff": {
+      "canonical": "cool",
+      "similarity": 0.6937609314918518
+    },
+    "force": {
+      "canonical": "crush",
+      "similarity": 0.684785008430481
+    },
+    "cle": {
+      "canonical": "toss",
+      "similarity": 0.6481896042823792
+    },
+    "slip": {
+      "canonical": "toss",
+      "similarity": 0.72544926404953
+    },
+    "relax": {
+      "canonical": "chill",
+      "similarity": 0.917017936706543
+    },
+    "hear": {
+      "canonical": "beat",
+      "similarity": 0.7388719916343689
+    },
+    "shrimp": {
+      "canonical": "saute",
+      "similarity": 0.6776420474052429
+    },
+    "curry": {
+      "canonical": "grill",
+      "similarity": 0.7584095597267151
+    },
+    "cauliflower": {
+      "canonical": "saute",
+      "similarity": 0.7111999988555908
+    },
+    "blanch": {
+      "canonical": "blanch",
+      "similarity": 1.0000001192092896
+    },
+    "rid": {
+      "canonical": "beat",
+      "similarity": 0.6419739723205566
+    },
+    "horseradish": {
+      "canonical": "toast",
+      "similarity": 0.6775611042976379
+    },
+    "chocolate": {
+      "canonical": "roast",
+      "similarity": 0.7356727719306946
+    },
+    "slow": {
+      "canonical": "chill",
+      "similarity": 0.7642500400543213
+    },
+    "crystallize": {
+      "canonical": "melt",
+      "similarity": 0.7795129418373108
+    },
+    "smash": {
+      "canonical": "crush",
+      "similarity": 0.8354490399360657
+    },
+    "last": {
+      "canonical": "rest",
+      "similarity": 0.672400712966919
+    },
+    "suit": {
+      "canonical": "coat",
+      "similarity": 0.7580475211143494
+    },
+    "spice": {
+      "canonical": "blend",
+      "similarity": 0.7505661845207214
+    },
+    "hit": {
+      "canonical": "beat",
+      "similarity": 0.792554497718811
+    },
+    "scald": {
+      "canonical": "boil",
+      "similarity": 0.7399407625198364
+    },
+    "agave": {
+      "canonical": "bake",
+      "similarity": 0.673733115196228
+    },
+    "adhere": {
+      "canonical": "melt",
+      "similarity": 0.6824125647544861
+    },
+    "disappear": {
+      "canonical": "dissolve",
+      "similarity": 0.7260574102401733
+    },
+    "sliver": {
+      "canonical": "slice",
+      "similarity": 0.7081349492073059
+    },
+    "peach": {
+      "canonical": "brown",
+      "similarity": 0.7336786389350891
+    },
+    "pound": {
+      "canonical": "beat",
+      "similarity": 0.6984483003616333
+    },
+    "infuse": {
+      "canonical": "blend",
+      "similarity": 0.7554115056991577
+    },
+    "alternate": {
+      "canonical": "blend",
+      "similarity": 0.6716983318328857
+    },
+    "expose": {
+      "canonical": "peel",
+      "similarity": 0.7189937829971313
+    },
+    "eliminate": {
+      "canonical": "dissolve",
+      "similarity": 0.7824790477752686
+    },
+    "tuck": {
+      "canonical": "fold",
+      "similarity": 0.7169718146324158
+    },
+    "dig": {
+      "canonical": "drain",
+      "similarity": 0.738506019115448
+    },
+    "splatter": {
+      "canonical": "drizzle",
+      "similarity": 0.7593096494674683
+    },
+    "triple": {
+      "canonical": "beat",
+      "similarity": 0.6631678342819214
+    },
+    "massage": {
+      "canonical": "rest",
+      "similarity": 0.6796632409095764
+    },
+    "prove": {
+      "canonical": "reduce",
+      "similarity": 0.6932952404022217
+    },
+    "screw": {
+      "canonical": "chop",
+      "similarity": 0.7022047638893127
+    },
+    "notice": {
+      "canonical": "fold",
+      "similarity": 0.6637372970581055
+    },
+    "pipe": {
+      "canonical": "drain",
+      "similarity": 0.733083963394165
+    },
+    "margarine": {
+      "canonical": "bake",
+      "similarity": 0.7226426005363464
+    },
+    "hook": {
+      "canonical": "brush",
+      "similarity": 0.7139685750007629
+    },
+    "ungrease": {
+      "canonical": "dissolve",
+      "similarity": 0.7836850881576538
+    },
+    "spring": {
+      "canonical": "season",
+      "similarity": 0.7307242155075073
+    },
+    "ground": {
+      "canonical": "beat",
+      "similarity": 0.66319739818573
+    },
+    "liquefy": {
+      "canonical": "dissolve",
+      "similarity": 0.7764706015586853
+    },
+    "sink": {
+      "canonical": "drain",
+      "similarity": 0.7926385402679443
+    },
+    "loave": {
+      "canonical": "stir",
+      "similarity": 0.7128744721412659
+    },
+    "tin": {
+      "canonical": "brown",
+      "similarity": 0.6647262573242188
+    },
+    "plunge": {
+      "canonical": "dissolve",
+      "similarity": 0.7510141134262085
+    },
+    "burst": {
+      "canonical": "drizzle",
+      "similarity": 0.7127207517623901
+    },
+    "equal": {
+      "canonical": "mix",
+      "similarity": 0.6581435203552246
+    },
+    "fillet": {
+      "canonical": "saute",
+      "similarity": 0.7611451745033264
+    },
+    "flute": {
+      "canonical": "whisk",
+      "similarity": 0.636665940284729
+    },
+    "ball": {
+      "canonical": "toss",
+      "similarity": 0.7253978252410889
+    },
+    "solidify": {
+      "canonical": "melt",
+      "similarity": 0.8102143406867981
+    },
+    "sieve": {
+      "canonical": "mince",
+      "similarity": 0.7038238644599915
+    },
+    "salad": {
+      "canonical": "roast",
+      "similarity": 0.736325204372406
+    },
+    "lighten": {
+      "canonical": "reduce",
+      "similarity": 0.77605140209198
+    },
+    "pestle": {
+      "canonical": "whisk",
+      "similarity": 0.7516318559646606
+    },
+    "pear": {
+      "canonical": "toast",
+      "similarity": 0.6828902959823608
+    },
+    "chunk": {
+      "canonical": "chop",
+      "similarity": 0.7609100341796875
+    },
+    "unwrap": {
+      "canonical": "fold",
+      "similarity": 0.7232273817062378
+    },
+    "bottle": {
+      "canonical": "coat",
+      "similarity": 0.7262935042381287
+    },
+    "share": {
+      "canonical": "mix",
+      "similarity": 0.7291711568832397
+    },
+    "kill": {
+      "canonical": "chill",
+      "similarity": 0.6897483468055725
+    },
+    "build": {
+      "canonical": "mix",
+      "similarity": 0.7171593904495239
+    },
+    "noodle": {
+      "canonical": "saute",
+      "similarity": 0.7276860475540161
+    },
+    "speed": {
+      "canonical": "beat",
+      "similarity": 0.7198708057403564
+    },
+    "specify": {
+      "canonical": "mix",
+      "similarity": 0.683876097202301
+    },
+    "tip": {
+      "canonical": "cool",
+      "similarity": 0.7363667488098145
+    },
+    "enclose": {
+      "canonical": "fold",
+      "similarity": 0.6665921211242676
+    },
+    "tighten": {
+      "canonical": "reduce",
+      "similarity": 0.7179774045944214
+    },
+    "applesauce": {
+      "canonical": "saute",
+      "similarity": 0.7439870834350586
+    },
+    "malt": {
+      "canonical": "beat",
+      "similarity": 0.6965472102165222
+    },
+    "play": {
+      "canonical": "mix",
+      "similarity": 0.7329081892967224
+    },
+    "edge": {
+      "canonical": "slice",
+      "similarity": 0.705672025680542
+    },
+    "bind": {
+      "canonical": "fold",
+      "similarity": 0.7214596271514893
+    },
+    "see": {
+      "canonical": "beat",
+      "similarity": 0.704062283039093
+    },
+    "wire": {
+      "canonical": "brush",
+      "similarity": 0.6868760585784912
+    },
+    "collect": {
+      "canonical": "mix",
+      "similarity": 0.7057874798774719
+    },
+    "describe": {
+      "canonical": "mix",
+      "similarity": 0.6874194145202637
+    },
+    "obtain": {
+      "canonical": "mix",
+      "similarity": 0.6674540042877197
+    },
+    "scatter": {
+      "canonical": "toss",
+      "similarity": 0.7326532006263733
+    },
+    "corn": {
+      "canonical": "toast",
+      "similarity": 0.6944798231124878
+    },
+    "dampen": {
+      "canonical": "chill",
+      "similarity": 0.7505133748054504
+    },
+    "shrink": {
+      "canonical": "dissolve",
+      "similarity": 0.7759658694267273
+    },
+    "refridgerate": {
+      "canonical": "marinate",
+      "similarity": 0.7471267580986023
+    },
+    "post": {
+      "canonical": "cool",
+      "similarity": 0.6686673760414124
+    },
+    "filter": {
+      "canonical": "brush",
+      "similarity": 0.7414750456809998
+    },
+    "shut": {
+      "canonical": "chill",
+      "similarity": 0.7268914580345154
+    },
+    "decide": {
+      "canonical": "chill",
+      "similarity": 0.6977209448814392
+    },
+    "pit": {
+      "canonical": "grate",
+      "similarity": 0.7118971943855286
+    },
+    "carve": {
+      "canonical": "melt",
+      "similarity": 0.718397319316864
+    },
+    "sell": {
+      "canonical": "melt",
+      "similarity": 0.7082715630531311
+    },
+    "mold": {
+      "canonical": "toast",
+      "similarity": 0.7035201191902161
+    },
+    "label": {
+      "canonical": "beat",
+      "similarity": 0.6917049884796143
+    },
+    "sesame": {
+      "canonical": "toast",
+      "similarity": 0.6846489906311035
+    },
+    "quarter": {
+      "canonical": "stir",
+      "similarity": 0.6923733353614807
+    },
+    "crosswise": {
+      "canonical": "brown",
+      "similarity": 0.6388935446739197
+    },
+    "sparkle": {
+      "canonical": "drizzle",
+      "similarity": 0.7428908348083496
+    },
+    "thump": {
+      "canonical": "beat",
+      "similarity": 0.8231782913208008
+    },
+    "accumulate": {
+      "canonical": "reduce",
+      "similarity": 0.6724458932876587
+    },
+    "wear": {
+      "canonical": "coat",
+      "similarity": 0.7275448441505432
+    },
+    "overhang": {
+      "canonical": "peel",
+      "similarity": 0.6517454385757446
+    },
+    "overbake": {
+      "canonical": "bake",
+      "similarity": 0.8193244338035583
+    },
+    "pepper": {
+      "canonical": "brush",
+      "similarity": 0.7611380219459534
+    },
+    "concentrate": {
+      "canonical": "dissolve",
+      "similarity": 0.7552769184112549
+    },
+    "artichoke": {
+      "canonical": "roast",
+      "similarity": 0.710001528263092
+    },
+    "write": {
+      "canonical": "mix",
+      "similarity": 0.6807863712310791
+    },
+    "cake": {
+      "canonical": "bake",
+      "similarity": 0.792758047580719
+    },
+    "drape": {
+      "canonical": "drizzle",
+      "similarity": 0.7463558316230774
+    },
+    "salsa": {
+      "canonical": "saute",
+      "similarity": 0.727979838848114
+    },
+    "swell": {
+      "canonical": "roast",
+      "similarity": 0.731609582901001
+    },
+    "seperate": {
+      "canonical": "dissolve",
+      "similarity": 0.7317323684692383
+    },
+    "almond": {
+      "canonical": "bake",
+      "similarity": 0.6922072768211365
+    },
+    "seam": {
+      "canonical": "melt",
+      "similarity": 0.6782808303833008
+    },
+    "render": {
+      "canonical": "blend",
+      "similarity": 0.6902679800987244
+    },
+    "spin": {
+      "canonical": "fry",
+      "similarity": 0.7461739182472229
+    },
+    "refer": {
+      "canonical": "reduce",
+      "similarity": 0.6880224347114563
+    },
+    "sandwich": {
+      "canonical": "grill",
+      "similarity": 0.7686364054679871
+    },
+    "lettuce": {
+      "canonical": "roast",
+      "similarity": 0.7104977965354919
+    },
+    "sear": {
+      "canonical": "sear",
+      "similarity": 0.9999997019767761
+    },
+    "meet": {
+      "canonical": "mix",
+      "similarity": 0.7425961494445801
+    },
+    "pile": {
+      "canonical": "toss",
+      "similarity": 0.6840819120407104
+    },
+    "pre": {
+      "canonical": "mix",
+      "similarity": 0.6376436352729797
+    },
+    "shave": {
+      "canonical": "brush",
+      "similarity": 0.741219162940979
+    },
+    "suppose": {
+      "canonical": "reduce",
+      "similarity": 0.6789183616638184
+    },
+    "frzn": {
+      "canonical": "knead",
+      "similarity": 0.5811641216278076
+    },
+    "core": {
+      "canonical": "chop",
+      "similarity": 0.6744599938392639
+    },
+    "stamp": {
+      "canonical": "fold",
+      "similarity": 0.6839476823806763
+    },
+    "pulverize": {
+      "canonical": "dissolve",
+      "similarity": 0.7634269595146179
+    }
+  }
+}
