@@ -78,13 +78,13 @@ The inertia curve has no real elbow — it decreases steadily across the entire 
 
 The second signal comes from the CURD ground-truth annotations (261 hand-annotated recipes). Human experts annotating real recipes use exactly **13 operation types** total, and one of those — `cook` — covers every heat operation: bake, saute, simmer, grill, roast all map to `cook(...)` with a description string. After removing scaffolding operations (`create_ing`, `create_tool`, `put`, `set`), CURD's semantic vocabulary is 9 types.
 
-The right approach is top-down: define the distinctions that matter for the downstream tasks, then verify coverage. For structural queries and dietary adaptation, what matters is:
+I decided that the right approach is top-down inspired by literature and analysis of existing DSLs, where we define the distinctions that matter for the downstream tasks, then verify coverage. For structural queries and dietary adaptation, what matters is:
 - **Which heat regime** — butter in a saute (fat as cooking medium) substitutes differently than butter in a bake (structural fat). Boiling protein yields different chemistry than grilling it. So `bake`, `grill`, `saute`, `boil`, `simmer`, `steam` are six meaningfully distinct types.
 - **Combine method** — `mix`, `whisk` (aerate/emulsify), `blend` (mechanical puree), `knead` (dough) capture texture-forming distinctions. `dice` vs `mince` does not — they're both knife prep and the downstream result is the same.
 - **Passive operations** — whether something is cold-passive (`chill`) or liquid-passive (`marinate`) changes adaptation logic.
 - Everything else folds into `season`, `reduce`, or `chop` without information loss for the tasks at hand.
 
-This gives **15 types**:
+This gives **15 types**, which are shown below split by group:
 
 | Group | Types | Collapses |
 |---|---|---|
@@ -103,7 +103,7 @@ This gives **15 types**:
 
 ### Representing Ingredients?
 
-I ran the same coverage analysis on ingredients:
+With these 15 unique processes, I ran the same coverage analysis on ingredients:
 
 | Coverage target | Process types needed | Ingredient types needed |
 |---|---|---|
@@ -112,7 +112,7 @@ I ran the same coverage analysis on ingredients:
 | 95% | 43 | 7,583 |
 | 99% | 67 | 18,412 |
 
-Processes follow a power law with a short tail — 43 fine-grained types cover 95% of the corpus. The 15-type vocabulary uses broader bins (all knife operations collapse to `chop`, all moist-heat variants collapse to `boil` or `simmer`), so coverage is effectively 99%+ since every cooking verb maps into one of the 15 categories. Ingredients follow a power law with a long tail — you need 7,500+ types for the same coverage, and the tail keeps going (brand names, regional variants, compound ingredients like "low-sodium chicken broth"). A 7,500-type vocabulary would make grammar-constrained decoding intractable and force lossy mappings ("sriracha" → "hot sauce" → information loss). Keeping ingredients as free-form strings preserves the original specificity at no schema cost.
+Processes follow a power law with a short tail — 43 fine-grained types cover 95% of verb occurrences, and 67 cover 99%. The 15-type vocabulary merges within-category variants (all knife operations → `chop`, all moist-heat variants → `boil` or `simmer`), covering the same high-frequency operations as the 43-type set in a smaller schema; the rare tail (serve, garnish, plate) falls outside both. Ingredients follow a power law with a long tail — you need 7,500+ types to reach 95%, and even 18K types only gets to 99%. Critically, the tail never closes: brand names, regional variants, and compound phrases like "low-sodium chicken broth" mean any fixed vocabulary will miss real recipes. A large fixed ingredient vocabulary would also force lossy mappings ("sriracha" → "hot sauce") that destroy the specificity you were trying to capture. Keeping ingredients as free-form strings preserves the original specificity at no schema cost.
 
 
 ### LLM with Grammar-Constrained Decoding
