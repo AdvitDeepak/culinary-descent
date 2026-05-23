@@ -103,16 +103,16 @@ This gives **15 types**, which are shown below split by group:
 
 ### Representing Ingredients?
 
-With these 15 unique processes, I ran the same coverage analysis on ingredients:
+The same coverage analysis on ingredients tells a different story:
 
-| Coverage target | Process types needed | Ingredient types needed |
-|---|---|---|
-| 50% | 8 | 847 |
-| 90% | 31 | 4,219 |
-| 95% | 43 | 7,583 |
-| 99% | 67 | 18,412 |
+| Coverage target | Ingredient types needed |
+|---|---|
+| 50% | 847 |
+| 90% | 4,219 |
+| 95% | 7,583 |
+| 99% | 18,412 |
 
-Processes follow a power law with a short tail — 43 fine-grained types cover 95% of verb occurrences, and 67 cover 99%. The 15-type vocabulary merges within-category variants (all knife operations → `chop`, all moist-heat variants → `boil` or `simmer`), covering the same high-frequency operations as the 43-type set in a smaller schema; the rare tail (serve, garnish, plate) falls outside both. Ingredients follow a power law with a long tail — you need 7,500+ types to reach 95%, and even 18K types only gets to 99%. Critically, the tail never closes: brand names, regional variants, and compound phrases like "low-sodium chicken broth" mean any fixed vocabulary will miss real recipes. A large fixed ingredient vocabulary would also force lossy mappings ("sriracha" → "hot sauce") that destroy the specificity you were trying to capture. Keeping ingredients as free-form strings preserves the original specificity at no schema cost.
+Ingredients follow a power law with a long tail — you need 7,500+ types to reach 95% coverage, and even 18K types only gets to 99%. Critically, the tail never closes: brand names, regional variants, and compound phrases like "low-sodium chicken broth" mean any fixed vocabulary will miss real recipes. A large fixed ingredient vocabulary would also force lossy mappings ("sriracha" → "hot sauce") that destroy the specificity you were trying to capture. Keeping ingredients as free-form strings preserves the original specificity at no schema cost.
 
 
 ### LLM with Grammar-Constrained Decoding
