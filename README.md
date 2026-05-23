@@ -78,7 +78,7 @@ The inertia curve has no real elbow — it decreases steadily across the entire 
 
 The second signal comes from the CURD ground-truth annotations (261 hand-annotated recipes). Human experts annotating real recipes use exactly **13 operation types** total, and one of those — `cook` — covers every heat operation: bake, saute, simmer, grill, roast all map to `cook(...)` with a description string. After removing scaffolding operations (`create_ing`, `create_tool`, `put`, `set`), CURD's semantic vocabulary is 9 types.
 
-I decided that the right approach is top-down inspired by literature and analysis of existing DSLs, where we define the distinctions that matter for the downstream tasks, then verify coverage. For structural queries and dietary adaptation, what matters is:
+The right approach is top-down: define the distinctions that matter for the downstream tasks, then verify coverage. For structural queries and process-based prediction, what matters is:
 - **Which heat regime** — butter in a saute (fat as cooking medium) substitutes differently than butter in a bake (structural fat). Boiling protein yields different chemistry than grilling it. So `bake`, `grill`, `saute`, `boil`, `simmer`, `steam` are six meaningfully distinct types.
 - **Combine method** — `mix`, `whisk` (aerate/emulsify), `blend` (mechanical puree), `knead` (dough) capture texture-forming distinctions. `dice` vs `mince` does not — they're both knife prep and the downstream result is the same.
 - **Passive operations** — whether something is cold-passive (`chill`) or liquid-passive (`marinate`) changes adaptation logic.
@@ -143,7 +143,7 @@ Next, we evaluate these representations based on four questions:
 
 3. **Ground-truth accuracy** — CURD has 261 hand-annotated formal cooking DAGs, the only external check against human labels. Matching by exact title against the full encoded corpus is in progress.
 
-4. **Downstream utility** — does the representation enable things raw text can't support? Two tests: process-ordered structural queries and closed-loop vegan adaptation compared against a direct LLM prompt.
+4. **Downstream utility** — does the representation enable things raw text can't support? Current test: process-ordered structural queries. In progress: using per-step process types as input features to predict output properties (e.g., how does adding a `reduce` step change nutrition facts or flavor descriptors?).
 
 ---
 
@@ -182,38 +182,20 @@ The 6.25% judge true-positive rate reflects a bad judge as much as a bad reconst
 
 ### Ground-truth accuracy: CURD
 
-The CURD dataset provides 261 hand-annotated formal cooking DAGs as ground truth. The evaluation matches encoded recipes to CURD annotations by title, then compares extracted step types and ingredient assignments against the canonical labels. This is currently running on the full 35K-recipe corpus; results will be reported once the encoding completes.
-
-### Closing the adaptation loop: DAG-guided vs. direct LLM
-
-The direct comparison: prompt an LLM to rewrite the recipe as vegan with no DAG involved. I ran this on 50 non-vegan recipes using Qwen2.5-3B for both approaches.
-
-| | DAG-guided | Direct LLM |
-|---|---|---|
-| Constraint satisfaction (animal-free fraction of outputs) | 97.8% | 97.6% |
-| Substitution ingredient coverage | 92.3% | 37.6% |
-| SentBERT similarity to original | 0.661 | 0.841 |
-| Animal ingredient leaks (total instances across 50 recipes) | 61 | 68 |
-| Per-recipe wins on constraint satisfaction | 16 | 9 (25 ties) |
-
-Both approaches eliminate animal products at 97-98% — Qwen2.5-3B is a capable instruction-follower and "rewrite as vegan" is a natural directive. The DAG approach wins slightly more often (16 vs 9 recipes, 25 ties). The direct LLM has a more diverse leak profile (chicken, bacon, pork, buttermilk, honey — harder-to-spot items); the DAG approach mostly leaks dairy and eggs where the substitution table doesn't cover the ingredient name.
-
-The gap is in substitution coverage: 92% vs 38%. The DAG approach generates an explicit plan — step 1 (bake): chicken wings → tofu, step 5 (mix): butter → vegan butter — and decodes from the edited DAG, so the substitutes are already in the prompt. The direct LLM has no plan; it has to figure out what to replace on its own. Because the edits are in the DAG, they're also auditable: you can inspect the substitution list before decoding.
-
-The tradeoff is fluency. The encode-decode bottleneck loses information — compressing a recipe into a 15-type sequence drops prose structure and qualitative descriptors. Direct LLM output stays closer to the original (SentBERT 0.841 vs 0.661). For a nutrition tracker that needs to know which step lost the dairy, the DAG is the right choice. For a recipe generator that needs readable output, direct LLM is better.
+The CURD dataset provides 261 hand-annotated formal cooking DAGs as ground truth. I'm working on an evaluation that matches encoded recipes to CURD annotations by title, then compares extracted step types and ingredient assignments against the canonical labels. This is currently in-progress!
 
 ### Downstream structural queries
 
-Running directly on the 4,531-recipe encoded sample, no additional NLP needed:
+The structural query experiment tests whether the DAG representation enables queries that would be difficult or impossible with keyword search on raw recipe text. I ran predicate-based queries directly on the encoded corpus without any additional NLP processing.
 
 | Query | Matches | Why natural language search fails |
 |---|---|---|
-| marinate then grill (ordered) | 37 | keyword search cannot enforce order |
-| grill then marinate (wrong order) | 2 | same keywords, 18:1 ratio invisible to text search |
-| knead then bake (bread recipes) | 66 | "knead" is often implicit in prose |
-| No-heat recipes | 1,706 (37.7%) | "no-cook" in title captures a fraction of these |
+| marinate then grill (ordered) | 37 | keyword search finds both words but cannot enforce temporal order |
+| grill then marinate (wrong order) | 2 | same keywords return same results; the 18:1 ratio is invisible to text search |
+| knead then bake (bread recipes) | 66 | "knead" is often implicit in prose ("work the dough") |
+| No-heat recipes (salads, dips, etc.) | 1,706 (37.7%) | "no-cook" in title captures only a small fraction |
 
-The advantage is composability: `marinate then grill AND at most 4 steps AND no dairy` is one predicate sweep over structured data, no re-parsing, and works for any process-pair combination without writing a new regex.
+The key advantage is composability: a query like `marinate then grill AND at most 4 steps AND no dairy` is a single predicate sweep over structured data. It requires no re-parsing and works for any process-pair combination without writing custom regex patterns. This is the type of query that raw text search cannot support efficiently.
 
 ---
 
@@ -225,9 +207,7 @@ The advantage is composability: `marinate then grill AND at most 4 steps AND no 
 
 **Better encoding propagates to better reconstruction.** Richer decoder prompts (with attribution) improve SentBERT similarity and judge agreement. A proper causal ablation would hold prompt format constant while varying only attribution quality — I haven't run that yet.
 
-**The DAG enables structural queries that raw text can't support.** Process-ordered retrieval and step-level dietary adaptation both work at corpus scale.
-
-**DAG-guided adaptation is more auditable than direct LLM rewriting, but not meaningfully better at constraint satisfaction.** Both hit ~98%; the value is the explicit edit plan you can inspect before decoding.
+**The DAG enables structural queries that raw text can't support.** Process-ordered retrieval works at corpus scale — ordered process predicates, composable filters, no re-parsing.
 
 ---
 
@@ -238,6 +218,8 @@ The advantage is composability: `marinate then grill AND at most 4 steps AND no 
 **Ground-truth accuracy against CURD is in progress.** The 35K-recipe encoding is still running; once complete, exact-title matching against the 261 CURD annotations should recover ~16 matches. Fuzzy title matching (edit distance or embedding similarity) would expand that further.
 
 **The transition matrix is computed but not used during encoding.** It currently only validates that training DAGs are internally self-consistent (98.2% pass rate). To actually matter, it needs to be wired up as an encoding filter — flag low-probability sequences and re-sample or fall back to BGE.
+
+**Using process sequences as input features to predict output properties.** The structured representation opens up a class of experiments that raw text doesn't support: treating the process sequence as an input feature and learning how it predicts output properties of the dish. For example, does adding a `reduce` step correlate with lower water content or more concentrated flavor? Does a `chill` step before serving predict lower-calorie output? This connects the extracted structure to external signals like nutrition facts or flavor descriptors, and would give a cleaner downstream utility story than the round-trip fidelity experiments.
 
 
 ---
