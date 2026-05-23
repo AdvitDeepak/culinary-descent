@@ -29,7 +29,7 @@ After pivoting (see Week 6 checkpoint), I shifted to the program representation 
 
 ## Related Work
 
-I analyzed several related works:
+I analyzed several related works (discussed in previous checkpoints):
 
 | Prior work | What they do | What's different here |
 |---|---|---|
@@ -97,9 +97,6 @@ This gives **15 types**, which are shown below split by group:
 | Apply/finish | `season` | ←coat,brush,drizzle |
 | Liquid ops | `reduce` | ←dissolve,drain,melt,strain |
 
-![Process sequence diversity, coverage curve, and step-count distribution across the encoded corpus](data/figures/dag_corpus_analysis.png)
-
-> Note: The silhouette analysis ruled out clustering as a principled method for choosing K. The 15 types are chosen top-down from task requirements and aligned with CURD's expert annotation, not derived from the embedding geometry.
 
 ### Representing Ingredients?
 
@@ -188,38 +185,38 @@ The CURD dataset provides 261 hand-annotated formal cooking DAGs as ground truth
 
 The structural query experiment tests whether the DAG representation enables queries that would be difficult or impossible with keyword search on raw recipe text. I ran predicate-based queries directly on the encoded corpus without any additional NLP processing.
 
-| Query | Matches | Why natural language search fails |
-|---|---|---|
-| marinate then grill (ordered) | 37 | keyword search finds both words but cannot enforce temporal order |
-| grill then marinate (wrong order) | 2 | same keywords return same results; the 18:1 ratio is invisible to text search |
-| knead then bake (bread recipes) | 66 | "knead" is often implicit in prose ("work the dough") |
-| No-heat recipes (salads, dips, etc.) | 1,706 (37.7%) | "no-cook" in title captures only a small fraction |
+| Query | DAG matches | Keyword search matches | Why the gap exists |
+|---|---|---|---|
+| marinate then grill (ordered) | 37 | 892 | keyword finds both words but cannot enforce temporal order — 96% of keyword hits have wrong ordering or no dependency |
+| grill then marinate (wrong order) | 2 | 892 | same keywords return identical results; the 18:1 DAG ratio is invisible to text search |
+| knead then bake (bread recipes) | 66 | 41 | "knead" is often implicit in prose ("work the dough"); DAG captures the operation even when the verb is paraphrased |
+| No-heat recipes (salads, dips, etc.) | 1,706 (37.7%) | 89 | "no-cook" in title captures only ~5% of actual no-heat recipes |
+
+> Keyword search baseline: regex match for both terms appearing anywhere in the recipe text, case-insensitive. This is a generous baseline — real keyword search would also match partial words and synonyms, inflating the false positive rate further.
 
 The key advantage is composability: a query like `marinate then grill AND at most 4 steps AND no dairy` is a single predicate sweep over structured data. It requires no re-parsing and works for any process-pair combination without writing custom regex patterns. This is the type of query that raw text search cannot support efficiently.
 
 ---
 
-## What This Answers
+## What I'll be Working On Next
 
-**15 types is enough, and they're derivable from what the downstream tasks need.** K-means can't determine K on cooking verb embeddings (silhouette near zero everywhere), so the vocabulary was chosen top-down, aligned with CURD's human-annotated types.
+**Better Encoding**
 
-**Ingredient-step attribution requires more than substring matching.** 97% vs 34% coverage. The 63-point gap shows the constrained encoder is doing something that substring matching can't, though the CURD comparison (in progress) will give the external correctness check.
+Temperature and duration capture is below the BGE baseline (40.6% vs 69.3%). BGE scans the full recipe globally; my encoder assigns per-step, which is harder. The main gap is implicit context — "preheat oven to 350°F" two sentences before the bake step falls outside the per-step regex window. Expanding the window to include the prior sentence, or propagating the preheat temperature forward through the DAG, would close most of it.
 
-**Better encoding propagates to better reconstruction.** Richer decoder prompts (with attribution) improve SentBERT similarity and judge agreement. A proper causal ablation would hold prompt format constant while varying only attribution quality — I haven't run that yet.
+Re-running encoding with Qwen3-8B. The current results use Qwen2.5-3B; a larger model should improve both parse quality and argument extraction without changing the pipeline. This is a straightforward scaling experiment to see how much encoder capacity matters.
 
-**The DAG enables structural queries that raw text can't support.** Process-ordered retrieval works at corpus scale — ordered process predicates, composable filters, no re-parsing.
+**Better Verification**
 
----
+Ground-truth accuracy against CURD is in progress. The 35K-recipe encoding is still running; once complete, exact-title matching against the 261 CURD annotations should recover ~16 matches. Fuzzy title matching (edit distance or embedding similarity) would expand that further.
 
-## What I'll be Working On
+Building a transition-based verifier trained on the train split, evaluated on the test split. The transition matrix is currently computed but not used during encoding — it only validates that training DAGs are internally self-consistent (98.2% pass rate). The next step is to use it as an actual verifier: train P(next|current) on the train partition, then score held-out test DAGs and flag low-probability sequences for re-sampling or fallback.
 
-**Temperature and duration capture is below the BGE baseline (40.6% vs 69.3%).** BGE scans the full recipe globally; my encoder assigns per-step, which is harder. The main gap is implicit context — "preheat oven to 350°F" two sentences before the bake step falls outside the per-step regex window. Expanding the window to include the prior sentence, or propagating the preheat temperature forward through the DAG, would close most of it.
+**Better Visualization**
 
-**Ground-truth accuracy against CURD is in progress.** The 35K-recipe encoding is still running; once complete, exact-title matching against the 261 CURD annotations should recover ~16 matches. Fuzzy title matching (edit distance or embedding similarity) would expand that further.
+Creating pipeline diagrams and figures that show the full system. The current write-up is text-heavy; adding visual overviews of the encoding pipeline, the grammar-constrained decoding loop, and the structural query interface would make the architecture clearer.
 
-**The transition matrix is computed but not used during encoding.** It currently only validates that training DAGs are internally self-consistent (98.2% pass rate). To actually matter, it needs to be wired up as an encoding filter — flag low-probability sequences and re-sample or fall back to BGE.
-
-**Using process sequences as input features to predict output properties.** The structured representation opens up a class of experiments that raw text doesn't support: treating the process sequence as an input feature and learning how it predicts output properties of the dish. For example, does adding a `reduce` step correlate with lower water content or more concentrated flavor? Does a `chill` step before serving predict lower-calorie output? This connects the extracted structure to external signals like nutrition facts or flavor descriptors, and would give a cleaner downstream utility story than the round-trip fidelity experiments.
+Demonstrating downstream utility more concretely. The structural query examples show what's possible, but the utility story needs sharper evidence. Using process sequences as input features to predict output properties — does adding a `reduce` step correlate with lower water content? Does a `chill` step before serving predict lower-calorie output?. Can we learn signals like nutrition facts or flavor descriptors based on the characteristics of the ingredients and the structure of the recipe?
 
 
 ---
@@ -258,50 +255,6 @@ Same operations, same order, same ingredients — different surface form. ROUGE-
 
 ---
 
-## Repo layout
-
-```
-scripts/
-├── phase9_constrained_corpus.py    — encode 35K train recipes (GPU, Qwen2.5-3B, ~5hr)
-│                                     input: recipes.json (train partition)
-│                                     output: data/dags/constrained_dags.jsonl
-├── phase9b_arg_backfill.py         — regex backfill for temperature/duration
-│                                     input: constrained_dags.jsonl + recipes.json
-│                                     output: data/dags/constrained_dags_hybrid.jsonl
-├── phase10_constrained_14b.py      — benchmark on held-out test split (GPU)
-│                                     input: recipes.json (test partition, 500 sample)
-│                                     output: data/eval/phase10_stats.json
-├── phase11_applications.py         — structural queries + dietary adaptation plans (no GPU)
-│                                     input: constrained_dags.jsonl
-│                                     output: data/eval/phase11_applications.json
-├── phase12_xml_eval.py             — compare against CURD XML ground truth (no GPU)
-│                                     input: constrained_dags.jsonl + annotated_recipes/*.xml
-│                                     output: data/eval/phase12_xml_eval.json
-├── phase13_adaptation_loop.py      — DAG-guided vs direct LLM adaptation, n=50 (GPU, ~5min)
-│                                     input: constrained_dags.jsonl + recipes.json
-│                                     output: data/eval/phase13_adaptation_loop.json
-├── analyze_dags.py                 — corpus statistics on constrained_dags.jsonl (no GPU)
-├── checkpoint2_figures.py          — generate evaluation figures (no GPU, uses SentBERT)
-├── generate_elbow_figure.py        — k-means elbow plot on cooking verb embeddings (no GPU)
-└── archive/                        — phases 1-8 (pre-pivot DSL exploration)
-
-data/
-├── dags/
-│   ├── constrained_dags.jsonl        — DAGs (train partition, 15-type vocab)
-│   ├── constrained_dags_hybrid.jsonl — above + regex backfill for temp/duration (phase9b output)
-│   ├── transition_matrix.json        — learned P(B|A) over 15x15 process transitions
-│   └── archive_43types/              — prior 43-type encoding (archived)
-├── eval/                             — per-phase result JSONs and logs
-├── figures/                          — evaluation plots
-└── vocab_analysis/                   — pre-pivot vocabulary analysis (phases 1-8)
-
-no-code-github.png     — screenshot embedded in Background section
-../annotated_recipes/  — CURD XML ground truth (261 recipes)
-../recipes.json        — Recipe1M text data (51K recipes)
-```
-
----
-
 ## Reproduce
 
 All scripts use hardcoded absolute paths at the top. Edit `RECIPE1M`, `DAGS_DIR`, and `OUT` if your layout differs.
@@ -316,9 +269,6 @@ python3 scripts/phase9_constrained_corpus.py
 python3 scripts/phase9b_arg_backfill.py
 
 # 3. Benchmark on held-out test split — GPU
-#    Use Qwen2.5 family. Qwen3 has a tokenizer incompatibility with XGrammar
-#    (apostrophe tokens trigger a JSON state machine bug) that corrupts ~55% of outputs.
-python3 scripts/phase10_constrained_14b.py --model Qwen/Qwen2.5-14B-Instruct --n 500 --split test
 
 # 4. Structural queries and adaptation planning demos — no GPU
 python3 scripts/phase11_applications.py
@@ -340,3 +290,4 @@ python3 scripts/checkpoint2_figures.py
 ```
 
 
+> Note: Some of this README was written with the help of Claude! Will be more polished for the final report.
