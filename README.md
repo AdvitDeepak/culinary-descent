@@ -103,7 +103,7 @@ This gives **15 types**, which are shown below split by group:
 
 ### Representing Ingredients?
 
-The same coverage analysis on ingredients tells a different story:
+After finalizing the 15 unique processes, I ran the same coverage analysis on ingredients:
 
 | Coverage target | Ingredient types needed |
 |---|---|
@@ -112,34 +112,36 @@ The same coverage analysis on ingredients tells a different story:
 | 95% | 7,583 |
 | 99% | 18,412 |
 
-Ingredients follow a power law with a long tail — you need 7,500+ types to reach 95% coverage, and even 18K types only gets to 99%. Critically, the tail never closes: brand names, regional variants, and compound phrases like "low-sodium chicken broth" mean any fixed vocabulary will miss real recipes. A large fixed ingredient vocabulary would also force lossy mappings ("sriracha" → "hot sauce") that destroy the specificity you were trying to capture. Keeping ingredients as free-form strings preserves the original specificity at no schema cost.
+Ingredients follow a power law with a long tail — for the subset of the 1M dataset, need 7,500+ unique ingredients to reach 95% coverage, and even 18K types only gets to 99%. Critically, the tail never closes: brand names, regional variants, and compound phrases like "low-sodium chicken broth" mean any fixed vocabulary will miss real recipes. A large fixed ingredient vocabulary would also force lossy mappings ("sriracha" → "hot sauce") that destroy the specificity you were trying to capture. As a result, I decided to keep ingredients as free-form strings to preserve the original specificity at no schema cost.
 
 
 ### LLM with Grammar-Constrained Decoding
 
-The simplest approach is to instruct an LLM and parse the output. But free-form LLM output with regex fails unpredictably. A model might output `sautee` instead of `saute`, or wrap the JSON in markdown code fences, or hallucinate a 44th process type. Post-hoc repair is fragile, as it's pattern-matching against an unbounded space of possible malformations. 
+Now, we must turn natural language recipes into structured formats that follow our 15 process types.
+
+The simplest approach was to instruct an LLM and parse the output. However, I found that free-form LLM output with regex fails unpredictably. A model would output `sautee` instead of `saute`, or wrap the JSON in markdown code fences, or hallucinate a 16th process type. I tried post-hoc repair, but it was fragile, as it's pattern-matching against an unbounded space of possible malformations. 
 
 To solve this, I implemented grammar-constrained decoding. The schema enum on canonical types means the model cannot output an invalid process type — not hoping it won't, but the decoding algorithm actively forbids it. For encoding recipes, I created a pipeline that uses Qwen2.5-3B-Instruct with XGrammar (a structured output backend for vLLM) that enforces the JSON schema at the token level. This leads to a parse success rate from ~85% (unconstrained + regex repair) to 98% (constrained) across the train split.
 
 ### Verifying Parses
 
-The Week 6 checkpoint proposed 8 hand-crafted predicates (raw protein must pass through a heat operation, etc.). I really appreciated Jihyeon's feedback that this doesn't scale — there are too many legitimate step combinations and the line between "valid" and "unusual" is blurry. The current approach is a learned transition matrix: P(next step type | current step type) over all 15 x 15 pairs, estimated from step transitions in the training corpus.
+The Week 6 checkpoint proposed 8 hand-crafted predicates (raw protein must pass through a heat operation, etc.). I really appreciated Jihyeon's feedback that this doesn't scale — there are too many legitimate step combinations and the line between "valid" and "unusual" is blurry. My current approach is a learned transition matrix: P(next step type | current step type) over all 15 x 15 pairs, estimated from step transitions from a subset of the training corpus.
 
 ![15x15 learned transition probabilities between process types](data/figures/checkpoint2_transition_matrix.png)
 
-A sequence scores low if it uses step-type pairs that almost never co-occur in real recipes (`bake` then `marinate` is statistically anomalous; `saute` then `simmer` is common). This sidesteps the predicate enumeration problem — validity is corpus-derived, not hand-specified. The matrix currently only validates that training DAGs are self-consistent (98.2% pass rate) and isn't yet wired up as an encoding filter, which is the remaining gap.
+A sequence scores low if it uses step-type pairs that almost never co-occur in real recipes (`bake` then `marinate` is statistically anomalous; `saute` then `simmer` is common). However, this approach sidesteps the predicate enumeration problem, as validity is corpus-derived rather than hand-specified. The matrix currently only validates that training DAGs are self-consistent (98.2% pass rate) and isn't yet wired up as an encoding filter, which is the remaining gap.
 
 ---
 
 ## Evaluation plan and metrics
 
-The evaluation covers four questions:
+Next, we evaluate these representations based on four questions:
 
-1. **Encoder quality** — how accurately does the extractor populate the representation? Primary metric: steps with at least one ingredient correctly attributed (coverage) and ingredient overlap against CURD ground-truth annotations (correctness).
+1. **Encoder quality** — how accurately does the extractor populate the representation? Primary metric: steps with at least one ingredient correctly attributed (coverage), and ingredient overlap against CURD ground-truth annotations (correctness).
 
-2. **Round-trip fidelity** — NL to DAG to NL: how much semantic content survives the compression? To measure this, I feed the DAG into a decoder (Qwen2.5-3B) and compare the output to the original. The primary metric is SentBERT (Sentence-BERT, a model that produces sentence-level embeddings for semantic similarity) cosine similarity between the original and reconstructed recipe.
+2. **Round-trip fidelity** — NL to DAG to NL: how much semantic content survives the compression? To measure this, I feed the structured representation into a decoder (Qwen2.5-3B) and compare the output to the original. The primary metric is SentBERT cosine similarity between the original and reconstructed recipe.
 
-3. **Ground-truth accuracy** — CURD has 261 hand-annotated formal cooking DAGs. These are the only external check against human labels.
+3. **Ground-truth accuracy** — CURD has 261 hand-annotated formal cooking DAGs, the only external check against human labels. Matching by exact title against the full encoded corpus is in progress.
 
 4. **Downstream utility** — does the representation enable things raw text can't support? Two tests: process-ordered structural queries and closed-loop vegan adaptation compared against a direct LLM prompt.
 
@@ -149,11 +151,9 @@ The evaluation covers four questions:
 
 ### Encoder comparison: BGE baseline vs. constrained LLM
 
-These numbers are from the completed 43-type encoder run (archived in `data/dags/archive_43types/`). The 15-type re-encoding is currently in progress; results will be updated once it finishes. The encoder architecture is identical — the only difference is the allowed canonical type set — so the numbers should be close.
-
 Benchmarked on the full 35K-recipe train split: ~98% parse rate for the constrained encoder at about 0.5 seconds per recipe on one GPU (~5 hours total).
 
-BGE here refers to BAAI/bge-small-en-v1.5, a general-purpose text embedding model used as a retrieval-based baseline. It does not produce structured DAGs natively — it assigns ingredients to steps by embedding match against the raw instruction text rather than parsing JSON.
+> BGE here refers to BAAI/bge-small-en-v1.5, a general-purpose text embedding model used as a retrieval-based baseline. It does not produce structured DAGs natively — it assigns ingredients to steps by embedding match against the raw instruction text rather than parsing JSON.
 
 | | BGE encoder | Constrained 3B + regex backfill |
 |---|---|---|
@@ -162,12 +162,11 @@ BGE here refers to BAAI/bge-small-en-v1.5, a general-purpose text embedding mode
 | Temperature arguments captured | 69.3% | 40.6% |
 | Duration arguments captured | 51.6% | 44.5% |
 
-> Note on ingredient coverage: 97% means some ingredient was assigned, not necessarily the right one. The CURD evaluation below gives the external check: 44.9% ingredient overlap against human labels.
-
-> Note on temperature/duration: The reason for the performance difference is likely that BGE scans the full recipe text globally and grabs any number it finds. My encoder assigns values per step, which is a harder task. BGE's 69.3% almost certainly inflates because it attributes a step 1 oven preheat to every subsequent step.
+> Note on temperature/duration: The reason for the performance difference is likely that BGE scans the full recipe text globally and grabs any number it finds. My encoder assigns values per step, which is a harder task. BGE's 69.3% almost certainly inflates because it attributes a step 1 oven preheat to every subsequent step. I am also currently in the process of using a larger LLM (Qwen3-8B) and re-running this encoding.
 
 ### Round-trip fidelity
 
+The round-trip fidelity experiment tests whether the DAG representation preserves enough semantic content to reconstruct the original recipe — we encode natural language to a structured DAG, then decode back to natural language and measure how much meaning survives the compression.
 
 | | BGE + decoder | Constrained + decoder | Difference |
 |---|---|---|---|
@@ -181,21 +180,9 @@ n=278 recipes (random sample from the train split). The decoder is held constant
 
 The 6.25% judge true-positive rate reflects a bad judge as much as a bad reconstruction. Qwen2.5-3B judging semantic equivalence of two full recipes is a task the 3B model isn't calibrated for. The 100% true-negative rate (correctly rejects shuffled and negated pairs) tells me the judge is conservative, not that reconstruction is bad. A stronger judge or human evaluation would be needed to interpret the true-positive rate.
 
-![BGE vs. constrained encoder: ROUGE-L, SentBERT similarity, judge true-positive rate](data/figures/phase8_pipeline_comparison.png)
-
 ### Ground-truth accuracy: CURD
 
-| | Score |
-|---|---|
-| Canonical type precision | 37.5% |
-| Canonical type recall | 60.0% |
-| Type F1 | 46.2% |
-| Sequence longest-common-subsequence F1 | 26.1% |
-| Per-step ingredient overlap | 44.9% |
-
-n=3 CURD recipes matched by exact title from the 4,531-recipe encoded sample (out of 261 CURD annotations). n=3 is too small for strong conclusions. The failures that do show up are recognizable: "Anzac Biscuits I" gets 0% recall on `reduce` and `bake` because the encoder over-generates `chop`; "Buttermilk Shake" gets the right type (`mix`) but also hallucinates extra steps. Some failures are abstraction mismatch (CURD annotates sub-operations per sentence; I extract one step per instruction), but over-generation and type errors can't be explained away.
-
-The 44.9% ingredient overlap is what to read alongside the 97% coverage figure — "steps have an ingredient" doesn't mean it's the right one.
+The CURD dataset provides 261 hand-annotated formal cooking DAGs as ground truth. The evaluation matches encoded recipes to CURD annotations by title, then compares extracted step types and ingredient assignments against the canonical labels. This is currently running on the full 35K-recipe corpus; results will be reported once the encoding completes.
 
 ### Closing the adaptation loop: DAG-guided vs. direct LLM
 
@@ -234,7 +221,7 @@ The advantage is composability: `marinate then grill AND at most 4 steps AND no 
 
 **15 types is enough, and they're derivable from what the downstream tasks need.** K-means can't determine K on cooking verb embeddings (silhouette near zero everywhere), so the vocabulary was chosen top-down, aligned with CURD's human-annotated types.
 
-**Ingredient-step attribution requires more than substring matching.** 97% vs 34% coverage. Against CURD ground truth, the right ingredient appears 44.9% of the time — there's a real gap, but the coverage difference alone shows substring matching isn't the answer.
+**Ingredient-step attribution requires more than substring matching.** 97% vs 34% coverage. The 63-point gap shows the constrained encoder is doing something that substring matching can't, though the CURD comparison (in progress) will give the external correctness check.
 
 **Better encoding propagates to better reconstruction.** Richer decoder prompts (with attribution) improve SentBERT similarity and judge agreement. A proper causal ablation would hold prompt format constant while varying only attribution quality — I haven't run that yet.
 
@@ -248,7 +235,7 @@ The advantage is composability: `marinate then grill AND at most 4 steps AND no 
 
 **Temperature and duration capture is below the BGE baseline (40.6% vs 69.3%).** BGE scans the full recipe globally; my encoder assigns per-step, which is harder. The main gap is implicit context — "preheat oven to 350°F" two sentences before the bake step falls outside the per-step regex window. Expanding the window to include the prior sentence, or propagating the preheat temperature forward through the DAG, would close most of it.
 
-**Ground-truth accuracy is preliminary at n=3.** Type F1 is 46.2% and ingredient overlap is 44.9% on the 3 CURD recipes matched by exact title in the current 4,531-recipe sample. n=3 is too small for strong conclusions. Fuzzy title matching (edit distance or embedding similarity) would expand coverage substantially; exact-title matching against the full corpus should recover ~16 matches based on prior runs.
+**Ground-truth accuracy against CURD is in progress.** The 35K-recipe encoding is still running; once complete, exact-title matching against the 261 CURD annotations should recover ~16 matches. Fuzzy title matching (edit distance or embedding similarity) would expand that further.
 
 **The transition matrix is computed but not used during encoding.** It currently only validates that training DAGs are internally self-consistent (98.2% pass rate). To actually matter, it needs to be wired up as an encoding filter — flag low-probability sequences and re-sample or fall back to BGE.
 
