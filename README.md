@@ -117,7 +117,7 @@ The reason this makes sense is that cooking operations are inherently hierarchic
 | Learned VQ (ours) | 263 | **52.6%** |
 | Grammar-15 (14B LLM) | 237 | 47.4% |
 
-p=0.26 (two-sided binomial) — indistinguishable from 50%. A 9 MB encoder matches a 14B-parameter LLM on DAG quality.
+p=0.26 (two-sided binomial) — indistinguishable from 50%. A 9 MB encoder matches a 14B-parameter LLM on DAG quality when we have an expert LLM (Claude Sonnet) pick the better representation after being given the ground truth.
 
 Why does this hold up? The LLM baseline is actually quite bad at structural inference. On Two Cheese Fettuccini, Grammar-15 produces a flat chain of nine nodes (`boil → mix → mix → boil → boil → chill → mix → mix → mix`) — it sees the recipe as a sequence, not a parallel program, due to the sequential nature of instructions in recipe text. The learned DAG recovers the parallel structure — a pasta boiling track and a sauce track that only meet at the final mix — with a few minor mistakes (one ingredient edge and one intermediate step label are off):
 
