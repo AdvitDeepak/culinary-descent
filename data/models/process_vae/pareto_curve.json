@@ -1,0 +1,44 @@
+[
+  {
+    "k": 8,
+    "recon_loss": 0.37983,
+    "cuisine_auc": 0.647,
+    "calories_auc": 0.6409
+  },
+  {
+    "k": 15,
+    "recon_loss": 0.354,
+    "cuisine_auc": 0.684,
+    "calories_auc": 0.6608
+  },
+  {
+    "k": 32,
+    "recon_loss": 0.31131,
+    "cuisine_auc": 0.6904,
+    "calories_auc": 0.6994
+  },
+  {
+    "k": 64,
+    "recon_loss": 0.28187,
+    "cuisine_auc": 0.7026,
+    "calories_auc": 0.7292
+  },
+  {
+    "k": 128,
+    "recon_loss": 0.24722,
+    "cuisine_auc": 0.7186,
+    "calories_auc": 0.7555
+  },
+  {
+    "k": 185,
+    "recon_loss": 0.2317,
+    "cuisine_auc": 0.7226,
+    "calories_auc": 0.7661
+  },
+  {
+    "k": 256,
+    "recon_loss": 0.22275,
+    "cuisine_auc": 0.7283,
+    "calories_auc": 0.7721
+  }
+]

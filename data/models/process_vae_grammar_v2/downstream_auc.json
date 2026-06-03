@@ -1,0 +1,8 @@
+{
+  "cuisine_auc": 0.7842,
+  "calories_auc": 0.788,
+  "fat_auc": 0.7731,
+  "protein_auc": 0.7609,
+  "n_recipes": 28558,
+  "n_active_codes": 245
+}

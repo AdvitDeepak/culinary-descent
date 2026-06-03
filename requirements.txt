@@ -1,17 +1,18 @@
-# Core inference (GPU required for phases 9–13)
+# GPU required for training and LLM-based eval
 vllm>=0.6.0
 transformers>=4.45.0
 torch>=2.3.0
+peft>=0.10.0
 
-# Embeddings / semantic evaluation
+# Embeddings
 sentence-transformers>=3.0.0
 
-# Data / parsing / visualization
+# Data / graphs / visualization
 numpy>=1.26.0
+networkx>=3.2.0
+pygraphviz>=1.11
 tqdm>=4.66.0
-lxml>=5.0.0          # phase12: CURD XML ground-truth parsing
-scikit-learn>=1.4.0  # generate_elbow_figure.py: KMeans, silhouette_score
-matplotlib>=3.8.0    # all figure scripts
-
-# Dev
-pytest>=7.4.0
+pandas>=2.0.0
+scikit-learn>=1.4.0
+matplotlib>=3.8.0
+lxml>=5.0.0

@@ -68,3 +68,26 @@ Thumbs.db
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# MiniLM embedding cache (16 GB, regenerate via cache_step_embeddings.py)
+data/models/embeddings/
+
+# Intermediate phase-3 checkpoints — only *_final.pt needed for inference
+data/models/**/stage1_phase3_best.pt
+data/models/**/stage1_grammar_phase3_best.pt
+
+# Stage 2 tokenized training cache (regeneratable)
+data/models/process_vae_stage2/tokenized/
+data/models/process_vae_stage2_grammar/tokenized/
+
+# Enriched dataset intermediates (regenerate via build_enriched_dataset.py)
+data/enriched/features.npz
+data/enriched/tfidf_vocab.pkl
+data/enriched/joined_recipes.jsonl
+
+# Learned DAG outputs (2.8 GB each — regenerate via process_vae_dag_eval.py)
+# NOTE: constrained_dags_14b*.jsonl is intentionally NOT ignored (25 MB precomputed baseline)
+data/dags/learned_dags*.jsonl
+
+# vocab_analysis outputs (regenerate via vocab_analysis.py)
+data/vocab_analysis/

@@ -1,0 +1,3639 @@
+{
+  "0": {
+    "code": 0,
+    "semantic_label": "cool-rest",
+    "category": "finish",
+    "label_confidence": 0.3,
+    "grammar_alignment": {
+      "reduce": 0.063
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Reduce heat to moderate.",
+      "Take off heat.",
+      "Let cold, then slip off skins.",
+      "Small bathes ensure uniform cooking and cooling.",
+      "Let cool to room temperature."
+    ]
+  },
+  "1": {
+    "code": 1,
+    "semantic_label": "instruction-note",
+    "category": "meta",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Some people like to swirl their weenies in the syrup before cramming them in their mouths.",
+      "(This step helps the stock to reduce a little and become more intense in flavour).",
+      "Tastes great when it is warm.",
+      "Adjust the flavor to your liking.",
+      "They'll increase in sweetness for 2 to 3 weeks!"
+    ]
+  },
+  "2": {
+    "code": 2,
+    "semantic_label": "unknown",
+    "category": "unknown",
+    "label_confidence": 0.0,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Ready, steady, feast.",
+      "Then remove and enjoy!",
+      "I hope you enjoy.",
+      "Major bummer because its really good!",
+      "It doesn't go bad."
+    ]
+  },
+  "3": {
+    "code": 3,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Spread beans on top of chips, sprinkle cheeses over beans, and scatter jalapenos over cheese.",
+      "Sprinkle with onion soup mix, green pepper, tomatoes and seasonings.",
+      "In a large bowl, combine soup, tomatoes with chilies and sour cream.",
+      "Stir together the tomatoes, shallots, garlic, olives, capers, lemon juice, olive oil, parsley, thyme",
+      "Combine the tomatoes, cucumber, bread, oil, vinegar, and garlic with 1 cup water in a blender; proce"
+    ]
+  },
+  "4": {
+    "code": 4,
+    "semantic_label": "bake-timed",
+    "category": "heat-dry",
+    "label_confidence": 0.55,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Bake for about 15-25 minutes, 160c.",
+      "Bake 2 hours.",
+      "Bake 30 minutes.",
+      "Let stand on baking sheet 10 minutes.",
+      "Bake for 15 minutes."
+    ]
+  },
+  "5": {
+    "code": 5,
+    "semantic_label": "unknown",
+    "category": "unknown",
+    "label_confidence": 0.0,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "When I have achieved this, I will create an update.",
+      "PART ONE.",
+      "PART TWO.",
+      "PART THREE.",
+      "s easy to make your own."
+    ]
+  },
+  "6": {
+    "code": 6,
+    "semantic_label": "bake-timed",
+    "category": "heat-dry",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Spoon half the batter into the loaf pan spread to cover bottom.",
+      "Spread the batter on the prepared baking sheet and bake for 12 minutes, or until the corn bread is f",
+      "In a large bowl, break the corn bread into 1-inch pieces.",
+      "Place bread cubes in a large bowl and set to the side.",
+      "Place milk, eggs, margarine, bread flour, white sugar, and yeast in the pan of bread machine in reco"
+    ]
+  },
+  "7": {
+    "code": 7,
+    "semantic_label": "pour",
+    "category": "structure",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Pour over meat and vegetables.",
+      "Place meat in Dutch oven and break apart.",
+      "Remove steaks from marinade and arrange in the hot pan; gently shake pan to avoid sticking.",
+      "Mix together and use prior to grilling chicken and steaks.",
+      "Add the meat and, breaking up the meat with a fork or spoon, cook gently and stirring frequently."
+    ]
+  },
+  "8": {
+    "code": 8,
+    "semantic_label": "beat",
+    "category": "mix",
+    "label_confidence": 0.3,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "In a large bowl, beat together cream cheese and peanut butter until well combined.",
+      "In another mixing bowl, beat the cream cheese until smooth.",
+      "Blend in the cheese.",
+      "Blend cream cheese and powdered sugar until smooth.",
+      "Beat together the cream cheese, sugar, vanilla and lemon juice in a bowl until smooth."
+    ]
+  },
+  "9": {
+    "code": 9,
+    "semantic_label": "reduce",
+    "category": "heat-wet",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Don't worry if it's a little sticky.",
+      "If the gazpacho seems too thick, thin with additional water.",
+      "Avoid lumps by going very slowly.",
+      "The paper should be smooth along the bottom and sidesany wrinkles or creases in the paper will impri",
+      "The pieces will break apart; this is O.K."
+    ]
+  },
+  "10": {
+    "code": 10,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.65,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Cook the ground turkey, garlic, and onions in a large skillet until 75% done.",
+      "Crumble the ground beef into a skillet over medium-high heat.",
+      "Cook and stir until beef is evenly browned.",
+      "Drop the shrimp into vegetable oil heated to 180C and fry until crispy.",
+      "Heat the oil in the frying pan and cook the beef."
+    ]
+  },
+  "11": {
+    "code": 11,
+    "semantic_label": "shape-dough",
+    "category": "structure",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "WHILE OIL IS HEATING- Form patties from the salmon balls you made previously (Should end up with abo",
+      "Place 3 to 4 patties in skillet at a time (Don't crowd them).",
+      "Patties should be on original side now (Cook for about 20 more seconds and remove to paper towels).",
+      "Close the pocket and form the meat around the filling to make a small patty and grill the patties un",
+      "Place a patty on top of each and place the top on the bun."
+    ]
+  },
+  "12": {
+    "code": 12,
+    "semantic_label": "boil",
+    "category": "heat-wet",
+    "label_confidence": 0.5,
+    "grammar_alignment": {},
+    "frequency": 2,
+    "top_examples": [
+      "In a large heatproof bowl, cover the ancho chiles with the boiling water.",
+      "Add the fusilli and cook as the label directs."
+    ]
+  },
+  "13": {
+    "code": 13,
+    "semantic_label": "simmer",
+    "category": "heat-wet",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "If you plan on letting it simmer for 4 hours, do not add beans until after 3 hours.",
+      "Bake for another 15 minutes, until the feta is tender and the tomatoes are softened.",
+      "Leaving 1 inch of stem and all of the roots, steam beets till they're tender-hard when pierced with ",
+      "Add potatoes; simmer 15 minutes.",
+      "Bring the water to a boil over high heat, then reduce heat to medium-low and then simmer for 10-15 m"
+    ]
+  },
+  "14": {
+    "code": 14,
+    "semantic_label": "whisk",
+    "category": "mix",
+    "label_confidence": 0.75,
+    "grammar_alignment": {
+      "whisk": 0.086
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Whisk mayonnaise and remaining pesto.",
+      "In a small mixing bowl, whisk buttermilk, eggs and vanilla.",
+      "Whisk together yogurt, maple syrup, egg whites, vanilla and banana.",
+      "Whisk together the vinegar, olive oil, seasoning mix, oregano, rosemary, salt and pepper, garlic, ba",
+      "Whisk remaining eggs, half-and-half, pepper and thyme until blended; pour into crust."
+    ]
+  },
+  "15": {
+    "code": 15,
+    "semantic_label": "cool-rest",
+    "category": "finish",
+    "label_confidence": 0.8,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Transfer to racks and let cool.",
+      "Cool on a wire rack.",
+      "Remove to wire rack and cold completely.",
+      "Transfer to rack to cool.",
+      "; remove to wire racks."
+    ]
+  },
+  "16": {
+    "code": 16,
+    "semantic_label": "prepare-pan",
+    "category": "prep",
+    "label_confidence": 0.7,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "oil and swirl to glaze pan.",
+      "Spray pans and paper with vegetable cooking spray.",
+      "pour into greased and baking pans.",
+      "Lightly butter or spray two 8-inch round cake pans.",
+      "Lightly grease a 9 inch spring form pan."
+    ]
+  },
+  "17": {
+    "code": 17,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Hold both the wire rack and the pan, turn them over, and remove the pan.",
+      "Run a knife around outside edge of pan; remove from pan.",
+      "Loosen edge with rubber spatula and turn out of pan onto paper towel.",
+      "Once the ganache has hardened, release it from the pan.",
+      "Run a small knife or offset spatula under hot water and then run it along the sides of the pan that "
+    ]
+  },
+  "18": {
+    "code": 18,
+    "semantic_label": "blend-processor",
+    "category": "mix",
+    "label_confidence": 0.9,
+    "grammar_alignment": {
+      "blend": 0.103
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Food-processor mixing recommended, following the directions on page 160.",
+      "In a small food processor, puree artichokes, sun-dried tomatoes, and garlic cloves until almost smoo",
+      "In a food processor, pulse the pistachios a few times until roughly chopped.",
+      "Add Raspberry Preserves to food processor.",
+      "In a food processor or blender, combine the nuts, 2 tablespoons of the oil, the salt, and the sugar,"
+    ]
+  },
+  "19": {
+    "code": 19,
+    "semantic_label": "simmer",
+    "category": "heat-wet",
+    "label_confidence": 1.0,
+    "grammar_alignment": {
+      "simmer": 0.084
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Bring liquid to simmer, cover pan, and simmer until liquid is 90% absorbed, 2-3 minutes.",
+      "Simmer on medium-low to low for 30 minutes; stirring occasionally.",
+      "It is ready after 30 minutes, but is much better if you let it simmer for several hours.",
+      "If you have the time, let it simmer for 4 hours.",
+      "Simmer gently for approximately 20 to 30 minutes."
+    ]
+  },
+  "21": {
+    "code": 21,
+    "semantic_label": "layer",
+    "category": "structure",
+    "label_confidence": 0.4,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Place sliced onions on baking dish, then top with fish fillets.",
+      "Begin by preheating your oven to 400 degrees F. Poke the top of each potato with a fork and place on",
+      "Brush the butter on the inside and outside of each potato skin and place them back onto the baking s",
+      "Sprinkle with the 1/2 of the remaining streusel and apples and then top with the rest of the streuse",
+      "Layer apples and pears in the bottom of the 3 pie tins; sprinkle blackberries over apples and pears."
+    ]
+  },
+  "22": {
+    "code": 22,
+    "semantic_label": "simmer",
+    "category": "heat-wet",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Add shrimp, cooked for 1/2 mins, then remove shrimp and set aside.",
+      "Re-add shrimp, add some coriander leaves, cook for 1/2 more minutes.",
+      "Cook other side until tuna is desired doneness, 1 to 2 more minutes.",
+      "Bring to boil and cook for 15 - 20 minutes - no longer or chicken will be tough.",
+      "BRING WATER TO A BOIL; REDUCE HEAT; SIMMER 15 Min Or possibly Till LOBSTERS TURN A BRILLIANT RED."
+    ]
+  },
+  "23": {
+    "code": 23,
+    "semantic_label": "bake-doneness",
+    "category": "heat-dry",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Remove spine pieces by halving the fish length wise.",
+      "or until knife inserted in center comes out clean.",
+      "Cut in lacce (shoestrings) or boccoli (curls).",
+      "Cut the ganache into 3/4- to 1-inch squares, continuing to wipe your knife with the hot towel, as ne",
+      "The key to achieving a clean cut in the ganache is a combination of making sure that the ganache is "
+    ]
+  },
+  "24": {
+    "code": 24,
+    "semantic_label": "pour",
+    "category": "structure",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Combine sauce ingredients.",
+      "The dough is best prepared in a heavy-bottom saucepan.",
+      "Once sauce is warm, add parmesan.",
+      "In 1 or 2 oblong storage containers (depending on size of yours - I need 2) pour 1/2 - 1 cup of BBQ ",
+      "Do this layering process until all of the ingredients have been used and making sure that the final "
+    ]
+  },
+  "25": {
+    "code": 25,
+    "semantic_label": "refrigerate",
+    "category": "finish",
+    "label_confidence": 0.95,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Chill until set.",
+      "Chill until required.",
+      "Cover and chill 8 hours.",
+      "Chill until firm.",
+      "Cover and chill for up to 2 days."
+    ]
+  },
+  "26": {
+    "code": 26,
+    "semantic_label": "stir",
+    "category": "mix",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Finally, stir in the peanuts.",
+      "Pour the stock into the pan, followed by the almonds, apricots, sultanas and a little salt and peppe",
+      "In the bowl of a food procesor, combine chocolate, sugar and almonds and pulse until finely ground, ",
+      "Pour chopped nuts into a bowl, and set aside.",
+      "Dip into the pecans to thoroughly coat the cheese."
+    ]
+  },
+  "27": {
+    "code": 27,
+    "semantic_label": "stir",
+    "category": "mix",
+    "label_confidence": 0.1,
+    "grammar_alignment": {
+      "mix": 0.032
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Make the bechamel sauce by cooking the butter in a pot and adding the flour.",
+      "Stir in peanut butter.",
+      "Sift together the flour, baking soda, and salt; stir into the peanut butter mixture.",
+      "Using an electric hand mixer, beat half of the buttermilk mixture into the dry ingredients at low sp",
+      "Whisk in butter until incorporated."
+    ]
+  },
+  "28": {
+    "code": 28,
+    "semantic_label": "stir",
+    "category": "mix",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "In an oven proof dish add the chicken, noodles, soup, whisked eggs, salt and spices as well as 1.5 c",
+      "Place sliced peppers and mushrooms on top and around the fish, then top with sprinkling of chopped c",
+      "While fish is cooking, mix 2 tbs lime juice, 2 tsp soy sauce, 1 tsp water, and a dash of sesame oil ",
+      "When fish is cooked, serve on plain rice (or rice cooked 2:1 with quinoa), add sauce to taste and ga",
+      "Add corn meal mixture to the salmon mixture bowl."
+    ]
+  },
+  "29": {
+    "code": 29,
+    "semantic_label": "bake-timed",
+    "category": "heat-dry",
+    "label_confidence": 0.7,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Bake at 350 for 35-40 minutes or until golden brown.",
+      "Bake until tops of scones are golden brown, about 25 minutes.",
+      "Bake until batter turns golden brown, 45 to 50 minutes.",
+      "Reduce heat to medium-low; cook, stirring occasionally, for 30 minutes or until deep golden brown.",
+      "Bake at 375F for 15 minutes or until golden."
+    ]
+  },
+  "31": {
+    "code": 31,
+    "semantic_label": "unknown",
+    "category": "unknown",
+    "label_confidence": 0.0,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Use immediately.",
+      "This can be prepared a day in advance.",
+      "Use before 1 month.",
+      "(The tartar sauce can be prepared up to 3 days ahead.)",
+      "DO AHEAD: Pistou can be made 2 hours ahead."
+    ]
+  },
+  "32": {
+    "code": 32,
+    "semantic_label": "beat",
+    "category": "mix",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Toss well to combine.",
+      "Or dont.",
+      "Since we?",
+      "Turn frequently.",
+      "Fold in the."
+    ]
+  },
+  "33": {
+    "code": 33,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Pour soy sauce over it, stir.",
+      "Mix the Steak Sauce with the reserved tomato juice and cornstarch.",
+      "In a medium saucepan, combine butter, sugar, salt, and 1 cup water.",
+      "Combine granulated sugar, corn syrup, salt, and 1/2 cup cold water in a small heavy saucepan.",
+      "Drain off grease, then stir in the barbeque sauce and hot pepper sauce."
+    ]
+  },
+  "34": {
+    "code": 34,
+    "semantic_label": "grill-cook",
+    "category": "heat-dry",
+    "label_confidence": 0.4,
+    "grammar_alignment": {
+      "grill": 0.197
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Sprinkle the patties with cheese and cook patties under the grill until cheese bubbles and is melted",
+      "Heat your grill to medium/high.",
+      "Heat greased barbecue to medium heat.",
+      "Place remaining large piece of fruit roll in front of the \"car\" for the \"grill.\"",
+      "Charcoal not gas for best results."
+    ]
+  },
+  "35": {
+    "code": 35,
+    "semantic_label": "cool-rest",
+    "category": "finish",
+    "label_confidence": 0.4,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Serve immediately (or refrigerate and serve within a couple of hours.",
+      "When finished allow to cool somewhat before using in the lasagna recipe.",
+      "Let cool several minutes before serving.",
+      "Cool mix before serving.",
+      "Cool 5 minutes before serving."
+    ]
+  },
+  "36": {
+    "code": 36,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Brown pork in oil.",
+      "They should all turn light brown and aromatic.",
+      "The top can be well browned.",
+      "brown chicken on all sides --",
+      "Brown beef, drain some fat then add onions and garlic."
+    ]
+  },
+  "37": {
+    "code": 37,
+    "semantic_label": "pour",
+    "category": "structure",
+    "label_confidence": 0.05,
+    "grammar_alignment": {
+      "reduce": 0.044
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Strain through a fine sieve.",
+      "Strain stock through a fine sieve, making sure that no bones get into the stock.",
+      "Discard solids.",
+      "Strain through a sieve into a bowl, discarding solids.",
+      "Strain the puree into a large non-reactive bowl."
+    ]
+  },
+  "38": {
+    "code": 38,
+    "semantic_label": "pour",
+    "category": "structure",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Healthy?",
+      "Discard the fat in the pan and reserve the pan.",
+      "Skim the fat from the stock and keep warm.",
+      "Drain off fat.",
+      "Cook beef and onions, drain fat."
+    ]
+  },
+  "39": {
+    "code": 39,
+    "semantic_label": "chop-slice",
+    "category": "prep",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Unmold and fill center with pineapple chunks.",
+      "Mix in dried cranberries.",
+      "Toss peaches with remaining 2 tablespoons of sugar and 1/2 teaspoon almond extract.",
+      "Sprinkle with half the apples and half of the streusel.",
+      "Cut the spinach into bite-sized lengths."
+    ]
+  },
+  "40": {
+    "code": 40,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.3,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Add black pepper, garlic salt, pimientos and half of the old bay and mix again.",
+      "Mix soy sauce, olive oil, lemon juice, sesame oil, molasses, cayenne pepper, ginger, and garlic toge",
+      "garlic and salt in a mortar till smooth, then stir in lemon juice and extra virgin olive oil.",
+      "Combine the vinegar, mustard, shallot, salt, and pepper in a bowl.",
+      "In it, stir chicken, rice, Rotel, chilis, soup, corn, taco seasoning, water and 3/4 cup of the chees"
+    ]
+  },
+  "41": {
+    "code": 41,
+    "semantic_label": "yield-note",
+    "category": "meta",
+    "label_confidence": 0.4,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "*Sorry it wasnt until I put my recipe into MacGourmet did I realize how much sodium the Cookshack ch",
+      "As we mentioned earlier, this recipe has been in our family for almost a hundred years.",
+      "Donna's Mother-In-Law's recipe.",
+      "She was born in 1896 so this is a very old recipe.",
+      "Recipe adapted from the book Baked Doughnuts for Everyone by Ashley McLaughlin."
+    ]
+  },
+  "42": {
+    "code": 42,
+    "semantic_label": "fill",
+    "category": "structure",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Pour the filling into the tart shells.",
+      "Brush the edges of each round lightly with water, then place 1 tablespoon of filling on one side of ",
+      "Your filling is now ready.",
+      "Sprinkle evenly with about half of the remaining filling.",
+      "Sprinkle with the remaining filling."
+    ]
+  },
+  "43": {
+    "code": 43,
+    "semantic_label": "cool-rest",
+    "category": "finish",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Turn after bottom browns (approx 3 minutes)/Turn again when second side is done.",
+      "salt for 15 to 18 min or possibly till almost tender.",
+      "on each side or until done (170 degrees F).",
+      "Allow the ingredients to macerate for 10 minutes.",
+      "Transfer to a warm plate, and allow to rest for about five minutes."
+    ]
+  },
+  "44": {
+    "code": 44,
+    "semantic_label": "season",
+    "category": "prep",
+    "label_confidence": 0.6,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Remove from heat and add salt, pepper & poultry seasoning.",
+      "Season chicken with paprika, salt, and pepper, and place in the baking dish.",
+      "Stir well to coat the pork and season to taste with salt and pepper.",
+      "Pat ribs dry and season well with salt and pepper.",
+      "Sprinkle steaks with salt and pepper."
+    ]
+  },
+  "45": {
+    "code": 45,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Now is the time to add the garlic.",
+      "Add the onion, ginger, and remaining garlic and saute, stirring occasionally, until golden and soft.",
+      "Add garlic cloves and cook, stirring frequently, until garlic is golden and shallots are golden brow",
+      "Add the garlic and thyme and cook until fragrant, 30 to 45 seconds.",
+      "Slice the garlic."
+    ]
+  },
+  "46": {
+    "code": 46,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Rotate pans halfway through baking.",
+      "Although this recipe calls for a Dutch oven, a large sauce pan is fine, but you will need to watch i",
+      "Return pan to medium-high heat, and cook, stirring constantly, until mixture pulls away from the sid",
+      "The mixture should come together into a solid mass and pull away from the sides of the pan.",
+      "It is ready for the next step when a thin film coats the bottom of the pan, after about 3 minutes."
+    ]
+  },
+  "47": {
+    "code": 47,
+    "semantic_label": "prepare-pan",
+    "category": "prep",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "If you have a problem with cakes or muffins not rising enough, it is probably not because you arent ",
+      "Heat oven to 350F Use a muffin tin for 12 muffins, spray 8 muffin cups with cooking spray.",
+      "In small bowl, mix butter, cream and brown sugar; spoon into muffin cup.",
+      "Fill muffin cups to the top and set aside as you mix the topping.",
+      "Once mixed to a crumbly texture, sprinkle over the unbaked muffins."
+    ]
+  },
+  "48": {
+    "code": 48,
+    "semantic_label": "beat",
+    "category": "mix",
+    "label_confidence": 0.25,
+    "grammar_alignment": {
+      "whisk": 0.057
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Beat butter and sugar until smooth and creamy.",
+      "Cream shortening and sugar.",
+      "Add the passion fruit pulp and beat until the cream is thick.",
+      "Drizzle mayonnaise and enjoy while hot.",
+      "Add: 1 teaspoon vanilla Beat the icing until it is thick and creamy."
+    ]
+  },
+  "49": {
+    "code": 49,
+    "semantic_label": "bake-timed",
+    "category": "heat-dry",
+    "label_confidence": 0.4,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Bake until cheese is completely melted, about 5 minutes.",
+      "Again, place them back in the oven and cook until the cheese is nice and melted.",
+      "Bake for 15 to 20 minutes in the preheated oven, until the biscuits are cooked through, and cheese i",
+      "Cook on a panini maker or indoor grill for 3-4 minutes or until bread is browned and cheese is melte",
+      "Spoon the cheesecake filling on top of the biscuit base and smooth with a spatula, put it in the ref"
+    ]
+  },
+  "50": {
+    "code": 50,
+    "semantic_label": "layer",
+    "category": "structure",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Slice the rolls in half and top with a little of the shredded mozzarella.",
+      "Set 1 c. of cheese mix aside; pour rest into prepared pan.",
+      "Just before serving, tuck cheese among greens, along with olives.",
+      "When you are ready to serve the cheesecake, un-mold and spread the black cherry spread over the top.",
+      "Sprinkle 1/2 cup Monterey Jack cheese onto bottom of crust; top with tomatoes, bacon and remaining M"
+    ]
+  },
+  "51": {
+    "code": 51,
+    "semantic_label": "serve",
+    "category": "finish",
+    "label_confidence": 0.1,
+    "grammar_alignment": {
+      "steam": 0.045
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Mix carrots with one-half cup of the coconut and oil, fold into the egg mixture.",
+      "Put the carrots in a beautiful serving tray and if you want it to look even more appealing garnish w",
+      "Add eggplant, toss to combine.",
+      "Drizzle in more oil as needed to keep from sticking, but beware that eggplant will absorb oil.",
+      "Remove them once again, and fill them up with chopped broccoli and load them up with the cheese."
+    ]
+  },
+  "52": {
+    "code": 52,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Combine mince, breadcrumbs, egg and 2 tablespoons of the pesto in a large bowl and then shape mix in",
+      "In a bowl, combine the mascarpone with the remaining 1 cup of cream and the superfine sugar.",
+      "In a large bowl, add almond meal, cornmeal, gluten free flour, salt, baking powder, Splenda and suga",
+      "While the quinoa is cooking, dice the bell pepper and onion, combine in a bowl with the pumpkin seed",
+      "Mix both cans of corn, the sour cream, chilis and eggs together in a large bowl."
+    ]
+  },
+  "53": {
+    "code": 53,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.5,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Combine all ingredients, except oil, on a deep plate or bowl.",
+      "In a separate bowl, mix corn meal and remaining (not lemon or oil) ingredients.",
+      "Mix together liquid ingredients in mixer cup.",
+      "In a large mixing bowl mix together remaining ingredients, except wine.",
+      "Place Dry Mix #1 ingredients into bowl and mix together."
+    ]
+  },
+  "54": {
+    "code": 54,
+    "semantic_label": "ganache",
+    "category": "finish",
+    "label_confidence": 0.05,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Place pickles on paper towel to dry.",
+      "Remove from oil and drain on paper towel.",
+      "Turn the ganache out onto a cutting board and peel off the paper.",
+      "Drain on paper towels.",
+      "Drain well on paper towels."
+    ]
+  },
+  "56": {
+    "code": 56,
+    "semantic_label": "pour",
+    "category": "structure",
+    "label_confidence": 0.6,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Pour over warm penne.",
+      "Strain into a chilled cocktail glass.",
+      "Strain and pour over additional ice into glass.",
+      "Squeeze a lime wedge a little and wet rim of a 10-12 oz serving glass.",
+      "Fill glass 2/3 full with ice."
+    ]
+  },
+  "57": {
+    "code": 57,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "THE NUMBER OF LOBSTERS TO BE COOKED IN EACH BATCH IS TO BE DETERMINED BY THESIZE STOCK POT.",
+      "Bake 25 minutes in the preheated oven, or until chicken juices run clear.",
+      "Cook the chicken on both sides until golden brown and the juices run clear, about 15 minutes.",
+      "Drizzle melted butter over chicken and bake an additional 20 min or possibly till tender.",
+      "Cook crab cakes until golden, turning once about 8 minutes."
+    ]
+  },
+  "58": {
+    "code": 58,
+    "semantic_label": "fold",
+    "category": "mix",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Cover the whipped cream with plastic wrap and refrigerate it until just before serving.",
+      "This allows excess fluid to drain out of the whipped cream so it will hold its shape better.",
+      "Combine topping ingredients; sprinkle over rolls.",
+      "Dressing should be a little on the tart side.",
+      "If any dressing remains, spoon it over cheese."
+    ]
+  },
+  "59": {
+    "code": 59,
+    "semantic_label": "simmer",
+    "category": "heat-wet",
+    "label_confidence": 0.9,
+    "grammar_alignment": {
+      "simmer": 0.077
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Reduce the heat and simmer for 40 minutes.",
+      "Lower heat and simmer 15 minutes.",
+      "Bring to a boil, then reduce heat to low, cover and simmer for about 15 minutes or until the liquid ",
+      "Reduce heat to medium-low and simmer for about 25-30 minutes.",
+      "Bring to a simmer over medium heat."
+    ]
+  },
+  "60": {
+    "code": 60,
+    "semantic_label": "simmer",
+    "category": "heat-wet",
+    "label_confidence": 0.05,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Add 5 oz.",
+      "water, 1.5 oz.",
+      "2 cups whole milk",
+      "1/2 cup sugar",
+      "1/2 cup sugar"
+    ]
+  },
+  "61": {
+    "code": 61,
+    "semantic_label": "instruction-note",
+    "category": "meta",
+    "label_confidence": 0.05,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "re only using the very outside portion of the rind, it makes sense to avoid that pitfall.",
+      "Meanwhile, prepare the churros.",
+      "(Do not cook the stock for longer than 30 minutes at this stage, as I have noticed the stock becomes",
+      "(I sieve a few times over to make sure).",
+      "Be careful to not pipe the rounds too close to each othergive space for them to spread."
+    ]
+  },
+  "62": {
+    "code": 62,
+    "semantic_label": "season",
+    "category": "prep",
+    "label_confidence": 0.4,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Transfer to a plate and sprinkle with salt.",
+      "While warm sprinkle with brown sugar.",
+      "Sprinkle with salt and pepper.",
+      "Sprinkle with salt and pepper to taste.",
+      "Sprinkle with salt and pepper."
+    ]
+  },
+  "63": {
+    "code": 63,
+    "semantic_label": "layer",
+    "category": "structure",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Cook the noodles and drain.",
+      "Cook noodles according to package directions.",
+      "In a large casserole dish, layer noodles, then meat, then all off the dairy mixture.",
+      "Finish with another layer of noodles then meat.",
+      "For the pasta: 2 pounds fresh pasta sheets, cut into strips 4 by 17 inches 12 quarts water in a larg"
+    ]
+  },
+  "65": {
+    "code": 65,
+    "semantic_label": "prepare-pan",
+    "category": "prep",
+    "label_confidence": 0.8,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Butter two eight-inch layer-cake pans, cut circles of wax paper to fit the bottoms, then butter the ",
+      "Dust pans with flower.",
+      "Line bottoms of three 8\" round pans with rounds of parchment paper.",
+      "Place in a greased 13in x 9in x 2in baking pan.",
+      "Place coated pieces on greased oblong pan."
+    ]
+  },
+  "67": {
+    "code": 67,
+    "semantic_label": "stir",
+    "category": "mix",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Add the curry powder, tomato puree, chutney and vinegar, and stir together.",
+      "Add flour mixture and cocoa and beat slowly just until flour is absorbed.",
+      "[Cook the japche:] Boil the japche in boiling water for about 10 minutes until al dente.",
+      "Cook the tuvar dal till tender then mash.",
+      "Add salt and crumbled jaggery (you can use brown sugar i think instead) and cook till the raw smell "
+    ]
+  },
+  "68": {
+    "code": 68,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Use more corn meal for stiffer patties and less for more moisture in your finished croquets.",
+      "Increase heat to medium-high; cook without stirring until candy thermometer reaches 244.",
+      "Stir ingredients for streusel in a bowl until crumbly and set aside.",
+      "When serving, be sure to drizzle sugar/bacon grease over weenies and on the platter.",
+      "Slice after rehydrating."
+    ]
+  },
+  "69": {
+    "code": 69,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Stir sauce and add to pan.",
+      "Add ingredients in order listed to medium saucepan over medium heat.",
+      "Tip - Because the sauce hasn't been cooked I save the extra sauce in a freezer bag in the fridge til",
+      "When the sauce has cooked for several hours and the excess water has cooked off, remove from the hea",
+      "Then scrape the yolks into the saucepan and cook, stirring pretty much constantly, until the sauce r"
+    ]
+  },
+  "70": {
+    "code": 70,
+    "semantic_label": "beat",
+    "category": "mix",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "In a mixing bowl, beat filling ingredients until smooth.",
+      "Combine icing ingredients; drizzle over rolls.",
+      "Combine all ingredients in a large mixing bowl and mix on medium speed until combined, about 30 to 4",
+      "Blend the tofu until smooth, pour into a bowl and season well.",
+      "Using the mix, make little balls with your hands, it will be a little sticky but easy to handle."
+    ]
+  },
+  "71": {
+    "code": 71,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Squeeze half of the lime directly onto the fish.",
+      "Mix in orange peel.",
+      "*Aword about lemon zest.",
+      "I use fresh lemon zest because it is far better.",
+      "\"Storebought\" dried lemon peel often contains some of the white portion of the rind which has no oil"
+    ]
+  },
+  "72": {
+    "code": 72,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.35,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Add the raisins and mix until evenly distributed.",
+      "Rinse and dry the blender and process the cherry tomatoes to make the top layer of the parfaits.",
+      "Add to potatoes along with the Parmesan; mix well.",
+      "Extract pulp from the tamarind and add to the vegetables.",
+      "In a blender, puree the blackberries with 1 cup of the water."
+    ]
+  },
+  "73": {
+    "code": 73,
+    "semantic_label": "serve",
+    "category": "finish",
+    "label_confidence": 0.65,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Serve burgers with wedges, chips/fries or hash browns.",
+      "Serve warm with crackers alongside.",
+      "Serve with rice and a sprinkling of chopped coriander.",
+      "Serve over grilled or broiled fish.",
+      "Serve with baguette slices, lemon wedges, melted butter, and Old Bay seasoning."
+    ]
+  },
+  "74": {
+    "code": 74,
+    "semantic_label": "marinate",
+    "category": "prep",
+    "label_confidence": 0.85,
+    "grammar_alignment": {
+      "marinate": 0.16
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Marinate steaks at room temperature for 20 minutes.",
+      "Remove chicken from marinade; discard marinade.",
+      "Add the rabbit to the marinade ingredients.",
+      "Allow to marinate for at least 1/2 an hour in the refrigerator.",
+      "Put chicken in this marinate and keep aside for 30 minutes."
+    ]
+  },
+  "75": {
+    "code": 75,
+    "semantic_label": "chop-slice",
+    "category": "prep",
+    "label_confidence": 0.45,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Once your potatoes are cooled, use a sharp bread knife and cut each potato lengthwise (long slices) ",
+      "Continue this cutting process with the rest of the potatoes.",
+      "Slice tops off tomatoes and quarter, partially through.",
+      "Cut beets in quarters or possibly sixths, keeping different colors, if using, separate.",
+      "Cut all the vegetables into uniform 2cm pieces."
+    ]
+  },
+  "76": {
+    "code": 76,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      ")It should end up being about the color of thousand island dressing, or slightly darker.",
+      "Add the bergamot leaves and olives and mix together.",
+      "Mix in the bergamot petals.",
+      "Season with bay leaves, oregano, and cayenne.",
+      "Seed and slice the Anaheim chili and the jalapeno."
+    ]
+  },
+  "77": {
+    "code": 77,
+    "semantic_label": "prepare-pan",
+    "category": "prep",
+    "label_confidence": 0.3,
+    "grammar_alignment": {
+      "marinate": 0.192
+    },
+    "frequency": 20,
+    "top_examples": [
+      "In a saucepan over medium heat melt the butter.",
+      "In another small bowl or glass measuring cup, melt the butter in the hot coffee.",
+      "Next, melt butter in the microwave.",
+      "DRAWN BUTTER Or possibly MARGARINE: Heat 10 LB BUTTER Or possibly MARGARINE OVER LOW HEAT.",
+      "Add: 3 tablespoon butter Remove the icing from the heat and cool to 110 degrees."
+    ]
+  },
+  "78": {
+    "code": 78,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Heat half the oil in a large frying pan over moderate heat and cook patties for 3 to 4 minutes each ",
+      "Fry for a minute.",
+      "Fry pickles in batches of 3 or 4 for 3 to 5 minutes or until golden brown.",
+      "Saute/fry till tender.",
+      "Uncover pan, add onion and garlic, fry until golden."
+    ]
+  },
+  "79": {
+    "code": 79,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Add corn and sausage; simmer 8 minutes.",
+      "In a Dutch oven, saute/fry sausage till browned.",
+      "Cover, remove from the heat, and set aside to steep while cooking the sausage and squash.",
+      "Add the sausage and cook, stirring occasionally, until cooked through, about 5 minutes.",
+      "Brown sausages off in a frying pan on a low heat."
+    ]
+  },
+  "80": {
+    "code": 80,
+    "semantic_label": "knead",
+    "category": "mix",
+    "label_confidence": 1.0,
+    "grammar_alignment": {
+      "knead": 0.24
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Turn onto a floured surface; knead until smooth and elastic, about 6-8 minutes.",
+      "Knead briefly to bind dough, about 4 turns.",
+      "Turn dough out onto lightly floured surface; knead about 5 or 6 times.",
+      "Knead 7 minutes until the sides of the bowl come clean.",
+      "Knead thoroughly (at least 300 strokes), until springy and satiny."
+    ]
+  },
+  "81": {
+    "code": 81,
+    "semantic_label": "preheat-oven",
+    "category": "prep",
+    "label_confidence": 0.5,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Get your broiler heated to high.",
+      "Put under the broiler for a minute or so to lightly toast.",
+      "Preheat broiler.",
+      "Preheat grill/broiler on high.",
+      "Heat the broiler."
+    ]
+  },
+  "82": {
+    "code": 82,
+    "semantic_label": "stir",
+    "category": "mix",
+    "label_confidence": 0.3,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Stir in honey and vanilla.",
+      "Add vanilla; beat 30 seconds.",
+      "Blend in the vanilla essence.",
+      "Stir in the maple extract.",
+      "Beat in the eggs and vanilla."
+    ]
+  },
+  "83": {
+    "code": 83,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Cook meat on stove top over medium to medium-high heat until brown, but not done.",
+      "(Dont turn burner up too high so as not to bubble or curdle sauce.)",
+      "Prepare the following custard: Cook and stir in a double boiler OVER-not IN-hot water: Remonve from ",
+      "Uncover and cook without stirring to 238 to 240 degrees.",
+      "Cover and cook till the veges are done."
+    ]
+  },
+  "84": {
+    "code": 84,
+    "semantic_label": "season",
+    "category": "prep",
+    "label_confidence": 0.55,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Add salt, crushed red pepper, and white pepper.",
+      "Add salt to taste.",
+      "Add 1/4 cup water, salt and spices.",
+      "Taste and add salt and black pepper as necessary.",
+      "Dip rim in salt."
+    ]
+  },
+  "85": {
+    "code": 85,
+    "semantic_label": "serve",
+    "category": "finish",
+    "label_confidence": 0.3,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Pour dressing over vegetables, toss and chill for at least 4 hours.",
+      "Serve the scotch egg on a bed of salad leaves, with a spoon of the piccalilli.",
+      "Divide the salad among 4 salad plates.",
+      "Stir into the salad.",
+      "Drizzle the completed salad with aged balsamic vinegar and serve."
+    ]
+  },
+  "86": {
+    "code": 86,
+    "semantic_label": "instruction-note",
+    "category": "meta",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 8,
+    "top_examples": [
+      "The base of the house was 9.5 cm, and the height of the house was 12.5 cm and 9.5 cm.",
+      "Comments: \"My grandmother was a reporter in New York before she got married and moved to Montana to ",
+      "Note: this isn't actually Poppa's Big Mac - this is a well known copycat/clone recipe.",
+      "Note: This will not work on all vehicles, only those with appropriate engine design.",
+      "Any health store should have it in stock."
+    ]
+  },
+  "87": {
+    "code": 87,
+    "semantic_label": "chop-slice",
+    "category": "prep",
+    "label_confidence": 0.35,
+    "grammar_alignment": {
+      "chop": 0.04
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Cut into 8 wedges.",
+      "Cut into 1-inch squares.",
+      "Using a 3-inch round cutter, cut out 12-15 rounds.",
+      "The size can change but they shouldnt be too big.",
+      "Cut into triangles to serve."
+    ]
+  },
+  "88": {
+    "code": 88,
+    "semantic_label": "season",
+    "category": "prep",
+    "label_confidence": 0.05,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Drain potatoes and mash.",
+      "the next day, rinse and drain the vegetables.",
+      "Discard the vanilla bean or rinse and reserve for another use.",
+      "Drain juice from strawberrys and save in bowl.",
+      "Thoroughly wash and scrub all the cucumbers under cold water."
+    ]
+  },
+  "89": {
+    "code": 89,
+    "semantic_label": "prepare-vessel",
+    "category": "prep",
+    "label_confidence": 0.7,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Coat a 9-inch square glass or ceramic baking dish with cooking spray; dust pan with 2 1/2 tablespoon",
+      "Brush a large shallow baking pan (1/2 to 1 inch deep) generously with oil and arrange as many slices",
+      "Arrange 2 matzos side by side in a generously oiled 13- by 9- by 2-inch (3-quart) baking dish to nea",
+      "Layer the bottom of the baking dish with 1/2 the onions and 1/2 the garlic slices.",
+      "Cut into cubes and place in a large baking dish."
+    ]
+  },
+  "91": {
+    "code": 91,
+    "semantic_label": "serve",
+    "category": "finish",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Serve with rice.",
+      "Serve with dosas, idlis or rice.",
+      "Place a round mold (9 cm) on baking paper and push 1/4 of the amount of rice into the mold.",
+      "Heat the sesame oil in the frying pan, add the rice portions from Step 1, and heat over medium heat ",
+      "(Make sure you remove the rice from the mold!)"
+    ]
+  },
+  "92": {
+    "code": 92,
+    "semantic_label": "yield-note",
+    "category": "meta",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "So each potato will yield two skins, right?",
+      "Most health food aficionados will tell you that toxins found in pesticides will reside in the skins ",
+      "Peel and pit avocados.",
+      "Top with chopped apple.",
+      "It's low GI and low salt and the over ripened bananas replace the sugar"
+    ]
+  },
+  "93": {
+    "code": 93,
+    "semantic_label": "layer",
+    "category": "structure",
+    "label_confidence": 0.4,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Repeat with remaining layers, while stacking.",
+      "Repeat in second shell.",
+      "Repeat until done.",
+      "Repeat until all the ganache has been dipped.",
+      "Repeat with the remaining macarons."
+    ]
+  },
+  "94": {
+    "code": 94,
+    "semantic_label": "fold",
+    "category": "mix",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Fold in the raspberries.",
+      "Thread chicken onto 8 wooden skewers.",
+      "Liberally cover weenies with brown sugar, leaving only the toothpicks exposed.",
+      "Remove from skewers.",
+      "Remove the veins from the backs of the prawns with the shells still on."
+    ]
+  },
+  "95": {
+    "code": 95,
+    "semantic_label": "season",
+    "category": "prep",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Adjust the seasoning with salt and pepper, if desired.",
+      "Quickly add all of the seasonings.",
+      "After 30 minutes check seasoning and if necessary add salt and pepper to taste.",
+      "Adjust the seasoning, to taste.",
+      "Taste and adjust seasonings by adding more fish sauce and cayenne."
+    ]
+  },
+  "97": {
+    "code": 97,
+    "semantic_label": "chop-slice",
+    "category": "prep",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Remove the stems from the mushrooms.",
+      "Remove skin and seeds and chop fine.",
+      "Remove the vanilla pod.",
+      "Slice the greens off right at the top of the beets, reserving the stems and greens, then scrub the b",
+      "Meanwhile, rinse the beet greens well, trim off the tough parts of the stems, and cut the usable ste"
+    ]
+  },
+  "98": {
+    "code": 98,
+    "semantic_label": "cool-rest",
+    "category": "finish",
+    "label_confidence": 0.95,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Place pans on racks to cool for about 10 minutes.",
+      "Remove cakes from pans and allow to continue cooling.",
+      "Cool completely on a wire rack and enjoy your delicious cookies!",
+      "Allow to cool for a few minutes on the cookie sheet before removing to cool completely on a rack.",
+      "Let the cakes cool in pans for about 10 minutes, then turn out onto a rack to cool completely."
+    ]
+  },
+  "99": {
+    "code": 99,
+    "semantic_label": "layer",
+    "category": "structure",
+    "label_confidence": 0.3,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Frost the tops and sides of the layers and stack them.",
+      "Spoon into pan and cut through in a spiral motion for a marble effect.",
+      "Place each piece into the container (for thighs place the piece meat side down - the side the bone i",
+      "Sqeeze lime wedges into mixing cup, and place wedges into mixing cup.",
+      "Arrange 2 matzos side by side on top, then spread remaining filling over them."
+    ]
+  },
+  "100": {
+    "code": 100,
+    "semantic_label": "pour",
+    "category": "structure",
+    "label_confidence": 0.4,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Crust should be thicker on the edges, coming to a height of 1 inch on the ring.",
+      "Using a rubber spatula, spread jam evenly over bottom of crust.",
+      "Pour filling into pie shell.",
+      "Pour over crust.",
+      "Spread nut mixture on crust."
+    ]
+  },
+  "102": {
+    "code": 102,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "I am now on a mission to duplicate the mix recipe but with much less salt.",
+      "Season the puree with salt and carefully pour into 4 glasses.",
+      "Add additional rose water if the mixture is too stiff.",
+      "Mix weel and add a little water if reqd.",
+      "Pour the mixture into ramekins or a brulee mold."
+    ]
+  },
+  "103": {
+    "code": 103,
+    "semantic_label": "fold",
+    "category": "mix",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Line a 13X9 inch casserole dish with foil- this foil has to be large enough to fold over and seal ti",
+      "Spread center of foil with margarine.",
+      "Bring foil up over and double fold edges to seal tightly.",
+      "Wrap in foil and cool.",
+      "Fold foil over potatoes and seal tightly."
+    ]
+  },
+  "104": {
+    "code": 104,
+    "semantic_label": "bake-timed",
+    "category": "heat-dry",
+    "label_confidence": 0.7,
+    "grammar_alignment": {
+      "bake": 0.096
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Top this with .5 cup of cheese and in the oven bake it at 180 C for 45 minutes.",
+      "Bake at 400 for 25 minutes or until fully cooked.",
+      "Cook in the oven for 1 hour.",
+      "bake at 350F for 30 to 35 minutes.",
+      "Bake at 375 degrees for 8 to 10 minutes."
+    ]
+  },
+  "105": {
+    "code": 105,
+    "semantic_label": "refrigerate",
+    "category": "finish",
+    "label_confidence": 0.4,
+    "grammar_alignment": {
+      "chill": 0.037
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Store in airtight container for up to six months.",
+      "Have all boxes, bottles or bags open and ready.",
+      "Store any unused glaze in the fridge.",
+      "Cover with plastic wrap, and store in the refrigerator for up to 1 week.",
+      "Store in tightly covered container."
+    ]
+  },
+  "106": {
+    "code": 106,
+    "semantic_label": "refrigerate",
+    "category": "finish",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Prepare the crust by whisking the egg, milk and oil and adding the flour, baking powder and salt too",
+      "Spoon whole mixture into pie crust, then allow to chill overnight.",
+      "Turn into a prepared pie crust and top with the second crust; seal and cut slits to vent steam.",
+      "Spoon half the pie filling into one shell, on top of the fudge.",
+      "Repeat with second pie."
+    ]
+  },
+  "107": {
+    "code": 107,
+    "semantic_label": "layer",
+    "category": "structure",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Add salsa, brown sugar and other 1/4 cup water and heat to boiling.",
+      "Cook crumbles and salsa in skillet on medium heat 5 min.",
+      "Place the pizza bases on a baking tray and spread half the fresh salsa over each base.",
+      "Take out of oven and top with salsa.",
+      "Serve with salsa verde if desired."
+    ]
+  },
+  "108": {
+    "code": 108,
+    "semantic_label": "prepare-vessel",
+    "category": "prep",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Stir in the lamb mince, breaking it up with a wooden spoon, and cook until lightly browned.",
+      "Put chicken inside Dutch Oven or other large pot with lid.",
+      "Fill with water until water is about 2 inches higher than chicken.",
+      "PLACE Frzn LOBSTERS IN BOILING WATER.",
+      "Add shrimp, cover, and turn off heat."
+    ]
+  },
+  "109": {
+    "code": 109,
+    "semantic_label": "beat",
+    "category": "mix",
+    "label_confidence": 0.4,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "In a large bowl, cream butter, white sugar, and brown sugar until smooth.",
+      "Place the butter and egg in a large bowl and beat with an electric mixer on medium-high speed for 2 ",
+      "Place the butter and egg in a large bowl and beat with an electric mixer on medium speed for 2 minut",
+      "Place the butter, oil, sugar and baking powder in the bowl of a food processor, and process for abou",
+      "In a mixing bowl, beat the milk and pudding mix on low speed for 2 minutes."
+    ]
+  },
+  "110": {
+    "code": 110,
+    "semantic_label": "yield-note",
+    "category": "meta",
+    "label_confidence": 0.3,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Makes 16 2-inch Kocoa Koffee Bars.",
+      "May be easily expanded to make enough for a group.",
+      "1/4 cup walnuts",
+      "Number of",
+      "Yield: About 2 quarts"
+    ]
+  },
+  "111": {
+    "code": 111,
+    "semantic_label": "boil",
+    "category": "heat-wet",
+    "label_confidence": 0.8,
+    "grammar_alignment": {
+      "boil": 0.076
+    },
+    "frequency": 20,
+    "top_examples": [
+      "In a small saucepan, bring the cream and corn syrup to a boil.",
+      "Put the vinegar and sugar in a saucepan with the bay leaves and bring to the boil.",
+      "In a small saucepan, combine the sugar with 1 cup of the water and bring to a boil.",
+      "In a saucepan, combine water, milk, salt and sugar and bring to a boil.",
+      "In a medium heavy saucepan, bring the milk, butter, sugar and salt to a boil over high heat."
+    ]
+  },
+  "112": {
+    "code": 112,
+    "semantic_label": "whisk",
+    "category": "mix",
+    "label_confidence": 0.85,
+    "grammar_alignment": {
+      "whisk": 0.072
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Whisk in milk and 1/2 teaspoon almond extract until smooth.",
+      "Whisk in pumpkin puree.",
+      "Whisk in icing sugar and molasses.",
+      "The mixture will just begin to bubble, and should be thick enough to hold soft peaks when you lift t",
+      "Whisk in the canola oil."
+    ]
+  },
+  "113": {
+    "code": 113,
+    "semantic_label": "stir",
+    "category": "mix",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Add tomato sauce and sugar and cook until done.",
+      "Fill tomatoes with mix, that have been placed on lettuce covered dishes.",
+      "Remove the foil from the feta and spoon the tomato mixture over the top.",
+      "In a blender, puree the dark tomatoes at high speed, until very smooth, 2 minutes; scrape down the s",
+      "Repeat the pureeing process with the yellow tomatoes."
+    ]
+  },
+  "114": {
+    "code": 114,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Stir in lemon juice.",
+      "Slowly add the orange juice, stirring until the mixture boils and thickens slightly.",
+      "Place the vinegar in a liquid measuring cup and add enough milk to make 1 cup.",
+      "Pour lemon juice and white wine into the baking dish.",
+      "Add the lime juice, salt & pepper."
+    ]
+  },
+  "115": {
+    "code": 115,
+    "semantic_label": "refrigerate",
+    "category": "finish",
+    "label_confidence": 0.8,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "It can stay refrigerated for several hours.",
+      "Refrigerate until firm, at least 1 hour or overnight.",
+      "Refrigerate, stirring frequently, until the ganache is thick enough to spread, about 30 minutes.",
+      "Refrigerate for about 30 minutes, until the puree has firmed up slightly.",
+      "Carefully pour the yellow puree into the glasses and refrigerate for about 15 minutes, until the yel"
+    ]
+  },
+  "116": {
+    "code": 116,
+    "semantic_label": "pour",
+    "category": "structure",
+    "label_confidence": 0.05,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Using clean hands for balls of the mixture and set aside.",
+      "Pour into a ring mold and chill until firm.",
+      "Gently whisk the ganache until smooth.",
+      "Rinse and dry the blender.",
+      "Drop the flaming peel into the drink."
+    ]
+  },
+  "117": {
+    "code": 117,
+    "semantic_label": "cool-rest",
+    "category": "finish",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Spoon the mixture over the pie and return it to the oven for a further 20 minutes at 180C.",
+      "Return to oven for another 10 minutes.",
+      "Place back in the oven and cook another couple of minutes.",
+      "When done remove dish from oven and set aside.",
+      "Keep the oven on."
+    ]
+  },
+  "118": {
+    "code": 118,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.75,
+    "grammar_alignment": {
+      "saute": 0.031
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Heat remaining tablespoon oil in a 10- to 12-inch skillet over moderate heat, then cook cayenne, rem",
+      "In a saucepan saute celery and onion in butter till soft.",
+      "Heat butter and saute/fry onion, green pepper and garlic.",
+      "Cook whole shallots in oil in cleaned pot over moderate heat, stirring frequently, until golden, abo",
+      "In a large saute pan over medium high heat, heat the olive oil, add garlic and onion and cook until "
+    ]
+  },
+  "120": {
+    "code": 120,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Add egg to the mixture.",
+      "Increase the speed to medium, and add the whole eggs, one at a time, beating until each is incorpora",
+      "Once the mixture is removed from the heat, it is allowed to cool slightly before eggs are added, one",
+      "Add in Large eggs, one at a time, beating well after each addition.",
+      "Add the egg and lemon zest and beat for 3 additional minutes."
+    ]
+  },
+  "121": {
+    "code": 121,
+    "semantic_label": "unknown",
+    "category": "unknown",
+    "label_confidence": 0.0,
+    "grammar_alignment": {},
+    "frequency": 5,
+    "top_examples": [
+      "Place everything in a small pot except for eggs and cilantro.",
+      "Prepare pappardelle according to the package instructions.",
+      "We dont have salmonella in Norway where I live so I taste raw cookie dough all the time, but I dont ",
+      "Dry the red shiso at the same time as drying umeboshi.",
+      "Cook the shells according to package."
+    ]
+  },
+  "122": {
+    "code": 122,
+    "semantic_label": "cool-rest",
+    "category": "finish",
+    "label_confidence": 0.85,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Let stand 30 minutes.4.",
+      "Let stand 5 to 10 min.",
+      "Let stand 10 minutes.",
+      "Leave another 20 minutes.",
+      "Let stand about 1 hour."
+    ]
+  },
+  "123": {
+    "code": 123,
+    "semantic_label": "unknown",
+    "category": "unknown",
+    "label_confidence": 0.0,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "At 10% the body is heavy and many will find it harsh.",
+      "A, 6% vit.",
+      "C, 1% calcium, 1% iron.",
+      "Protein: 32g",
+      "Cholesterol: 65mg"
+    ]
+  },
+  "124": {
+    "code": 124,
+    "semantic_label": "shape-dough",
+    "category": "structure",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Arrange decoratively along top of tart, pressing gently to slightly flatten ropes.",
+      "OPTIONAL: Divide 1 icing packet between hot rolls, drizzling evenly over rolls.",
+      "Cut the rolled-out sheet into 6 equal rectangles.",
+      "Roll mixture into a cylinder about 7 inches long and wrap up in waxed paper.",
+      "Shape into a roll 1 1/2 inches in diameter."
+    ]
+  },
+  "125": {
+    "code": 125,
+    "semantic_label": "cool-rest",
+    "category": "finish",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Remove them from the oven, and fill each one with a bit of red onion and garlic.",
+      "Remove them from the oven, sprinkle with a bit of salt, and plate them up.",
+      "Cover and put them in the freezer to firm up.",
+      "Remove from freezer about 15 minutes before you enjoy them, so theyre soft enough to eat!",
+      "When the pasta sheets have cooled in 1 or 2 minutes, remove them from the water and place them on pa"
+    ]
+  },
+  "126": {
+    "code": 126,
+    "semantic_label": "reduce",
+    "category": "heat-wet",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Cook over medium heat 10 min.",
+      "Cook for a few minutes.",
+      "Cook approximately 1 1/2 minutes and flip.",
+      "Cook for longer if you prefer the yolk to be done.",
+      "Cook the pierogi for 3-5 minutes, or until tender."
+    ]
+  },
+  "127": {
+    "code": 127,
+    "semantic_label": "chop-slice",
+    "category": "prep",
+    "label_confidence": 0.05,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Set aside.",
+      "Set aside.",
+      "Mince them and set aside.",
+      "Set aside.",
+      "Set aside."
+    ]
+  },
+  "128": {
+    "code": 128,
+    "semantic_label": "layer",
+    "category": "structure",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Peel wax paper off the cakes.",
+      "While the cakes are baking, whip the cream.",
+      "Set a cake layer on a cake plate or cake cardboard and brush lightly with the sugar syrup.",
+      "Spread about 3/4 cup of the frosting onto the cake in an even 1/4\" layer.",
+      "Spread the remaining frosting around the sides of the cake."
+    ]
+  },
+  "129": {
+    "code": 129,
+    "semantic_label": "serve",
+    "category": "finish",
+    "label_confidence": 0.7,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Serve hot, tepid, or cold.",
+      "Serve hot.",
+      "Serve scones warm or at room temperature.",
+      "Serve warm.",
+      "Serve warm or at room temperature."
+    ]
+  },
+  "130": {
+    "code": 130,
+    "semantic_label": "cool-rest",
+    "category": "finish",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Remove from heat.5.",
+      "Remove from the heat.",
+      "Remove from the heat.",
+      "Remove from the heat.",
+      "Heat through."
+    ]
+  },
+  "131": {
+    "code": 131,
+    "semantic_label": "grill-cook",
+    "category": "heat-dry",
+    "label_confidence": 0.25,
+    "grammar_alignment": {
+      "grill": 0.076
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Cover with a lid and fry to your desired hardness on low heat, about 2~3 minutes.",
+      "Cook until nicely caramelized, about 10 minutes.",
+      "Grill 7 to 8 min.",
+      "Roast 15 minutes.",
+      "Cook vegetables in oven for about 30 minutes."
+    ]
+  },
+  "132": {
+    "code": 132,
+    "semantic_label": "chop-slice",
+    "category": "prep",
+    "label_confidence": 0.05,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Reserve remaining cocoa mixture.3.",
+      "brandy, 1 pkt.",
+      "Add the mashed dal and the ground masala.",
+      "Cut into pieces, coat with kinako, and it's done.",
+      "Add sugar to the kinako if you like."
+    ]
+  },
+  "133": {
+    "code": 133,
+    "semantic_label": "boil",
+    "category": "heat-wet",
+    "label_confidence": 0.9,
+    "grammar_alignment": {
+      "boil": 0.159
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Bring to a boil over medium-high heat, and immediately remove from heat.",
+      "Bring 4 quarts water and first 7 ingredients to a boil in a 12-quart stockpot.",
+      "Bring the 12 quarts water to the boil.",
+      "Bring a large pot of salted water to a rolling boil.",
+      "For the scotch eggs: place the eggs in a pan of cold water and bring to the boil."
+    ]
+  },
+  "134": {
+    "code": 134,
+    "semantic_label": "bake-timed",
+    "category": "heat-dry",
+    "label_confidence": 0.75,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Bake about 45 minutes, until lightly browned and a cake tester comes out clean.",
+      "Bake the cakes for 20 to 25 minutes, or until a toothpick inserted in the center of each cake comes ",
+      "Bake 1 hour to 1 hour and 20 minutes or until a toothpick inserted comes out clean.",
+      "Bake until toothpick inserted in center comes out clean, about 18-20 minutes.",
+      "Bake at 325 for about 1 hour, or until a toothpick inserted in the center comes out clean."
+    ]
+  },
+  "135": {
+    "code": 135,
+    "semantic_label": "freeze",
+    "category": "finish",
+    "label_confidence": 0.4,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Place prepared pickles onto wire rack and freeze for 20 minutes.",
+      "Freeze until firm.",
+      "Place balls in a plastic bag or bowl and refrigerate 1-2 hours until firm.",
+      "Stick them in the fridge for several hours to firm up, or in the freezer for at least 1/2 hour.",
+      "Form into a ball and let sit for 30 minutes (or cover and place in a refrigerator until needed and t"
+    ]
+  },
+  "136": {
+    "code": 136,
+    "semantic_label": "prepare-pan",
+    "category": "prep",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Spread chips out evenly on large oval oven-proof dish.",
+      "Dip with your favorite bread.",
+      "Finally, fold in whipped topping and peanut butter chips.",
+      "Discard the middle slice and reuse for breakfast the following morning, or heck for that matter, add",
+      "Toast the bread to your preferred crispness."
+    ]
+  },
+  "137": {
+    "code": 137,
+    "semantic_label": "knead",
+    "category": "mix",
+    "label_confidence": 0.15,
+    "grammar_alignment": {
+      "knead": 0.183,
+      "chop": 0.046
+    },
+    "frequency": 20,
+    "top_examples": [
+      "By using spoon, shape the dough into balls.",
+      "Turn dough out onto lightly floured work surface.",
+      "Place the dough in a lightly greased bowl and turn to grease the top.",
+      "When dough is ripe, punch down and turn onto a floured surface.",
+      "Make the dough: sift together the flour, baking powder, nutmeg, and salt into a bowl; stir until wel"
+    ]
+  },
+  "138": {
+    "code": 138,
+    "semantic_label": "marinate",
+    "category": "prep",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Cover and let rise in a warm place until doubled, about 1 hour.",
+      "Cover and let rise in a warm place until doubled, about 30 minutes.",
+      "Cover; cook over medium heat, stirring occasionally, for 5 - 10 min.",
+      "Cover and cook for 3/4 minutes.",
+      "Cover and let rise in 90 degree F oven until\"ripe\" (approximately 1 hour)."
+    ]
+  },
+  "139": {
+    "code": 139,
+    "semantic_label": "layer",
+    "category": "structure",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Place pot roast in crock pot -- Pierce top of roast with fork and sprinkle top with celery salt (opt",
+      "Gently pour 7-Up over the roast, then top the roast with bay leaves and garlic and set crockpot on l",
+      "Remove roast to platter, let 'settle' 5-10 minute before slicing and serving (discard any leftover l",
+      "Suggestions: Potatoes, carrots, celery and onions may also be added to the crockpot while the roast ",
+      "Put mix in roaster."
+    ]
+  },
+  "140": {
+    "code": 140,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Add in Large eggs and vanilla, chocolate (melted), bananas and flour mix.",
+      "Add the eggs, yolks, and vanilla; mix until fluffy.",
+      "add eggs, oil, continuing on speed 2 mix about 1 minute .",
+      "Once the eggs have cooked, add the ham, yakiniku sauce, and sugar.",
+      "Add the eggs and vanilla and process again until smooth, about 5 seconds."
+    ]
+  },
+  "141": {
+    "code": 141,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.05,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Probably not the healthiest with the cheese and butter, but that thought is taken away when you bite",
+      "These are darn delicious and a perfect game time snack.",
+      "Also is good stirred into chili and thick soups!",
+      "*Available at specialty foods shops and Kalustyan's (800-352-3451).",
+      "This is a meal in itself!"
+    ]
+  },
+  "142": {
+    "code": 142,
+    "semantic_label": "prepare-pan",
+    "category": "prep",
+    "label_confidence": 0.1,
+    "grammar_alignment": {
+      "season": 0.022
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Lightly grease a cookie sheet.",
+      "Place on the prepared cookie sheet and flatten slightly with a fork.",
+      "Cookies should look dry on top.",
+      "These cookies taste great when slightly undercooked.",
+      "Drop about 2 tablespoons of dough for each cookie about 2 1/2 inches apart on an ungreased cookie sh"
+    ]
+  },
+  "143": {
+    "code": 143,
+    "semantic_label": "stir",
+    "category": "mix",
+    "label_confidence": 0.3,
+    "grammar_alignment": {
+      "marinate": 0.076,
+      "season": 0.021
+    },
+    "frequency": 20,
+    "top_examples": [
+      "MEANWHILE, MAKE THE FILLING AND FROSTING: Add chocolate to a large bowl.",
+      "Immediately pour over chocolate and let stand in a warm place for 5 minutes.",
+      "To prepare the frosting: Place the unsweetened chocolate in a small microwave-safe bowl.",
+      "Add the sugar and melted chocolate and mix until completely even in color.",
+      "Transfer the dough to a bowl and stir in the walnut and apricot pieces and the chocolate chips."
+    ]
+  },
+  "144": {
+    "code": 144,
+    "semantic_label": "prepare-pan",
+    "category": "prep",
+    "label_confidence": 0.45,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Peel off the parchment.",
+      "Line baking sheet with parchment paper.",
+      "Transfer wedges to prepared baking sheet, spacing 2 inches apart.",
+      "Line a 12-by-16-inch rimmed baking sheet with parchment paper and lightly grease the paper.",
+      "Place rolls in a lightly greased 9x13-inch baking pan."
+    ]
+  },
+  "145": {
+    "code": 145,
+    "semantic_label": "stir",
+    "category": "mix",
+    "label_confidence": 0.9,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Stir well.",
+      "Stir in raisins.",
+      "Stir constantly.",
+      "Stir until well blended.",
+      "Stir to combine."
+    ]
+  },
+  "146": {
+    "code": 146,
+    "semantic_label": "blanch",
+    "category": "heat-wet",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Let excess water drip off and transfer matzos to paper towels or kitchen towels to drain.",
+      "Place them in a colander over a large bowl or the sink, sprinkle over the sea salt and leave overnig",
+      "Do not rinse.",
+      "Transfer to a sieve and rinse well under cold running water.",
+      "Let it drain for 30 minutes, then rinse, drain and pat dry and chop."
+    ]
+  },
+  "147": {
+    "code": 147,
+    "semantic_label": "broil",
+    "category": "heat-dry",
+    "label_confidence": 0.7,
+    "grammar_alignment": {
+      "grill": 0.052
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Broil, in batches if necessary, 5 to 7 inches from heat, turning slices over as they brown (about ha",
+      "If necessary, for the last few minutes, broil until the topping is a rich, golden brown, 2 to 3 minu",
+      "Broil until the cheese is bubbling and slightly browned.",
+      "Broil, 3 inches from heat, 3 to 5 min.",
+      "Cook until broth mixture is reduced to 1/2 cup (about 3 minutes)."
+    ]
+  },
+  "148": {
+    "code": 148,
+    "semantic_label": "fill",
+    "category": "structure",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "For the piccalilli: have ready two 500g jars.",
+      "taste and season, spoon into warm sterilized jars while still hot, and seal.",
+      "Remove the kettle from the heat and ladle the preserves into 5 sterilized 1/2-pint Mason type jars (",
+      "Wipe the rims with a dampened towel and seal the jars with the lids.",
+      "Put the jars in a water bath canner or on a rack set in a deep kettle, add enough hot water to the c"
+    ]
+  },
+  "149": {
+    "code": 149,
+    "semantic_label": "serve",
+    "category": "finish",
+    "label_confidence": 0.85,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Serve immediately.",
+      "When ready to serve.",
+      "Serve immediately.",
+      "My crew will argue that 15-20 weenies qualify as a serving!",
+      "Serve immediately."
+    ]
+  },
+  "150": {
+    "code": 150,
+    "semantic_label": "refrigerate",
+    "category": "finish",
+    "label_confidence": 0.2,
+    "grammar_alignment": {
+      "knead": 0.095,
+      "chill": 0.03
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Refrigerate the dough for at least 2 hours.",
+      "Spread over dough.",
+      "at a time to make a firm dough.",
+      "Let the dough cool.",
+      "Wrap dough in plastic and refrigerate for at least three hours."
+    ]
+  },
+  "152": {
+    "code": 152,
+    "semantic_label": "serve",
+    "category": "finish",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Transfer to a bowl and serve with some tortilla chips or some fresh vegetable sticks.",
+      "Top with tortilla chips.",
+      "Serve with tortilla chips.",
+      "Top tortilla with Singles and ham; fold in half.",
+      "Divide the seafood mixture onto the 6 flour tortillas, then roll up."
+    ]
+  },
+  "153": {
+    "code": 153,
+    "semantic_label": "fill",
+    "category": "structure",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Fill a pastry bag with pastry cream.",
+      "With the end of a wooden spoon, poke a hole into the bottom of each pastry round.",
+      "Insert the tip of the pastry bag into the hole of each pastry and fill with the cream.",
+      "On a lightly floured work surface, roll out the sheet of puff pastry into a rectangle about 14 inche",
+      "Using a fork, prick the pastry all over."
+    ]
+  },
+  "154": {
+    "code": 154,
+    "semantic_label": "unknown",
+    "category": "unknown",
+    "label_confidence": 0.0,
+    "grammar_alignment": {},
+    "frequency": 1,
+    "top_examples": [
+      "Cook nuggets according to package."
+    ]
+  },
+  "155": {
+    "code": 155,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Heat refried beans in a pan over medium heat until hot (add a little water, but not too much, if you",
+      "If you plan on simmering for hours, do not add beans until 30-60 minutes before serving.",
+      "Beans may rupture if you add too soon.",
+      "Stir in peas; heat 3 to 5 min more.",
+      "1 vanilla bean, split in 1/2 lengthwise and seeds scraped out"
+    ]
+  },
+  "156": {
+    "code": 156,
+    "semantic_label": "unknown",
+    "category": "unknown",
+    "label_confidence": 0.0,
+    "grammar_alignment": {},
+    "frequency": 1,
+    "top_examples": [
+      "You want to make it before you fry the livers to give the flavors time to mingle."
+    ]
+  },
+  "158": {
+    "code": 158,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Pour olive oil over.",
+      "Test oil by dropping an onion sliver in to see if it frys quickly.",
+      "Drizzle with additional olive oil.",
+      "To set the orange zest on fire, cut it slightly in the middle, and squeeze ot the oil while holding ",
+      "Add the oil to the water and heat to 130 degrees F."
+    ]
+  },
+  "159": {
+    "code": 159,
+    "semantic_label": "season",
+    "category": "prep",
+    "label_confidence": 0.75,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Season with fresh-ground pepper to taste.",
+      "Season the inside of each skin with salt and pepper.",
+      "salt and seasonings.",
+      "Season with salt and pepper, to taste.",
+      "Season with pepper."
+    ]
+  },
+  "160": {
+    "code": 160,
+    "semantic_label": "refrigerate",
+    "category": "finish",
+    "label_confidence": 0.05,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Here is a little tidbit that surprised me when I heard it.",
+      "No need to be exact for this one.",
+      "[pink, red, purple]",
+      "http://blog.prospect.org/blog/ezraklein/huevossauce.jpg",
+      "Here is a classroom idea for teachers of little ones:."
+    ]
+  },
+  "161": {
+    "code": 161,
+    "semantic_label": "whisk",
+    "category": "mix",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Slowly add milk whilst whisking to ensure a smooth consistency.",
+      "Beat in the remaining buttermilk and coffee mixtures.",
+      "Add the milk and mix for 1 minute, or until smooth.",
+      "WHEN COMPLETELY MELTED, REMOVE FROM HEAT,LET STAND FOR A FEW Min TO ALLOW Lowfat milk SOLIDS TO SETT",
+      "Gently heat the milk over a low flame but do not boil."
+    ]
+  },
+  "163": {
+    "code": 163,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.05,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Flake remaining salmon with a fork.",
+      "Quickly coat the ham and egg.",
+      "In a bowl mix the turkey with the seasonings.",
+      "In a small bowl, tear chicken into small pieces.",
+      "You can tip out the excess fat from the lamb but you also get great results if you leave it in."
+    ]
+  },
+  "164": {
+    "code": 164,
+    "semantic_label": "chop-slice",
+    "category": "prep",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "When partially thickened, add sherry, apples and cranberries.",
+      "apples, nuts and coconut.",
+      "salt, beans, cabbage, carrots, canned tomatoes and celery.",
+      "You can add anything you want: nuts, fruits, different candies.",
+      "Add beans, pepper and tomato paste."
+    ]
+  },
+  "165": {
+    "code": 165,
+    "semantic_label": "fold",
+    "category": "mix",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Roll up jellyroll style, starting with a short side; seal seams.",
+      "Gently fold in about 3/4 of the large tub of Cool Whip.",
+      "Press and crimp the edges to seal the pierogi.",
+      "Cover with plastic wrap, pressing down against the surface to prevent a skin from forming.",
+      "Secure with toothpicks."
+    ]
+  },
+  "166": {
+    "code": 166,
+    "semantic_label": "stir",
+    "category": "mix",
+    "label_confidence": 0.25,
+    "grammar_alignment": {
+      "simmer": 0.052
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Add aromatics, stir gently 20-30 seconds- do not brown.",
+      "Gradually increase heat as needed, and stir constantly.",
+      "Continue stirring until hot.",
+      "Shake vigorously, at least 20 times.",
+      "Stir frequently to avoid scorching the bottom of the pot and keep an eye on this simmering pot."
+    ]
+  },
+  "167": {
+    "code": 167,
+    "semantic_label": "fold",
+    "category": "mix",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Just before serving fold half the remaining coconut into the whipped cream.",
+      "Sprinkle the remaining coconut over the top and decorate with Easter candies.",
+      "Whisk in the lemon juice and 2 cups of the heavy cream, then stir in the coconut.",
+      "Add rhubarb and stir well.",
+      "Add a 3 sprigs of curry leaves and the grated coconut and roast."
+    ]
+  },
+  "169": {
+    "code": 169,
+    "semantic_label": "chop-slice",
+    "category": "prep",
+    "label_confidence": 0.05,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "You should then have 10 skins.",
+      "Add more parmesan if wanted.",
+      "Add the japche.",
+      "Add a little water.",
+      "Add more water, if necessary."
+    ]
+  },
+  "170": {
+    "code": 170,
+    "semantic_label": "refrigerate",
+    "category": "finish",
+    "label_confidence": 0.45,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Cover container and put into fridge either for the rest of the day or overnight.",
+      "Wrap in plastic wrap and let rest for 30 minutes.",
+      "Cool to room temperature, cover then chill overnight or tightly covered for up to 2 weeks.",
+      "Cover and refrigerate for 1 hour.",
+      "Cover and refrigerate for at least 1 hour."
+    ]
+  },
+  "171": {
+    "code": 171,
+    "semantic_label": "garnish",
+    "category": "finish",
+    "label_confidence": 0.8,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Garnish with dollops of sour cream then scatter pimentos over nachos.",
+      "Garnish with scallion rings.",
+      "and for garnishing add the pappy seeds and sesame seeds",
+      "Garnish with breadsticks and serve.",
+      "), SLICED IN EIGHTHS) AND PARSLEY GARNISH."
+    ]
+  },
+  "172": {
+    "code": 172,
+    "semantic_label": "serve",
+    "category": "finish",
+    "label_confidence": 0.7,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Put the top on and serve with potato wedges and your choice of condiments.",
+      "Arrange 4 profiteroles on each of 4 dessert plates.",
+      "Have all utensils at the ready.",
+      "Transfer with a slotted spoon to a plate, reserving fat in pot.",
+      "Transfer meat and vegetables with a slotted spoon to a large serving dish."
+    ]
+  },
+  "173": {
+    "code": 173,
+    "semantic_label": "unknown",
+    "category": "unknown",
+    "label_confidence": 0.0,
+    "grammar_alignment": {},
+    "frequency": 1,
+    "top_examples": [
+      "Use food coloring to color pink, green and yellow."
+    ]
+  },
+  "174": {
+    "code": 174,
+    "semantic_label": "serve",
+    "category": "finish",
+    "label_confidence": 0.3,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "The plates or platter should look like a mound of beef.",
+      "Transfer to a serving platter.",
+      "From here, arrange your plate how you want.",
+      "Divide among four plates.",
+      "Transfer to a plate."
+    ]
+  },
+  "175": {
+    "code": 175,
+    "semantic_label": "beat",
+    "category": "mix",
+    "label_confidence": 0.6,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Beat eggs with sugar till thick and light.",
+      "Beat in egg until it's fluffy.",
+      "Break the eggs into a jug.",
+      "Beat 1 egg.",
+      "In a medium bowl, beat eggs."
+    ]
+  },
+  "176": {
+    "code": 176,
+    "semantic_label": "serve",
+    "category": "finish",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Drain pineapple.",
+      "Pour chicken & water into colander to drain water.",
+      "Drain and cut into bite-sized lengths.",
+      "Drain by serving with a slotted spoon.",
+      "Drain and set aside."
+    ]
+  },
+  "177": {
+    "code": 177,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Gradually add pudding; spread over crust.",
+      "Cook pudding according to direction using juice from strawberries instead of water.",
+      "Transfer the pudding to a bowl set in a larger bowl filled with ice water and whisk for 5 or until t",
+      "Discard vanilla bean, divide the pudding in serving bowls, cover and refrigerate for at least 3 hour",
+      "Serve crumble sprinkled over the banana pudding."
+    ]
+  },
+  "178": {
+    "code": 178,
+    "semantic_label": "chop-slice",
+    "category": "prep",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Add onions (Reserve 3 slivers) (Use up to one whole onion).",
+      "Add the onion mixture to the bread cubes and combine.",
+      "Slice the onion and julienne the carrot.",
+      "Drain onion, reserving lemon juice.",
+      "Spread the French fried onions on a plate."
+    ]
+  },
+  "179": {
+    "code": 179,
+    "semantic_label": "layer",
+    "category": "structure",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Lay duck in center of cornbread mix.",
+      "Place tuna steaks in a large resealable bag or airtight container; pour marinade over steaks.",
+      "Spread 3 cups lamb filling over matzos in pan.",
+      "Pour mixture over salmon.",
+      "Add in sliced round steak and saute until browned."
+    ]
+  },
+  "180": {
+    "code": 180,
+    "semantic_label": "instruction-note",
+    "category": "meta",
+    "label_confidence": 0.11,
+    "grammar_alignment": {},
+    "frequency": 18,
+    "top_examples": [
+      "Or try the Zass turkish mill, a manual one.",
+      "Remove from heat and add the shredded mozarella.",
+      "Reserve pan juices.",
+      "I have used 2 packages small Jello (instead of a large).",
+      "I make my stock from the potato peelings, carrot tops, leek ends, and any other stuff I find lurking"
+    ]
+  },
+  "181": {
+    "code": 181,
+    "semantic_label": "simmer",
+    "category": "heat-wet",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Place them under the broiler for 8-10 minutes until the insides get a bit crispy from the melted but",
+      "Adjust the heat to a slow simmer and, being careful not to cook too rapidly, cook the meat and tomat",
+      "I've never really timed this recipe, but I'm going to guesstimate the time at@30-40 minutes.",
+      "Cook 1 minute; remove from heat and add in lemon rind and butter.",
+      "Turn crock-pot to high, stir in cornstarch mixture and continue to cook for 30 minutes."
+    ]
+  },
+  "182": {
+    "code": 182,
+    "semantic_label": "stir",
+    "category": "mix",
+    "label_confidence": 0.3,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Roll back foil and sprinkle with chopped fresh parsley.",
+      "Add the basil and wine.",
+      "Add saute to bean mixture along with parsley and noodles.",
+      "Fry the coriander and mustard seeds in a large, dry pan until they release their aroma, then add the",
+      "Pour the pickling liquid over the vegetables, bring back to the boil, then remove from the heat and "
+    ]
+  },
+  "183": {
+    "code": 183,
+    "semantic_label": "serve",
+    "category": "finish",
+    "label_confidence": 0.6,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "SERVING SIZE: 1 LOBSTER",
+      "This recipe yields 4 to 6 servings.",
+      "Servings also depend on the crowd you are feeding.",
+      "Yield: 6 servings.",
+      "65 to 69."
+    ]
+  },
+  "184": {
+    "code": 184,
+    "semantic_label": "refrigerate",
+    "category": "finish",
+    "label_confidence": 0.35,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Store the spice mixture in an airtight container; can be stored for up to 1 month.",
+      "this piquant mixture is best left to mature for a few weeks before use.",
+      "The truffles can be kept in an airtight container at room temperature for up to 2 weeks.",
+      "Store in tightly covered container (or foil) 24 hours.",
+      "Place in the refrigerator for a minimum of 12 days (gently shaking the jars every so often during th"
+    ]
+  },
+  "185": {
+    "code": 185,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.3,
+    "grammar_alignment": {
+      "blend": 0.061,
+      "mix": 0.032
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Combine aromatics.",
+      "Combine remaining ingredients.",
+      "Mix first 3 ingredients until well blended.",
+      "FOLLOW STEPS 1 AND 2 FOR REMAINING BATCHES.",
+      "Mix all ingredients."
+    ]
+  },
+  "186": {
+    "code": 186,
+    "semantic_label": "layer",
+    "category": "structure",
+    "label_confidence": 0.45,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "For each serving: Place 1 hot bratwurst in roll; top with 2 process cheese slices and about 2 Tbsp.",
+      "Place one piece of focaccia on each serving plate and spread each focaccia with half the pestor mayo",
+      "Layer the cabbage, ham, and egg on the bread.",
+      "Layer the cheese, ham, tomato, pickles and caramelized onions on four bread slices; top with remaini",
+      "Pour 1/2 of mix over bread and cover with tomato slices."
+    ]
+  },
+  "189": {
+    "code": 189,
+    "semantic_label": "glaze-frost",
+    "category": "finish",
+    "label_confidence": 0.45,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "FIRST GLAZE: Mix saffron and 1 T rose water in a small bowl.",
+      "SECOND GLAZE: Mix 1/2 C powdered sugar and 1 T lemon juice in a small bowl.",
+      "of the Cinnamon-Walnut filling on the bottom of the well greased pan.",
+      "Prepare the Basic Dark Chocolate Ganache as directed, and pour it into the prepared pan.",
+      "For the glaze: Combine the powdered sugar, lemon zest and juice, lime zest and juice, salt and about"
+    ]
+  },
+  "190": {
+    "code": 190,
+    "semantic_label": "pour",
+    "category": "structure",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Divide batter evenly between the two pans.",
+      "Spoon half of the batter into each cake pan and spread evenly.",
+      "Test the batter by touching it with your finger and lifting to form a soft peak.",
+      "The batter will be smooth and shiny, and should form a soft peak when touched.",
+      "Sometimes I just dump the batter right in and it comes out fine, especially if you have a good quali"
+    ]
+  },
+  "191": {
+    "code": 191,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Mix mustard, mayonnaise and horseradish with wire whisk until well blended; cover.",
+      "of the mustard mixture.",
+      "Mix cornstarch and water and stir into mix till thick and smooth.",
+      "Add in dry ingredients to cornbread and mix.",
+      "Add the mustard seed."
+    ]
+  },
+  "192": {
+    "code": 192,
+    "semantic_label": "chop-slice",
+    "category": "prep",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Sprinkle with cheese.",
+      "Sprinkle with Cajun seasoning.",
+      "Sprinkle with peanuts.",
+      "Sprinkle cheese, meat and veggies over bread.",
+      "Sprinkle with the remaining chives and serve."
+    ]
+  },
+  "194": {
+    "code": 194,
+    "semantic_label": "simmer",
+    "category": "heat-wet",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Reheat the soup and serve.",
+      "Puree the soup in a blender and then work it through a strainer with a ladle or the back of a spoon ",
+      "If the soup is too thick, add more stock.",
+      "Decorate soup with whatever pattern you like if desired.",
+      "Heat the soup to boiling, stirring constantly, then reduce the heat and simmer gently for 5 minutes."
+    ]
+  },
+  "195": {
+    "code": 195,
+    "semantic_label": "serve",
+    "category": "finish",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "NUTRITION FACTS from MacGourmet Deluxe: Servings: 8 Amount Per Serving Calories: 365 Total Fat: 16.0",
+      "Per serving: Calories 578; Fat 22 g (Saturated 7 g); Cholesterol 299 mg; Sodium 963 mg; Carbohydrate",
+      "1 Serving: Calories 130 (Calories from Fat 35); Total Fat 4g (Saturated Fat 2 1/2g, Trans Fat 0g); C",
+      "*Percent Daily Values are based on a 2,000 calorie diet.",
+      "Makes 4-6servings, 0.2 grams of fat per 1 c. serving."
+    ]
+  },
+  "196": {
+    "code": 196,
+    "semantic_label": "chop-slice",
+    "category": "prep",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "With a small spoon, being careful, scoop out about 70 percent of the potato, as you still want some ",
+      "In 3 qt saucepan, cook potatoes in 4 c. boiling water with 1/2 tsp.",
+      "Drain; cut potatoes in half; add in butter, 3/4 tsp.",
+      "Place the potatoes and 1/2 teaspoon salt in a large pot and fill with cold water to cover the potato",
+      "Microwave potatoes as directed on package; place in large bowl."
+    ]
+  },
+  "197": {
+    "code": 197,
+    "semantic_label": "stir",
+    "category": "mix",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Stir in the flour and brown sugar & a dash of ginger powder (if you prefer- the ginger can also be o",
+      "Add two thirds of garlic, 1 1/2 teaspoons salt, and 1 teaspoon ras-el-hanout with oregano, mint, pep",
+      "Make the topping: in a small bowl, gently whisk the cinnamon and sugar together.",
+      "Combine brown sugar and cinnamon in a small bowl.",
+      "Drain on paper towel, and roll hot churros in chopped candied ginger and granulated ginger."
+    ]
+  },
+  "198": {
+    "code": 198,
+    "semantic_label": "refrigerate",
+    "category": "finish",
+    "label_confidence": 0.65,
+    "grammar_alignment": {
+      "chill": 0.035
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Refrigerate unitl ready to use.",
+      "Stir well and place in refrigerator.",
+      "Refrigerate leftovers.",
+      "Cover the bowl and let stand in refrigerator overnight.",
+      "Keep the treats always refrigerated until you serve them."
+    ]
+  },
+  "199": {
+    "code": 199,
+    "semantic_label": "shape-dough",
+    "category": "structure",
+    "label_confidence": 0.4,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Roll dough into walnut sized balls.",
+      "Separate the turkey mixture into 6 equal small portions and form into balls.",
+      "Make an indentation in each ball and fill with some of the onion and a couple teaspoons of the bbq s",
+      "Shape into 12 balls and place on greased cookie sheet 1 1/2 inches apart.",
+      "Shape into 1 inch balls."
+    ]
+  },
+  "200": {
+    "code": 200,
+    "semantic_label": "chop-slice",
+    "category": "prep",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Now I got my broccoli fix.",
+      "Cut rhubarb stalks into bit-size pieces.",
+      "Separate the Chinese cabbage stems and leaves and set aside.",
+      "Shred cauliflower in a food processor until it is the size of small rice grains.",
+      "Shred cabbage very finely and place in a large bowl."
+    ]
+  },
+  "201": {
+    "code": 201,
+    "semantic_label": "beat",
+    "category": "mix",
+    "label_confidence": 0.7,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Beat at medium speed just until the cream begins to thicken.",
+      "turn to speed 2 and mix about 1 minute .",
+      "turn to speed 3 and beat about 1 minute .",
+      "Beat at high speed 12 to 15 minutes or until mixture triples in volume.",
+      "With mixer set at medium speed, beat cheese mix till smooth."
+    ]
+  },
+  "202": {
+    "code": 202,
+    "semantic_label": "combine-dry",
+    "category": "mix",
+    "label_confidence": 0.35,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "In a large mixing bowl, whisk the sugar, flour, cocoa powder, baking powder, baking soda and salt.",
+      "In a large mixing bowl, combine sugar, flour, butter and eggs; mix well.",
+      "Sift flour, sugar, baking powder, salt and baking soda into large bowl.",
+      "Meanwhile, whisk flour, 1 1/2 cups of sugar, baking powder, and salt in small bowl.",
+      "Mix 2 C of the flour, the sugar, yeast, buttermilk powder, cardamom, ginger and salt in an electric "
+    ]
+  },
+  "203": {
+    "code": 203,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Sift flour, baking powder, cinnamon and salt, fold into batter.",
+      "Add flour and milo powder.",
+      "Add the baking powder, salt, cinnamon, allspice, cloves, baking soda, and cocoa and mix for 1 minute",
+      "When liquid is added to baking powder and soda they create a gas that forms air bubbles.",
+      "The rule of thumb is 1 teaspoon of baking powder or 1/4 teaspoon baking soda per cup of flour."
+    ]
+  },
+  "204": {
+    "code": 204,
+    "semantic_label": "microwave",
+    "category": "heat-dry",
+    "label_confidence": 1.0,
+    "grammar_alignment": {
+      "steam": 0.047
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Microwave on high for 2 minutes, or until the chocolate is completely melted.",
+      "Heat fudge in microwave until thinned pour about 1/4 of the jar into the bottom of one pie shell.",
+      "Microwave on MEDIUM 3 to 4 min.",
+      "Place one glass bowl with chips and shortening in the microwave at 50% strength/output and set time ",
+      "Add chicken and microwave on high for 1 minute and 30 seconds."
+    ]
+  },
+  "205": {
+    "code": 205,
+    "semantic_label": "unknown",
+    "category": "unknown",
+    "label_confidence": 0.0,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "or until lightly browned.",
+      "or until golden on underside.",
+      "or until tender.",
+      "or until vegetables are tender.",
+      "or until done (165 degrees F)."
+    ]
+  },
+  "206": {
+    "code": 206,
+    "semantic_label": "pour",
+    "category": "structure",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Crack the egg into a bowl, sprinkle salt and pepper (don't mix).",
+      "Pour in the egg and use chopsticks or a fork to break open the yolk.",
+      "Make the egg large enough to mostly cover the bread.",
+      "Back then they didnt know that the raw egg in the frosting may contain harmful bacteria that may not",
+      "Pasteurized eggs (found in the dairy case in most grocery stores) are a safe substitute and work jus"
+    ]
+  },
+  "207": {
+    "code": 207,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Add in chicken broth and soup to dry mix and mix well.",
+      "Let stuffing come to room temp before baking and add additional broth to moisten.",
+      "Heat water, chicken broth, 2 tsp.",
+      "Add to a pot with the chicken broth.",
+      "Remove the pot from the heat and add the hot chicken broth, tomatoes, nutmeg and pepper."
+    ]
+  },
+  "208": {
+    "code": 208,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.25,
+    "grammar_alignment": {
+      "saute": 0.045
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Heat a frying pan with oil.",
+      "Heat oil in wok at medium-high heat.",
+      "Heat the oil in a large saucepan over a moderate heat.",
+      "Heat the oil and butter together, over low heat, in a heavy bottomed pot.",
+      "In a small frying pan, heat some oil on medium, cover with a lid and allow the oil and the pan to ge"
+    ]
+  },
+  "209": {
+    "code": 209,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "In a separate bowl, combine cream cheese, sour cream, and grated cheddar cheese and mix well.",
+      "Repeat (Doritos, chicken mixture, and 1 cup of cheese).",
+      "Put cream cheese, sugar and vanilla in a large mixer bowl.",
+      "Beat together Neufchatel cheese, 1/4 cup butter, confectioner's sugar, and vanilla extract in a smal",
+      "In a bowl, combine sausage, eggs, garlic salt and Romano cheese until well blended."
+    ]
+  },
+  "210": {
+    "code": 210,
+    "semantic_label": "fill",
+    "category": "structure",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "While meat is browning, dice bell peppers and add to meat and onions and continue cooking.",
+      "(This will prevent the bottom of the peppers from burning.",
+      "Place peppers on a clean baking sheet and fill with the stuffing mixture.",
+      "Roast red pepper for 30 minutes until charred.",
+      "Add a dash or two of cayenne pepper (more if you like it spicy) and mix again."
+    ]
+  },
+  "211": {
+    "code": 211,
+    "semantic_label": "chop-slice",
+    "category": "prep",
+    "label_confidence": 0.3,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Wrap a third of a slice of bacon around each cocktail weenie and secure with toothpicks.",
+      "Place each bacon wrapped weenie in cake pan, making sure to crowd them together.",
+      "Continue until sugar is completely melted and bacon is thoroughly cooked.",
+      "bake the bacon on a sheet pan at 350 degrees until crispy.",
+      "remove bacon and crumble it."
+    ]
+  },
+  "212": {
+    "code": 212,
+    "semantic_label": "unknown",
+    "category": "unknown",
+    "label_confidence": 0.0,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Do not overbeat.",
+      "Do Not Overbeat.",
+      "DO NOT OVERCOOK.",
+      "Do not overmix.",
+      "Do not overcook."
+    ]
+  },
+  "213": {
+    "code": 213,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.95,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Mix until it is well combined.",
+      "Mix thoroughly.",
+      "Mix thoroughly.",
+      "Mix well.",
+      "Mix ingredients well."
+    ]
+  },
+  "214": {
+    "code": 214,
+    "semantic_label": "stir",
+    "category": "mix",
+    "label_confidence": 0.25,
+    "grammar_alignment": {
+      "reduce": 0.046
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Add in sugar, salt and pepper and boiling water.",
+      "In a microwave-safe bowl or glass measuring cup, combine the sugar with the water and heat for 30 se",
+      "Add the sugar and mix on medium speed for 1 minute.",
+      "Cook over medium heat 5 minutes or until sugar dissolves, stirring occasionally.",
+      "CARAMEL ICING Stir until the sugar is dissolved: 2 cup brown sugar 1 cup cream or 1/2 cup butter plu"
+    ]
+  },
+  "215": {
+    "code": 215,
+    "semantic_label": "serve",
+    "category": "finish",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Add 3 tbs.",
+      "Top with 1 1/2 tablespoons reserved cocoa mixture.",
+      "ALLOW ABOUT 3 TBSP PER SERVING.",
+      "CRYSTAL LIGHT, 1/8 tsp.",
+      "When they splutter add 1/2 tsp of urad dal and the hing."
+    ]
+  },
+  "216": {
+    "code": 216,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Add the vanilla, milk, and salt and mix until combined.",
+      "Add the parsley, thyme and vinegar; season with salt.",
+      "Add in oregano, salt, pepper and basil.",
+      "Add the red chilli and coriander seeds.",
+      "Add milk, canola oil, and vanilla extract."
+    ]
+  },
+  "217": {
+    "code": 217,
+    "semantic_label": "bake-timed",
+    "category": "heat-dry",
+    "label_confidence": 0.7,
+    "grammar_alignment": {
+      "bake": 0.076
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Bake at 400 for 12-15 min on ungreased cookie sheets.",
+      "Bake for 12 to 15 minutes in the preheated oven.",
+      "Bake the tarts for about 50 minutes, or until the filling is just set and the tops are deep golden a",
+      "Pour the batter evenly into the pans and bake for 25 to 30 minutes, until the cakes are springy to t",
+      "I generally need to add another 15-20 minutes to the baking time; the crust will be a deep golden br"
+    ]
+  },
+  "218": {
+    "code": 218,
+    "semantic_label": "whisk",
+    "category": "mix",
+    "label_confidence": 0.4,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "In a large bowl, whisk the eggs with the granulated sugar and lemon zest until combined.",
+      "Beat egg and pour into mix, working fast to mix into sauce.",
+      "add milk, attach bowl and flat beater to mixer.",
+      "Beat eggs in a medium bowl with a fork, add in butter and milk to combine.",
+      "In another bowl, whisk the milk with the eggs, melted butter and shallots."
+    ]
+  },
+  "220": {
+    "code": 220,
+    "semantic_label": "chop-slice",
+    "category": "prep",
+    "label_confidence": 0.75,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Cut into 12 slices.",
+      "(not neccessary but will definately help with clean up) Open package of bacon and cut entire slab in",
+      "Can be sliced with a pizza cutter in wedges or as many squares as you need.",
+      "cut into slices about 1/8 - 1/4\" wide (I use an old Vegamatic slicer that has a julienne setting on ",
+      "As soon as its cooled down, roll it out about 1/2 cm thick and use a biscuit cutter to cut out diffe"
+    ]
+  },
+  "221": {
+    "code": 221,
+    "semantic_label": "refrigerate",
+    "category": "finish",
+    "label_confidence": 0.3,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Let stand, uncovered, at room temperature overnight.6.",
+      "Cover and keep warm.",
+      "Cover to keep warm until ready to serve.",
+      "Cover with cool whip.",
+      "Cover with a lid and simmer over low heat."
+    ]
+  },
+  "222": {
+    "code": 222,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "In a small bowl, combine crumbs and butter.",
+      "Press crumb mix proportionately over the bottom.",
+      "In a small bowl, combine the cracker crumbs, brown sugar and butter.",
+      "Blitz the biscuits in a food processor until beginning to turn to crumbs, then add the sugar and but",
+      "If using graham cracker crumbs, you can use a bowl and wooden spoon to mix the butter in, with the s"
+    ]
+  },
+  "223": {
+    "code": 223,
+    "semantic_label": "chop-slice",
+    "category": "prep",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Cut chicken into bite size pieces.",
+      "Cut steak into serving portions and arrange, slightly overlapping on foil.",
+      "Use a poultry shears to cut the whole rabbit into serving pieces and pat dry with paper towels.",
+      "Place pork slices, overlapping in center.",
+      "Add salmon broken into chunks."
+    ]
+  },
+  "224": {
+    "code": 224,
+    "semantic_label": "simmer",
+    "category": "heat-wet",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Cover with the lid and cook until the white is solid.",
+      "Add a little water to thin to a medium thick gravy.",
+      "Add enough water to cover bottom of dish.",
+      "Return the strained stock to a clean pan and boil for 10-15 minutes.",
+      "Place the browned beef and any juices in crock-pot."
+    ]
+  },
+  "225": {
+    "code": 225,
+    "semantic_label": "boil",
+    "category": "heat-wet",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "After a few minutes add white wine.",
+      "Fill the glass with ice, add the bourbon and Cherry Heering and stir well.",
+      "Boil wine, broth, and thyme in a 6- to 7-quart wide heavy pot until reduced to about 5 cups, about 3",
+      "Moisten rims of margarita glasses and dip in cocktail salt.",
+      "Top with your favorite vinaigrette and enjoy !"
+    ]
+  },
+  "226": {
+    "code": 226,
+    "semantic_label": "prepare-pan",
+    "category": "prep",
+    "label_confidence": 0.1,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Place the mushroom caps in a lightly greased baking pan.",
+      "Melt one tablespoon butter in a pan and saute mushrooms, set aside.",
+      "Add picante sauce, blackening seasoning, and sauteed mushrooms, heat through.",
+      "[Preparation:] Soak the shiitake mushroom in 70 ml of water.",
+      "Add the beef, spinach, shiitake mushroom, carrot, and onion (in this order) and fry until cooked."
+    ]
+  },
+  "227": {
+    "code": 227,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.9,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Heat large heavy skillet.",
+      "Add the pierogi to the skillet with the butter and sear each side for about 1 minute or until golden",
+      "Lightly coat skillet with cooking spray.",
+      "Cook in skillet sprayed with cooking spray on medium heat until lightly browned on both sides.",
+      "Heat non-stick skillet to 375"
+    ]
+  },
+  "228": {
+    "code": 228,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.35,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Add remaining oil to the pan and cook and stir onion for 2 to 3 minutes or until golden and remove f",
+      "Bake for 20 minutes then remove and sprinkle a layer of fried onions on top.",
+      "Add onions and fry until softened, about 8 minutes.",
+      "Cook until the onions have softened and begun to turn golden, about 5 minutes.",
+      "If you are adding in onion and garlic, then saute first in a couple tablespoons oil in a heavy sauce"
+    ]
+  },
+  "229": {
+    "code": 229,
+    "semantic_label": "unknown",
+    "category": "unknown",
+    "label_confidence": 0.0,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "25 AT A TIME.",
+      "This takes 1 1/2 to 2 minutes.",
+      "(15 to 20 minutes.",
+      "Do not rush this step; it should it should take about 1 minute.",
+      "about 25-30 minutes."
+    ]
+  },
+  "230": {
+    "code": 230,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.25,
+    "grammar_alignment": {
+      "steam": 0.126
+    },
+    "frequency": 20,
+    "top_examples": [
+      "I steam my carrots in a vegetable steamer until soft.",
+      "Adjust heat so eggplant cooks without scorching.",
+      "Add the celery, garlic, onion and thyme and cook over moderate heat, stirring frequently, until the ",
+      "Add zucchini, tomato, garlic to the saute--cook on low for 20 minutes, covered.",
+      "Add the carrots and cook for two more minutes."
+    ]
+  },
+  "231": {
+    "code": 231,
+    "semantic_label": "cool-rest",
+    "category": "finish",
+    "label_confidence": 0.33,
+    "grammar_alignment": {},
+    "frequency": 3,
+    "top_examples": [
+      "Cook till water is absorbed, mash liver and add in the rest of the ingredients, chill.",
+      "Add to the crop pot whole and cover with the mole sauce.",
+      "Mesquite, hickory, or possibly oak chunks on natural charcoal."
+    ]
+  },
+  "232": {
+    "code": 232,
+    "semantic_label": "layer",
+    "category": "structure",
+    "label_confidence": 0.75,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Top with scallions.",
+      "Top with last 1/3 of Doritos.",
+      "Top with my chocolate sour cream icing.",
+      "Top with remaining onions and garlic.",
+      "Top pork with cubes of co-jack cheese."
+    ]
+  },
+  "234": {
+    "code": 234,
+    "semantic_label": "chop-slice",
+    "category": "prep",
+    "label_confidence": 0.25,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Dice onions and add to meat.",
+      "Add the onions, garlic and minced mushroom stems.",
+      "Add the onion, celery and carrot and cook until wilted.",
+      "Stir in the onion, garlic, pine nuts, and olives.",
+      "Add in green pepper, onion and garlic."
+    ]
+  },
+  "235": {
+    "code": 235,
+    "semantic_label": "beat",
+    "category": "mix",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Add approx 1 tsp of sugar, although I like mine sweeter (you can also use Equal or Splenda).",
+      "Every 10 minutes or so, baste weenies with sugar/bacon grease mixture and break up any lumps of suga",
+      "When cool, sift powdered sugar on top.",
+      "Chill and dust lightly with confectioner's sugar before serving.",
+      "Mix in remaining water and honey."
+    ]
+  },
+  "236": {
+    "code": 236,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.35,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Cook until soft (about 5 minutes over medium heat).",
+      "Once thickened reduce heat, cover, and cook 2 more minutes.",
+      "Cook slowly, covered for 30 minutes, stirring occasionally.",
+      "In a stockpot or soup pot, combine all the ingredients and boil for 4 minutes.",
+      "Bring the water to boil, covered, and boil the jars for 15 minutes from the time that steam emerges "
+    ]
+  },
+  "237": {
+    "code": 237,
+    "semantic_label": "pour",
+    "category": "structure",
+    "label_confidence": 0.05,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Toss each kind of beet in sufficient dressing to coat lightly.",
+      "Meanwhile, toss potatoes, carrots, and fennel with remaining 3 tablespoons olive oil in large bowl t",
+      "Toss well to coat tortellini and broccoli and sauce.",
+      "Add the dressing and toss well.",
+      "Toss with the dressing."
+    ]
+  },
+  "238": {
+    "code": 238,
+    "semantic_label": "cool-rest",
+    "category": "finish",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "After removing liquid, pour salmon into a bowl.",
+      "Leaving chicken in colander turn on cool water and while holding chicken leg or thigh under water pu",
+      "REMOVE LOBSTERS.",
+      "Drain the fried shrimp on paper towels.",
+      "Make sure all the rabbit has been coated."
+    ]
+  },
+  "239": {
+    "code": 239,
+    "semantic_label": "blend-processor",
+    "category": "mix",
+    "label_confidence": 0.3,
+    "grammar_alignment": {
+      "blend": 0.168
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Mix on low speed until slightly cooled, about 1 minute.",
+      "Place all of the ingredients into a blender and blend for a few seconds until smooth.",
+      "Shake until blended.",
+      "Blend until very light and creamy.",
+      "Make into a smooth puree."
+    ]
+  },
+  "240": {
+    "code": 240,
+    "semantic_label": "preheat-oven",
+    "category": "prep",
+    "label_confidence": 0.9,
+    "grammar_alignment": {
+      "bake": 0.332
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Preheat oven to 350.",
+      "Preheat oven to 300 degrees F.",
+      "Preheat oven to 400 degrees.",
+      "Preheat an oven grill to moderately high and cook focaccia under the grill until golden.",
+      "Preheat oven to 350 degrees."
+    ]
+  },
+  "241": {
+    "code": 241,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 0.45,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Saute onions and garlic till soft.",
+      "Heat a non-stick skillet to medium and add 1 teaspoon olive oil and the onions.",
+      "Fry the onions, garlic and salt until the onions are softened.",
+      "As soon as it begins to brown a little, add the onion.",
+      "In large skillet, saute onions in oil until softened."
+    ]
+  },
+  "242": {
+    "code": 242,
+    "semantic_label": "beat",
+    "category": "mix",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Transfer it to a very fine mesh strainer or a strainer lined with cheesecloth that will hold it comf",
+      "Beat in half of the coffee mixture, scrape down the bowl.",
+      "stop and scrape bowl.",
+      "stop and scrape bowl.",
+      "Place in a greased bowl, turning once to grease top."
+    ]
+  },
+  "243": {
+    "code": 243,
+    "semantic_label": "serve",
+    "category": "finish",
+    "label_confidence": 0.65,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Serve with Lemon wedge, Trappey's BULL hot sauce, and garlic cheese grits.",
+      "Spoon some passion fruit pulp over the cream and serve.",
+      "SERVE WITH LEMON WEDGES (13 LEMONS (3 LB 4 Ounce A.P.",
+      "Serve with preserves and whipped cream.",
+      "To serve the brulee: Sprinkle top with granulated sugar and caramelize with a torch."
+    ]
+  },
+  "244": {
+    "code": 244,
+    "semantic_label": "chop-slice",
+    "category": "prep",
+    "label_confidence": 0.45,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Slash crosses into tops of the buns with a sharp knife.",
+      "If a spoon can stand upright, then the grits are too thick.",
+      "Brown the chops quickly on both sides.",
+      "Add enough hot water to cover the chops about 1/4 of the way up.",
+      "The dish is done when the chops tear apart to a fork and potatoes are soft."
+    ]
+  },
+  "245": {
+    "code": 245,
+    "semantic_label": "saute",
+    "category": "heat-wet",
+    "label_confidence": 1.0,
+    "grammar_alignment": {
+      "saute": 0.058
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Heat oil in an iron skillet (or whatever you use for fried chicken) on medium heat (Use*only* enough",
+      "Heat the oil in a skillet.",
+      "Heat 3 tablespoons oil in a 12-inch heavy skillet (2 inches deep) over moderately high heat until ho",
+      "In a large skillet, melt the butter.",
+      "Heat 1/4 inch oil in skillet."
+    ]
+  },
+  "246": {
+    "code": 246,
+    "semantic_label": "prepare-vessel",
+    "category": "prep",
+    "label_confidence": 0.65,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "cover bottom of 9\" x 13\" glass casserole dish with Doritos.",
+      "To assemble and bake the lasagna:",
+      "When the baking dish is completely filled the lasagna is ready to be baked.",
+      "MAKE THE DRESSING Butter a deep 9-by-13-inch casserole.",
+      "Spread the dressing in the casserole."
+    ]
+  },
+  "247": {
+    "code": 247,
+    "semantic_label": "stir",
+    "category": "mix",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Add chopped bread to the stuffing mixture, incorporating until all the bread is used.",
+      "Heat 1 tblsp oil in a heavy bottomed pan and roast the fenugreek seeds till light red, then add 1/2 ",
+      "Place 1 cinnamon roll in each cup.",
+      "Soak the oats in the milk overnight",
+      "When ready to cook, put the oats, milk & cinnamon in a pan"
+    ]
+  },
+  "248": {
+    "code": 248,
+    "semantic_label": "roll-dough",
+    "category": "structure",
+    "label_confidence": 0.4,
+    "grammar_alignment": {
+      "chop": 0.067
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Punch dough down; roll out to a 15in x 10in rectangle.",
+      "Form dough into 1-inch-thick round.",
+      "Shape the dough into 1 1/4 inch balls (using about 1 1/2 tablespoons dough for each cookie).",
+      "Roll dough into a 16x21-inch rectangle.",
+      "Roll up dough and cut into 12 rolls."
+    ]
+  },
+  "249": {
+    "code": 249,
+    "semantic_label": "pour",
+    "category": "structure",
+    "label_confidence": 0.15,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Cut the tarts into wedges and top with a dollop of the passion fruit cream.",
+      "Sprinkle marshmallows with chips, gently pressing chips with spatula to adhere.",
+      "In a sauce pan cook oysters in their own juice with the butter until the edges curl.",
+      "Put the prawns into a bowl and add the katakuriko.",
+      "Cook the prawns in salted water with a little sake and peel the shells."
+    ]
+  },
+  "250": {
+    "code": 250,
+    "semantic_label": "fold",
+    "category": "mix",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Press into a greased 13-in x 9-in.x 2-in.",
+      "Press this mixture into a 8-inch springform tin; press a little up the sides to form a slight ridge.",
+      "(Push it in firmly so it doesn't fall out in bits.)",
+      "Form into an omelet, flipping after 6/9 min on each side.",
+      "Pinch up a \"rim\" around the edge to keep the goodies inches."
+    ]
+  },
+  "251": {
+    "code": 251,
+    "semantic_label": "glaze-frost",
+    "category": "finish",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Combine all ingredients over ice in a cocktail shaker.",
+      "bitters and 1 cup ice cubes; cover with lid.",
+      "Spread, when cool, with: Caramel Icing or Chocolate Icing (recipes follow)",
+      "Spread frosting on warm rolls before serving.",
+      "Frosting:."
+    ]
+  },
+  "252": {
+    "code": 252,
+    "semantic_label": "mix-general",
+    "category": "mix",
+    "label_confidence": 0.15,
+    "grammar_alignment": {
+      "mix": 0.034
+    },
+    "frequency": 20,
+    "top_examples": [
+      "Add the flour and mix on low speed for 2 minutes, or until completely incorporated.",
+      "Add the flour, and process just until it is incorporated and the dough mixture is smooth, about 5 se",
+      "Add 2 cups flour; beat until smooth.",
+      "Stir in enough of the remaining flour to form a soft dough.",
+      "Using a wooden spoon, quickly stir in the flour until combined."
+    ]
+  },
+  "253": {
+    "code": 253,
+    "semantic_label": "cool-rest",
+    "category": "finish",
+    "label_confidence": 0.8,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Cool slightly.",
+      "Allow to cool.",
+      "Cool completely.",
+      "Let cool (about 10 min.",
+      "Cool for a short while before cutting."
+    ]
+  },
+  "254": {
+    "code": 254,
+    "semantic_label": "beat",
+    "category": "mix",
+    "label_confidence": 0.2,
+    "grammar_alignment": {},
+    "frequency": 20,
+    "top_examples": [
+      "Sift dry ingredients together.",
+      "Heat one cup of the liquid and dissolve the gelatin; add remaining liquid, salt and sugar.",
+      "combine dry ingredients in mixer bowl .",
+      "In a mixing bowl, dissolve yeast in water; let stand 5 minutes.",
+      "Combine 1/2 cup cold water and gelatin in a large bowl; beat with a mixer at medium speed until blen"
+    ]
+  },
+  "255": {
+    "code": 255,
+    "semantic_label": "boil",
+    "category": "heat-wet",
+    "label_confidence": 0.9,
+    "grammar_alignment": {
+      "boil": 0.065
+    },
+    "frequency": 20,
+    "top_examples": [
+      "COVER KETTLE.",
+      "Do not boil.",
+      "Bring to a boil.",
+      "Bring to a roiling boil.",
+      "Bring to a boil."
+    ]
+  }
+}

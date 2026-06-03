@@ -19,9 +19,10 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-DAGS_DIR = Path("/home/addeepak/AdvitResearch/cs348k/culinary-descent/data/dags")
-FIGURES  = Path("/home/addeepak/AdvitResearch/cs348k/culinary-descent/data/figures")
-OUT      = Path("/home/addeepak/AdvitResearch/cs348k/culinary-descent/data/eval")
+BASE     = Path(__file__).resolve().parent.parent
+DAGS_DIR = BASE / "data/dags"
+FIGURES  = BASE / "data/figures"
+OUT      = BASE / "data/eval"
 
 print("Loading DAGs...", flush=True)
 dags = []
